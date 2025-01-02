@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "e-gov-icon-content-form.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "e-gov-icon-content-form@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "e-gov-icon-content-form@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

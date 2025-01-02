@@ -1,0 +1,18 @@
+"/Users/A200111500/Documents/osca-ios-core/OSCA/Authorization/SCModelAuthorization.swift":
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCModelAuthorization.swiftconstvalues"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCModelAuthorization.swiftdeps"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCModelAuthorization.o"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCModelAuthorization.dia"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCModelAuthorization.d"
+"/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/Repository/CityContentRepository.swift":
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/CityContentRepository.swiftconstvalues"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/CityContentRepository.d"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/CityContentRepository.swiftdeps"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/CityContentRepository.o"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/CityContentRepository.dia"
+"/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/NewsWidgetView/TimelineEntry/NewsTimelineEntry.swift":
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/NewsTimelineEntry.dia"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/NewsTimelineEntry.d"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/NewsTimelineEntry.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/NewsTimelineEntry.swiftdeps"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/NewsTimelineEntry.swiftconstvalues"

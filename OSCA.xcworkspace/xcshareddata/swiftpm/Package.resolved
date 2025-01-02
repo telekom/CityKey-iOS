@@ -1,0 +1,42 @@
+{
+  "originHash" : "d3bd49e0854e8fb574c2afb9dd0c51fff0ee5131a677d5cfb26d56af50313b67",
+  "pins" : [
+    {
+      "identity" : "ios-trigger-evalutor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/moengage/ios-trigger-evalutor",
+      "state" : {
+        "revision" : "d66dfcda943ff5196b4e0bd40e8781d96fc228eb",
+        "version" : "1.1.1"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "3ec0ab0bca4feb56e8b33e289c9496e89059dd08",
+        "version" : "7.10.2"
+      }
+    },
+    {
+      "identity" : "moengage-ios-inapps",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/moengage/MoEngage-iOS-InApps.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "e59fb0381751e9e1274ac74898848dc4c9d74123"
+      }
+    },
+    {
+      "identity" : "moengage-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/moengage/MoEngage-iOS-SDK.git",
+      "state" : {
+        "revision" : "bc9f83d389d73508a81d200d81b4b2bfd4ad9f5b",
+        "version" : "9.17.5"
+      }
+    }
+  ],
+  "version" : 3
+}

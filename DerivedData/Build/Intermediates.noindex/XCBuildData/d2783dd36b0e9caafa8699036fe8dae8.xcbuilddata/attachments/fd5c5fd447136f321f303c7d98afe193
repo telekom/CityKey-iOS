@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/MoEngageInApps.build/Dev-iphonesimulator/MoEngageInAppSPM.build/Objects-normal/x86_64/MoEngageInAppSPM-master.swiftconstvalues",
+    "dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/MoEngageInApps.build/Dev-iphonesimulator/MoEngageInAppSPM.build/Objects-normal/x86_64/MoEngageInAppSPM-master.d",
+    "diagnostics" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/MoEngageInApps.build/Dev-iphonesimulator/MoEngageInAppSPM.build/Objects-normal/x86_64/MoEngageInAppSPM-master.dia",
+    "emit-module-dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/MoEngageInApps.build/Dev-iphonesimulator/MoEngageInAppSPM.build/Objects-normal/x86_64/MoEngageInAppSPM-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/MoEngageInApps.build/Dev-iphonesimulator/MoEngageInAppSPM.build/Objects-normal/x86_64/MoEngageInAppSPM-master-emit-module.dia",
+    "swift-dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/MoEngageInApps.build/Dev-iphonesimulator/MoEngageInAppSPM.build/Objects-normal/x86_64/MoEngageInAppSPM-master.swiftdeps"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/DerivedData/SourcePackages/checkouts/MoEngage-iOS-InApps/Sources/File.swift" : {
+    "index-unit-output-path" : "/MoEngageInApps.build/Dev-iphonesimulator/MoEngageInAppSPM.build/Objects-normal/x86_64/File.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/MoEngageInApps.build/Dev-iphonesimulator/MoEngageInAppSPM.build/Objects-normal/x86_64/File.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/MoEngageInApps.build/Dev-iphonesimulator/MoEngageInAppSPM.build/Objects-normal/x86_64/File.o"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "content": [
+        {
+            "service_code": "1",
+            "service_name": "Standort Radbügel",
+            "description": "<value from API description field>",
+            "sub_categories": [
+                {
+                    "service_code": "1.1",
+                    "service_name": "service_name_1.1",
+                    "description": "<value from API description field>",
+                  
+        },
+                {
+                    "service_code": "1.2",
+                    "service_name": "service_name_1.2",
+                    "description": "<value from API description field>",
+                  
+        }
+      ]
+    },
+        {
+            "service_code": "2",
+            "service_name": "Engstelle Gehweg",
+            "description": "<value from API description field>",
+            "sub_categories": [
+        
+      ]
+    }
+  ]
+}

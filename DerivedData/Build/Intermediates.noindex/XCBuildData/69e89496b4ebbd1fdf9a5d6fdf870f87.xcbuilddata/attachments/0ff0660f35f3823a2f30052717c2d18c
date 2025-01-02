@@ -1,0 +1,10 @@
+framework module TTGSnackbar {
+  umbrella header "TTGSnackbar-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module TTGSnackbar.__Swift {
+  exclude header "TTGSnackbar-Swift.h"
+}

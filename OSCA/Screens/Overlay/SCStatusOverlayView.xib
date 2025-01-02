@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tUt-lN-90D" userLabel="StatusOverlayView" customClass="SCStatusOverlayView" customModule="OSCA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="sMh-lv-Q1a">
+                    <rect key="frame" x="197" y="438" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="CNd-YD-0fK"/>
+                        <constraint firstAttribute="width" constant="20" id="ePO-7g-Djt"/>
+                    </constraints>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please try again." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifl-vi-2aZ" userLabel="textLabel">
+                    <rect key="frame" x="21" y="437.5" width="372" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="WBF-st-Xuu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" name="CLR_LABEL_TEXT_BLACK"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4d-6j-75U" userLabel="actionButton">
+                    <rect key="frame" x="63" y="476.5" width="288" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="R9r-wC-ohe"/>
+                        <constraint firstAttribute="height" constant="24" id="gEv-YE-bpM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title=" retry" image="action_resend_email">
+                        <color key="titleColor" name="CLR_OSCA_BLUE"/>
+                    </state>
+                    <connections>
+                        <action selector="actionBtnWasPressed:" destination="tUt-lN-90D" eventType="touchUpInside" id="rSH-oB-9lK"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The data could not be loaded." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZU-Pn-iFz" userLabel="titleLabel">
+                    <rect key="frame" x="21" y="398" width="372" height="21.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="XMa-Wq-NU2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" name="CLR_LABEL_TEXT_BLACK"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" name="CLR_BCKGRND"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DZU-Pn-iFz" secondAttribute="trailing" constant="21" id="2Kb-PE-Y2g"/>
+                <constraint firstItem="DZU-Pn-iFz" firstAttribute="leading" secondItem="tUt-lN-90D" secondAttribute="leading" constant="21" id="31w-kN-YcD"/>
+                <constraint firstItem="f4d-6j-75U" firstAttribute="top" secondItem="Ifl-vi-2aZ" secondAttribute="bottom" constant="18" id="78R-0z-vts"/>
+                <constraint firstItem="Ifl-vi-2aZ" firstAttribute="top" secondItem="DZU-Pn-iFz" secondAttribute="bottom" constant="18" id="7He-Ow-j4G"/>
+                <constraint firstItem="Ifl-vi-2aZ" firstAttribute="centerY" secondItem="tUt-lN-90D" secondAttribute="centerY" id="Byx-uk-FYk"/>
+                <constraint firstAttribute="trailing" secondItem="Ifl-vi-2aZ" secondAttribute="trailing" constant="21" id="Ohl-pB-c7J"/>
+                <constraint firstItem="sMh-lv-Q1a" firstAttribute="centerX" secondItem="tUt-lN-90D" secondAttribute="centerX" id="PIa-Dl-jUx"/>
+                <constraint firstItem="f4d-6j-75U" firstAttribute="centerX" secondItem="tUt-lN-90D" secondAttribute="centerX" id="obc-CX-lBK"/>
+                <constraint firstItem="Ifl-vi-2aZ" firstAttribute="leading" secondItem="tUt-lN-90D" secondAttribute="leading" constant="21" id="ry8-xp-hoE"/>
+                <constraint firstItem="sMh-lv-Q1a" firstAttribute="centerY" secondItem="tUt-lN-90D" secondAttribute="centerY" id="ynq-iL-19Q"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="f0e-Hk-7Ct"/>
+            <connections>
+                <outlet property="actionBtn" destination="f4d-6j-75U" id="xSZ-kO-F37"/>
+                <outlet property="activityIndicator" destination="sMh-lv-Q1a" id="nWo-oP-2Ia"/>
+                <outlet property="textLbl" destination="Ifl-vi-2aZ" id="iHz-Bo-tdt"/>
+                <outlet property="titleLbl" destination="DZU-Pn-iFz" id="uie-Pi-NNA"/>
+            </connections>
+            <point key="canvasLocation" x="180" y="162"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="action_resend_email" width="24" height="24"/>
+        <namedColor name="CLR_BCKGRND">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_LABEL_TEXT_BLACK">
+            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_OSCA_BLUE">
+            <color red="0.0" green="0.59600001573562622" blue="0.85900002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

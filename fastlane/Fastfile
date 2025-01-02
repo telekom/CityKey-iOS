@@ -1,0 +1,253 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+update_fastlane
+
+LINT_REPORT_OUTPUT = "fastlane/lintResults.html"
+SWIFTLINT_PATH = "/usr/local/bin/swiftlint"
+SWIFTLINT_CONFIG = ".swiftlint.yml"
+
+
+default_platform(:ios)
+
+platform :ios do
+  
+  desc "Runs tests"  
+  lane :test do
+  puts ENV["SLACK_URL"]
+ #   xcversion(version: "11.3")
+ #   puts ENV["XCODE_VERSION"]
+    run_tests(
+      workspace: "OSCA.xcworkspace",
+      devices: ["iPhone Xs"], 
+      scheme: "OSCA Dev",
+      output_types: "junit",
+      output_files: "test-results.junit",
+      output_directory: "./fastlane/test_output",
+      clean: true,
+      skip_slack: true,
+    )
+  end
+
+  def check_code_style
+    swiftlint(mode: :lint,
+              strict: true,
+              executable: SWIFTLINT_PATH,
+              reporter: "html",
+              ignore_exit_status: true,
+              output_file: LINT_REPORT_OUTPUT,
+              config_file: SWIFTLINT_CONFIG)
+  end
+  lane :lint do |options|
+      check_code_style
+  end
+  
+  def update_secrets_plist
+    puts "GOOGLE_MAPS_API_KEY_Int='#{ENV['GOOGLE_MAPS_API_KEY_Int']}'"
+    puts "GOOGLE_MAPS_API_KEY_Int='${ENV['GOOGLE_MAPS_API_KEY_Int']}'"
+    update_info_plist(
+    xcodeproj: "./OSCA.xcodeproj",
+    plist_path: "./OSCA/Info.plist",
+    block: proc do |plist|
+      plist['Data'] ||= {}
+      plist['Data']['Environment'] = {
+      #dev
+        'GOOGLE_MAPS_API_KEY_Dev' => "#{ENV['GOOGLE_MAPS_API_KEY_Dev']}",
+        'APP_CENTER_IDENTIFIER_Dev' => "#{ENV['APP_CENTER_IDENTIFIER_Dev']}",
+        'MOENGAGE_APP_GROUP_Dev' => "#{ENV['MOENGAGE_APP_GROUP_Dev']}",
+        'MOENGAGE_IDENTIFIER_Dev' => "#{ENV['MOENGAGE_IDENTIFIER_Dev']}",
+        'ADJUST_IDENTIFIER_Dev' => "#{ENV['ADJUST_IDENTIFIER_Dev']}"
+      #int
+        'GOOGLE_MAPS_API_KEY_Int' => "#{ENV['GOOGLE_MAPS_API_KEY_Int']}",
+        'APP_CENTER_IDENTIFIER_Int' => "#{ENV['APP_CENTER_IDENTIFIER_Int']}",
+        'MOENGAGE_APP_GROUP_Int' => "#{ENV['MOENGAGE_APP_GROUP_Int']}",
+        'MOENGAGE_IDENTIFIER_Int' => "#{ENV['MOENGAGE_IDENTIFIER_Int']}",
+        'ADJUST_IDENTIFIER_Int' => "#{ENV['ADJUST_IDENTIFIER_Int']}"
+      #stable
+        'GOOGLE_MAPS_API_KEY_Stable' => "#{ENV['GOOGLE_MAPS_API_KEY_Stable']}",
+        'APP_CENTER_IDENTIFIER_Stable' => "#{ENV['APP_CENTER_IDENTIFIER_Stable']}",
+        'MOENGAGE_APP_GROUP_Stable' => "#{ENV['MOENGAGE_APP_GROUP_Stable']}",
+        'MOENGAGE_IDENTIFIER_Stable' => "#{ENV['MOENGAGE_IDENTIFIER_Stable']}",
+        'ADJUST_IDENTIFIER_Stable' => "#{ENV['ADJUST_IDENTIFIER_Stable']}"
+      #stakeholder
+        'GOOGLE_MAPS_API_KEY_Stakeholder' => "#{ENV['GOOGLE_MAPS_API_KEY_Stakeholder']}",
+        'APP_CENTER_IDENTIFIER_Stakeholder' => "#{ENV['APP_CENTER_IDENTIFIER_Stakeholder']}",
+        'MOENGAGE_APP_GROUP_Stakeholder' => "#{ENV['MOENGAGE_APP_GROUP_Stakeholder']}",
+        'MOENGAGE_IDENTIFIER_Stakeholder' => "#{ENV['MOENGAGE_IDENTIFIER_Stakeholder']}",
+        'ADJUST_IDENTIFIER_Stakeholder' => "#{ENV['ADJUST_IDENTIFIER_Stakeholder']}"
+       #Release
+        'GOOGLE_MAPS_API_KEY_Release' => "#{ENV['GOOGLE_MAPS_API_KEY_Release']}",
+        'APP_CENTER_IDENTIFIER_Release' => "#{ENV['APP_CENTER_IDENTIFIER_Release']}",
+        'MOENGAGE_APP_GROUP_Release' => "#{ENV['MOENGAGE_APP_GROUP_Release']}",
+        'MOENGAGE_IDENTIFIER_Release' => "#{ENV['MOENGAGE_IDENTIFIER_Release']}",
+        'ADJUST_IDENTIFIER_Release' => "#{ENV['ADJUST_IDENTIFIER_Release']}"
+      }
+    end
+    )
+  end
+
+  lane :updateSecrets do |options|
+        update_secrets_plist
+  end
+
+
+  desc "Builds the app and uploads it to AppCenter"  
+  lane :beta do
+
+    # check expected environment variables
+    UI.user_error!("Missing environment variable 'SLACK_URL'") unless defined? ENV["SLACK_URL"]
+    #UI.user_error!("Missing environment variable 'HOCKEY_API_TOKEN'") unless defined? ENV["HOCKEY_API_TOKEN"]
+
+puts ENV["SLACK_URL"]
+
+    
+    # Get the latest build number from HockeyApp
+    # latest_build_number = latest_hockeyapp_version_number(
+    #   platform: 'iOS', 
+    #   api_token: ENV["HOCKEY_API_TOKEN"],
+    #   app_name: ENV["HOCKEY_APP_NAME"], 
+    #   release_type: ENV["HOCKEY_RELEASE_TYPE"],
+    # )
+    
+    
+    # Set the new build number
+    #latest_build_number = sh "git rev-list --count HEAD"
+    #latest_build_number = sh "git rev-list --count --no-merges HEAD"
+    #new_build_number = latest_build_number.to_i + 1000
+    
+    new_build_number = ENV["CI_JOB_ID"]
+    
+    # This is the standard fastlane way of setting the build number. 
+    # It does not work with the current project setup, however (because it will 
+    # also overwrite the version number), so we're disabling it ...
+    # increment_build_number(
+    #   build_number: new_build_number,
+    # )
+    
+    # ... instead, we set the build number in this slightly too low-level way:
+    #set_info_plist_value(path: "./OSCA/Info.plist", key: "CFBundleVersion", value: new_build_number.to_s)
+
+    # Add a badge image ('custom') and a string ('shield') to the app icon
+    add_badge(
+      custom: ENV["BADGE_FILE_BETA"],
+      glob: ENV["BADGE_ICONFILES"],
+#      shield: ENV["XCODE_CONFIGURATION"] + "-" + new_build_number.to_s + "-midnightblue",
+      shield: ENV["APP_NAME"] + "-" + new_build_number.to_s + "-midnightblue",
+      shield_scale: "1.0",
+    )
+
+    # Create release notes
+
+    # The git tag prefix is used to 
+    # 1) tag the build (at the end of this lane) and 
+    # 2) find the commits since the last tagged build
+    puts ENV["XCODE_CONFIGURATION"].downcase
+    git_tag_prefix = "fastlane-builds/beta/" + ENV["XCODE_CONFIGURATION"].downcase
+    puts git_tag_prefix
+
+    # Find all commit messages since the last tagged build, and put them in the release notes
+    #git_log_command = "git log `git describe --tags --match \"*" + git_tag_prefix +  "*\" --abbrev=0`..HEAD --oneline --always --pretty=format:\"- %h %s\""
+    #git_log_command = "git log --pretty=oneline --abbrev-commit --graph --decorate --all"
+    #git_log_command = "git log `git describe --tags --abbrev=0`..HEAD --pretty=format:\"- %h %s\""
+    git_log_command = "git log -n 5 --oneline --pretty=format:\"- %h %s\""
+    
+    puts git_log_command
+    change_log = sh git_log_command
+    release_notes =  change_log
+    puts release_notes
+    #release_notes = changelog_from_git_commits(pretty: '%h %s %n')
+    puts release_notes
+
+    # set Xcode Version
+  #  puts ENV["XCODE_VERSION"]
+  #  xcversion(version: ENV["XCODE_VERSION"])
+    
+    # Update the pods	
+    cocoapods(repo_update: true)
+
+    # Build the app
+  
+    build_app(
+      workspace: "OSCA.xcworkspace",
+      export_method: "enterprise",
+      scheme: ENV["XCODE_SCHEME"],
+      configuration: ENV["XCODE_CONFIGURATION"],
+      output_directory: ENV["BUILD_OUTPUT_DIRECTORY"],
+      output_name: ENV["BUILD_OUTPUT_NAME"].dup,
+    )
+
+    # Upload the app (.ipa & .dsym) to HockeyApp
+    #hockey(
+    #  api_token: ENV["HOCKEY_API_TOKEN"],
+    #  public_identifier: ENV["HOCKEY_APP_ID"],
+    #  ipa: ENV["BUILD_OUTPUT_DIRECTORY"] + ENV["BUILD_OUTPUT_NAME"] + ".ipa",
+    #  dsym: ENV["BUILD_OUTPUT_DIRECTORY"] + ENV["BUILD_OUTPUT_NAME"] + ".app.dSYM.zip",
+    #  notes: release_notes,  # Currently disabled because gitlab-runner does not have permission to push tags
+    #  notify: ENV["HOCKEY_NOTIFY_TESTERS"],
+    #)
+
+    # Upload the app (.ipa & .dsym) to AppCenter
+   
+    appcenter_upload(
+      api_token: ENV["APPCENTER_API_TOKEN"],
+      #owner_type: "organization",
+      owner_name: ENV["APPCENTER_OWNER_NAME"],
+      destinations: ENV["APPCENTER_DISTRIBUTE_DESTINATIONS"],
+      app_name: ENV["APPCENTER_APP_NAME"],
+      ipa: ENV["BUILD_OUTPUT_DIRECTORY"] + ENV["BUILD_OUTPUT_NAME"] + ".ipa",
+      dsym: ENV["BUILD_OUTPUT_DIRECTORY"] + ENV["BUILD_OUTPUT_NAME"] + ".app.dSYM.zip",
+      release_notes: release_notes
+)
+
+    # # Add a git tag for this build.
+    # # Currently disabled because gitlab-runner does not have permission to push
+#    add_git_tag(
+#         tag: git_tag_prefix + "/" + new_build_number.to_s
+#    )
+
+#new way to create the build number, don't push the tag
+   # git_push_command = "git push --tags https://frank.fassbender:xLAB1GzbJ47wdxXLZ9ZA@osca-wbench.wesp.telekom.net/gitlab/osca_develop/osca_ios_core.git"
+   # puts git_push_command
+   # git_push_result = sh git_push_command
+   # puts git_push_result
+    
+    
+    # Send a slack notification on success
+    unless (ENV["SLACK_ONLY_ON_FAILURE"] == "true") then
+    
+    ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
+
+      app_version = git_tag_prefix + "/" + new_build_number.to_s
+      slack_payload = [:last_git_commit, :last_git_commit_hash, :git_author]
+      slack(
+        message: "New Citykey iOS Beta (" + ENV["APP_NAME"] + ") build available at #{lane_context[SharedValues::HOCKEY_DOWNLOAD_LINK]}.",
+        payload: { 
+           "App-Version" => app_version,
+           "Release Note" => release_notes,
+           },
+        default_payloads: slack_payload
+      )
+
+    end
+
+  end
+
+  error do |lane, exception|
+#     #ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
+#    slack(
+#      message: exception.message,
+#      success: false
+#    )
+  end
+
+end

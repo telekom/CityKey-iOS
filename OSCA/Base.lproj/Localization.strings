@@ -1,0 +1,1129 @@
+
+/*Placeholder and default values*/
+"a_empty" = "\n\n";
+"a_zero_euro" = "0€";
+"a_placeholder_password" = "••••••••••";
+
+/*General dialogs*/
+"dialog_title_note" = "Note";
+
+/*General dialog: technical error*/
+"dialog_technical_error_title" = "Oops…";
+"dialog_technical_error_message" = "Unfortunately, something went wrong. Please try again later.";
+
+/*General dialog: update*/
+"dialog_update_app_message" = "Update";
+
+/*General dialog: function not supported*/
+"dialog_message_unsupported" = "This feature is currently not supported.";
+
+/*General dialog: login required*/
+"dialog_login_required_title" = "Please log in";
+
+/*General dialog: login required*/
+"dialog_login_required_btn_later" = "Later";
+"dialog_login_required_btn_login" = "Login";
+"dialog_login_required_message" = "Please log in to use this feature.";
+
+/*General dialog: access right management*/
+"dialog_permission_message" = "You can change the app permissions in the settings at any time.";
+
+/*Bottom NavigationBar*/
+"h_001_navigation_bar_btn_citizen_services" = "Services";
+"h_001_navigation_bar_btn_home" = "Home";
+"h_001_navigation_bar_btn_infobox" = "Mailbox";
+"h_001_navigation_bar_btn_market_place" = "Marketplace";
+
+/*NFC*/
+"a_message_nfc_not_enabled" = "NFC is not enabled. Please enable and try again.";
+"a_message_nfc_not_supported" = "NFC is not supported by your device.";
+
+/*p_ profile
+ p_001 profile main*/
+"p_001_profile_title" = "Profile";
+"p_001_profile_btn_imprint" = "Imprint";
+
+/*LOGOUT*/
+"p_001_profile_btn_logout" = "Logout";
+"p_001_profile_label_password" = "Password";
+"p_001_profile_label_account_settings" = "User account";
+"p_001_profile_label_birthday" = "Date of birth";
+"p_001_profile_label_data_security" = "Data Privacy Notice";
+"p_001_profile_label_email" = "E-mail";
+"p_001_profile_label_first_name" = "First name";
+"p_001_profile_label_last_name" = "Last name";
+"p_001_profile_label_personal_data" = "Personal details";
+"p_001_profile_label_residence" = "Residence";
+
+/*p_002 account edits*/
+"p_002_profile_settings_label_email" = "E-mail";
+
+/*PASSWORD*/
+"p_002_profile_settings_label_password" = "Password";
+
+/*p_003 update email*/
+"p_003_profile_email_change_title" = "Update e-mail";
+
+/*SAVE*/
+"p_003_profile_email_change_btn_save" = "Save";
+"p_003_profile_email_change_hint_cur_email" = "Current e-mail";
+"p_003_profile_email_change_hint_new_email" = "New e-mail";
+"p_003_profile_email_change_error_invalid_email" = "E-mail address is invalid";
+
+/*p_004 update email confirmation*/
+"p_004_profile_email_changed_title" = "Confirm your e-mail";
+
+/*try again*/
+"p_004_profile_email_changed_btn_resend" = "Try again";
+"p_004_profile_email_changed_info_not_received" = "Didn\\'t receive a confirmation link?";
+"p_004_profile_email_changed_info_received" = "You can now log into your account with your new login details.";
+"p_004_profile_email_changed_info_sent_mail" = "You have successfully updated your e-mail address.";
+"p_004_profile_email_changed_info_sent_link" = "We\\'ve e-mailed you a new confirmation link.";
+
+/*p_005 change password*/
+"p_005_profile_password_change_title" = "Change Password";
+"p_005_profile_password_change_btn_forgot_password" = "Forgot your password?";
+"p_005_profile_password_change_btn_save" = "Save";
+"p_005_profile_password_change_hint_cur_password" = "Current password";
+"p_005_profile_password_change_hint_new_password" = "New password";
+"p_005_profile_password_change_hint_repeat_password" = "Confirm new password";
+"p_005_profile_password_change_hint_strength" = "Please use: %s";
+"p_005_profile_password_change_info_strength_strong" = "Strong password";
+"p_005_profile_password_change_error_no_match" = "Passwords do not match";
+"p_005_profile_password_change_error_too_weak" = "Password is too weak";
+"p_005_profile_password_change_error_empty_field" = "This field is required";
+
+/*p_006 change password confirmation*/
+"p_006_profile_password_changed_title" = "Password changed";
+"p_006_profile_password_changed_info_done" = "You have successfully changed your password.";
+"p_006_profile_password_changed_info_next" = "You can now log into your account with your new login details.";
+
+/*l_ login
+ l_001 login_main*/
+"l_001_login_title" = "Login";
+"l_001_login_btn_forgot_password" = "Did you forget your password?";
+"l_001_login_btn_imprint" = "Imprint";
+"l_001_login_btn_login" = "Login";
+"l_001_login_btn_privacy_short" = "Data Privacy Notice";
+"l_001_login_btn_register" = "Register now";
+"l_001_login_checkbox_stay_loggedin" = "Keep me logged in";
+"l_001_login_hint_email" = "E-mail";
+"l_001_login_hint_password" = "Password";
+"l_001_login_info_not_registered" = "Not registered yet?";
+
+/*unused*/
+"l_001_login_error_password_wrong" = "The password is incorrect.";
+
+/*l_002 account locked*/
+"l_002_login_locked_account_title" = "Account locked.";
+"l_002_login_locked_account_info" = "Your account is temporarily locked due to 4 failed login attempts.";
+
+/*l_003 reset link sent/resent
+ l_004 confirm email first*/
+"l_004_login_confirm_email_title" = "Confirm your e-mail";
+"l_004_login_confirm_email_btn_resend" = "Resend e-mail";
+"l_004_login_confirm_email_info_sent_link" = "We\\'ve sent a new confirmation link to your e-mail address. Resending is only available once. ";
+"l_004_login_confirm_email_info_check_inbox" = "The address %s has not been confirmed yet. Please check your inbox for the verification PIN.";
+"l_004_login_confirm_email_info_click_link" = "Please click on the confirmation link to log in to your account.";
+"l_004_login_confirm_email_info_not_received" = "Didn\\'t receive a confirmation link?";
+
+/*r_ registration
+ r_001 registration main*/
+"r_001_registration_title" = "Registration";
+
+/*unused*/
+"r_001_registration_btn_register" = "Register";
+"r_001_registration_label_agreement_abstract" = "I have read and agree to the %s";
+"r_001_registration_label_agreement_privacy" = "Data Privacy Notice";
+"r_001_registration_label_agreement_terms" = "Terms & Conditions";
+"r_001_registration_label_check_terms" = "I have read and agree to the Terms & Conditions";
+"r_001_registration_label_consent_required" = "Your consent is required.";
+"r_001_registration_label_read_security" = "I have read and agree to the Data Security Information";
+"r_001_registration_hint_password_strength" = "Please use: %s";
+"r_001_registration_hint_password_strong" = "Strong password";
+"r_001_registration_hint_birthday" = "Date of birth (OPTIONAL)";
+"r_001_registration_hint_email" = "E-mail";
+"r_001_registration_hint_first_name" = "First name";
+"r_001_registration_hint_last_name" = "Last name";
+"r_001_registration_hint_password" = "Password";
+"r_001_registration_hint_password_repeat" = "Confirm password";
+"r_001_registration_error_password_no_match" = "Passwords do not match";
+"r_001_registration_error_password_too_weak" = "Too weak";
+"r_001_registration_error_empty_field" = "Required field";
+"r_001_registration_p_005_profile_password_strength_label" = "Password strength";
+"r_001_registration_p_005_profile_password_strength_hint_min_8_chars" = "minimum 8 characters";
+"r_001_registration_p_005_profile_password_strength_error_min_1_symbol" = "at least one symbol";
+
+/*unused
+ r_002 registration terms and conditions drawer
+ r_003 registration data security information drawer
+ r_004 registration confirmation*/
+"r_004_registration_confirmation_title" = "Confirm your e-mail";
+"r_004_registration_confirmation_btn_resend" = "Resend e-mail";
+"r_004_registration_confirmation_info_click_link" = "Please click on the confirmation link to log in to your account.";
+"r_004_registration_confirmation_info_not_received" = "Didn\\'t receive the PIN?";
+"r_004_registration_confirmation_info_sent_link" = "We e-mailed you a new confirmation PIN. Resending is only available once. ";
+"r_004_registration_confirmation_info_sent_mail" = "We have sent a verification PIN to your address %s";
+"r_004_registration_confirmation_dialog_failed_title" = "Registration not possible";
+"r_004_registration_confirmation_dialog_failed_content" = "Unfortunately, something went wrong. Please try again.";
+
+/*d_ delete account
+ d_001 delete account main
+ d_002 delete account confirmation
+ d_003 delete account success
+ f_ forgot password/password recovery
+ f_001 forgot password main form*/
+"f_001_forgot_password_title" = "Reset password";
+"f_001_forgot_password_btn_reset_password" = "Reset password";
+"f_001_forgot_password_btn_resend_mail" = "Resend e-mail";
+"f_001_forgot_password_label_not_confirmed" = "This e-mail address has not been confirmed yet.";
+"f_001_forgot_password_hint_email" = "E-mail";
+"f_001_forgot_password_info_verify_mail" = "We have sent a reset link to %s. Please check your e-mail.";
+"f_001_forgot_password_info_follow_instructions" = "Follow the instructions to quickly gain access to your account.";
+"f_001_forgot_password_info_not_received" = "Didn\\'t receive a reset link?";
+"f_001_forgot_password_info_click_link" = "You can easily set up a new password. We will e-mail you a PIN to do that. ";
+"f_001_forgot_password_info_sent_link" = "We e-mailed you a new reset link.";
+"f_001_forgot_password_info_locked_account" = "You can unlock your account by setting up a new password.";
+"f_001_forgot_password_error_invalid_email" = "Please enter a valid e-mail address.";
+
+/*f_002 forgot password/email not confirmed
+ f_003 forgot password confirmation*/
+"f_003_forgot_password_confirmation_title" = "Reset link sent";
+
+/*i_ imprint & data security
+ i_001 data security*/
+"i_002_privacy_title" = "Data Privacy Notice";
+"i_002_privacy_title_short" = "Data Privacy";
+
+/*i_002 imprint*/
+"i_001_imprint_title" = "Imprint";
+
+/*s_ city services & marketplace*/
+"s_001_002_003_004_ribbon_label_new_item" = "New";
+"s_001_services_002_marketplaces_btn_categories_show_all" = "Show all";
+"s_001_services_002_marketplaces_title_categories" = "Categories";
+"s_001_services_002_marketplaces_btn_favorites_edit" = "Edit";
+"s_001_services_002_marketplaces_title_favorites" = "Favorites";
+"s_001_services_002_marketplaces_title_most_used" = "Most used";
+"s_001_services_002_marketplaces_title_ours" = "My services";
+"s_001_services_002_marketplaces_btn_favorites_save" = "Save";
+
+/*s_001 city services main*/
+"s_001_services_title" = "Services";
+"s_001_services_subtitle" = "Here you can find all the services offered by your city.";
+"s_001_services_title_new" = "New services";
+
+/*s_002 marketplace main*/
+"s_002_marketplaces_title" = "Marketplace";
+"s_002_marketplaces_subtitle" = "Find the best marketplace deals in your city.";
+"s_002_marketplaces_title_branches" = "Categories";
+
+/*Hi. Does this title refer to new marketplace categories or individual offers/deals in a certain category?*/
+"s_002_marketplaces_title_new" = "New deals";
+"s_002_marketplaces_title_ours" = "Our marketplaces";
+
+/*s_003 filter categories*/
+"s_003_all_marketplaces_title" = "All marketplaces";
+"s_003_all_services_title" = "All services";
+
+/*s_004 services second level*/
+"s_004_all_services_title" = "All services";
+
+/*s_005 locked content modal
+ s_006 limited city services modal
+ s_007 detailed marketplace and service*/
+"s_007_detailed_service_title" = "Services";
+
+/*s_005 locked content modal
+ s_006 limited city services modal
+ s_007 detailed marketplace and service*/
+"s_007_detailed_marketplace_title" = "Marketplaces";
+"s_007_detailed_service_btn_open_service" = "Open service";
+"s_007_detailed_service_btn_set_appointment" = "Schedule an appointment";
+"s_007_detailed_service_dialog_city_restricted_btn_change" = "Change to %s";
+"s_007_detailed_service_dialog_city_restricted_message" = "You must be a resident to access all citizen services.";
+"s_007_detailed_service_dialog_city_restricted_title" = "Limited access";
+"s_007_detailed_service_dialog_city_restricted_btn_stay" = "Remain in %s";
+
+/*h_ home & news
+ h_001 home screen*/
+"h_001_home_title_part" = "Welcome to";
+"h_001_home_btn_more_news" = "Show all";
+"h_001_home_title_discounts" = "Current discounts";
+"h_001_home_title_news" = "News";
+"h_001_home_title_offers" = "Current deals";
+"h_001_home_title_tips" = "Tips of the day";
+"h_001_home_notification_test_title" = "Confirmation of change of registration";
+"h_001_home_notification_test_content" = "The confirmation of your change of registration is available in your document safe.";
+"h_001_home_s_001_services_002_marketplaces_home_menu_item_filter" = "Filter";
+"h_001_home_s_001_services_002_marketplaces_home_menu_item_profile" = "Profile";
+
+/*h_002 news second level*/
+"h_002_home_news_title" = "News";
+
+/*h_003 news third level*/
+"h_003_home_articles_btn_more" = "More information";
+"h_003_home_articles_info_discounts_headline" = "Current discounts";
+"h_003_home_articles_info_news_category" = "NEWS";
+"h_003_home_articles_info_news_headline" = "News";
+"h_003_home_articles_info_offers_category" = "OFFER";
+"h_003_home_articles_info_offers_headline" = "Current offers";
+"h_003_home_articles_info_tips_category" = "TIP";
+"h_003_home_articles_info_tips_headline" = "Tips of the day";
+"h_003_home_articles_menu_btn_share" = "Share";
+
+/*c_ city selection
+ c_001 all cities list*/
+"c_001_cities_title" = "Select city";
+"c_001_cities_btn_get_gps" = "Identify location";
+"c_001_cities_menu_btn_favorites" = "Favorites";
+"c_001_cities_tab_label_all" = "All";
+"c_001_cities_tab_label_favorites" = "Favorites";
+"c_001_cities_dialog_gps_title" = "Notification";
+"c_001_cities_dialog_gps_btn_cancel" = "Cancel";
+"c_001_cities_dialog_gps_btn_ok" = "Settings";
+"c_001_cities_dialog_gps_message" = "Location detection is deactivated.";
+"c_001_cities_dialog_invalid_location_message" = "Your current location is not yet supported.";
+
+/*c_002 favorites list
+ c_003 select favorites drawer
+ x_ sign in/ first time use
+ x_001 first time use screen*/
+"x_001_start_splash_btn_retry" = "Retry";
+"x_001_welcome_btn_imprint" = "Imprint";
+"x_001_welcome_btn_login" = "Login";
+"x_001_welcome_btn_privacy_short" = "Data Privacy Notice";
+"x_001_welcome_btn_register" = "Register";
+"x_001_welcome_info_00" = "Register to be able to use all services of the Citykey App.";
+
+/*this has to be changed later, as we actually do not have an app for ALL cities and REGIONS yet ;)*/
+"x_001_welcome_info_01" = "Submit applications or documents - quickly and conveniently via app.";
+"x_001_welcome_info_02" = "What\\'s going on in your city? What is important? You can also share all events and news directly with friends.";
+"x_001_welcome_info_03" = "The Citykey app is your access to many cities. Simple and available at any time.";
+"x_001_welcome_label_login" = "Login";
+"x_001_welcome_menu_btn_skip" = "Skip";
+
+/*b_ info box
+ b_001 info box empty*/
+"b_001_infobox_title" = "Mailbox";
+
+/*b_002 info box list*/
+"b_002_infobox_snackbar_action_undo" = "Undo";
+"b_002_infobox_snackbar_content" = "Item deleted.";
+"b_002_infobox_swiped_btn_delete" = "Delete";
+"b_002_infobox_swiped_btn_read" = "Read";
+"b_002_infobox_swiped_btn_unread" = "Unread";
+
+/*b_003 info box details*/
+"b_003_infobox_detailed_title" = "Mailbox";
+"b_003_infobox_detailed_btn_open_service" = "Open service";
+"b_003_infobox_detailed_btn_set_appointment" = "Schedule an appointment";
+"b_003_infobox_detailed_btn_download" = "Download";
+"b_003_infobox_detailed_notification_birth_certificate_title" = "Birth certificate";
+"b_003_infobox_detailed_notification_birth_certificate_content" = "Your birth certificate is ready!";
+"app_name" = "Citykey";
+"p_003_profile_email_change_technical_error" = "Unfortunately, something went wrong. Please try again later.";
+"navigation_bar_back" = "Back";
+"error_request_city_infos" = "Information about the city could not be retrieved.";
+"error_request_set_favorites" = "Favorites could not be set.";
+"error_request_set_read" = "Read/Unread status could not be set.";
+"p_002_profile_settings_label_delete_account" = "Delete account";
+"d_001_delete_account_info_title" = "Delete account\n";
+"d_001_delete_account_info_info1" = "What happens if I delete my account?";
+"d_001_delete_account_info_info2" = "Unfortunately you will not be able to use Citykey specific features anymore.";
+"d_001_delete_account_info_button_text" = "Delete Account";
+"d_002_delete_account_validation_title" = "Confirm deletion";
+"d_002_delete_account_validation_info" = "Confirm account deletion by entering your password.";
+"d_002_delete_account_validation_button_text" = "Confirm deletion";
+"d_003_delete_account_confirmation_title" = "Account deleted";
+"d_003_delete_account_confirmation_info1" = "You have successfully deleted your account.";
+"d_003_delete_account_confirmation_info2" = "We\\'re sorry to see you go. The good news is, you can continue using the guest features of the app.";
+"d_004_delete_account_error_info1" = "Unfortunately, we were not able to delete your account at this time.";
+"d_004_delete_account_error_info2" = "Please log in and try again.";
+"d_004_delete_account_error_title" = "Deletion not possible";
+"dialog_no_internet" = "Please check your internet connection and retry.";
+"dialog_retry_title" = "Connection not possible";
+"dialog_retry_description" = "Unfortunately, something went wrong. Please check your internet connection and try again.";
+"dialog_retry_retry_button" = "Retry";
+"r_001_registration_error_password_email_same" = "Password and e-mail address may not be the same.";
+"l_002_login_temporarily_locked_account_info" = "Your account is temporarily locked.";
+"p_001_profile_error_dialog_description" = "Unfortunately, we cannot display your profile at this time. Please try again later.";
+"p_001_profile_error_dialog_title" = "Unable to load profile. ";
+"l_004_login_confirm_email_info_sent_link_error" = "Unable to send the confirmation link, please try again.";
+"date_picker_close_button" = "Done";
+"p_003_profile_email_change_error_same_email" = "The new e-mail address matches the old one. Please use a different e-mail address.";
+"p_005_profile_password_change_error_same_passwords" = "Your new and old password may not be the same.";
+"h_001_home_no_news" = "There are no news.";
+"h_001_home_title_events" = "Events";
+"h_001_home_btn_all_events" = "Show all";
+"e_002_filter_categories_label" = "Categories:";
+"e_002_filter_date_label" = "Dates:";
+"e_002_filter_empty_label" = "Show all";
+"e_002_page_title" = "Events";
+"l_001_login_hint_technical_logout" = "Unfortunately something went wrong and you were logged out. Please log in again.";
+"l_001_login_hint_active_logout" = "You have logged out successfully. Log back in or continue using the guest features of the app.";
+
+/*for iOS*/
+"dialog_authentication_error_message" = "Unfortunately, something went wrong. Please try again later.";
+
+/*iOS Ok Button*/
+"dialog_button_ok" = "Close";
+"h_001_events_load_error" = "The events could not be loaded. Please try again.";
+"h_001_events_no_events_msg" = "There are no current events.";
+"e_003_page_title" = "Select dates";
+"e_003_show_events_button" = "Show events ";
+"e_004_events_filter_categories_title" = "Filter events";
+"e_004_events_filter_categories_show_events" = "Show events (%d)";
+"e_004_events_filter_categories_clear" = "Clear all";
+"share_store_header" = "Shared via Citykey App\\nhttps://citykey.app";
+"e_003_clear_button" = "Clear";
+"e_004_events_filter_categories_error_text" = "There are no categories. Please try again later.";
+"e_002_no_events_hint_msg" = "Please try other dates or categories.";
+"e_002_no_events_msg" = "There are no events matching your criteria.";
+"e_002_page_load_error" = "Could not retrieve more events.";
+"e_002_page_load_retry" = "retry";
+"e_005_add_to_calendar" = "Add to calendar";
+"e_005_description_label" = "Description";
+"e_005_description_read_less" = "read less";
+"e_005_description_read_more" = "read more";
+"e_005_end_time_label" = "Ends";
+"e_005_favourite" = "Favorite";
+"e_005_link_label" = "More information and complete program:";
+"e_005_pdf_label" = "Links to PDF download:";
+"e_005_start_time_label" = "Begins";
+"e_006_event_get_directions" = "Get directions";
+
+/*iOS Permissions*/
+"NSFaceIDUsageDescription" = "Please use Face ID to access your account. You can manage the access rights of the app under the app\\'s central settings at any time.";
+
+/*iOS Permissions*/
+"NSLocationWhenInUseUsageDescription" = "We need permission to access the location services to detect the city name. You can manage the access rights of the app under the app\\'s central settings at any time.";
+
+/*iOS Permissions*/
+"NSCalendarsUsageDescription" = "We need the permission to add events to the calendar. You can manage the access rights of the app under the app\\'s central settings at any time.";
+
+/*iOS Permissions*/
+"dialog_location_permission_denied" = "Location services are disabled. You can manage the access rights of the app under the app\\'s central settings at any time.";
+
+/*iOS Permissions*/
+"dialog_faceid_permission_denied" = "Face ID access denied. You can manage the access rights of the app under the app\\'s central settings at any time.";
+
+/*iOS Permissions*/
+"dialog_calendar_permission_denied" = "Calendar access denied. You can manage the access rights of the app under the app\\'s central settings at any time.";
+"e_005_dialog_no_calendar_title" = "Unfortunately something went wrong. Please try again later.";
+"e_005_dialog_no_calendar_message" = "No calendar app was found. Please install and try again.";
+"a_message_event_favored_error" = "Sorry we had a problem administrating your event favorites.";
+"a_message_favorites_load_error" = "Sorry, we could not load your favorites.";
+"h_001_events_favorites_header" = "Your favorites";
+"h_001_events_header" = "Coming up";
+"e_002_list_load_error" = "Could not retrieve events at this time. Please try again later.";
+"b_001_infobox_btn_filter_all" = "All";
+"b_001_infobox_btn_filter_unread" = "Unread";
+"b_006_snackbar_mark_read_failed" = "Sorry, we couldn\\'t mark the message as \\'read\\'.\\nPlease try again later.";
+"b_006_snackbar_mark_unread_failed" = "Sorry, we couldn\\'t mark the message as \\'unread\\'.\\nPlease try again later.";
+"b_006_snackbar_delete_failed" = "Sorry but this message couldn\\'t be deleted at this time.\\nPlease try again later.";
+"b_001_infobox_no_messages" = "No messages";
+"b_005_infobox_error_info_title" = "Sorry but your messages could not be downloaded at this time.";
+"b_005_infobox_error_info_subtitle" = "Please try again later or reload page.";
+"b_005_infobox_error_btn_reload" = "Reload";
+"b_001_infobox_no_unread_messages" = "No unread messages";
+"b_006_snackbar_delete_success" = "Message deleted";
+"b_006_snackbar_delete_undo" = "Undo";
+"r_001_registration_p_005_profile_password_strength_error_min_1_digit" = "at least one digit";
+"b_003_infobox_detailed_links_label" = "Links";
+"b_003_infobox_detailed_btn_delete" = "Delete";
+"p_001_profile_confirm_email_change_btn" = "OK";
+"p_001_profile_btn_terms_and_conditions" = "Terms & Conditions";
+"x_002_tracking_perm_detail_purpose" = "Purpose";
+"x_002_tracking_perm_moenage_detail_purpose_desc" = "App notification & demand-based design";
+"x_002_tracking_perm_adjust_detail_purpose_desc" = "Demand-based design";
+"x_002_tracking_perm_moenage_detail_storage_desc" = "24 months";
+"x_002_tracking_perm_adjust_detail_storage_desc" = "1 month";
+"x_002_tracking_perm_detail_storage" = "Storage period";
+"x_002_tracking_perm_moenage_detail_involved_desc" = "Contractor";
+"x_002_tracking_perm_adjust_detail_involved_desc" = "Contractor";
+"x_002_tracking_perm_detail_involved" = "Involved as";
+"x_002_tracking_perm_top_text" = "To optimize your app experience, we use several services from partners. Within the scope of legal regulations, we, or companies commissioned by us within the scope of data processing, create usage profiles. Direct back tracing to you is not possible.";
+"x_002_tracking_perm_bottom_text" = "These services can also be switched on or off later in \"Profile>Data Privacy Notice\".";
+"x_002_tracking_perm_btn_title" = "Save preferences";
+"x_002_tracking_perm_headline_company" = "Company";
+"x_002_tracking_perm_headline_details" = "Details";
+"x_002_tracking_perm_title" = "Collection of usage data";
+"h_001_home_notifications_ask_title" = "Citykey would like to send you notifications";
+"h_001_home_permissions_ask_description" = "Push notifications can include banners, lock notifications, tones and vibrations. These can be configured in the settings.";
+"h_001_home_permissions_ask_negative" = "Don\\'t allow";
+"h_001_home_permissions_ask_positive" = "Allow";
+"f_001_temp_blocked_hint_label" = "Please wait 5 minutes.";
+"f_001_temp_blocked_main_label" = "Your account has been locked for 5 minutes. Please try again later or reset your password.";
+"f_001_temp_blocked_reset_btn" = "Reset password";
+"r_004_registration_confirmation_info_only_use_once" = "Please note, resending the confirmation e-mail is only possible once.";
+"coming_soon_label" = "Coming soon";
+"f_001_confirmation_info_only_use_once" = "Please note, resending the password-reset e-mail is only possible once. ";
+"h_001_home_news_error" = "The news could not be loaded. Please try again.";
+"r_001_registration_error_incorrect_email" = "E-mail format is not correct";
+"h_001_home_tooltip_switch_location" = "Change city";
+"r_001_registration_error_incorrect_postcode" = "Incorrect postcode";
+"r_004_registration_confirmation_info_enter_pin" = "Please enter the 6-digit PIN to complete registration. If you didn't receive the PIN, please check the spam folder.";
+"c_001_cities_footer_info" = "New cities are added all the time. If your city is not yet included, just check back later.";
+"r_001_registration_hint_postcode" = "Postcode";
+"r_004_registration_confirmation_confirm_btn" = "Confirm";
+"r_005_registration_success_title" = "Registration complete";
+"r_005_registration_success_login_btn" = "Login";
+"r_005_registration_success_headline" = "Congratulations, your account is now registered.";
+"r_005_registration_success_details" = "You can now log into your account using your login details.";
+"c_002_city_selection_list_header" = "Cities";
+"c_002_cities_turn_on_location" = "Click here to turn ON the Location Services.";
+"c_002_cities_location_header" = "Close to you";
+"s_001_services_error_module_msg" = "Services cannot be displayed at the moment. Please refresh or try again later.";
+"s_001_services_error_snackbar_msg" = "Services could not be refreshed. Please try again later.";
+"c_001_cities_cannot_access_location_btn_poitive" = "Go to settings";
+"c_001_cities_cannot_access_location_btn_negative" = "Cancel";
+"c_001_cities_cannot_access_location_dialog_title" = "Cannot access location";
+"c_001_cities_cannot_access_location_dialog_message" = "Please enable Location Services in your device settings.";
+"c_001_cities_gps_turned_off" = "Please enable Location in your device settings.";
+"f_001_forgot_password_change_hint_new_password" = "New password";
+"f_001_forgot_password_change_hint_repeat_password" = "Confirm new password";
+"f_003_forgot_password_confirm_success_title" = "Password reset";
+"f_003_forgot_password_confirm_success_headline" = "Your password has been updated.";
+"f_003_forgot_password_confirm_success_details" = "You can now log in into your account using your new password.";
+"f_003_forgot_password_confirm_success_login_btn" = "Login";
+"f_002_forgot_pwd_confirmation_info_enter_pin" = "Please enter the 6-digit PIN to log in with your new password. If you didn't receive the PIN, please check the spam folder.";
+"appointment_title" = "Appointment";
+"appointment_web_cancel_dialog_message" = "Are you sure you want to close the appointment process?";
+"appointment_web_cancel_dialog_btnCancel" = "Cancel";
+"appointment_web_cancel_dialog_btnClose" = "Close";
+"appointment_web_private_data_permission_title" = "Information";
+"appointment_web_private_data_permission_message" = "Citykey can assist you with this service by pre-filling the following form with data from your profile: e-mail, date of birth, postal code";
+"appointment_web_private_data_permission_btnPositive" = "Allow";
+"appointment_web_private_data_permission_btnNegative" = "Do not allow";
+"h_001_navigation_bar_btn_imprint" = "Imprint";
+"ci_001_header_info" = "Here you will find the imprint for the selected city.";
+"ci_001_headline_format" = "Imprint - %s";
+"ci_001_description" = "Each city you have selected has its own imprint and can be accessed below.";
+"ci_001_button_text" = "Open imprint";
+"c_001_cities_permission_dialog_title" = "Location Services";
+"c_001_cities_permission_dialog_content" = "This permission allows Citykey to access, store and use your device\\'s location with the purpose of showing you relevant content and services.";
+"c_001_cities_permission_dialog_btn_negative" = "Not now";
+"c_001_cities_permission_dialog_btn_positive" = "OK";
+"c_001_cities_location_loading_failed" = "We were not able to identify your location.";
+"apnmt_001_my_appointments_button" = "My appointments";
+"apnmt_002_date_label" = "Date";
+"apnmt_002_more_info_button" = "More Information";
+"apnmt_002_show_qr_code_button" = "Show QR-Code";
+"apnmt_002_page_title" = "My appointments";
+"apnmt_002_error_info" = "Sorry but your appointments could not be displayed at this time.";
+"apnmt_002_card_title" = "Appointment";
+"apnmt_002_item_state_pending" = "This appointment has not been confirmed yet.";
+"apnmt_002_item_state_rejected" = "This appointment was rejected.";
+"apnmt_003_page_title" = "My appointment";
+"apnmt_003_appointment_creation_format" = "Appointment created on: %s";
+"apnmt_003_concerns_label" = "Request";
+"apnmt_003_participants_label" = "Participants";
+"apnmt_003_bring_with_label" = "Please don\\'t forget";
+"apnmt_003_responsible_label" = "Responsible";
+"apnmt_003_waiting_no_format" = "Waiting number: %s";
+"apnmt_003_cal_export_location_format" = "Location: %s";
+"apnmt_003_share_text_format" = "Your Appointment \"%s\" will take place on %s at %s.%n%nYour requests:%n%s%n%nYour waiting number: %s%n%nAddress%nhttps://maps.google.com/?q=%s";
+"apnmt_004_qrcode_title" = "QR-Code";
+"apnmt_004_qrcode_waiting_no_label" = "Waiting number";
+"apnmt_003_share_text_title" = "Your Appointment \"%s\"";
+"apnmt_002_empty_state_label" = "You currently have no appointments.";
+"wc_004_page_title" = "Waste calendar";
+"wc_004_address_filter_btn" = "Address:";
+"wc_004_pickups_filter_btn" = "Pickups:";
+"apnmt_005_share_title" = "Your Appointment \"%s\" is scheduled for %s at %s.";
+"apnmt_005_share_address" = "Address:";
+"apnmt_005_share_concerns" = "Your request:";
+"apnmt_005_share_waiting_no_format" = "Your Waiting number: %s";
+"h_001_home_news_action_error" = "Unfortunately we are curently not able to show news for the selected city.";
+"h_001_events_load_action_error" = "Unfortunately we are currently not able to show events for the selected city.";
+"apnmt_002_error_description" = "Please try again or reload the page.";
+"wc_004_filter_category_title" = "Select pickups";
+"wc_004_filter_category_show_result" = "Save (%d)";
+
+/*It is used by FTU waste calendar screen */
+"wc_004_ftu_street_name" = "Street name";
+
+/*It is used by FTU waste calendar screen */
+"wc_004_ftu_house_number" = "House number";
+
+/*It is used by FTU waste calendar screen */
+"wc_004_ftu_city" = "City";
+
+/*It is used by FTU waste Calendar screen */
+"wc_004_ftu_title" = "Address";
+"wc_001_pickups_info_btn" = "Separating waste correctly";
+"wc_001_open_calendar_btn" = "Open waste calendar";
+"wc_004_ftu_street_error" = "Street not found";
+"wc_004_ftu_house_error" = "Incorrect house number";
+"wc_004_ftu_show_result_btn" = "Show dates";
+"date_format_today_name" = "Today";
+"date_format_tomorrow_name" = "Tomorrow";
+"wc_004_list_item_date_format" = "%s, %d %s";
+
+/*Inform user about historic appointment*/
+"apnmt_002_item_state_historic" = "This appointment was in the past.";
+
+/*Inform user about appointment additional information*/
+"apnmt_003_additional_label" = "Additional information";
+
+/*Inform user about canceled appointment*/
+"apnmt_002_item_state_canceled" = "This appointment was cancelled.";
+"wc_004_change_address_reset_reminder_title" = "Your reminders";
+"wc_004_change_address_reset_reminder_info" = "If you change the address, your existing reminders will be deleted.";
+"wc_004_change_address_reset_reminder_ok" = "Change address";
+"wc_004_change_address_reset_reminder_cancel" = "Cancel";
+"wc_005_header_label" = "Remind";
+"wc_005_same_day_label" = "Collection day";
+"wc_005_day_before_label" = "One day before";
+"wc_005_two_days_before_label" = "Two days before";
+"wc_005_time_label" = "Time";
+"wc_005_error_toast_message" = "The settings could not be applied. Please try again.";
+
+/*Accessibility content description
+%1$d -> consider as dynamic value and numeric value for example 1 and 2 is count of argument*/
+"bottom_navigation_badge_description" = "You have %d update(s) in";
+
+/*Accessibility content description
+%1$d -> consider as dynamic value and numeric value for example 1 and 2 is count of argument*/
+"bottom_navigation_description" = "%1$s tab %2$d of %3$d %4$s";
+
+/*Accessibility content description
+%1$d -> consider as dynamic value and numeric value for example 1 and 2 is count of argument*/
+"event_card_dateM_description" = "%1$s %2$s %3$s to %4$s %5$s %6$s";
+
+/*Inform user about moengage setting usage*/
+"wc_005_moengage_setting_info_label" = "\\nUnfortunately, the reminder function cannot be used because the required technology »MoEngage« has not been activated. \\n\\nDo you want to activate MoEngage?";
+
+/*Inform user about push notification setting usage*/
+"wc_005_push_notification_setting_info_label" = "\\nUnfortunately, the reminder function cannot be used because push notifications for Citykey are disabled.\\n\\nDo you want to enable push notifications?";
+"wc_005_moengage_label" = "MoEngage";
+"wc_005_push_notificaion_label" = "Notifications";
+"wc_005_push_notificaion_setting_btn" = "Activate notifications";
+"wc_005_moengage_setting_btn" = "Settings";
+"apnmt_003_cancel_appointment_btn" = "Cancel appointment";
+"apnmt_003_cancel_apnmt_title" = "Cancel appointment";
+"apnmt_003_cancel_apnmt_info" = "Are you sure you want to cancel the appointment?";
+"apnmt_003_cancel_apnmt_cancel" = "Cancel";
+"apnmt_003_cancel_apnmt_ok" = "Ok";
+"apnmt_003_snackbar_cancelation_failed" = "Oops, your appointment could not be cancelled.";
+"accessibility_btn_select_location" = "Select city";
+"accessibility_btn_open_profile" = "Open profile";
+"accessibility_label_date_until" = "to";
+"accessibility_btn_share_content" = "Share content";
+"accessibility_btn_close" = "Navigate up";
+"accessibility_btn_delete" = "Delete";
+"accessibility_btn_cancel" = "Cancel";
+"accessibility_btn_clear_all" = "Clear all";
+"accessibility_table_selected_cell" = "Item %s of %s";
+"accessibility_cell_dbl_click_hint" = "Double tap to open";
+"apnmt_003_apnmt_telefon_label" = "Phone: %s";
+"apnmt_003_snackbar_mark_read_failed" = "Sorry but we couldn\\'t mark the appointment as \\'read\\'.\\nPlease try again later.";
+"apnmt_snackbar_successfully_delete" = "Appointment deleted";
+"apnmt_delete_error_snackbar" = "The appointment couldn\\'t be deleted at this time. Please try again later.";
+"apnmt_delete_not_allowed" = "This appointment cannot be deleted. You can only delete cancelled, rejected or expired appointments.";
+"accessibility_loading_city" = "Loading city";
+"accessibility_location_cell_dbl_click_hint" = "Double tap to select";
+"survey_001_data_protection_btn" = "Data Protection";
+"cs_002_running_list_header" = "Running surveys";
+"cs_002_closed_list_header" = "Closed surveys";
+"cs_002_upcoming_list_header" = "Upcoming surveys";
+"cs_002_page_title" = "Surveys";
+"cs_003_page_title" = "Survey";
+"cs_002_favored_list_item_label" = "Popular";
+"cs_002_days_label" = "Days";
+"cs_003_creation_date_format" = "Survey created on: %s";
+"cs_003_end_date_label" = "Survey ends";
+"cs_003_button_text" = "Participate";
+"cs_002_day_label" = "Day";
+"cs_004_button_next" = "Next";
+"cs_004_button_previous" = "Previous";
+"cs_004_button_done" = "Done";
+"cs_002_error_no_running_surveys" = "There are currently no ongoing surveys.";
+"cs_002_error_no_surveys" = "Currently there are no surveys.";
+"cs_002_loading_error" = "Sorry but we were unable to load the surveys.";
+"cs_002_preview_error_no_surveys" = "Currently, there are no surveys to preview.";
+"accessibility_btn_share_news" = "Share article";
+
+/*back button dialog description for survey questions*/
+"cs_004_back_button_dialog" = "Do you want to leave the survey? Your data will not be stored.";
+"negative_button_dialog" = "No";
+"positive_button_dialog" = "Yes";
+
+/* Dialog title for survey Submission*/
+"cs_004_survey_submission_dialog_title" = "A big Thank You from %s!";
+
+/* Dialog message for survey Submission*/
+"cs_004_survey_submission_dialog_message" = "You actively contribute to an improved quality of life in %s with your feedback. ";
+"data_privacy_survey_button_text" = "Accept";
+"data_privacy_survey_title" = "Data privacy notice";
+"d_001_delete_account_info" = "You are about to start deleting your Citykey account.";
+"d_001_delete_account_info1" = "This action is permanent and you will no longer be able to access the features that are exclusive to registered users.";
+"d_003_delete_account_confirmation_info3" = "Please note, it may take up to 48 hours until all your data has been deleted.";
+"p_002_profile_personal_settings_label_Dob" = "Date of birth";
+"p_002_profile_personal_settings_label_Residence" = "Residence";
+"p_003_profile_new_postcode_title" = "Change residence";
+"p_003_profile_current_postcode_label" = "Current postcode";
+"p_003_profile_new_postcode_input_hint" = "New postcode";
+"p_005_profile_email_changed_pin_verification_message" = "We have sent a verification PIN to your e-mail %s";
+"poi_001_tab_list_label" = "List";
+"poi_001_tab_map_label" = "Map";
+"poi_001_title" = "Interesting places";
+"poi_001_category_selection_label" = "Category";
+"poi_001_mandatory_category_selection_title" = "Warning!";
+"poi_001_mandatory_category_selection_text" = "This service can\\'t function without selecting a category. Please select one.";
+"poi_003_title" = "What are you interested in?";
+"city_not_available_dialog_title" = "City not available";
+"city_not_available_dialog_body" = "Unfortunately, the city you have chosen is not available anymore.";
+"egov_attach_card_title" = "Connecting";
+"egov_attach_card_info1" = "Please hold your eID card behind* your smartphone.";
+"egov_attach_card_info2" = "*The hatching serves as a guide.";
+"egov_pin_title" = "PIN entry";
+"egov_pin_info1" = "Please enter your 6-digit PIN.";
+"egov_pin_submit_btn" = "Submit";
+"egov_pin_5digits_pin_label" = "Do you have a 5-digit PIN?";
+"egov_pin_help_label" = "Do you need help?";
+"egov_loading_info1" = "Please wait …";
+"egov_info_title" = "Identify";
+"egov_info_provider_info" = "You are about to identify yourself with the following provider:";
+"egov_info_provider_label" = "Provider";
+"egov_info_read_data_label" = "The provider requires the following data";
+"egov_info_read_data_info" = "After you have entered your PIN, the data listed above will be read out and securely transmitted to the provider. Citykey has no access to the data at any time.";
+"egov_info_purpose_label" = "Purpose";
+"egov_info_btn" = "Next";
+"egov_error_label" = "Unexpected error";
+"egov_error_info" = "Unfortunately something went wrong. Please try again.";
+"egov_error_btn" = "Try again";
+"egov_success_title" = "Congratulations!";
+"egov_success_info" = "You have successfully identified yourself.";
+"poi_002_title" = "What are you interested in?";
+"poi_001_address_label" = "Address";
+"poi_001_tab_map_locate_me_button_decription" = "Locate Me";
+"poi_001_opening_hours_label" = "Opening hours";
+"poi_003_description_label" = "Description";
+"poi_003_website_label" = "Website";
+"poi_002_error_text" = "Unfortunately something went wrong.\\nPlease try again.";
+
+/*Header Title for the Help/FAQ section on the profile page*/
+"p_001_profile_help_section_header" = "Help";
+
+/*Help/FAQ Web link on the profile page*/
+"p_001_profile_help_link_label" = "Open Citykey Help Website";
+"egov_caninfo_label" = "CAN entry";
+"egov_caninfo_info1" = "Your PIN entry was incorrect twice. In order to continue, please enter the CAN (Card Access Number).";
+"egov_caninfo_btn" = "Enter CAN";
+"egov_can_title" = "CAN entry";
+"egov_caninfo_title" = "Wrong PIN";
+"egov_can_info_label" = "Please enter your 6-digit CAN.";
+"egov_caninfo_info2" = "The CAN can be found on the front of the card, in the lower right corner.";
+"egov_pukinfo_label" = "PUK entry";
+"egov_pukinfo_info1" = "Your PIN entry was incorrect three times. Please enter the PUK now in order to continue.";
+"egov_pukinfo_info2" = "The PUK can be found on the document you received with your PIN.";
+"egov_pukinfo_btn" = "Enter PUK";
+"egov_cardblocked_label" = "Wrong PUK";
+"egov_cardblocked_info1" = "Unfortunately, you have entered the PUK incorrectly too many times. Your card is now blocked.";
+"egov_cardblocked_info2" = "Please contact the authority responsible for issuing your ID document in order to have your card unblocked.";
+"egov_cardblocked_title" = "Card blocked";
+"egov_certificate_provider" = "Provider";
+"egov_certificate_issuer" = "Issuer of the authorization certificate";
+"egov_certificate_providerinfo" = "Provider information";
+"egov_certificate_validity" = "Validity";
+"egov_puk_info1" = "Please enter your 10-digit PUK.";
+"egov_pin_error_two_retries" = "Wrong PIN. You have two more attempts left.";
+"egov_pin_error_one_retry" = "Wrong PIN. You have one more attempt left.";
+"egov_can_error" = "Wrong CAN. Please try again.";
+"egov_puk_error" = "Wrong PUK. Please try again.";
+"egov_help_label1" = "Do you have a 5-digit PIN?";
+"egov_help_info1" = "You can have your 5-digit PIN converted to a 6-digit one. To do this, you need the »AusweisApp2«.";
+"egov_help_ausweissapp_link" = "To AusweisApp2";
+"egov_help_label2" = "Is the connection to the card interrupted often?";
+"egov_help_info2" = "Try to keep the card and your smartphone as still as possible.";
+"egov_help_label3" = "Do you still need help?";
+"egov_help_info3" = "We recommend checking the extensive help page of the AusweisApp2.";
+"egov_help_aussweissapp_help_link" = "Go to the help page of the AusweisApp2";
+"egov_help_link_btn" = "Do you need help?";
+
+/*Title that appears on top bar for the help/FAQ details page*/
+"p_001_profile_help_webview_title" = "Do you need help?";
+
+/*profile page  - Accessibility Statement link title */
+"p_001_profile_accessibility_stmt_link_label" = "Accessibility Statement";
+
+/*Profile Page - accessibility statement detail view page title*/
+"p_001_profile_accessibility_stmt_webview_title" = "Accessibility Statement";
+
+/*Error text when user enters a wrong CAN*/
+"egov_can_info_invalid_can_label" = "Wrong CAN";
+
+/*Error text when user enters wrong PUK*/
+"egov_puk_info_invalid_puk_label" = "Wrong PUK";
+
+/*Help*/
+"egov_help_screen_title" = "Help";
+
+/*Title of a dialog that appears when user clicks on the cross icon on top at any time in the workflow .*/
+"egov_cancel_workflow_dialog_title" = "Exit process?";
+"egov_cancel_workflow_dialog_message" = "Do you want to exit the authentication process?";
+"egov_cancel_workflow_dialog_ok_button" = "Exit";
+"egov_cancel_workflow_dialog_cancel_button" = "Continue";
+"p_001_profile_accessibilty_disclaimer_label" = "Accessibility Statement";
+"p_001_user_account_settings_label_description" = "Edit user account";
+"p_001_personal_detail_settings_label_description" = "Edit personal details";
+"p_001_profile_residence_snackbar_message" = "Date of birth cannot be edited.";
+"apnmt_snackbar_undo" = "Appointment deleted";
+"appnmt_delete_error_snackbar" = "The appointment could not be deleted, please try again later.";
+"appnmt_delete_not_allowed" = "This appointment cannot be deleted. You can only delete cancelled, rejected or expired appointments.";
+"apnmt_003_apnmt_email" = "Email: %s";
+"cs_002_survey_completed_message" = "You have already participated in this survey.";
+"progress_days_description" = "Days remaining";
+"cs_004_mandatory_field_error" = "This field is mandatory.";
+"egov_nfc_not_avaiable_title" = "No NFC available";
+"egov_nfc_not_enabled_but_available" = "NFC functionality is available";
+"egov_nfc_not_available_description" = "This function requires an NFC-enabled smartphone.";
+"egov_nfc_not_enabled_status" = "NFC is enabled";
+"egov_nfc_not_enabled_button" = "Turn on NFC";
+"poi_002_close_button_content_description" = "Close";
+
+/*Accessibility Text for the eye icon on Enter PIN screen */
+"egov_accessibility_text_eye_button" = "Show Hide Entered Value";
+
+/*Accessibility text to be used for Clear button on the Enter PIN screen*/
+"egov_accessibility_text_clear_button" = "Clear last entered digit";
+
+/*Accessibility Text for Close Workflow button on top bar*/
+"egov_accessibility_text_close_workflow_button" = "Cancel Authentication";
+"egov_sdk_Address" = "Address";
+"egov_sdk_BirthName" = "Birth name";
+"egov_sdk_FamilyName" = "Family name";
+"egov_sdk_GivenNames" = "Given name(s)";
+"egov_sdk_PlaceOfBirth" = "Place of birth";
+"egov_sdk_DateOfBirth" = "Date of birth";
+"egov_sdk_DoctoralDegree" = "Title";
+"egov_sdk_ArtisticName" = "Religious or artistic name";
+"egov_sdk_Pseudonym" = "Pseudonym";
+"egov_sdk_ValidUntil" = "Valid until";
+"egov_sdk_Nationality" = "Nationality";
+"egov_sdk_IssuingCountry" = "Issuing country";
+"egov_sdk_DocumentType" = "Document type";
+"egov_sdk_ResidencePermitI" = "Ancillary provisions I (eAT only)";
+"egov_sdk_ResidencePermitII" = "Ancillary provisions II";
+"egov_sdk_CommunityID" = "Community ID";
+"egov_sdk_AddressVerification" = "Address verification";
+"egov_sdk_AgeVerification" = "Age verification";
+"egov_sdk_WriteAddress" = "Address (write access)";
+"egov_sdk_WriteCommunityID" = "Community ID (write access)";
+"egov_sdk_WriteResidencePermitI" = "Ancillary provisions I (write access)";
+"egov_sdk_WriteResidencePermitII" = "Ancillary provisions II (write access)";
+"egov_sdk_CanAllowed" = "CAN allowed";
+"egov_sdk_PinManagement" = "PIN management";
+"accessibility_password_too_weak" = "Too weak";
+"accessibility_password_strong" = "Strong";
+"accessibility_btn_show_password" = "Show password";
+"accessibility_btn_hide_password" = "Hide password";
+"poi_001_retry_button_decription" = "Retry";
+"appointment_webview_title" = "Create appointment";
+
+/*Back button on the webview toolbar for iOS*/
+"egov_web_toolbar_goback_button_accessibility_title" = "Go back";
+"egov_web_toolbar_goforward_button_accessibility_title" = "Go forward";
+"egov_web_toolbar_reload_button_accessibility_title" = "Reload page";
+"egov_web_toolbar_launchExternal_button_accessibility_title" = "Open link in browser";
+"d_001_defect_reporter_detail_button_label" = "Report a defect";
+"defect_location_toolbar_label" = "";
+"dr_002_location_selection_toolbar_label" = "Location";
+"dr_002_locate_me_button_label" = "Locate me";
+"dr_002_street_name_hint" = "STREET NAME";
+"dr_002_house_number_hint" = "HOUSE NUMBER";
+"dr_002_save_button_label" = "Save ";
+"dr_003_location_label" = "Location";
+"dr_003_describe_issue_label" = "Description";
+"dr_003_your_concern_hint" = "Your concern %s";
+"dr_003_add_photo_label" = "ADD PHOTO %s";
+"dr_003_add_label" = "ADD";
+"dr_003_your_details_label" = "Contact details";
+"dr_003_email_address_hint" = "E-Mail %s";
+"dr_003_first_name_hint" = "First name %s";
+"dr_003_last_name_hint" = "Last name %s";
+"dr_003_terms_text" = "Please confirm that you have read and acknowledged our %s %s.";
+"dr_003_terms_end_text" = "Data privacy notice";
+"dr_003_terms_text1" = "I agree to be contacted by the city via E-Mail";
+"dr_003_send_report_label" = "Send";
+"dr_001_choose_category_label" = "Category";
+"dr_004_thank_you_msg" = "Thank you!";
+"dr_004_thank_you_msg1" = "With your submission you help us to improve the quality of life in %s.";
+"dr_004_category_label" = "Category";
+"dr_004_unique_id_label" = "ID of your report";
+"d_004_reported_on_label" = "Date";
+"d_004_submit_info_msg" = "You will receive an E-Mail when there are updates on your request.";
+"p_003_change_dob_title" = "Change date of birth";
+"p_003_change_dob_old_date" = "CURRENT DATE OF BIRTH";
+"p_003_change_dob_new_date" = "NEW DATE OF BIRTH";
+"p_003_change_dob_save_btn" = "Save";
+"p_003_day" = "Day";
+"p_003_month" = "Month";
+"p_003_year" = "Year";
+"dr_003_location_page_info1" = "Move the Map to the location of the defect. The defect is marked by the pin.";
+"dr_003_location_page_info2" = "Please enter the street name and house number by hand below.";
+"p_003_change_dob_future_date_error" = "Birthday can not be in future";
+"p_001_profile_no_date_of_birth_added" = "No date of birth added";
+"p_003_add_date_of_birth_title" = "Add date of birth";
+"egovs_001_details_categories_headline" = "Categories";
+"egovs_001_details_info_btn" = "Help, Contact, Further Information";
+"egovs_002_services_type_web" = "More information";
+"egovs_002_services_type_pdf" = "Document";
+"egovs_002_services_type_form" = "Online form";
+"egovs_003_close_dialog_cancel_btn" = "Abbrechen";
+"egovs_003_close_dialog_close_btn" = "Schließen";
+"egovs_003_close_dialog_description" = "Möchten Sie das Fenster schließen?";
+"egovs_003_close_dialog_title" = "Fenster schließen?";
+"egovs_004_info_title" = "Digitale Verwaltung";
+"dr_003_change_lacation_button" = "Change Location";
+"egovs_002_services_type_form_eid" = "Online form (eID)";
+"apnmt_003_cancel_error_apnmt_info" = "Unfortunately, you cannot cancel the appointment via Citykey yet. Please use the link you received in the confirmation email.";
+"dr_003_optional_field_label" = "(OPTIONAL)";
+"d_001_defect_reporter_more_info_button" = "More information";
+"p_003_change_dob_add_date" = "DATE OF BIRTH";
+"dr_005_rules_of_use_title" = "Rules of use";
+"dr_003_rules_of_use_link" = "and rules of use";
+"dr_003_defect_submission_error" = "The report could not be sent at this time. please try again later.";
+"dr_003_defect_submission_error_title" = "Defect reporter";
+"dr_003_defect_image_option_title" = "Choose option";
+"dr_003_defect_image_option_take_photo" = "Take photo";
+"dr_003_defect_image_option_camera_roll" = "Camera roll";
+"dr_003_defect_image_option_photo_library" = "Photo library";
+"dr_003_defect_image_option_cancel" = "Cancel";
+"dr_003_delete_photo_label" = "DELETE PHOTO";
+"dr_003_delete_photo_description" = "Delete photo";
+"dr_003_add_photo_description" = "Add photo";
+"dialog_dpn_updated_title" = "Privacy policy updated";
+"dialog_dpn_updated_privacy_btn" = "Privacy policy";
+"dialog_dpn_ok_btn" = "OK";
+"city_not_available_dialog_ok_button" = "OK";
+"dr_003_dialog_button_ok" = "OK";
+"dr_003_terms_title" = "Data Privacy Notice";
+"dr_004_ok_button" = "OK";
+"p_004_profile_email_success_title" = "E-Mail updated";
+"NSCameraUsageDescription" = "If we are allowed to use your camera, you can report the defect more easily.";
+"NSPhotoLibraryUsageDescription" = "If we are allowed to use your photos, you can report the defect more easily.\n";
+"x_003_welcome_info_title" = "Citykey";
+"x_003_welcome_info" = "Citizen service via smartphone.";
+"x_001_welcome_info_title_01" = "Paperless";
+"x_001_welcome_info_title_02" = "News & Events";
+"x_001_welcome_info_title_03" = "All cities in your hand";
+"x_001_lets_go_btn_text" = "Let\\'s go!";
+"x_001_next_btn_text" = "Next";
+"dr_camera_permission_denied_error_dialog_title" = "Camera permission denied";
+"dr_camera_permission_denied_error_dialog_message" = "In order to allow Citykey to capture photos of the defect, please go to settings and allow the camera access permission. ";
+"dr_photos_permission_denied_error_dialog_title" = "Photos permission denied";
+"dr_photos_permission_denied_error_dialog_message" = "In order to allow Citykey to capture photos of the defect, please go to settings and allow the photos access permission. \n";
+"NFCReaderUsageDescription" = "Citykey needs NFC to access the eID feature of your ID card in order to authenticate to eGov services.";
+"p_001_profile_label_data_security_settings" = "Data Privacy Settings";
+"dialog_dpn_settings_title" = "Privacy Settings";
+"dialog_dpn_settings_change_btn" = "Change settings";
+"dialog_dpn_settings_accept_all_btn" = "Accept all";
+"dialog_dpn_settings_accept_chosen_btn" = "Confirm selection";
+"dialog_dpn_settings_data_security_link" = "Data security notice";
+"dialog_dpn_notice_settings_btn" = "Data Privacy Settings";
+"dialog_dpn_settings_headline" = "Manage your privacy settings";
+"dialog_dpn_settings_description" = "In order to provide you with an optimal app experience, we use various tools. This includes tools for the operation and optimization of the app and services, such as text and video chats, as well as tools for advertising oriented to your online usage behavior. These tools can, for example, tell us if you use our app repeatedly from the same device. We would like to give you the choice, which tools you allow:";
+"dialog_dpn_settings_required_headline" = "Strictly necessary tools";
+"dialog_dpn_settings_required_description" = "These tools are strictly necessary to enable you to navigate the pages and use essential functions. They enable basic functions, such as sending of push notifications related to features of the app, and access to secured areas of the app. They also serve the purpose of performing an anonymous analysis of user patterns, which we use to continuously develop and improve our app for you.";
+"dialog_dpn_settings_optional_headline" = "Analysis Tools";
+"dialog_dpn_settings_optional_description" = "These tools help us to improve our understanding of how our apps are used. Analysis tools allow for the collection of usage and identification data by the original provider or third party providers and their compilation into pseudonymous usage profiles. We use analysis tools, e.g., to determine the number of individual users of an app, to collect technical data if the app has crashed, and to analyze the app’s usage patterns and user interactions on the basis of anonymous and pseudonymous information. This information cannot be traced back to a person.";
+"dialog_dpn_settings_show_more_btn" = "Find out more";
+"dialog_dpn_settings_show_less_btn" = "Show less";
+"dialog_dpn_ftu_text_format" = "This app uses tools, for example in the form of SDKs (Software Developer Kit). They can store and read information on your device. By clicking on \"Accept All\", you accept the processing of your data according to our %s. Further information, including information on data processing by third parties, can be found in the settings as well as in our privacy information. %s you can continue only with the necessary tools.";
+"dialog_dpn_ftu_dpn_link" = "privacy information";
+"dialog_dpn_ftu_continue_link" = "Here";
+"dialog_dpn_settings_confirm_selection_btn" = "Confirm selection";
+"dialog_dpn_notice_title" = "Data Privacy Notice";
+"dr_003_defect_image_file_too_large" = "The image is too big. Please choose a different image.";
+"e_005_image_load_error" = "Failed to load image. Please try again";
+"dialog_confirm_logout_title" = "Logout";
+"dialog_confirm_logout_message" = "Are you sure you want to log out?";
+"dialog_confirm_logout_btn_yes" = "Yes";
+"dialog_confirm_logout_btn_cancel" = "Cancel";
+"p_001_feedback_title" = "Feedback";
+"p_001_profile_feedback_label" = "Feedback";
+"feedback_header" = "Tell us what you think.";
+"feedback_description" = "Would you like to help us improve our offer? Just give us a short feedback. If you wish to remain anonymous, please be careful not to enter any personal information. Your email address will only be shared with us if you agree to it below.";
+"feedback_box_title" = "What do you like?";
+"feedback_box_title1" = "What can we do better?";
+"feedback_ok_button" = "OK";
+"feedback_send_btn" = "Send";
+"feedback_successful_submission_heading" = "Thank you for your submission!";
+"feedback_successful_submission_description" = "Your feedback will help us to improve our app. Thank you again :)";
+
+/*Security Alert*/
+"security_alert" = "Security Alert";
+"jailbreak_desc" = " Citykey has detected a jailbreak on your device. Therefore, the execution cannot be supported.";
+"l_001_login_kmli_dialog_title" = "Staying logged in";
+"l_001_login_kmli_dialog_message" = "Do you want to stay logged in, so that you don\\'t need to log in next time you use the app?";
+"l_001_login_hint_kmli_not_checked" = "You have been logged out due to inactivity. To stay logged in, just check the \"keep me logged in\" checkbox.";
+"l_001_login_hint_unexpected_logout" = "Unfortunately something went wrong and you were logged out. Please log in again.";
+"egov_search_hint" = "Find";
+"egov_search_last_searches_label" = "Last searches";
+"egov_search_results_label\n" = "Search results";
+"egov_search_ftu_msg" = "Please enter a search term.";
+"egov_search_no_results_format" = "Unfortunately, we could not find anything related to »%s«.";
+"apnmt_002_item_state_changing" = "Your appointment has been updated";
+"wc_004_filter_category_select_all" = "Select all";
+"wc_004_filter_category_deselect_all" = "Deselect all";
+"wc_004_filter_category_nothing_selected" = "Nothing selected";
+"wc_004_filter_category_All_selected" = "All selected";
+"wc_004_filter_category_selected_count" = "%d selected";
+"wc_004_filter_category_empty" = "Please select a pickup from the button above.";
+"p_003_change_dob_delete_dob_btn" = "Delete date of birth";
+"wc_004_filter_category_empty_data" = "There are no dates for the selected pickup and month.";
+"wc_004_filter_multiple_category_empty_data" = "There are no dates for the selected pickups and month.";
+"wc_005_push_notification_disclaimer" = "If a notification is not sent or sent at the wrong time, there is unfortunately no entitlement to an emptying at a later point in time.";
+"p_001_profile_software_license_title" = "License";
+"p_001_profile_software_license_label" = "License";
+"wc_006_choose_existing_calendar" = "Choose an existing calendar";
+"wc_006_add_events" = "Add events";
+"wc_006_add_to_calendar" = "Add";
+"wc_006_create_a_new_calendar" = "Create a new calendar";
+"wc_006_my_waste_calendar" = "My waste calendar";
+"wc_006_red_color" = "Red";
+"wc_006_orange_color" = "Orange";
+"wc_006_yellow_color" = "Yellow";
+"wc_006_green_color" = "Green";
+"wc_006_blue_color" = "Blue";
+"wc_006_purple_color" = "Purple";
+"wc_006_brown_color" = "Brown";
+"wc_006_successfully_exported" = "Events successfully added";
+"wc_006_alert_message_successfull" = "The events for selected pickups have been successfully added to your calendar.";
+"wc_006_calendar_colour" = "Calendar colour";
+"wc_006_colour" = "COLOUR";
+"wc_006_calendar_name" = "Calendar name";
+"dr_003_waste_bin_id_hint" = "Waste Bin ID %s";
+"wc_006_export_dialog_choose_label" = "Choose a calendar";
+"wc_006_export_dialog_options_Title" = "Calendars";
+"wc_006_no_calendar_available_for_export_title" = "No calendars found";
+"wc_006_no_calendar_available_for_export_message" = "We did not find any calendars on your device. In order to add events, please create a calendar first.";
+"h_001_update_app" = "Update";
+"h_001_update_required" = "Update required";
+"h_001_update_detail_text" = "To continue using Citykey, please download the latest version";
+"wc_006_events_not_added" = "Events cannot be exported due to a technical problem.";
+"e_007_cancelled_events" = "Cancelled";
+"e_007_event_cancelled_desc" = "This event was cancelled";
+"e_005_description_read_more_information" = "More information";
+"z_001_error" = "Error";
+"e_006_event_route" = "Get directions";
+"e_006_event_tap_on_map_hint" = "Tap on the map to see more details";
+"e_006_event_routing_options" = "Routing Options";
+"e_006_event_routing_options_msg_text" = "Please Select App For Routing";
+"e_006_event_apple_maps" = "Apple Maps";
+"e_006_event_google_maps" = "Google Maps";
+"e_006_event_no_map_found_text" = "No maps app was found";
+"e_006_event_btn_cancel" = "Cancel";
+
+/*wc_005_error_message_selectpickups*/
+"wc_005_error_message_select_pickups" = "Some of the previously selected waste types are no longer available. Please select an alternative waste type instead.";
+"wc_005_dialog_options_Title" = "Updates";
+"p_001_profile_label_mode" = "Mode";
+"p_001_profile_label_mode_live" = "Production";
+"p_001_profile_label_mode_preview" = "Preview";
+"h_001_home_app_preview_banner_text" = "You are in preview mode";
+"wc_004_export_events_btn" = "Export events";
+"dialog_rooted_msg" = "Citykey has detected that you have rooted your device. Therefore, the execution cannot be supported.";
+"apnmt_002_item_state_updated" = "Your appointment has been updated";
+"poi_share_text_footer" = "Shared via Citykey\\nhttps://citykey.app";
+"widget_title" = "News";
+"widget_description" = "View the latest news of your city at a glance.";
+"e_007_events_new_date_label" = "New date";
+"e_007_events_new_date_desc" = "The date of this event has been updated";
+"e_007_events_sold_out_label" = "Sold out";
+"e_007_events_sold_out_desc" = "This event is sold out";
+"e_006_event_switch_city_info" = "The city has been switched to ";
+"accessibility_btn_next_month" = "Next month";
+"accessibility_btn_previous_month" = "Previous month";
+"accessibility_label_pickup_selected" = "";
+"accessibility_label_pickup_not_selected" = "";
+"wn_001_what_is_new_title" = "What is new?";
+
+/*Fuzzy*/
+"wn_002_news_widget_title" = "Widgets for news & waste calendar";
+"wn_003_news_widget_update_description" = "It is now possible to display the news and appointments of the waste calendar outside the Citykey app in a widget.";
+"wn_004_continue_title" = "Continue…";
+"wc_no_pickups" = "No pickups available.";
+"waste_calendar_widget_error" = "Unfortunately we are currently not able to show waste calendar information for the selected city.";
+"c_003_contact_link_title_text" = "Where's my city?";
+"c_003_contact_link_message_text" = "Feel free to contact us and we'll discuss how we can add your city to the app.";
+"c_003_contact_link_sub_title_text" = "Get in contact with us...";
+"c_003_aleart_get_in_contact_button" = "Get in contact";
+"c_003_aleart_cancel_button" = "Cancel";
+"c_003_mail_subject_text" = "My city is not included!";
+"c_003_mail_body_name_text" = "My name:";
+"c_003_mail_body_city_text" = "My city:";
+"c_003_mail_body_permission_one" = "May the Citykey team contact me (yes/no)?:";
+"c_003_mail_body_permission_two" = "I would like to share the following with the team:";
+"c_003_aleart_message_sent_text" = "sent";
+"c_003_aleart_message_saved_text" = "saved";
+"c_003_aleart_message_failed_text" = "failed";
+"c_003_aleart_title_mail_status_text" = "Mail status";
+"c_003_email_option_aleart_text" = "Choose email";
+"wc_generic_error" = "No information available.";
+"wn_005_mail_aleart_text" = "Please configure your mail account";
+"news_widget_001_title" = "News";
+"news_widget_002_description" = "View the latest news of your city at a glance.";
+"waste_calendar_widget_001_title" = "Waste Calendar";
+"waste_calendar_002_description" = "See the next pickups at a glance.";
+"waste_calendar_today" = "Today";
+"waste_calendar_tomorrow" = "Tomorrow";
+"feedback_box_title2" = "Can we contact you?";
+"feedback_box_title3" = "Contact me via E-mail";
+"feedback_mail_address" = "E-mail address";
+
+
+"fa_003_describe_issue_label" = "Description/ Justification %s";
+"fa_004_search_this_area_label" = "Refresh";
+"fa_006_more_information_label" = "More Information";
+"fa_007_location_page_info" = "Move the map to the position where you would like to submit the suggestion. The suggestion is marked by the pin.";
+"fa_009_unique_id_label" = "ID of your report";
+"fa_010_submit_info_msg" = "You will receive an E-Mail when there are updates on your request.";
+"fa_011_thank_you_msg1" = "Thank you for contributing to the improvement of bicycle traffic and helping to shape the mobility transition in Bonn. The processing of your proposal will take some time. Therefore, we ask for your patience and understanding if your proposal is not feasible from a technical or planning point of view. You can check the status of your proposal at any time via the map (under \"View existing issues\").";
+"fa_012_unknow_error_title" = "Unfortunately something went wrong. If this happens repeatedly, please let us know.";
+"dr_003_your_concern_disclaimer" = "IMPORTANT: For privacy reasons, please do not enter any names or personal data of yourself or other persons.";
+
+/*https://s3.eu-west-1.amazonaws.com/po-pub/i/HTo22h9bDahmyRftMuVLURDQ.png*/
+/*when user is not logged in to application*/
+"waste_calendar_logged_out_message" = "Please log into the Citykey app to view waste pickups.";
+"accessibility_label_pickup_read_state_selected" = "%s is selected";
+"accessibility_label_pickup_read_state_not_selected" = "%s is not selected";
+"accessibility_label_pickup_change_state_select" = "%s has been selected";
+"accessibility_label_pickup_change_state_deselect" = "%s has been deselected";
+"accessibility_btn_export_calendar" = "Export waste pickups to your calendar";
+"wc_no_pickups_scheduled_filter_active" = "No pickups scheduled (Filter is active).";
+"wc_no_pickups_scheduled" = "No pickups scheduled.";
+
+//accessibility strings
+"accessibility_btn_tap_hint" = "Double tap to";
+"active_city_voice_over_text" = "is selected.";
+"accessibility_radio_btn_tap_hint" = "Double tap to";
+"accessibility_double_tap_select_hint" = "Double tap to select";
+"accessibility_double_tap_deselect_hint" = "Double tap to deselect";
+"accessibility_textview_input_hint"= "Please enter your response here";
+"accessibility_change_category" = "Double tap to select Category";
+"accessibility_filter_categories" = "select waste pickups";
+"accessibility_change_address" = "Change address";
+"accessibility_event_date_filter_hint" = "Filter events based on date";
+"accessibility_event_category_filter_hint" = "Filter events based on categories";
+"accessibility_hint_state_selected" = "selected";
+"accessibility_hint_state_selected_with_text_area" = "selected and a text area has appeared.";
+"accessibility_checkbox_state_checked" = "Checked";
+"accessibility_checkbox_state_unchecked" = "Unchecked";
+"accessibility_deselect" = "Deselect";
+"accessibility_select" = "Select";
+"accessibility_privacy_settings_hint" = "Double tap to toggle settings on or off";
+"accessibility_value_deselected" = "Deselected";
+"accessibility_value_not_selected" = "Not selected";
+"accessibility_hint_disabled" = "Disabled";
+"accessibility_select_calendar_hint" = "Double tap to select calendar";
+"accessibility_change_calendar_color_hint" = "Double tap to select the calendar color";
+"accessiblity_calendar_nameview_hint" = "Input waste calendar name";
+"accessiblity_progress_status" = "Step %s of %s";
+"accessbility_heading_level" = "Heading Level %s:";
+"accessbility_new_dob" = "Enter NEW DATE OF BIRTH in DD.MM.YYYY";
+/*iOS Permissions*/
+"NSLocationAlwaysUsageDescription" = "This allows us to use your location to provide certain features such as suggesting a nearby city supported by Citykey, showing your location on a map, and helping you to report the location of a defect.";

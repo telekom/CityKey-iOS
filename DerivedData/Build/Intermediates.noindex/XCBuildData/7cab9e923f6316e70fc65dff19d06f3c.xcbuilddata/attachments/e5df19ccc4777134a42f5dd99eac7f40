@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Products/Dev-iphonesimulator/TTGSnackbar/TTGSnackbar.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Products/Dev-iphonesimulator/TTGSnackbar/TTGSnackbar.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "TTGSnackbar-Swift.h",
+      'external-contents': "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/unextended-interface-header.h",
+    }]
+    }]
+}

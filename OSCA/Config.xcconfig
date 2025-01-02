@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  SmartCity
+//
+//  Created by Michael on 04.10.18.
+//  Copyright © 2018 Michael. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../GeneratedConfig/Generated_Version.xcconfig"

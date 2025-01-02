@@ -1,0 +1,66 @@
+PODS:
+  - Adjust (5.0.1):
+    - Adjust/Adjust (= 5.0.1)
+  - Adjust/Adjust (5.0.1):
+    - AdjustSignature (~> 3.18)
+  - AdjustSignature (3.20.2)
+  - AppCenter (4.0.0):
+    - AppCenter/Analytics (= 4.0.0)
+    - AppCenter/Crashes (= 4.0.0)
+  - AppCenter/Analytics (4.0.0):
+    - AppCenter/Core
+  - AppCenter/Core (4.0.0)
+  - AppCenter/Crashes (4.0.0):
+    - AppCenter/Core
+  - AppCenter/Distribute (4.0.0):
+    - AppCenter/Core
+  - EasyTipView (2.1.0)
+  - GoogleMaps (7.4.0):
+    - GoogleMaps/Maps (= 7.4.0)
+  - GoogleMaps/Base (7.4.0)
+  - GoogleMaps/Maps (7.4.0):
+    - GoogleMaps/Base
+  - KeychainSwift (20.0.0)
+  - lottie-ios (4.4.0)
+  - SwiftLint (0.54.0)
+  - TTGSnackbar (1.11.1)
+
+DEPENDENCIES:
+  - Adjust (~> 5.0.0)
+  - AppCenter (= 4.0.0)
+  - AppCenter/Crashes (= 4.0.0)
+  - AppCenter/Distribute (= 4.0.0)
+  - EasyTipView (~> 2.1.0)
+  - GoogleMaps
+  - KeychainSwift (~> 20.0)
+  - KeychainSwift (~> 20.0.0)
+  - lottie-ios (~> 4.4.0)
+  - SwiftLint
+  - TTGSnackbar (= 1.11.1)
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AdjustSignature
+    - AppCenter
+    - EasyTipView
+    - GoogleMaps
+    - KeychainSwift
+    - lottie-ios
+    - SwiftLint
+    - TTGSnackbar
+
+SPEC CHECKSUMS:
+  Adjust: f27daaa40d0df5550b89dd428cd8545d812e1f6d
+  AdjustSignature: f42d8c64cda8361ff5b5a31e4536d82076be4306
+  AppCenter: 51351e0121e40ba75e28ecb7de5c2e69d480df5e
+  EasyTipView: a92b6edc377b81c5ac18e9fd35d5ee78e9409488
+  GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  lottie-ios: ef1be1f90d54255f08e09d767950e43714661178
+  SwiftLint: c1de071d9d08c8aba837545f6254315bc900e211
+  TTGSnackbar: fea91c62637b5662f808a4c3b55f7631cb7e1ef7
+
+PODFILE CHECKSUM: 4d7b367ee501b9dd63159dbe37aacc8a5f525f15
+
+COCOAPODS: 1.15.2

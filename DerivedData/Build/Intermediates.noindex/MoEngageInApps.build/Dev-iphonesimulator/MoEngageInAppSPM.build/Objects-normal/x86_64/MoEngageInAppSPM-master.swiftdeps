@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "5c81901f73f2121e3036fc78e7b69243b47c1761b1cb7f490252bb860c79bd0c"
+build_start_time: [1706090905, 741031000]
+build_end_time: [1706090910, 322974000]
+inputs:
+  "/Users/A200111500/Documents/osca-ios-core/DerivedData/SourcePackages/checkouts/MoEngage-iOS-InApps/Sources/File.swift": [1706090532, 198793713]

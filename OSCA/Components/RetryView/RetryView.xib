@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="OmN-cL-XjE" userLabel="Footer View" customClass="RetryView" customModule="OSCA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="418" height="230"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="BXg-sE-M0o">
+                    <rect key="frame" x="199" y="25" width="20" height="20"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMq-Ps-mT9">
+                    <rect key="frame" x="16" y="50" width="386" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Couldn't get more events" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWO-kb-lTi">
+                    <rect key="frame" x="16" y="82.5" width="386" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" name="CLR_LABEL_TEXT_GRAY_DARKGRAY"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOw-g9-b6P">
+                    <rect key="frame" x="65" y="110.5" width="288" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="VkB-Ml-jGH"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="tYW-vR-Bqb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title=" retry" image="action_resend_email">
+                        <color key="titleColor" name="CLR_OSCA_LEGIBLE"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" name="CLR_LABEL_TEXT_GRAY_COOLGRAY"/>
+            <constraints>
+                <constraint firstItem="XWO-kb-lTi" firstAttribute="top" secondItem="dMq-Ps-mT9" secondAttribute="bottom" constant="12" id="Dg2-Sd-5aB"/>
+                <constraint firstItem="dMq-Ps-mT9" firstAttribute="top" secondItem="OmN-cL-XjE" secondAttribute="top" constant="50" id="FDj-VJ-uEd"/>
+                <constraint firstItem="yOw-g9-b6P" firstAttribute="centerX" secondItem="OmN-cL-XjE" secondAttribute="centerX" id="G7i-nV-FVY"/>
+                <constraint firstItem="XWO-kb-lTi" firstAttribute="leading" secondItem="dMq-Ps-mT9" secondAttribute="leading" id="GhO-0U-Fbd"/>
+                <constraint firstItem="yOw-g9-b6P" firstAttribute="top" secondItem="XWO-kb-lTi" secondAttribute="bottom" constant="12" id="Lgx-0F-AnI"/>
+                <constraint firstAttribute="trailing" secondItem="dMq-Ps-mT9" secondAttribute="trailing" constant="16" id="Ncx-fy-gbP"/>
+                <constraint firstItem="dMq-Ps-mT9" firstAttribute="leading" secondItem="OmN-cL-XjE" secondAttribute="leading" constant="16" id="YgP-jx-bgi"/>
+                <constraint firstItem="XWO-kb-lTi" firstAttribute="trailing" secondItem="dMq-Ps-mT9" secondAttribute="trailing" id="lAV-OZ-Bu6"/>
+                <constraint firstItem="BXg-sE-M0o" firstAttribute="centerX" secondItem="OmN-cL-XjE" secondAttribute="centerX" id="met-dp-DJr"/>
+                <constraint firstItem="BXg-sE-M0o" firstAttribute="top" secondItem="OmN-cL-XjE" secondAttribute="top" constant="25" id="xWc-hr-YYN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fUb-K1-vfl"/>
+            <connections>
+                <outlet property="activityIndicator" destination="BXg-sE-M0o" id="cV5-Bf-2fe"/>
+                <outlet property="errorDescriptionLabel" destination="XWO-kb-lTi" id="n9o-mg-T5F"/>
+                <outlet property="errorTitleLabel" destination="dMq-Ps-mT9" id="bmi-Xa-cda"/>
+                <outlet property="retryButton" destination="yOw-g9-b6P" id="pb3-Sh-Oua"/>
+            </connections>
+            <point key="canvasLocation" x="-384.05797101449281" y="-18.75"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="action_resend_email" width="24" height="24"/>
+        <namedColor name="CLR_LABEL_TEXT_GRAY_COOLGRAY">
+            <color red="0.92900002002716064" green="0.92900002002716064" blue="0.92900002002716064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_LABEL_TEXT_GRAY_DARKGRAY">
+            <color red="0.3919999897480011" green="0.3919999897480011" blue="0.3919999897480011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_OSCA_LEGIBLE">
+            <color red="0.0" green="0.59600001573562622" blue="0.85900002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

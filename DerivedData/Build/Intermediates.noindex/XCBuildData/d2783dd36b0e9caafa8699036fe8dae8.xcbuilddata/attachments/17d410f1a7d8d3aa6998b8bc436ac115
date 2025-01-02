@@ -1,0 +1,19 @@
+/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/WebServiceRequest/Helper/protocol/WebServiceUsable.swift
+/Users/A200111500/Documents/osca-ios-core/OSCA/Helper/SCGlobalConstants.swift
+/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/Utility/FileLogger.swift
+/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/Utility/WidgetUtility.swift
+/Users/A200111500/Documents/osca-ios-core/OSCA/Data\ Model/Http\ Model/SCHttpModelResponse.swift
+/Users/A200111500/Documents/osca-ios-core/CitiesIntentHandler/IntentHandler.swift
+/Users/A200111500/Documents/osca-ios-core/OSCA/Data\ Model/SCModelRegistration.swift
+/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/Model/CitiesModel.swift
+/Users/A200111500/Documents/osca-ios-core/OSCA/Helper/SCUserDefaultsHelper.swift
+/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/WebServiceRequest/WebServiceRequest.swift
+/Users/A200111500/Documents/osca-ios-core/OSCA/Authorization/SCModelAuthorization.swift
+/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/Repository/CityContentRepository.swift
+/Users/A200111500/Documents/osca-ios-core/OSCA/Helper/SCDeviceUniqueID.swift
+/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/Helper/enum/NetworkError.swift
+/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/Helper/protocol/AuthProviding.swift
+/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/WebServiceRequest/Model/QueuedAuthRequest.swift
+/Users/A200111500/Documents/osca-ios-core/OSCA/Helper/KeychainHelper/KeychainHelper.swift
+/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CitiesIntentHandler.build/DerivedSources/IntentDefinitionGenerated/CityKeyWidget/CityIntent.swift
+/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CitiesIntentHandler.build/DerivedSources/IntentDefinitionGenerated/CityKeyWidget/Cities.swift

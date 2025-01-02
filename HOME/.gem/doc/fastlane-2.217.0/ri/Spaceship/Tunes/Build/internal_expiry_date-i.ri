@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"internal_expiry_date:ETI"1Spaceship::Tunes::Build#internal_expiry_date;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"=@return (Integer) When is this build going to be invalid;T:
+@fileI"+spaceship/lib/spaceship/tunes/build.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Spaceship::Tunes::Build;TcRDoc::NormalClass0

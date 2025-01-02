@@ -1,0 +1,17 @@
+{
+    "content": [{
+        "isDpAccepted": true,
+        "id": 29,
+        "name": "E-Scooter in Siegburg",
+        "description": "In der Stadt Siegburg gibt es seit Mai 2021 die Möglichkeit, sich einen E-Scooter zu mieten. Um dieses Angebot in Zukunft weiter zu verbessern und auf die Bedürfnisse und Wünsche der Siegburger Bürger*innen anzupassen, würden wir uns über ein kurzes Feedback freuen. Danke, dass Sie sich 2 Minuten Zeit dafür nehmen!",
+        "startDate": "2021-12-23 12:00:00",
+        "endDate": "2022-09-30 12:00:00",
+        "isPopular": false,
+        "status": "NOT_STARTED",
+        "dataProtectionText": "<p>Bei der folgenden Umfrage werden durch Citykey keine personbezogenen oder personenbeziehbare Daten erhoben oder abgefragt. Für die Inhalte der Umfrage ist die Stadt Siegburg verantwortlich. Die Ergebnisse werden nach Abschluss der Umfrage der Stadt Siegburg von Citykey zur Verfügung gestellt und im Anschluss in Citykey gelöscht. Die Auswertung der Ergebnisse erfolgt durch die Stadt.</p><p><strong>Wichtig:</strong> Bitte achten Sie darauf, keine personbezogenen oder personenbeziehbare Daten in Freitextfelder einzutragen, da auch diese Inhalte der Stadt im Klartext übergeben werden.</p>",
+        "isClosed": false,
+        "totalQuestions": 3,
+        "attemptedQuestions": 0,
+        "daysLeft": 15
+    }]
+}

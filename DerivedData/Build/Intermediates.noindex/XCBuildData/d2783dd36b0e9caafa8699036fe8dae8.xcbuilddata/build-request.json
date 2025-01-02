@@ -1,0 +1,75 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "75826a1d9f049fe45bf172041742d1b187dceb9c093fd910ebfda92aeea1fcf9"
+    },
+    {
+      "guid" : "75826a1d9f049fe45bf172041742d1b182d48654a4e8d32f8a97a3ec49d87867"
+    },
+    {
+      "guid" : "75826a1d9f049fe45bf172041742d1b188851764afd777cb9b6d3faa3b28f545"
+    }
+  ],
+  "containerPath" : "/Users/A200111500/Documents/osca-ios-core/OSCA.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Products",
+      "derivedDataPath" : "/Users/A200111500/Documents/osca-ios-core/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Dev",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone9,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.0",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone9,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "FFBCE8D2-8B91-44E7-97B4-FC5E6281BE0D",
+          "TARGET_DEVICE_MODEL" : "iPhone9,1",
+          "TARGET_DEVICE_OS_VERSION" : "15.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "test",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

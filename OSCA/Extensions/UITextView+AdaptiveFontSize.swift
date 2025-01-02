@@ -1,0 +1,93 @@
+//
+//  UITextView+AdaptiveFontSize.swift
+//  OSCA
+//
+//  Created by Harshada Deshmukh on 01/11/21.
+//  Copyright © 2021 Deutsche Telekom AG - VTI Organization. All rights reserved.
+//
+
+import UIKit
+
+/**
+ *
+ * Extension for supporting an adaptive font size on the iPhone SE
+ *
+ */
+extension UITextView{
+
+    func adaptFontSize() {
+        
+        // For devices with a width of 320 we need to scale the
+        // font size down
+        if (UIScreen.main.bounds.size.width) == 320 {
+            if self.tag == 0 {  // self.tag = 0 is default value .
+                self.tag = 1
+                
+                var newFontSize : CGFloat = 0.0
+                
+                switch self.font!.pointSize {
+                case 45.0:
+                    newFontSize = 38.0
+                    break
+                case 37.0:
+                    newFontSize = 32.0
+                    break
+                case 34.0:
+                    newFontSize = 28.0
+                    break
+                case 28.0:
+                    newFontSize = 24.0
+                    break
+                case 24.0:
+                    newFontSize = 20.0
+                    break
+                case 22.0:
+                    newFontSize = 19.0
+                    break
+                case 21.0:
+                    newFontSize = 18.0
+                    break
+                case 20.0:
+                    newFontSize = 17.0
+                    break
+                case 19.0:
+                    newFontSize = 16.0
+                    break
+                case 18.0:
+                    newFontSize = 15.0
+                    break
+                case 17.0:
+                    newFontSize = 15.0
+                    break
+                case 16.0:
+                    newFontSize = 14.0
+                    break
+                case 15.0:
+                    newFontSize = 13.0
+                    break
+                case 14.0:
+                    newFontSize = 12.0
+                    break
+                case 13.0:
+                    newFontSize = 12.0
+                    break
+                case 12.0:
+                    newFontSize = 10.0
+                    break
+                case 11.0:
+                    newFontSize = 9.0
+                    break
+                case 10.0:
+                    newFontSize = 8.0
+                    break
+                default:
+                    newFontSize = 4.0
+                }
+                
+                let oldFontName = self.font!.fontName
+                self.font = UIFont(name: oldFontName, size: newFontSize) // and set new font here .
+            }
+        }
+    }
+    
+}
