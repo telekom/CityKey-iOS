@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  SmartCity
+
+  Created by Robert Swoboda - Telekom on 28.04.19.
+  Copyright © 2019 Deutsche Telekom AG - VTI Organization. All rights reserved.
+*/
+
+NSFaceIDUsageDescription = "Use Face ID instead of a password to access your account. You can manage the access rights of the app at any time under the app's central settings.";
+NSCalendarsUsageDescription = "We need the permission to add events to the calendar. You can manage the access rights of the app at any time under the app's central settings.";
+NSLocationWhenInUseUsageDescription = "We need to access your location in order to detect the nearest city supported by Citykey. You can manage the access rights of the app at any time under the app's central settings.";

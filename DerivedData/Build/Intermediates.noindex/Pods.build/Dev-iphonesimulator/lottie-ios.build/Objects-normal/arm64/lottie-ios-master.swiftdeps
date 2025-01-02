@@ -1,0 +1,386 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "dd9a0313270ec8f371405657414553d95a0037e5daa36fc61e4c95882a7615f3"
+build_start_time: [1706101994, 525867000]
+build_end_time: [1706102076, 254897000]
+inputs:
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/CAAnimation+TimingConfiguration.swift"
+  : [1702039033, 538332864]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/CALayer+addAnimation.swift": [1704892967, 189056420]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/CombinedShapeAnimation.swift": [1704892967, 190889087]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/CustomPathAnimation.swift": [1704892967, 192565420]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/DropShadowAnimation.swift": [1704892967, 194003430]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/EllipseAnimation.swift": [1704892967, 196099124]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/GradientAnimations.swift": [1704892967, 198018202]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/LayerProperty.swift": [1704892967, 199728870]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/OpacityAnimation.swift": [1704892967, 201051040]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/RectangleAnimation.swift": [1704892967, 203264674]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/ShapeAnimation.swift": [1704892967, 204780738]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/StarAnimation.swift": [1704892967, 225583136]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/StrokeAnimation.swift": [1704892967, 227405586]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/TransformAnimations.swift": [1704892967, 229453977]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/VisibilityAnimation.swift": [1702039033, 578551183]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/CompatibilityTracker.swift": [1702039033, 520170603]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/CoreAnimationLayer.swift": [1704892967, 231894650]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Extensions/CALayer+fillBounds.swift": [1702039033, 523499036]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Extensions/KeyframeGroup+exactlyOneKeyframe.swift"
+  : [1702039033, 530188898]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Extensions/Keyframes+combined.swift": [1704892967, 235086333]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/AnimationLayer.swift": [1704892967, 236905114]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/BaseAnimationLayer.swift": [1702039033, 514366150]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/BaseCompositionLayer.swift": [1704892967, 238324531]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/CALayer+setupLayerHierarchy.swift": [1702039033, 512956431]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/GradientRenderLayer.swift": [1702039033, 480211464]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/ImageLayer.swift": [1704892967, 239962731]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/InfiniteOpaqueAnimationLayer.swift"
+  : [1702039033, 509500655]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/LayerModel+makeAnimationLayer.swift"
+  : [1704892967, 241650423]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/MaskCompositionLayer.swift": [1702039033, 482853050]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/PreCompLayer.swift": [1704892967, 243101051]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/RepeaterLayer.swift": [1704892967, 246543024]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/ShapeItemLayer.swift": [1702039033, 493633015]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/ShapeLayer.swift": [1704892967, 248568020]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/SolidLayer.swift": [1704892967, 250741951]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/TextLayer.swift": [1704892967, 252319522]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/TransformLayer.swift": [1702039033, 498291940]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/ValueProviderStore.swift": [1704892967, 254077964]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/Collection+Diff.swift"
+  : [1704892967, 273777088]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/Diffable.swift": [1704892967, 275326198]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/DiffableSection.swift"
+  : [1704892967, 275983489]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/IndexChangeset.swift"
+  : [1704892967, 279077194]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/SectionedChangeset.swift"
+  : [1704892967, 279659358]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Logging/EpoxyLogger.swift": [1704892967, 280924310]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/CallbackContextEpoxyModeled.swift"
+  : [1704892967, 282074883]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/EpoxyModelArrayBuilder.swift"
+  : [1704892967, 282607321]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/EpoxyModelProperty.swift"
+  : [1704892967, 283134462]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/EpoxyModelStorage.swift"
+  : [1704892967, 283678580]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/EpoxyModeled.swift": [1704892967, 284460882]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Internal/AnyEpoxyModelProperty.swift"
+  : [1704892967, 285643618]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Internal/ClassReference.swift"
+  : [1704892967, 287377339]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/AnimatedProviding.swift"
+  : [1704892967, 288896166]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/DataIDProviding.swift"
+  : [1704892967, 289926308]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/DidDisplayProviding.swift"
+  : [1704892967, 290589464]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/DidEndDisplayingProviding.swift"
+  : [1704892967, 291147676]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/DidSelectProviding.swift"
+  : [1704892967, 291803796]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/ErasedContentProviding.swift"
+  : [1704892967, 293954719]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/MakeViewProviding.swift"
+  : [1704892967, 295112304]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/SetBehaviorsProviding.swift"
+  : [1704892967, 295683935]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/SetContentProviding.swift"
+  : [1704892967, 299328507]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/StyleIDProviding.swift"
+  : [1704892967, 300575483]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/TraitCollectionProviding.swift"
+  : [1704892967, 301264241]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/ViewDifferentiatorProviding.swift"
+  : [1704892967, 302857273]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/ViewProviding.swift"
+  : [1704892967, 304122180]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/WillDisplayProviding.swift"
+  : [1704892967, 305551065]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/ViewEpoxyModeled.swift"
+  : [1704892967, 323228274]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxySwiftUIHostingController.swift"
+  : [1704892967, 328427940]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxySwiftUIHostingView.swift"
+  : [1704892967, 330845478]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxySwiftUIIntrinsicContentSizeInvalidator.swift"
+  : [1704892967, 332725865]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxySwiftUILayoutMargins.swift"
+  : [1704892967, 333211618]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxyableView+SwiftUIView.swift"
+  : [1704892967, 335354459]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/LayoutUtilities/MeasuringViewRepresentable.swift"
+  : [1704892967, 340574783]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/LayoutUtilities/SwiftUIMeasurementContainer.swift"
+  : [1704892967, 343835923]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/SwiftUIView.swift": [1704892967, 347953859]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/UIView+SwiftUIView.swift"
+  : [1704892967, 352386374]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/UIViewConfiguringSwiftUIView.swift"
+  : [1704892967, 354833739]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Views/BehaviorsConfigurableView.swift"
+  : [1704892967, 373532245]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Views/ContentConfigurableView.swift"
+  : [1704892967, 375789386]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Views/EpoxyableView.swift": [1704892967, 377318233]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Views/StyledView.swift": [1704892967, 381420037]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Views/ViewType.swift": [1704892967, 382598034]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/LRUCache/LRUCache.swift": [1704892967, 385569571]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+BackingConfiguration.swift"
+  : [1704892967, 386912807]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Helpers.swift": [1704892967, 388105605]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+MemoryFile.swift"
+  : [1704892967, 388723460]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Progress.swift": [1704892967, 390355979]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Reading.swift": [1704892967, 392074992]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+ReadingDeprecated.swift"
+  : [1704892967, 393127890]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Writing.swift": [1704892967, 395427659]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+WritingDeprecated.swift"
+  : [1704892967, 397835458]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+ZIP64.swift": [1704892967, 398882628]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive.swift": [1704892967, 400702351]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Data+Compression.swift": [1704892967, 402049193]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Data+CompressionDeprecated.swift"
+  : [1704892967, 403149385]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Data+Serialization.swift"
+  : [1704892967, 404515772]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Entry+Serialization.swift"
+  : [1704892967, 405235424]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Entry+ZIP64.swift": [1704892967, 422556014]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Entry.swift": [1704892967, 423695978]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift": [1704892967, 424402107]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/URL+ZIP.swift": [1704892967, 425033215]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/CompositionLayer.swift"
+  : [1702039032, 968474935]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/ImageCompositionLayer.swift"
+  : [1704892967, 428832098]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/MaskContainerLayer.swift"
+  : [1704892967, 430489655]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/NullCompositionLayer.swift"
+  : [1702039032, 970106732]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/PreCompositionLayer.swift"
+  : [1704892967, 433134484]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/ShapeCompositionLayer.swift"
+  : [1702039032, 981479147]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/SolidCompositionLayer.swift"
+  : [1702039032, 973378757]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/TextCompositionLayer.swift"
+  : [1704892967, 437925200]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/MainThreadAnimationLayer.swift"
+  : [1704892967, 441449161]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/CachedImageProvider.swift"
+  : [1704892967, 442853588]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/CompositionLayersInitializer.swift"
+  : [1704892967, 444868472]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/CoreTextRenderLayer.swift"
+  : [1702039032, 992795986]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/InvertedMatteLayer.swift"
+  : [1704892967, 446050400]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/LayerFontProvider.swift"
+  : [1704892967, 447720479]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/LayerImageProvider.swift"
+  : [1704892967, 448745862]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/LayerTextProvider.swift"
+  : [1704892967, 450214243]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/LayerTransformNode.swift"
+  : [1704892967, 451507391]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Extensions/ItemsExtension.swift"
+  : [1702039033, 110029248]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/NodeProperty.swift"
+  : [1702039033, 84582340]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/AnyNodeProperty.swift"
+  : [1702039033, 90091203]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/AnyValueContainer.swift"
+  : [1702039033, 100791114]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/KeypathSearchable.swift"
+  : [1702039033, 98365166]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/NodePropertyMap.swift"
+  : [1704892967, 472839525]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/ValueContainer.swift"
+  : [1702039033, 83299682]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/ValueProviders/GroupInterpolator.swift"
+  : [1702039033, 107923794]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/ValueProviders/SingleValueProvider.swift"
+  : [1702039033, 103690552]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/ModifierNodes/RoundedCornersNode.swift"
+  : [1702039033, 23226777]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/ModifierNodes/TrimPathNode.swift"
+  : [1704892967, 473981437]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/GroupOutputNode.swift"
+  : [1702039033, 48718397]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/PassThroughOutputNode.swift"
+  : [1702039033, 56983223]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/PathOutputNode.swift"
+  : [1702039033, 51535362]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/FillRenderer.swift"
+  : [1702039033, 37555465]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientFillRenderer.swift"
+  : [1704892967, 475397254]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientStrokeRenderer.swift"
+  : [1702039033, 33298808]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/LegacyGradientFillRenderer.swift"
+  : [1704892967, 477135116]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/StrokeRenderer.swift"
+  : [1702039033, 40044282]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/EllipseNode.swift"
+  : [1704892967, 478947516]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/PolygonNode.swift"
+  : [1704892967, 480792888]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/RectNode.swift"
+  : [1704892967, 483526809]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/ShapeNode.swift"
+  : [1702039033, 67840653]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/StarNode.swift"
+  : [1704892967, 485094229]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderContainers/GroupNode.swift"
+  : [1704892967, 486692387]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderNodes/FillNode.swift"
+  : [1704892967, 488352404]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderNodes/GradientFillNode.swift"
+  : [1704892967, 489485298]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderNodes/GradientStrokeNode.swift"
+  : [1704892967, 490599926]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderNodes/StrokeNode.swift"
+  : [1704892967, 492328203]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/Text/TextAnimatorNode.swift"
+  : [1704892967, 493847050]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Protocols/AnimatorNode.swift"
+  : [1702039033, 122629065]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Protocols/PathNode.swift": [1702039033, 117611961]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Protocols/RenderNode.swift": [1702039033, 121311506]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/RenderLayers/ShapeContainerLayer.swift"
+  : [1704892967, 495889274]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/RenderLayers/ShapeRenderLayer.swift"
+  : [1702039033, 111767063]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Assets/Asset.swift": [1704892967, 497179037]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Assets/AssetLibrary.swift": [1704892967, 498752766]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Assets/ImageAsset.swift": [1704892967, 500099419]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Assets/PrecompAsset.swift": [1702039033, 473928036]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/DictionaryInitializable.swift": [1702039033, 470779962]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/DotLottie/DotLottieAnimation.swift": [1704892967, 501266483]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/DotLottie/DotLottieImageProvider.swift": [1704892967, 502835513]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/DotLottie/DotLottieManifest.swift": [1704892967, 503932031]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/DotLottie/DotLottieUtils.swift": [1704892967, 505454655]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Extensions/Bundle.swift": [1704892967, 523831803]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Extensions/KeyedDecodingContainerExtensions.swift"
+  : [1704892967, 526785397]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Keyframes/KeyframeData.swift": [1702039033, 432077130]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Keyframes/KeyframeGroup.swift": [1704892967, 529986280]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerEffects/DropShadowEffect.swift": [1704892967, 531492342]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerEffects/EffectValues/ColorEffectValue.swift": [1704892967, 533160257]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerEffects/EffectValues/EffectValue.swift": [1704892967, 534344751]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerEffects/EffectValues/Vector1DEffectValue.swift"
+  : [1704892967, 535005276]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerEffects/LayerEffect.swift": [1704892967, 536327593]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerStyles/DropShadowStyle.swift": [1704892967, 538220857]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerStyles/LayerStyle.swift": [1704892967, 539288211]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/ImageLayerModel.swift": [1702039033, 393650432]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/LayerModel.swift": [1704892967, 541246523]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/PreCompLayerModel.swift": [1702039033, 398612357]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/ShapeLayerModel.swift": [1702039033, 401091826]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/SolidLayerModel.swift": [1702039033, 385392329]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/TextLayerModel.swift": [1702039033, 396126846]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Objects/DashPattern.swift": [1702039033, 404118893]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Objects/Marker.swift": [1704892967, 544969074]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Objects/Mask.swift": [1702039033, 414610131]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Objects/Transform.swift": [1704892967, 547319557]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Ellipse.swift": [1702039033, 346284256]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Fill.swift": [1702039033, 339284908]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/GradientFill.swift": [1704892967, 549201945]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/GradientStroke.swift": [1704892967, 550684751]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Group.swift": [1702039033, 357323791]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Merge.swift": [1704892967, 551801891]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Rectangle.swift": [1702039033, 378791016]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Repeater.swift": [1704892967, 553347553]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/RoundedCorners.swift": [1702039033, 355811873]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Shape.swift": [1702039033, 354050637]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/ShapeItem.swift": [1704892967, 555667683]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/ShapeTransform.swift": [1704892967, 573942684]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Star.swift": [1704892967, 576094895]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Stroke.swift": [1702039033, 377219321]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Trim.swift": [1702039033, 349009639]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Text/Font.swift": [1704892967, 578413658]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Text/Glyph.swift": [1704892967, 581155776]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Text/TextAnimator.swift": [1704892967, 582938266]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Text/TextDocument.swift": [1702039033, 461164752]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/RootAnimationLayer.swift": [1704892967, 584820247]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Debugging/AnimatorNodeDebugging.swift": [1702039033, 596665471]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Debugging/LayerDebugging.swift": [1704892967, 586694146]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Debugging/TestHelpers.swift": [1702039033, 591045762]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/AnimationKeypathExtension.swift": [1704892967, 588112041]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/BlendMode+Filter.swift": [1702039033, 604759023]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/CGColor+RGB.swift": [1702039033, 602423795]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/CGFloatExtensions.swift": [1702039033, 599861494]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/DataExtension.swift": [1704892967, 589136073]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/MathKit.swift": [1702039033, 615428909]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/StringExtensions.swift": [1702039033, 608296309]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Helpers/AnimationContext.swift": [1704892967, 590607956]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Helpers/AnyEquatable.swift": [1704892967, 591907427]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Helpers/Binding+Map.swift": [1704892967, 594198008]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Helpers/View+ValueChanged.swift": [1704892967, 595225105]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Interpolatable/InterpolatableExtensions.swift": [1702039033, 646939520]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Interpolatable/KeyframeExtensions.swift": [1702039033, 651791140]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Interpolatable/KeyframeInterpolator.swift": [1702039033, 649416981]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/LottieAnimationSource.swift": [1704892967, 597681052]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/BezierPath.swift": [1704892967, 599577906]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/BezierPathRoundExtension.swift": [1704892967, 601358004]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/CGPointExtension.swift": [1702039033, 625994555]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/ColorExtension.swift": [1704892967, 602904580]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/CompoundBezierPath.swift": [1702039033, 630848808]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/CurveVertex.swift": [1702039033, 636923929]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/PathElement.swift": [1702039033, 633958412]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/UnitBezier.swift": [1702039033, 641433457]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/VectorsExtensions.swift": [1704892967, 605118914]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieAnimation.swift": [1704892967, 623664215]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieAnimationHelpers.swift": [1704892967, 627275961]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieAnimationLayer.swift": [1704892967, 629676346]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieAnimationView.swift": [1704892967, 632171466]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieAnimationViewInitializers.swift": [1702039032, 782306026]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottiePlaybackMode.swift": [1704892967, 632948247]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieView.swift": [1704892967, 633640945]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/AnimationCache/AnimationCacheProvider.swift": [1704892967, 635280971]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/AnimationCache/DefaultAnimationCache.swift": [1704892967, 637201105]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/AnimationCache/LRUAnimationCache.swift": [1702039032, 923431903]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/AnimationCache/LottieAnimationCache.swift": [1702039032, 900012751]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Configuration/DecodingStrategy.swift": [1704892967, 638678232]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Configuration/LottieConfiguration.swift": [1704892967, 639314907]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Configuration/ReducedMotionOption.swift": [1704892967, 640806364]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Configuration/RenderingEngineOption.swift": [1704892967, 641682387]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/AnimatedButton.swift": [1704892967, 643797605]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/AnimatedControl.swift": [1704892967, 644901933]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/AnimatedSwitch.swift": [1704892967, 645903197]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/LottieButton.swift": [1704892967, 646606289]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/LottieSwitch.swift": [1704892967, 647248688]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/LottieViewType.swift": [1704892967, 648078902]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DotLottie/Cache/DotLottieCache.swift": [1704892967, 650063098]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DotLottie/Cache/DotLottieCacheProvider.swift": [1702039032, 720678361]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DotLottie/DotLottieConfiguration.swift": [1704892967, 650880020]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DotLottie/DotLottieFile.swift": [1704892967, 652846375]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DotLottie/DotLottieFileHelpers.swift": [1704892967, 654207363]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/AnimationKeypath.swift": [1704892967, 655822666]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/AnyValueProvider.swift": [1702039032, 934539068]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/ColorValueProvider.swift"
+  : [1704892967, 673113557]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/FloatValueProvider.swift"
+  : [1704892967, 674228759]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/GradientValueProvider.swift"
+  : [1704892967, 675338128]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/PointValueProvider.swift"
+  : [1704892967, 676587082]
+  ? "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/SizeValueProvider.swift"
+  : [1704892967, 677927011]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/FontProvider/AnimationFontProvider.swift": [1704892967, 679230518]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/ImageProvider/AnimationImageProvider.swift": [1704892967, 680486547]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Keyframes/Interpolatable.swift": [1702039032, 886025397]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Keyframes/Keyframe.swift": [1704892967, 681527588]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Logging/LottieLogger.swift": [1702039032, 930743983]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Primitives/AnimationTime.swift": [1702039032, 862083085]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Primitives/LottieColor.swift": [1702039032, 851921479]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Primitives/Vectors.swift": [1704892967, 682810207]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/TextProvider/AnimationTextProvider.swift": [1704892967, 684098548]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/AnimationSubview.swift": [1704892967, 685557570]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/BundleImageProvider.swift": [1704892967, 687217931]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/Compatibility/CompatibleAnimationKeypath.swift": [1702039032, 818250464]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/Compatibility/CompatibleAnimationView.swift": [1704892967, 688633008]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/FilepathImageProvider.swift": [1704892967, 689871328]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/LottieAnimationViewBase.swift": [1704892967, 691235627]
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/UIColorExtension.swift": [1702039032, 839502222]

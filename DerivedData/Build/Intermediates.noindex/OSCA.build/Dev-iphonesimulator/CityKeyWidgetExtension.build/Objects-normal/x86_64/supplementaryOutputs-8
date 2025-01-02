@@ -1,0 +1,24 @@
+"/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/CityKeyWidget.swift":
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/CityKeyWidget-ea68d7a3c308e96a90269ccdc72ef6a9.o"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/CityKeyWidget-ea68d7a3c308e96a90269ccdc72ef6a9.d"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/CityKeyWidget-ea68d7a3c308e96a90269ccdc72ef6a9.swiftdeps"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/CityKeyWidget-ea68d7a3c308e96a90269ccdc72ef6a9.dia"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/CityKeyWidget-ea68d7a3c308e96a90269ccdc72ef6a9.swiftconstvalues"
+"/Users/A200111500/Documents/osca-ios-core/OSCA/Helper/SCUserDefaultsHelper.swift":
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCUserDefaultsHelper.swiftdeps"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCUserDefaultsHelper.swiftconstvalues"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCUserDefaultsHelper.d"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCUserDefaultsHelper.o"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCUserDefaultsHelper.dia"
+"/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/NewsWidgetView/Medium/SCNewsMediumWidget.swift":
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCNewsMediumWidget.swiftconstvalues"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCNewsMediumWidget.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCNewsMediumWidget.swiftdeps"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCNewsMediumWidget.dia"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/SCNewsMediumWidget.d"
+"/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/WasteCalendar/Helper/enum/WasteCalendarDay.swift":
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WasteCalendarDay.dia"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WasteCalendarDay.swiftconstvalues"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WasteCalendarDay.d"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WasteCalendarDay.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WasteCalendarDay.swiftdeps"

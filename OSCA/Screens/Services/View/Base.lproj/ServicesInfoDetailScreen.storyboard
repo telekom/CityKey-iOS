@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="bxg-oj-lJ9">
+            <objects>
+                <navigationController storyboardIdentifier="ServicesInfoDetailVC" automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="crossDissolve" id="DQ8-cm-EAC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="rcq-Ya-bpe">
+                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" name="CLR_NAVBAR_SOLID_TITLE"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jDV-1w-evw" kind="relationship" relationship="rootViewController" id="wFh-u8-Opz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jOh-8W-pG6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="169" y="638"/>
+        </scene>
+        <!--SCServicesInfoDetailVC-->
+        <scene sceneID="mc3-dr-UAG">
+            <objects>
+                <viewController storyboardIdentifier="SCServicesInfoDetailVC" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="jDV-1w-evw" userLabel="SCServicesInfoDetailVC" customClass="SCServicesInfoDetailVC" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="81a-Cf-9Se">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="718"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xah-Xn-Zfu">
+                                <rect key="frame" x="0.0" y="0.0" width="380" height="700"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ib4-mq-lXv" userLabel="Info Cell Image View">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="230"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="230" id="I2o-Ue-HY0"/>
+                                            <constraint firstAttribute="height" constant="230" id="M13-60-N1q"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" id="uWH-gm-NXw"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="uWH-gm-NXw"/>
+                                                <exclude reference="M13-60-N1q"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OkG-2Y-kNX" userLabel="SeperatorView1">
+                                        <rect key="frame" x="0.0" y="239" width="375" height="1"/>
+                                        <color key="backgroundColor" name="CLR_BORDER_SILVERGRAY"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="Pqt-Qx-PeT"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ury-Sy-M9P" userLabel="accessibilityView">
+                                        <rect key="frame" x="22" y="248" width="331" height="436"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTa-dw-2Fe">
+                                        <rect key="frame" x="0.0" y="206" width="375" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="2en-kU-uiG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hqV-bt-h1w">
+                                        <rect key="frame" x="57.666666666666657" y="514" width="260" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="260" id="dbD-qI-fmz"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="AH8-bx-sHE"/>
+                                <constraints>
+                                    <constraint firstItem="AH8-bx-sHE" firstAttribute="trailing" secondItem="OkG-2Y-kNX" secondAttribute="trailing" id="3z4-7I-IJw"/>
+                                    <constraint firstItem="hqV-bt-h1w" firstAttribute="centerX" secondItem="Xah-Xn-Zfu" secondAttribute="centerX" id="4Vc-fS-A9e"/>
+                                    <constraint firstItem="ury-Sy-M9P" firstAttribute="leading" secondItem="AH8-bx-sHE" secondAttribute="leading" constant="22" id="79A-fS-iLB"/>
+                                    <constraint firstItem="NTa-dw-2Fe" firstAttribute="bottom" secondItem="Ib4-mq-lXv" secondAttribute="bottom" id="GJf-GA-cTe"/>
+                                    <constraint firstItem="AH8-bx-sHE" firstAttribute="trailing" secondItem="Ib4-mq-lXv" secondAttribute="trailing" id="Jtn-zN-BI3"/>
+                                    <constraint firstItem="Ib4-mq-lXv" firstAttribute="leading" secondItem="AH8-bx-sHE" secondAttribute="leading" id="Lh8-JS-CMe"/>
+                                    <constraint firstItem="Ib4-mq-lXv" firstAttribute="top" secondItem="Xah-Xn-Zfu" secondAttribute="top" id="XQa-EA-YnV"/>
+                                    <constraint firstItem="NTa-dw-2Fe" firstAttribute="leading" secondItem="AH8-bx-sHE" secondAttribute="leading" id="cnZ-D4-oPV"/>
+                                    <constraint firstItem="AH8-bx-sHE" firstAttribute="trailing" secondItem="ury-Sy-M9P" secondAttribute="trailing" constant="22" id="eCv-br-SfG"/>
+                                    <constraint firstAttribute="bottom" secondItem="hqV-bt-h1w" secondAttribute="bottom" constant="50" id="hPc-Oz-ArZ"/>
+                                    <constraint firstItem="OkG-2Y-kNX" firstAttribute="leading" secondItem="AH8-bx-sHE" secondAttribute="leading" id="hum-h9-YZn"/>
+                                    <constraint firstItem="AH8-bx-sHE" firstAttribute="bottom" secondItem="ury-Sy-M9P" secondAttribute="bottom" id="s9P-6j-IfC"/>
+                                    <constraint firstItem="AH8-bx-sHE" firstAttribute="trailing" secondItem="NTa-dw-2Fe" secondAttribute="trailing" id="ztg-xv-hu3"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eMD-Rp-ui8"/>
+                        <color key="backgroundColor" name="CLR_BCKGRND"/>
+                        <constraints>
+                            <constraint firstItem="Xah-Xn-Zfu" firstAttribute="leading" secondItem="eMD-Rp-ui8" secondAttribute="leading" id="JqN-Ru-prJ"/>
+                            <constraint firstItem="eMD-Rp-ui8" firstAttribute="bottom" secondItem="Xah-Xn-Zfu" secondAttribute="bottom" id="MWU-b5-NGa"/>
+                            <constraint firstItem="Xah-Xn-Zfu" firstAttribute="top" secondItem="eMD-Rp-ui8" secondAttribute="top" id="Qeo-qb-t2B"/>
+                            <constraint firstItem="Xah-Xn-Zfu" firstAttribute="trailing" secondItem="eMD-Rp-ui8" secondAttribute="trailing" id="kYX-aq-0si"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="&lt;Headline&gt;" id="OL7-i0-gbT">
+                        <barButtonItem key="leftBarButtonItem" image="icon_close" id="Syx-7O-oVC">
+                            <color key="tintColor" name="CLR_NAVBAR_SOLID_ITEMS"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="accessibilityDetailView" destination="ury-Sy-M9P" id="sja-bf-HhM"/>
+                        <outlet property="closeBtn" destination="Syx-7O-oVC" id="VGf-wl-TAD"/>
+                        <outlet property="imageView" destination="Ib4-mq-lXv" id="vAe-Om-nQ7"/>
+                        <outlet property="photoCreditLabel" destination="NTa-dw-2Fe" id="R3s-SS-POv"/>
+                        <outlet property="scrollView" destination="Xah-Xn-Zfu" id="fyR-Mt-1K5"/>
+                        <outlet property="separatorView" destination="OkG-2Y-kNX" id="rJE-cD-TTa"/>
+                        <outlet property="stackView" destination="hqV-bt-h1w" id="VuC-Td-Tfo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sED-mj-c5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1321" y="798"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_close" width="31" height="31"/>
+        <namedColor name="CLR_BCKGRND">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_BORDER_SILVERGRAY">
+            <color red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_NAVBAR_SOLID_BCKGRND">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_NAVBAR_SOLID_ITEMS">
+            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_NAVBAR_SOLID_TITLE">
+            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

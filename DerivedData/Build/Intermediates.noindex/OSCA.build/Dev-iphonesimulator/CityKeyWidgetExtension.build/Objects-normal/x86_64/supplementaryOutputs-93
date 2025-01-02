@@ -1,0 +1,18 @@
+"/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/Utility/WidgetUtility.swift":
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WidgetUtility.d"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WidgetUtility.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WidgetUtility.swiftdeps"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WidgetUtility.dia"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WidgetUtility.swiftconstvalues"
+"/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/NetworkImage/NetworkImage.swift":
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/NetworkImage.swiftconstvalues"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/NetworkImage.dia"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/NetworkImage.swiftdeps"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/NetworkImage.o"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/NetworkImage.d"
+"/Users/A200111500/Documents/osca-ios-core/OSCA/Extensions/String/String+Localized.swift":
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/String+Localized.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/String+Localized.dia"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/String+Localized.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/String+Localized.swiftdeps"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/String+Localized.swiftconstvalues"

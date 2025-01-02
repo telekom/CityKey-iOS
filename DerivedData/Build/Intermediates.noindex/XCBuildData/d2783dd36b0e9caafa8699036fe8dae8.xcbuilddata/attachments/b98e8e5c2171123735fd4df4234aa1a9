@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/Objects-normal/x86_64/TTGSnackbar-master.swiftconstvalues",
+    "dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/Objects-normal/x86_64/TTGSnackbar-master.d",
+    "diagnostics" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/Objects-normal/x86_64/TTGSnackbar-master.dia",
+    "emit-module-dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/Objects-normal/x86_64/TTGSnackbar-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/Objects-normal/x86_64/TTGSnackbar-master-emit-module.dia",
+    "swift-dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/Objects-normal/x86_64/TTGSnackbar-master.swiftdeps"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/TTGSnackbar/TTGSnackbar/TTGSnackbar.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/Objects-normal/x86_64/TTGSnackbar.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/Objects-normal/x86_64/TTGSnackbar.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/TTGSnackbar.build/Objects-normal/x86_64/TTGSnackbar.o"
+  }
+}

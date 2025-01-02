@@ -1,0 +1,1395 @@
+{
+  "" : {
+    "const-values" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/lottie-ios-master.swiftconstvalues",
+    "dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/lottie-ios-master.d",
+    "diagnostics" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/lottie-ios-master.dia",
+    "emit-module-dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/lottie-ios-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/lottie-ios-master-emit-module.dia",
+    "swift-dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/lottie-ios-master.swiftdeps"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/CAAnimation+TimingConfiguration.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CAAnimation+TimingConfiguration.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CAAnimation+TimingConfiguration.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CAAnimation+TimingConfiguration.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/CALayer+addAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CALayer+addAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CALayer+addAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CALayer+addAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/CombinedShapeAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CombinedShapeAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CombinedShapeAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CombinedShapeAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/CustomPathAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CustomPathAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CustomPathAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CustomPathAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/DropShadowAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DropShadowAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DropShadowAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DropShadowAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/EllipseAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EllipseAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EllipseAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EllipseAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/GradientAnimations.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientAnimations.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientAnimations.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientAnimations.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/LayerProperty.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerProperty.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerProperty.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerProperty.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/OpacityAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/OpacityAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/OpacityAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/OpacityAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/RectangleAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RectangleAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RectangleAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RectangleAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/ShapeAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/StarAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StarAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StarAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StarAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/StrokeAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StrokeAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StrokeAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StrokeAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/TransformAnimations.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TransformAnimations.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TransformAnimations.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TransformAnimations.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/VisibilityAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/VisibilityAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/VisibilityAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/VisibilityAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/CompatibilityTracker.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompatibilityTracker.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompatibilityTracker.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompatibilityTracker.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/CoreAnimationLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CoreAnimationLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CoreAnimationLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CoreAnimationLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Extensions/CALayer+fillBounds.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CALayer+fillBounds.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CALayer+fillBounds.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CALayer+fillBounds.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Extensions/KeyframeGroup+exactlyOneKeyframe.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeGroup+exactlyOneKeyframe.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeGroup+exactlyOneKeyframe.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeGroup+exactlyOneKeyframe.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Extensions/Keyframes+combined.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Keyframes+combined.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Keyframes+combined.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Keyframes+combined.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/AnimationLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/BaseAnimationLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BaseAnimationLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BaseAnimationLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BaseAnimationLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/BaseCompositionLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BaseCompositionLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BaseCompositionLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BaseCompositionLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/CALayer+setupLayerHierarchy.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CALayer+setupLayerHierarchy.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CALayer+setupLayerHierarchy.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CALayer+setupLayerHierarchy.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/GradientRenderLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientRenderLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientRenderLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientRenderLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/ImageLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/InfiniteOpaqueAnimationLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/InfiniteOpaqueAnimationLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/InfiniteOpaqueAnimationLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/InfiniteOpaqueAnimationLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/LayerModel+makeAnimationLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerModel+makeAnimationLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerModel+makeAnimationLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerModel+makeAnimationLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/MaskCompositionLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MaskCompositionLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MaskCompositionLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MaskCompositionLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/PreCompLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PreCompLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PreCompLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PreCompLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/RepeaterLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RepeaterLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RepeaterLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RepeaterLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/ShapeItemLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeItemLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeItemLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeItemLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/ShapeLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/SolidLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SolidLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SolidLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SolidLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/TextLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/TransformLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TransformLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TransformLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TransformLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/CoreAnimation/ValueProviderStore.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ValueProviderStore.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ValueProviderStore.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ValueProviderStore.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/Collection+Diff.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Collection+Diff.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Collection+Diff.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Collection+Diff.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/Diffable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Diffable.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Diffable.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Diffable.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/DiffableSection.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DiffableSection.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DiffableSection.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DiffableSection.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/IndexChangeset.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/IndexChangeset.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/IndexChangeset.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/IndexChangeset.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Diffing/SectionedChangeset.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SectionedChangeset.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SectionedChangeset.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SectionedChangeset.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Logging/EpoxyLogger.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyLogger.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyLogger.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyLogger.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/CallbackContextEpoxyModeled.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CallbackContextEpoxyModeled.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CallbackContextEpoxyModeled.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CallbackContextEpoxyModeled.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/EpoxyModelArrayBuilder.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModelArrayBuilder.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModelArrayBuilder.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModelArrayBuilder.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/EpoxyModeled.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModeled.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModeled.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModeled.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/EpoxyModelProperty.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModelProperty.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModelProperty.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModelProperty.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/EpoxyModelStorage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModelStorage.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModelStorage.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyModelStorage.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Internal/AnyEpoxyModelProperty.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyEpoxyModelProperty.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyEpoxyModelProperty.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyEpoxyModelProperty.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Internal/ClassReference.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ClassReference.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ClassReference.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ClassReference.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/AnimatedProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/DataIDProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DataIDProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DataIDProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DataIDProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/DidDisplayProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DidDisplayProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DidDisplayProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DidDisplayProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/DidEndDisplayingProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DidEndDisplayingProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DidEndDisplayingProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DidEndDisplayingProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/DidSelectProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DidSelectProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DidSelectProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DidSelectProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/ErasedContentProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ErasedContentProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ErasedContentProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ErasedContentProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/MakeViewProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MakeViewProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MakeViewProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MakeViewProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/SetBehaviorsProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SetBehaviorsProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SetBehaviorsProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SetBehaviorsProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/SetContentProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SetContentProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SetContentProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SetContentProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/StyleIDProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StyleIDProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StyleIDProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StyleIDProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/TraitCollectionProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TraitCollectionProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TraitCollectionProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TraitCollectionProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/ViewDifferentiatorProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewDifferentiatorProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewDifferentiatorProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewDifferentiatorProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/ViewProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/Providers/WillDisplayProviding.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/WillDisplayProviding.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/WillDisplayProviding.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/WillDisplayProviding.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Model/ViewEpoxyModeled.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewEpoxyModeled.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewEpoxyModeled.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewEpoxyModeled.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxyableView+SwiftUIView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyableView+SwiftUIView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyableView+SwiftUIView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyableView+SwiftUIView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxySwiftUIHostingController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUIHostingController.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUIHostingController.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUIHostingController.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxySwiftUIHostingView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUIHostingView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUIHostingView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUIHostingView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxySwiftUIIntrinsicContentSizeInvalidator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUIIntrinsicContentSizeInvalidator.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUIIntrinsicContentSizeInvalidator.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUIIntrinsicContentSizeInvalidator.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/EpoxySwiftUILayoutMargins.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUILayoutMargins.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUILayoutMargins.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxySwiftUILayoutMargins.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/LayoutUtilities/MeasuringViewRepresentable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MeasuringViewRepresentable.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MeasuringViewRepresentable.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MeasuringViewRepresentable.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/LayoutUtilities/SwiftUIMeasurementContainer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SwiftUIMeasurementContainer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SwiftUIMeasurementContainer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SwiftUIMeasurementContainer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/SwiftUIView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SwiftUIView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SwiftUIView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SwiftUIView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/UIView+SwiftUIView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UIView+SwiftUIView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UIView+SwiftUIView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UIView+SwiftUIView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/UIViewConfiguringSwiftUIView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UIViewConfiguringSwiftUIView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UIViewConfiguringSwiftUIView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UIViewConfiguringSwiftUIView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Views/BehaviorsConfigurableView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BehaviorsConfigurableView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BehaviorsConfigurableView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BehaviorsConfigurableView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Views/ContentConfigurableView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ContentConfigurableView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ContentConfigurableView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ContentConfigurableView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Views/EpoxyableView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyableView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyableView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EpoxyableView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Views/StyledView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StyledView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StyledView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StyledView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/Views/ViewType.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewType.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewType.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ViewType.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/LRUCache/LRUCache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LRUCache.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LRUCache.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LRUCache.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+BackingConfiguration.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+BackingConfiguration.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+BackingConfiguration.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+BackingConfiguration.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Helpers.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Helpers.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Helpers.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Helpers.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+MemoryFile.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+MemoryFile.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+MemoryFile.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+MemoryFile.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Progress.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Progress.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Progress.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Progress.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Reading.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Reading.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Reading.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Reading.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+ReadingDeprecated.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+ReadingDeprecated.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+ReadingDeprecated.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+ReadingDeprecated.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Writing.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Writing.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Writing.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+Writing.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+WritingDeprecated.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+WritingDeprecated.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+WritingDeprecated.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+WritingDeprecated.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+ZIP64.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+ZIP64.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+ZIP64.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Archive+ZIP64.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Data+Compression.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Data+Compression.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Data+Compression.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Data+Compression.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Data+CompressionDeprecated.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Data+CompressionDeprecated.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Data+CompressionDeprecated.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Data+CompressionDeprecated.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Data+Serialization.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Data+Serialization.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Data+Serialization.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Data+Serialization.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Entry.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Entry.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Entry.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Entry.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Entry+Serialization.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Entry+Serialization.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Entry+Serialization.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Entry+Serialization.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Entry+ZIP64.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Entry+ZIP64.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Entry+ZIP64.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Entry+ZIP64.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FileManager+ZIP.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FileManager+ZIP.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FileManager+ZIP.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/URL+ZIP.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/URL+ZIP.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/URL+ZIP.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/URL+ZIP.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/CompositionLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompositionLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompositionLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompositionLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/ImageCompositionLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageCompositionLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageCompositionLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageCompositionLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/MaskContainerLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MaskContainerLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MaskContainerLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MaskContainerLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/NullCompositionLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/NullCompositionLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/NullCompositionLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/NullCompositionLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/PreCompositionLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PreCompositionLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PreCompositionLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PreCompositionLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/ShapeCompositionLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeCompositionLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeCompositionLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeCompositionLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/SolidCompositionLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SolidCompositionLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SolidCompositionLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SolidCompositionLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/TextCompositionLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextCompositionLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextCompositionLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextCompositionLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/MainThreadAnimationLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MainThreadAnimationLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MainThreadAnimationLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MainThreadAnimationLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/CachedImageProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CachedImageProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CachedImageProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CachedImageProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/CompositionLayersInitializer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompositionLayersInitializer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompositionLayersInitializer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompositionLayersInitializer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/CoreTextRenderLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CoreTextRenderLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CoreTextRenderLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CoreTextRenderLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/InvertedMatteLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/InvertedMatteLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/InvertedMatteLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/InvertedMatteLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/LayerFontProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerFontProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerFontProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerFontProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/LayerImageProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerImageProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerImageProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerImageProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/LayerTextProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerTextProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerTextProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerTextProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/Utility/LayerTransformNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerTransformNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerTransformNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerTransformNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Extensions/ItemsExtension.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ItemsExtension.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ItemsExtension.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ItemsExtension.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/NodeProperty.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/NodeProperty.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/NodeProperty.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/NodeProperty.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/AnyNodeProperty.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyNodeProperty.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyNodeProperty.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyNodeProperty.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/AnyValueContainer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyValueContainer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyValueContainer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyValueContainer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/KeypathSearchable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeypathSearchable.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeypathSearchable.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeypathSearchable.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/NodePropertyMap.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/NodePropertyMap.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/NodePropertyMap.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/NodePropertyMap.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/ValueContainer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ValueContainer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ValueContainer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ValueContainer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/ValueProviders/GroupInterpolator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GroupInterpolator.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GroupInterpolator.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GroupInterpolator.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/ValueProviders/SingleValueProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SingleValueProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SingleValueProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SingleValueProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/ModifierNodes/RoundedCornersNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RoundedCornersNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RoundedCornersNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RoundedCornersNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/ModifierNodes/TrimPathNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TrimPathNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TrimPathNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TrimPathNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/GroupOutputNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GroupOutputNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GroupOutputNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GroupOutputNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/PassThroughOutputNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PassThroughOutputNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PassThroughOutputNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PassThroughOutputNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/PathOutputNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PathOutputNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PathOutputNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PathOutputNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/FillRenderer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FillRenderer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FillRenderer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FillRenderer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientFillRenderer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientFillRenderer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientFillRenderer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientFillRenderer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientStrokeRenderer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientStrokeRenderer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientStrokeRenderer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientStrokeRenderer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/LegacyGradientFillRenderer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LegacyGradientFillRenderer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LegacyGradientFillRenderer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LegacyGradientFillRenderer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/Renderables/StrokeRenderer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StrokeRenderer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StrokeRenderer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StrokeRenderer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/EllipseNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EllipseNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EllipseNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EllipseNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/PolygonNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PolygonNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PolygonNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PolygonNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/RectNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RectNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RectNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RectNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/ShapeNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/StarNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StarNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StarNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StarNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderContainers/GroupNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GroupNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GroupNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GroupNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderNodes/FillNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FillNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FillNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FillNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderNodes/GradientFillNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientFillNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientFillNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientFillNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderNodes/GradientStrokeNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientStrokeNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientStrokeNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientStrokeNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/RenderNodes/StrokeNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StrokeNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StrokeNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StrokeNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/Text/TextAnimatorNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextAnimatorNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextAnimatorNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextAnimatorNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Protocols/AnimatorNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatorNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatorNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatorNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Protocols/PathNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PathNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PathNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PathNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Protocols/RenderNode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RenderNode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RenderNode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RenderNode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/RenderLayers/ShapeContainerLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeContainerLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeContainerLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeContainerLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/RenderLayers/ShapeRenderLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeRenderLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeRenderLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeRenderLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Assets/Asset.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Asset.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Asset.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Asset.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Assets/AssetLibrary.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AssetLibrary.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AssetLibrary.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AssetLibrary.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Assets/ImageAsset.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageAsset.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageAsset.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageAsset.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Assets/PrecompAsset.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PrecompAsset.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PrecompAsset.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PrecompAsset.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/DictionaryInitializable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DictionaryInitializable.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DictionaryInitializable.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DictionaryInitializable.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/DotLottie/DotLottieAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/DotLottie/DotLottieImageProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieImageProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieImageProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieImageProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/DotLottie/DotLottieManifest.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieManifest.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieManifest.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieManifest.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/DotLottie/DotLottieUtils.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieUtils.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieUtils.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieUtils.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Extensions/Bundle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Bundle.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Bundle.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Bundle.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Extensions/KeyedDecodingContainerExtensions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyedDecodingContainerExtensions.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyedDecodingContainerExtensions.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyedDecodingContainerExtensions.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Keyframes/KeyframeData.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeData.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeData.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeData.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Keyframes/KeyframeGroup.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeGroup.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeGroup.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeGroup.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerEffects/DropShadowEffect.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DropShadowEffect.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DropShadowEffect.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DropShadowEffect.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerEffects/EffectValues/ColorEffectValue.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ColorEffectValue.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ColorEffectValue.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ColorEffectValue.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerEffects/EffectValues/EffectValue.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EffectValue.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EffectValue.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/EffectValue.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerEffects/EffectValues/Vector1DEffectValue.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Vector1DEffectValue.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Vector1DEffectValue.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Vector1DEffectValue.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerEffects/LayerEffect.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerEffect.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerEffect.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerEffect.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/ImageLayerModel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageLayerModel.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageLayerModel.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ImageLayerModel.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/LayerModel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerModel.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerModel.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerModel.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/PreCompLayerModel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PreCompLayerModel.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PreCompLayerModel.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PreCompLayerModel.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/ShapeLayerModel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeLayerModel.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeLayerModel.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeLayerModel.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/SolidLayerModel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SolidLayerModel.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SolidLayerModel.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SolidLayerModel.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Layers/TextLayerModel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextLayerModel.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextLayerModel.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextLayerModel.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerStyles/DropShadowStyle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DropShadowStyle.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DropShadowStyle.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DropShadowStyle.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/LayerStyles/LayerStyle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerStyle.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerStyle.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerStyle.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Objects/DashPattern.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DashPattern.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DashPattern.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DashPattern.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Objects/Marker.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Marker.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Marker.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Marker.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Objects/Mask.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Mask.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Mask.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Mask.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Objects/Transform.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Transform.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Transform.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Transform.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Ellipse.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Ellipse.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Ellipse.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Ellipse.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Fill.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Fill.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Fill.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Fill.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/GradientFill.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientFill.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientFill.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientFill.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/GradientStroke.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientStroke.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientStroke.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientStroke.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Group.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Group.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Group.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Group.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Merge.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Merge.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Merge.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Merge.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Rectangle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Rectangle.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Rectangle.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Rectangle.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Repeater.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Repeater.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Repeater.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Repeater.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/RoundedCorners.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RoundedCorners.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RoundedCorners.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RoundedCorners.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Shape.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Shape.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Shape.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Shape.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/ShapeItem.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeItem.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeItem.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeItem.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/ShapeTransform.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeTransform.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeTransform.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ShapeTransform.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Star.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Star.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Star.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Star.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Stroke.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Stroke.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Stroke.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Stroke.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Trim.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Trim.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Trim.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Trim.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Text/Font.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Font.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Font.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Font.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Text/Glyph.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Glyph.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Glyph.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Glyph.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Text/TextAnimator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextAnimator.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextAnimator.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextAnimator.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Model/Text/TextDocument.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextDocument.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextDocument.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TextDocument.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/RootAnimationLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RootAnimationLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RootAnimationLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RootAnimationLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Debugging/AnimatorNodeDebugging.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatorNodeDebugging.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatorNodeDebugging.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatorNodeDebugging.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Debugging/LayerDebugging.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerDebugging.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerDebugging.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LayerDebugging.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Debugging/TestHelpers.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TestHelpers.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TestHelpers.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/TestHelpers.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/AnimationKeypathExtension.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationKeypathExtension.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationKeypathExtension.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationKeypathExtension.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/BlendMode+Filter.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BlendMode+Filter.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BlendMode+Filter.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BlendMode+Filter.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/CGColor+RGB.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CGColor+RGB.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CGColor+RGB.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CGColor+RGB.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/CGFloatExtensions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CGFloatExtensions.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CGFloatExtensions.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CGFloatExtensions.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/DataExtension.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DataExtension.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DataExtension.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DataExtension.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/MathKit.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MathKit.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MathKit.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/MathKit.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Extensions/StringExtensions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StringExtensions.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StringExtensions.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/StringExtensions.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Helpers/AnimationContext.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationContext.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationContext.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationContext.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Helpers/AnyEquatable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyEquatable.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyEquatable.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyEquatable.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Helpers/Binding+Map.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Binding+Map.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Binding+Map.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Binding+Map.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Helpers/View+ValueChanged.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/View+ValueChanged.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/View+ValueChanged.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/View+ValueChanged.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Interpolatable/InterpolatableExtensions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/InterpolatableExtensions.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/InterpolatableExtensions.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/InterpolatableExtensions.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Interpolatable/KeyframeExtensions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeExtensions.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeExtensions.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeExtensions.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Interpolatable/KeyframeInterpolator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeInterpolator.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeInterpolator.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/KeyframeInterpolator.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/LottieAnimationSource.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationSource.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationSource.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationSource.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/BezierPath.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BezierPath.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BezierPath.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BezierPath.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/BezierPathRoundExtension.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BezierPathRoundExtension.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BezierPathRoundExtension.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BezierPathRoundExtension.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/CGPointExtension.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CGPointExtension.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CGPointExtension.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CGPointExtension.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/ColorExtension.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ColorExtension.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ColorExtension.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ColorExtension.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/CompoundBezierPath.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompoundBezierPath.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompoundBezierPath.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompoundBezierPath.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/CurveVertex.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CurveVertex.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CurveVertex.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CurveVertex.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/PathElement.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PathElement.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PathElement.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PathElement.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/UnitBezier.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UnitBezier.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UnitBezier.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UnitBezier.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Private/Utility/Primitives/VectorsExtensions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/VectorsExtensions.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/VectorsExtensions.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/VectorsExtensions.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieAnimation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimation.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimation.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimation.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieAnimationHelpers.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationHelpers.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationHelpers.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationHelpers.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieAnimationLayer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationLayer.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationLayer.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationLayer.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieAnimationView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieAnimationViewInitializers.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationViewInitializers.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationViewInitializers.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationViewInitializers.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottiePlaybackMode.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottiePlaybackMode.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottiePlaybackMode.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottiePlaybackMode.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Animation/LottieView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/AnimationCache/AnimationCacheProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationCacheProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationCacheProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationCacheProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/AnimationCache/DefaultAnimationCache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DefaultAnimationCache.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DefaultAnimationCache.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DefaultAnimationCache.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/AnimationCache/LottieAnimationCache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationCache.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationCache.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationCache.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/AnimationCache/LRUAnimationCache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LRUAnimationCache.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LRUAnimationCache.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LRUAnimationCache.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Configuration/DecodingStrategy.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DecodingStrategy.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DecodingStrategy.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DecodingStrategy.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Configuration/LottieConfiguration.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieConfiguration.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieConfiguration.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieConfiguration.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Configuration/ReducedMotionOption.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ReducedMotionOption.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ReducedMotionOption.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ReducedMotionOption.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Configuration/RenderingEngineOption.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RenderingEngineOption.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RenderingEngineOption.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/RenderingEngineOption.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/AnimatedButton.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedButton.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedButton.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedButton.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/AnimatedControl.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedControl.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedControl.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedControl.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/AnimatedSwitch.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedSwitch.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedSwitch.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimatedSwitch.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/LottieButton.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieButton.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieButton.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieButton.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/LottieSwitch.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieSwitch.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieSwitch.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieSwitch.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Controls/LottieViewType.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieViewType.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieViewType.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieViewType.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DotLottie/Cache/DotLottieCache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieCache.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieCache.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieCache.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DotLottie/Cache/DotLottieCacheProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieCacheProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieCacheProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieCacheProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DotLottie/DotLottieConfiguration.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieConfiguration.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieConfiguration.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieConfiguration.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DotLottie/DotLottieFile.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieFile.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieFile.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieFile.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DotLottie/DotLottieFileHelpers.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieFileHelpers.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieFileHelpers.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/DotLottieFileHelpers.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/AnimationKeypath.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationKeypath.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationKeypath.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationKeypath.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/AnyValueProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyValueProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyValueProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnyValueProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/ColorValueProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ColorValueProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ColorValueProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/ColorValueProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/FloatValueProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FloatValueProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FloatValueProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FloatValueProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/GradientValueProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientValueProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientValueProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/GradientValueProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/PointValueProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PointValueProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PointValueProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/PointValueProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/SizeValueProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SizeValueProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SizeValueProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/SizeValueProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/FontProvider/AnimationFontProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationFontProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationFontProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationFontProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/ImageProvider/AnimationImageProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationImageProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationImageProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationImageProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/AnimationSubview.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationSubview.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationSubview.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationSubview.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/BundleImageProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BundleImageProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BundleImageProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/BundleImageProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/Compatibility/CompatibleAnimationKeypath.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompatibleAnimationKeypath.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompatibleAnimationKeypath.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompatibleAnimationKeypath.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/Compatibility/CompatibleAnimationView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompatibleAnimationView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompatibleAnimationView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/CompatibleAnimationView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/FilepathImageProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FilepathImageProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FilepathImageProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/FilepathImageProvider.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/LottieAnimationViewBase.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationViewBase.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationViewBase.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieAnimationViewBase.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/iOS/UIColorExtension.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UIColorExtension.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UIColorExtension.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/UIColorExtension.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Keyframes/Interpolatable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Interpolatable.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Interpolatable.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Interpolatable.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Keyframes/Keyframe.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Keyframe.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Keyframe.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Keyframe.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Logging/LottieLogger.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieLogger.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieLogger.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieLogger.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Primitives/AnimationTime.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationTime.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationTime.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationTime.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Primitives/LottieColor.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieColor.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieColor.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/LottieColor.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/Primitives/Vectors.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Vectors.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Vectors.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/Vectors.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/lottie-ios/Sources/Public/TextProvider/AnimationTextProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationTextProvider.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationTextProvider.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/lottie-ios.build/Objects-normal/arm64/AnimationTextProvider.o"
+  }
+}

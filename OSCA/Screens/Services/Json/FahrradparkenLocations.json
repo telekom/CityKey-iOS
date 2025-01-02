@@ -1,0 +1,52 @@
+{
+  "content": [
+    {
+      "service_request_id": "14-2023",
+      "description": "<p>Duris sanctius sic erectos cepit vos erat quin. Fuerat arce pontus sine nisi melioris. Haec inposuit pendebat sibi septemque caesa pluvialibus. Feras effigiem aurea animalibus. Vesper ante quod frigore animal! Caecoque lucis terrae his utque. Quarum foret suis praeter videre crescendo obsistitur.</p>\r\n",
+      "lat": 37.791870,
+      "long": -122.406982,
+      "service_name": "Engstelle Gehweg",
+      "status": "open",
+      "media_url": "http://maengelmelder.duisburgcity.com/system/files/2023-04/1650705865473_3333.jpeg",
+      "extended_attributes": {
+        "markaspot": {
+          "status_descriptive_name": "Warteliste",
+          "status_hex": "#8B0000",
+          "status_icon": "fa-clock-o"
+        }
+      }
+    },
+    {
+      "service_request_id": "13-2023",
+      "description": "CityKey Test",
+      "lat": 37.79624892394529,
+      "long": -122.40388252141639,
+      "service_name": "Service name 1",
+      "status": "open",
+      "media_url": "",
+      "extended_attributes": {
+        "markaspot": {
+          "status_descriptive_name": "Warteliste",
+          "status_hex": "#8B0000",
+          "status_icon": "fa-clock-o"
+        }
+      }
+    },
+    {
+      "service_request_id": "15-2023",
+      "description": "CityKey Test",
+      "lat": 37.794609,
+      "long": -122.401939,
+      "service_name": "Service name 2",
+      "status": "open",
+      "media_url": "",
+      "extended_attributes": {
+        "markaspot": {
+          "status_descriptive_name": "Warteliste",
+          "status_hex": "#8B0000",
+          "status_icon": "fa-clock-o"
+        }
+      }
+    }
+  ]
+}

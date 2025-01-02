@@ -1,0 +1,42 @@
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/DefectReporter/SCDefectReporterForm/Mock/SCDefectReporterFormViewDisplayer.swift":
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterFormViewDisplayer.swiftdeps"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterFormViewDisplayer.o"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterFormViewDisplayer.dia"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterFormViewDisplayer.swiftconstvalues"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterFormViewDisplayer.d"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/DataPrivacyFlow/DataPrivacySettings/Presenter/SCDataPrivacySettingsPresenterTests.swift":
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDataPrivacySettingsPresenterTests.d"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDataPrivacySettingsPresenterTests.swiftdeps"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDataPrivacySettingsPresenterTests.swiftconstvalues"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDataPrivacySettingsPresenterTests.dia"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDataPrivacySettingsPresenterTests.o"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/SCDatePickerPreseenterTests.swift":
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDatePickerPreseenterTests.swiftdeps"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDatePickerPreseenterTests.dia"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDatePickerPreseenterTests.d"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDatePickerPreseenterTests.o"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDatePickerPreseenterTests.swiftconstvalues"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/DefectReporter/DefectReporterLocation/Presenter/SCDefectReporterLocationPresenterTests.swift":
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterLocationPresenterTests.swiftdeps"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterLocationPresenterTests.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterLocationPresenterTests.dia"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterLocationPresenterTests.swiftconstvalues"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterLocationPresenterTests.o"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/SCMainPresenterTests.swift":
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCMainPresenterTests.d"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCMainPresenterTests.swiftconstvalues"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCMainPresenterTests.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCMainPresenterTests.swiftdeps"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCMainPresenterTests.dia"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/DefectReporter/DefectReporterFormSubmission/ViewController/SCDefectReporterFormSubmissionViewControllerTests.swift":
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterFormSubmissionViewControllerTests.o"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterFormSubmissionViewControllerTests.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterFormSubmissionViewControllerTests.dia"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterFormSubmissionViewControllerTests.swiftdeps"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterFormSubmissionViewControllerTests.swiftconstvalues"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/Events/Presenter/SCEventDetailPresenterTests.swift":
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEventDetailPresenterTests.o"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEventDetailPresenterTests.swiftconstvalues"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEventDetailPresenterTests.swiftdeps"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEventDetailPresenterTests.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEventDetailPresenterTests.dia"

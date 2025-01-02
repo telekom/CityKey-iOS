@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2vc-oB-oPi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Event Light Box View Controller-->
+        <scene sceneID="U3f-T3-DJp">
+            <objects>
+                <viewController id="2vc-oB-oPi" customClass="SCEventLightBoxViewController" customModule="SmartCity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BGP-nl-Ews">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9IT-wJ-btZ">
+                                <rect key="frame" x="12" y="32" width="31" height="31"/>
+                                <state key="normal" image="lightbox_close"/>
+                                <connections>
+                                    <action selector="closeButtonWasTapped:" destination="2vc-oB-oPi" eventType="touchUpInside" id="Trp-Ml-0Ng"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jennifer Branson | www.jenb-photo.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55y-ss-9Ze">
+                                <rect key="frame" x="0.0" y="652" width="375" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="10" translatesAutoresizingMaskIntoConstraints="NO" id="Mef-AY-1f4">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2cL-yO-3EO">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2cL-yO-3EO" firstAttribute="top" secondItem="Mef-AY-1f4" secondAttribute="top" id="6uf-uw-ZNE"/>
+                                    <constraint firstAttribute="bottom" secondItem="2cL-yO-3EO" secondAttribute="bottom" id="d5y-Zy-xlj"/>
+                                    <constraint firstAttribute="trailing" secondItem="2cL-yO-3EO" secondAttribute="trailing" id="d7q-Ra-Jsw"/>
+                                    <constraint firstItem="2cL-yO-3EO" firstAttribute="centerX" secondItem="Mef-AY-1f4" secondAttribute="centerX" id="euK-FB-thQ"/>
+                                    <constraint firstItem="2cL-yO-3EO" firstAttribute="centerY" secondItem="Mef-AY-1f4" secondAttribute="centerY" id="oQR-yk-3H3"/>
+                                    <constraint firstItem="2cL-yO-3EO" firstAttribute="leading" secondItem="Mef-AY-1f4" secondAttribute="leading" id="q5M-zg-Imb"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="2vc-oB-oPi" id="lhW-mL-bje"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9IT-wJ-btZ" firstAttribute="top" secondItem="lJO-ud-yx4" secondAttribute="top" constant="12" id="6oo-N1-iHe"/>
+                            <constraint firstItem="9IT-wJ-btZ" firstAttribute="leading" secondItem="lJO-ud-yx4" secondAttribute="leading" constant="12" id="Fl2-lM-Uah"/>
+                            <constraint firstItem="lJO-ud-yx4" firstAttribute="trailing" secondItem="Mef-AY-1f4" secondAttribute="trailing" id="KkN-EV-O9T"/>
+                            <constraint firstItem="Mef-AY-1f4" firstAttribute="leading" secondItem="lJO-ud-yx4" secondAttribute="leading" id="N43-af-sVg"/>
+                            <constraint firstItem="Mef-AY-1f4" firstAttribute="width" secondItem="BGP-nl-Ews" secondAttribute="width" id="avQ-5J-H6d"/>
+                            <constraint firstItem="55y-ss-9Ze" firstAttribute="leading" secondItem="lJO-ud-yx4" secondAttribute="leading" id="cYI-4J-tri"/>
+                            <constraint firstItem="Mef-AY-1f4" firstAttribute="top" secondItem="lJO-ud-yx4" secondAttribute="top" id="ees-rt-Yu9"/>
+                            <constraint firstItem="lJO-ud-yx4" firstAttribute="bottom" secondItem="Mef-AY-1f4" secondAttribute="bottom" id="j36-Nb-108"/>
+                            <constraint firstItem="lJO-ud-yx4" firstAttribute="trailing" secondItem="55y-ss-9Ze" secondAttribute="trailing" id="uJ7-To-2RZ"/>
+                            <constraint firstItem="55y-ss-9Ze" firstAttribute="bottom" secondItem="lJO-ud-yx4" secondAttribute="bottom" id="xKr-jd-4SZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lJO-ud-yx4"/>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="9IT-wJ-btZ" id="PEV-p9-Wt2"/>
+                        <outlet property="creditLabel" destination="55y-ss-9Ze" id="hqB-Yl-afX"/>
+                        <outlet property="imageView" destination="2cL-yO-3EO" id="jzf-6Y-cNp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RQU-LF-Odc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.199999999999999" y="160.56971514242881"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lightbox_close" width="31" height="31"/>
+    </resources>
+</document>

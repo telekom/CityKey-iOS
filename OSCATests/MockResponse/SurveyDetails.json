@@ -1,0 +1,160 @@
+{
+    "content": {
+        "totalQuestions": 3,
+        "questions": [{
+            "topics": [{
+                "options": [{
+                    "optionNo": 1,
+                    "optionText": "Ja, mehrmals",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }, {
+                    "optionNo": 2,
+                    "optionText": "Ja, aber nur als Test/Spaßfahrt",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }, {
+                    "optionNo": 3,
+                    "optionText": "Nein",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }],
+                "topicId": 1,
+                "topicName": "Haben Sie selbst schon einmal einen E-Scooter in Siegburg gemietet?",
+                "topicOrder": 1,
+                "topicDesignType": 2,
+                "topicOptionType": "RB"
+            }, {
+                "options": [{
+                    "optionNo": 1,
+                    "optionText": "ÖPNV",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }, {
+                    "optionNo": 2,
+                    "optionText": "Fuß",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }, {
+                    "optionNo": 3,
+                    "optionText": "Rad",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }, {
+                    "optionNo": 4,
+                    "optionText": "Pkw",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }, {
+                    "optionNo": 5,
+                    "optionText": "Sonstiges",
+                    "hasTextArea": true,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": true,
+                    "textAreaDescription": ""
+                }],
+                "topicId": 2,
+                "topicName": "Falls JA: Worauf haben Sie an Stelle des E-Scooters verzichtet?\nFalls NEIN: Welches Verkehrsmittel könnten Sie sich vorstellen mit dem E-Scooter (gelegentlich) zu ersetzen?",
+                "topicOrder": 2,
+                "topicDesignType": 2,
+                "topicOptionType": "RB"
+            }],
+            "questionHint": "",
+            "questionText": "E-Scooter in Siegburg",
+            "questionAnswered": false,
+            "questionId": 92,
+            "questionOrder": 1
+        }, {
+            "topics": [{
+                "options": [{
+                    "optionNo": 1,
+                    "optionText": "Störend abgestellte Roller",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }, {
+                    "optionNo": 2,
+                    "optionText": "Regelwidrig fahrende Roller",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }, {
+                    "optionNo": 3,
+                    "optionText": "Keine wesentlichen",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }],
+                "topicId": 1,
+                "topicName": "",
+                "topicOrder": 1,
+                "topicDesignType": 1,
+                "topicOptionType": "CB"
+            }],
+            "questionHint": "",
+            "questionText": "An welcher Stelle haben Sie selbst (gehäuft) Konflikte mit E-Scootern erlebt?",
+            "questionAnswered": false,
+            "questionId": 93,
+            "questionOrder": 2
+        }, {
+            "topics": [{
+                "options": [{
+                    "optionNo": 1,
+                    "optionText": "Meine Wünsche / Anmerkungen",
+                    "hasTextArea": true,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": true,
+                    "textAreaDescription": ""
+                }, {
+                    "optionNo": 2,
+                    "optionText": "Keine",
+                    "hasTextArea": false,
+                    "textAreaInput": "",
+                    "optionSelected": false,
+                    "textAreaMandatory": false,
+                    "textAreaDescription": ""
+                }],
+                "topicId": 1,
+                "topicName": "",
+                "topicOrder": 1,
+                "topicDesignType": 1,
+                "topicOptionType": "RB"
+            }],
+            "questionHint": "",
+            "questionText": "Welche Verbesserung würden Sie der Stadt Siegburg bzw. den Anbietern empfehlen?\nHaben Sie weitergehende Anmerkungen oder Kritik zum Thema E-Scooter?",
+            "questionAnswered": false,
+            "questionId": 94,
+            "questionOrder": 3
+        }],
+        "attemptedQuestions": 0
+    }
+}

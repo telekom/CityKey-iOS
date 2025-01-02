@@ -1,0 +1,57 @@
+{
+    "content": [{
+        "id": 29,
+        "categoryName": "Ausstellung"
+    }, {
+        "id": 68,
+        "categoryName": "BTHVN2020"
+    }, {
+        "id": 7,
+        "categoryName": "Führungen"
+    }, {
+        "id": 69,
+        "categoryName": "Karneval"
+    }, {
+        "id": 67,
+        "categoryName": "Kinder und Jugendliche"
+    }, {
+        "id": 70,
+        "categoryName": "Kirchliche Veranstaltungen"
+    }, {
+        "id": 71,
+        "categoryName": "Konzert"
+    }, {
+        "id": 72,
+        "categoryName": "Lesung"
+    }, {
+        "id": 20,
+        "categoryName": "Open Air"
+    }, {
+        "id": 73,
+        "categoryName": "Sitzung"
+    }, {
+        "id": 74,
+        "categoryName": "sonstige"
+    }, {
+        "id": 75,
+        "categoryName": "Sportveranstaltungen"
+    }, {
+        "id": 76,
+        "categoryName": "Tag der offenen Tür"
+    }, {
+        "id": 77,
+        "categoryName": "Theater"
+    }, {
+        "id": 78,
+        "categoryName": "Vereinsveranstaltung"
+    }, {
+        "id": 79,
+        "categoryName": "Vortrag"
+    }, {
+        "id": 80,
+        "categoryName": "Workshop"
+    }, {
+        "id": 36,
+        "categoryName": "Unkategorisiert"
+    }]
+}

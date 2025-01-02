@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwift-master.swiftconstvalues",
+    "dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwift-master.d",
+    "diagnostics" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwift-master.dia",
+    "emit-module-dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwift-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwift-master-emit-module.dia",
+    "swift-dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwift-master.swiftdeps"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/KeychainSwift/Sources/KeychainSwift.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwift.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwift.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwift.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/KeychainSwift/Sources/KeychainSwiftAccessOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwiftAccessOptions.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwiftAccessOptions.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/KeychainSwiftAccessOptions.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/KeychainSwift/Sources/TegKeychainConstants.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/TegKeychainConstants.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/TegKeychainConstants.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/KeychainSwift.build/Objects-normal/arm64/TegKeychainConstants.o"
+  }
+}

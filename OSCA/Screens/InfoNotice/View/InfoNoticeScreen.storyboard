@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TgU-fQ-nlR">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="KmO-jV-6yx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TgU-fQ-nlR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dq2-af-NFG">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" name="CLR_NAVBAR_SOLID_TITLE"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2QK-Q9-tqC" kind="relationship" relationship="rootViewController" id="k1s-OO-HAP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QWY-fi-cV3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86.956521739130437" y="22.767857142857142"/>
+        </scene>
+        <!--Info Notice View Controller-->
+        <scene sceneID="95x-oC-xac">
+            <objects>
+                <viewController id="2QK-Q9-tqC" customClass="SCInfoNoticeViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OXv-EB-SsQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cyp-qw-LgB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aZc-OE-0iV">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="122"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cKU-VC-LDj" userLabel="TopView">
+                                                <rect key="frame" x="21" y="24" width="372" height="90"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Lorem dwhcjwc wc hwechw cwe chuew chuew cu wecwehcuhweuchweu chweuc uwe cuew chuwe cuwe ciwecw" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="C1N-Ah-0Md">
+                                                        <rect key="frame" x="-2" y="0.0" width="374" height="70"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="A2R-5e-0wU"/>
+                                                        </constraints>
+                                                        <color key="textColor" name="CLR_LABEL_TEXT_BLACK"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" name="CLR_BCKGRND"/>
+                                                <constraints>
+                                                    <constraint firstItem="no1-81-0tO" firstAttribute="trailing" secondItem="C1N-Ah-0Md" secondAttribute="trailing" id="UzV-tq-Hh8"/>
+                                                    <constraint firstItem="C1N-Ah-0Md" firstAttribute="top" secondItem="no1-81-0tO" secondAttribute="top" id="XL5-iQ-5YW"/>
+                                                    <constraint firstItem="C1N-Ah-0Md" firstAttribute="leading" secondItem="no1-81-0tO" secondAttribute="leading" constant="-2" id="bfp-Lz-uvl"/>
+                                                    <constraint firstItem="no1-81-0tO" firstAttribute="bottom" secondItem="C1N-Ah-0Md" secondAttribute="bottom" constant="20" id="hYc-KZ-bex"/>
+                                                </constraints>
+                                                <viewLayoutGuide key="safeArea" id="no1-81-0tO"/>
+                                            </view>
+                                        </subviews>
+                                        <edgeInsets key="layoutMargins" top="24" left="21" bottom="8" right="21"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" name="CLR_BCKGRND"/>
+                                <constraints>
+                                    <constraint firstItem="aZc-OE-0iV" firstAttribute="bottom" secondItem="BRt-uV-lMp" secondAttribute="bottom" id="0gj-un-Nf4"/>
+                                    <constraint firstItem="aZc-OE-0iV" firstAttribute="leading" secondItem="BRt-uV-lMp" secondAttribute="leading" id="43c-h5-fip"/>
+                                    <constraint firstItem="aZc-OE-0iV" firstAttribute="top" secondItem="BRt-uV-lMp" secondAttribute="top" id="P0u-Px-JpN"/>
+                                    <constraint firstItem="aZc-OE-0iV" firstAttribute="trailing" secondItem="BRt-uV-lMp" secondAttribute="trailing" id="Q4d-TJ-JIF"/>
+                                    <constraint firstItem="aZc-OE-0iV" firstAttribute="width" secondItem="z5p-5t-5Nx" secondAttribute="width" id="nHf-ue-h2D"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="9aj-IG-1gF"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="BRt-uV-lMp"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="z5p-5t-5Nx"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" name="SkyBlue"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cyp-qw-LgB" secondAttribute="bottom" id="R1P-ce-no8"/>
+                            <constraint firstAttribute="trailing" secondItem="cyp-qw-LgB" secondAttribute="trailing" id="fWx-Ai-1WZ"/>
+                            <constraint firstItem="cyp-qw-LgB" firstAttribute="leading" secondItem="OXv-EB-SsQ" secondAttribute="leading" id="grG-NE-ZIx"/>
+                            <constraint firstItem="cyp-qw-LgB" firstAttribute="top" secondItem="OXv-EB-SsQ" secondAttribute="top" id="whm-uX-r24"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VKJ-pj-PSH"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="RP5-pB-r4j">
+                        <barButtonItem key="rightBarButtonItem" image="icon_close" id="bTW-Xe-mYG">
+                            <color key="tintColor" name="CLR_NAVBAR_SOLID_ITEMS"/>
+                            <connections>
+                                <action selector="closeBtnWasPressed:" destination="2QK-Q9-tqC" id="xZd-CE-I03"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="stackView" destination="aZc-OE-0iV" id="pTZ-CV-Mto"/>
+                        <outlet property="topTextView" destination="C1N-Ah-0Md" id="SXz-h5-8uY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SAj-N0-o6f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066.6666666666667" y="28.794642857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_close" width="31" height="31"/>
+        <namedColor name="CLR_BCKGRND">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_LABEL_TEXT_BLACK">
+            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_NAVBAR_SOLID_BCKGRND">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_NAVBAR_SOLID_ITEMS">
+            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_NAVBAR_SOLID_TITLE">
+            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SkyBlue">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

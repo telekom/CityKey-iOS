@@ -1,0 +1,42 @@
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/CitizenSurvey/SCCitizenSurveyDetail/ViewController/SCCitizenSurveyDetailViewControllerTests.swift":
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyDetailViewControllerTests.swiftconstvalues"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyDetailViewControllerTests.swiftdeps"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyDetailViewControllerTests.dia"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyDetailViewControllerTests.o"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyDetailViewControllerTests.d"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Worker/SCRegistrationWorkerTests.swift":
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCRegistrationWorkerTests.o"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCRegistrationWorkerTests.dia"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCRegistrationWorkerTests.d"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCRegistrationWorkerTests.swiftconstvalues"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCRegistrationWorkerTests.swiftdeps"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/CitizenSurvey/SCCitizenSurveyDataPrivacy/ViewController/SCCitizenSurveyDataPrivacyViewControllerTests.swift":
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyDataPrivacyViewControllerTests.d"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyDataPrivacyViewControllerTests.swiftdeps"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyDataPrivacyViewControllerTests.swiftconstvalues"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyDataPrivacyViewControllerTests.o"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyDataPrivacyViewControllerTests.dia"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Worker/SCEventListWorkerTests.swift":
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEventListWorkerTests.swiftdeps"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEventListWorkerTests.swiftconstvalues"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEventListWorkerTests.o"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEventListWorkerTests.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEventListWorkerTests.dia"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/CityImprint/Presenter/SCCityImprintPresenterTests.swift":
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityImprintPresenterTests.d"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityImprintPresenterTests.swiftdeps"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityImprintPresenterTests.o"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityImprintPresenterTests.swiftconstvalues"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityImprintPresenterTests.dia"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/SharedWorkerTest/SCCityUserContentSharedWorkerTests.swift":
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityUserContentSharedWorkerTests.swiftdeps"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityUserContentSharedWorkerTests.o"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityUserContentSharedWorkerTests.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityUserContentSharedWorkerTests.dia"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityUserContentSharedWorkerTests.swiftconstvalues"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/StringContainsSpecialCharactersTests.swift":
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/StringContainsSpecialCharactersTests.swiftdeps"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/StringContainsSpecialCharactersTests.o"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/StringContainsSpecialCharactersTests.swiftconstvalues"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/StringContainsSpecialCharactersTests.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/StringContainsSpecialCharactersTests.dia"

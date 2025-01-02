@@ -1,0 +1,34 @@
+Binary file AusweisApp2.xcframework/ios-arm64/AusweisApp2.framework/AusweisApp2 matches
+Binary file AusweisApp2.xcframework/ios-arm64_x86_64-simulator/AusweisApp2.framework/AusweisApp2 matches
+Pods/Adjust/Adjust/ADJPackageBuilder.m:328: warning: Are you sure you want to use strncpy?
+To remove this warning, append a comment at the end of this line strncpy(activityKind, activityKindChar, strlen(activityKindChar) + 1);
+Pods/Adjust/Adjust/ADJPackageBuilder.m:329: warning: Are you sure you want to use strncpy?
+To remove this warning, append a comment at the end of this line strncpy(sdkVersion, sdkVersionChar, strlen(sdkVersionChar) + 1);
+Binary file Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework/GoogleMapsCore matches
+Binary file Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.xcframework/ios-arm64_x86_64-simulator/GoogleMapsCore.framework/GoogleMapsCore matches
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+BackingConfiguration.swift:56: warning: Are you sure you want to use fopen?
+To remove this warning, append a comment at the end of this line fopen(fileSystemRepresentation, "rb"),
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+BackingConfiguration.swift:82: warning: Are you sure you want to use fopen?
+To remove this warning, append a comment at the end of this line fopen(fileSystemRepresentation, "rb+"),
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Reading.swift:44: warning: Are you sure you want to use fopen?
+To remove this warning, append a comment at the end of this line fopen(destinationRepresentation, "wb+") else {
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Writing.swift:84: warning: Are you sure you want to use fopen?
+To remove this warning, append a comment at the end of this line fopen(entryFileSystemRepresentation, "rb") else {
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/Archive+Writing.swift:307: warning: Are you sure you want to use fopen?
+To remove this warning, append a comment at the end of this line fopen(fileSystemRepresentation, "rb+") else { throw ArchiveError.unreadableArchive }
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift:70: warning: Are you sure you want to use stat?
+To remove this warning, append a comment at the end of this line stat()
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift:71: warning: Are you sure you want to use stat?
+To remove this warning, append a comment at the end of this line stat(entryFileSystemRepresentation, &fileStat)
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift:82: warning: Are you sure you want to use stat?
+To remove this warning, append a comment at the end of this line stat()
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift:83: warning: Are you sure you want to use stat?
+To remove this warning, append a comment at the end of this line stat(entryFileSystemRepresentation, &fileStat)
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift:101: warning: Are you sure you want to use stat?
+To remove this warning, append a comment at the end of this line stat()
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift:102: warning: Are you sure you want to use stat?
+To remove this warning, append a comment at the end of this line stat(entryFileSystemRepresentation, &fileStat)
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift:116: warning: Are you sure you want to use stat?
+To remove this warning, append a comment at the end of this line stat()
+Pods/lottie-ios/Sources/Private/EmbeddedLibraries/ZipFoundation/FileManager+ZIP.swift:117: warning: Are you sure you want to use stat?
+To remove this warning, append a comment at the end of this line stat(entryFileSystemRepresentation, &fileStat)

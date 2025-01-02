@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SCRadioLabelArrowView" customModule="OSCA" customModuleProvider="target">
+            <connections>
+                <outlet property="arrowImageView" destination="SrS-VS-HaJ" id="6ZI-GX-cJo"/>
+                <outlet property="radioImageView" destination="KsB-Kh-F6G" id="2r1-b4-FEj"/>
+                <outlet property="titleLabel" destination="ptr-El-xW9" id="xdv-Jx-CJf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" restorationIdentifier="SCRadioLabelArrowView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7yi-8s-yBl" userLabel="ExistingCalendarView">
+                    <rect key="frame" x="10" y="16" width="394" height="68"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radiobox-blank" translatesAutoresizingMaskIntoConstraints="NO" id="KsB-Kh-F6G">
+                            <rect key="frame" x="8" y="28" width="12" height="12"/>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.9965952039" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="12" id="ekS-ux-lAc"/>
+                                <constraint firstAttribute="width" constant="12" id="iuY-as-RDt"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptr-El-xW9">
+                            <rect key="frame" x="40" y="25.5" width="309" height="17"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-disclosure-indicator" translatesAutoresizingMaskIntoConstraints="NO" id="SrS-VS-HaJ">
+                            <rect key="frame" x="369" y="26.5" width="20" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="aKj-ea-rCQ"/>
+                                <constraint firstAttribute="height" constant="15" id="vGt-H3-RQk"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="SrS-VS-HaJ" firstAttribute="centerY" secondItem="7yi-8s-yBl" secondAttribute="centerY" id="6Rt-9G-fn3"/>
+                        <constraint firstItem="ptr-El-xW9" firstAttribute="centerY" secondItem="7yi-8s-yBl" secondAttribute="centerY" id="8Zd-jX-fcd"/>
+                        <constraint firstItem="ptr-El-xW9" firstAttribute="leading" secondItem="KsB-Kh-F6G" secondAttribute="trailing" constant="20" id="AiD-Et-T6T"/>
+                        <constraint firstItem="SrS-VS-HaJ" firstAttribute="leading" secondItem="ptr-El-xW9" secondAttribute="trailing" constant="20" id="FfL-tQ-U6g"/>
+                        <constraint firstItem="KsB-Kh-F6G" firstAttribute="leading" secondItem="7yi-8s-yBl" secondAttribute="leading" constant="8" id="H9y-dR-doW"/>
+                        <constraint firstItem="KsB-Kh-F6G" firstAttribute="centerY" secondItem="7yi-8s-yBl" secondAttribute="centerY" id="U4N-2B-Xe8"/>
+                        <constraint firstAttribute="trailing" secondItem="SrS-VS-HaJ" secondAttribute="trailing" constant="5" id="lSH-8b-zRM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="7yi-8s-yBl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="D4M-pr-p1k"/>
+                <constraint firstItem="7yi-8s-yBl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="WQJ-rO-xzt"/>
+                <constraint firstItem="7yi-8s-yBl" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fe7-mS-WGA"/>
+                <constraint firstItem="7yi-8s-yBl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tsu-s7-q9f"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="533" y="181"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-disclosure-indicator" width="12" height="15"/>
+        <image name="radiobox-blank" width="19" height="19"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

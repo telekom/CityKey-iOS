@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2B2-5Y-4ZA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ausweis Auth Web View Controller-->
+        <scene sceneID="0fH-AB-V4e">
+            <objects>
+                <viewController id="bkh-ae-aiW" customClass="SCAusweisAuthWebViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hel-Vx-Pjt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="5yH-Sm-dYV">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                                <color key="color" name="CLR_LABEL_TEXT_BLACK"/>
+                            </activityIndicatorView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u87-j7-6SV">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="fZb-Vn-QcI"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem image="chevron.left" catalog="system" style="plain" id="aDy-iP-2Es">
+                                        <connections>
+                                            <action selector="didPressGoBackButton:" destination="bkh-ae-aiW" id="Q2O-tu-wzV"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem enabled="NO" style="plain" systemItem="flexibleSpace" id="LFW-vR-mz4"/>
+                                    <barButtonItem image="chevron.right" catalog="system" id="2mg-h8-gB5">
+                                        <connections>
+                                            <action selector="didPressGoForwardButton:" destination="bkh-ae-aiW" id="v6a-R7-lAj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem enabled="NO" style="plain" systemItem="flexibleSpace" id="EyN-2w-ZEO"/>
+                                    <barButtonItem image="egov_browser_reload" id="d6L-jW-JTK">
+                                        <connections>
+                                            <action selector="didPressReloadButton:" destination="bkh-ae-aiW" id="LOs-Pe-k2c"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem enabled="NO" style="plain" systemItem="flexibleSpace" id="MPG-Ud-589"/>
+                                    <barButtonItem image="icon_action_share" id="ADI-Zg-61G">
+                                        <connections>
+                                            <action selector="didPressLuanchExternalButton:" destination="bkh-ae-aiW" id="kYX-UU-RZ1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" name="CLR_ICON_TINT_BLACK"/>
+                            </toolbar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RaA-Ct-L0o"/>
+                        <color key="backgroundColor" name="CLR_BCKGRND"/>
+                        <constraints>
+                            <constraint firstItem="5yH-Sm-dYV" firstAttribute="centerY" secondItem="hel-Vx-Pjt" secondAttribute="centerY" id="6Lr-3D-b1e"/>
+                            <constraint firstItem="u87-j7-6SV" firstAttribute="trailing" secondItem="RaA-Ct-L0o" secondAttribute="trailing" id="6dm-V8-PFt"/>
+                            <constraint firstItem="u87-j7-6SV" firstAttribute="leading" secondItem="RaA-Ct-L0o" secondAttribute="leading" id="Gmx-sx-obN"/>
+                            <constraint firstItem="5yH-Sm-dYV" firstAttribute="centerX" secondItem="hel-Vx-Pjt" secondAttribute="centerX" id="SbY-d2-c3M"/>
+                            <constraint firstItem="RaA-Ct-L0o" firstAttribute="bottom" secondItem="u87-j7-6SV" secondAttribute="bottom" id="uzj-9O-TBd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nQB-Gx-XNZ">
+                        <barButtonItem key="leftBarButtonItem" title="Done" id="Yzp-fB-ZGA">
+                            <color key="tintColor" name="CLR_NAVBAR_SOLID_TITLE"/>
+                            <connections>
+                                <action selector="didPressCloseButton:" destination="bkh-ae-aiW" id="XXd-9u-1ja"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityIndicator" destination="5yH-Sm-dYV" id="Q2D-mh-ZOy"/>
+                        <outlet property="closeButton" destination="Yzp-fB-ZGA" id="HvS-PZ-DNC"/>
+                        <outlet property="goBackButton" destination="aDy-iP-2Es" id="0bd-o7-ze3"/>
+                        <outlet property="goForwardButton" destination="2mg-h8-gB5" id="7KK-fn-sPQ"/>
+                        <outlet property="launchExternalButton" destination="ADI-Zg-61G" id="xcg-EH-JUW"/>
+                        <outlet property="reloadButton" destination="d6L-jW-JTK" id="q3k-s7-RPq"/>
+                        <outlet property="webViewToolbar" destination="u87-j7-6SV" id="8Dh-9c-8ys"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I2V-Pg-N4q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="481.15942028985512" y="-21.428571428571427"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="r8L-6G-iYt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2B2-5Y-4ZA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BaM-Fd-aTP">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bkh-ae-aiW" kind="relationship" relationship="rootViewController" id="Ddl-Fj-9WY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5gX-6o-Zoe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-428.98550724637687" y="-21.428571428571427"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chevron.left" catalog="system" width="97" height="128"/>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
+        <image name="egov_browser_reload" width="24" height="24"/>
+        <image name="icon_action_share" width="24" height="24"/>
+        <namedColor name="CLR_BCKGRND">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_ICON_TINT_BLACK">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_LABEL_TEXT_BLACK">
+            <color red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CLR_NAVBAR_SOLID_TITLE">
+            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

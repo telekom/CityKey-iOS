@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  SmartCity
+
+  Created by Robert Swoboda - Telekom on 28.04.19.
+  Copyright © 2019 Deutsche Telekom AG - VTI Organization. All rights reserved.
+*/
+
+NSFaceIDUsageDescription = "Benutzen Sie Face ID, um auf Ihren Account zuzugreifen. Die Zugriffsrechte der App können Sie jederzeit in den Einstellungen verwalten.";
+NSCalendarsUsageDescription = "Wir benötigen einen Kalenderzugriff um einen Termin hinzufügen zu können. Die Zugriffsrechte der App können Sie jederzeit in den Einstellungen verwalten.";
+NSLocationWhenInUseUsageDescription = "Dies ermöglicht es uns, Ihren Standort zu nutzen, um bestimmte Funktionen bereitzustellen, wie z. B. den Vorschlag einer von Citykey unterstützten Stadt in der Nähe, die Anzeige Ihres Standorts auf einer Karte und die Möglichkeit, den Ort eines Mangels zu melden.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Dies ermöglicht es uns, Ihren Standort zu nutzen, um bestimmte Funktionen bereitzustellen, wie z. B. den Vorschlag einer von Citykey unterstützten Stadt in der Nähe, die Anzeige Ihres Standorts auf einer Karte und die Möglichkeit, den Ort eines Mangels zu melden.";
+NSCameraUsageDescription = "Wenn wir Ihre Kamera nutzen dürfen, können Sie den Mangel einfacher melden.";
+NSPhotoLibraryUsageDescription = "Wenn wir Ihre Fotos nutzen dürfen, können Sie den Mangel einfacher melden.";
+NFCReaderUsageDescription = "Citykey benötigt NFC, um auf die eID-Funktion ihres Personalausweises zuzugreifen, um sich bei Online-Diensten zu authentifizieren.";
+NSLocationAlwaysUsageDescription = "Dies ermöglicht es uns, Ihren Standort zu nutzen, um bestimmte Funktionen bereitzustellen, wie z. B. den Vorschlag einer von Citykey unterstützten Stadt in der Nähe, die Anzeige Ihres Standorts auf einer Karte und die Möglichkeit, den Ort eines Mangels zu melden.";

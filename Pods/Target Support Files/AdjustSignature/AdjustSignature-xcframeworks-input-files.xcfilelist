@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/AdjustSignature/AdjustSignature-xcframeworks.sh
+${PODS_ROOT}/AdjustSignature/AdjustSigSdk.xcframework

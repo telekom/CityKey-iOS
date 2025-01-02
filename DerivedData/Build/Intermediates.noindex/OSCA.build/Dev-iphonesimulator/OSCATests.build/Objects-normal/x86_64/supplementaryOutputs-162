@@ -1,0 +1,42 @@
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/DefectReporter/DefectReporterCategorySelection/Mock/SCDefectReporterWorkerMock.swift":
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterWorkerMock.swiftconstvalues"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterWorkerMock.d"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterWorkerMock.swiftdeps"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterWorkerMock.o"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterWorkerMock.dia"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/Profile/Worker/SCEditPasswordWorkerTests.swift":
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEditPasswordWorkerTests.swiftconstvalues"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEditPasswordWorkerTests.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEditPasswordWorkerTests.swiftdeps"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEditPasswordWorkerTests.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCEditPasswordWorkerTests.dia"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Components/SCTextfieldComponentTests.swift":
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCTextfieldComponentTests.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCTextfieldComponentTests.swiftdeps"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCTextfieldComponentTests.dia"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCTextfieldComponentTests.swiftconstvalues"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCTextfieldComponentTests.d"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/CitizenSurvey/SCCitizenSurveyQuestion/ViewController/SCCitizenSurveyQuestionViewControllerTests.swift":
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyQuestionViewControllerTests.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyQuestionViewControllerTests.dia"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyQuestionViewControllerTests.swiftconstvalues"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyQuestionViewControllerTests.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCitizenSurveyQuestionViewControllerTests.swiftdeps"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Mock/MockSharedWorker/SCCityContentSharedWorkerMock.swift":
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityContentSharedWorkerMock.swiftconstvalues"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityContentSharedWorkerMock.dia"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityContentSharedWorkerMock.d"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityContentSharedWorkerMock.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCCityContentSharedWorkerMock.swiftdeps"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/DataPrivacyFlow/DataPrivacyNotice/Mock/SCDataPrivacyNoticePresenterMock.swift":
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDataPrivacyNoticePresenterMock.swiftdeps"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDataPrivacyNoticePresenterMock.dia"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDataPrivacyNoticePresenterMock.d"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDataPrivacyNoticePresenterMock.swiftconstvalues"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDataPrivacyNoticePresenterMock.o"
+"/Users/A200111500/Documents/osca-ios-core/OSCATests/Screens/DefectReporter/DefectReporterLocation/Mock/SCDefectReporterLocationPresenterMock.swift":
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterLocationPresenterMock.d"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterLocationPresenterMock.o"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterLocationPresenterMock.swiftdeps"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterLocationPresenterMock.dia"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/OSCATests.build/Objects-normal/x86_64/SCDefectReporterLocationPresenterMock.swiftconstvalues"

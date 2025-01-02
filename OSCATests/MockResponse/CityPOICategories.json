@@ -1,0 +1,60 @@
+{
+	"content": [{
+		"categoryGroupId": "7",
+		"categoryGroupName": "Activities",
+		"categoryGroupIcon": "https://sol-preprod-img.obs.eu-de.otc.t-systems.com/img/poi_activities_2x.png",
+		"categoryList": [{
+			"categoryId": 82,
+			"categoryName": "Playgrounds and football fields"
+		}]
+	}, {
+		"categoryGroupId": "9",
+		"categoryGroupName": "Culture",
+		"categoryGroupIcon": "https://sol-preprod-img.obs.eu-de.otc.t-systems.com/img/poi_culture_2x.png",
+		"categoryList": [{
+			"categoryId": 81,
+			"categoryName": "Cultural facilities"
+		}]
+	}, {
+		"categoryGroupId": "6",
+		"categoryGroupName": "Family",
+		"categoryGroupIcon": "https://sol-preprod-img.obs.eu-de.otc.t-systems.com/img/poi_family_2x.png",
+		"categoryList": [{
+			"categoryId": 78,
+			"categoryName": "Kindergartens"
+		}, {
+			"categoryId": 80,
+			"categoryName": "Schools"
+		}]
+	}, {
+		"categoryGroupId": "14",
+		"categoryGroupName": "Insider tips of the city Siegburg",
+		"categoryGroupIcon": "https://sol-preprod-img.obs.eu-de.otc.t-systems.com/img/poi_insiders_2x.png",
+		"categoryList": [{
+			"categoryId": 86,
+			"categoryName": "Sights"
+		}]
+	}, {
+		"categoryGroupId": "15",
+		"categoryGroupName": "Mobility",
+		"categoryGroupIcon": "https://sol-preprod-img.obs.eu-de.otc.t-systems.com/img/icon-category-mobility-2@2x.png",
+		"categoryList": [{
+			"categoryId": 85,
+			"categoryName": "Parking lots"
+		}]
+	}, {
+		"categoryGroupId": "5",
+		"categoryGroupName": "Other",
+		"categoryGroupIcon": "https://sol-preprod-img.obs.eu-de.otc.t-systems.com/img/poi_other_2x.png",
+		"categoryList": [{
+			"categoryId": 79,
+			"categoryName": "Administration"
+		}, {
+			"categoryId": 83,
+			"categoryName": "Containers for small electrical appliances"
+		}, {
+			"categoryId": 84,
+			"categoryName": "Glass containers"
+		}]
+	}]
+}

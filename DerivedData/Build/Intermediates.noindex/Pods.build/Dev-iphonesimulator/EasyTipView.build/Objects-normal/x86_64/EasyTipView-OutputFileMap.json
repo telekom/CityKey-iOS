@@ -1,0 +1,20 @@
+{
+  "" : {
+    "const-values" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/EasyTipView-master.swiftconstvalues",
+    "dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/EasyTipView-master.d",
+    "diagnostics" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/EasyTipView-master.dia",
+    "emit-module-dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/EasyTipView-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/EasyTipView-master-emit-module.dia",
+    "swift-dependencies" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/EasyTipView-master.swiftdeps"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/EasyTipView/Sources/EasyTipView/EasyTipView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/EasyTipView.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/EasyTipView.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/EasyTipView.o"
+  },
+  "/Users/A200111500/Documents/osca-ios-core/Pods/EasyTipView/Sources/EasyTipView/UIKitExtensions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/UIKitExtensions.o",
+    "llvm-bc" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/UIKitExtensions.bc",
+    "object" : "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/Pods.build/Dev-iphonesimulator/EasyTipView.build/Objects-normal/x86_64/UIKitExtensions.o"
+  }
+}

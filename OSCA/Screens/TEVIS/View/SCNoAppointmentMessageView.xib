@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SCNoAppointmentMessageView" customModule="OSCA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="642" height="181"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eoq-Fs-kIb">
+                    <rect key="frame" x="21" y="65" width="600" height="61"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="CLR_LABEL_TEXT_GRAY_COOLGRAY"/>
+            <constraints>
+                <constraint firstItem="Eoq-Fs-kIb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="21" id="VNP-SJ-47N"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Eoq-Fs-kIb" secondAttribute="trailing" constant="21" id="jjV-1T-p8S"/>
+                <constraint firstItem="Eoq-Fs-kIb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="21" id="pj4-fR-TOo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Eoq-Fs-kIb" secondAttribute="bottom" constant="21" id="xrP-RI-mM6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="noAppointmentLabel" destination="Eoq-Fs-kIb" id="c36-H5-0K6"/>
+            </connections>
+            <point key="canvasLocation" x="205.79710144927537" y="47.879464285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="CLR_LABEL_TEXT_GRAY_COOLGRAY">
+            <color red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,10 @@
+//  $$WARNING$$
+//  $$INSTRUCTIONS$$
+//
+//  version.xcconfig
+//  Smart City
+//
+
+REVISION = $$REVISION$$
+
+//  $$WARNING$$

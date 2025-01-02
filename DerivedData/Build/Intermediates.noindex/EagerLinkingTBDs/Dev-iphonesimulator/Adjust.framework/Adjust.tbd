@@ -1,0 +1,104 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_ADJAdRevenueSourceIronSource",
+            "_ADJAttributionTokenParameter",
+            "_ADJEnvironmentSandbox",
+            "_ADJUrlStrategyCn",
+            "_ADJAdRevenueSourceMopub",
+            "_AdjustVersionNumber",
+            "_ADJAdRevenueSourceAppLovinMAX",
+            "_ADJAdRevenueSourceUnity",
+            "_ADJAdRevenueSourceHeliumChartboost",
+            "_ADJAdServicesPackageKey",
+            "_ADJAdRevenueSourceAdMost",
+            "_ADJUrlStrategyChina",
+            "_ADJEnvironmentProduction",
+            "_ADJAdRevenueSourceAdMob",
+            "_ADJDataResidencyUS",
+            "_ADJDataResidencyEU",
+            "_ADJAdRevenueSourcePublisher",
+            "_ADJUrlStrategyIndia",
+            "_AdjustVersionString",
+            "_ADJDataResidencyTR"
+          ],
+          "objc_class": [
+            "ADJPackageHandler",
+            "ADJSavedPreLaunch",
+            "ADJConfig",
+            "ADJAdjustFactory",
+            "ADJPackageBuilder",
+            "ADJSessionParameters",
+            "ADJActivityState",
+            "ADJUtil",
+            "AdjustTestOptions",
+            "ADJLinkResolutionDelegate",
+            "ADJEvent",
+            "ADJAdRevenue",
+            "ADJActivityHandler",
+            "ADJSubscription",
+            "PodsDummy_Adjust",
+            "ADJAttributionResponseData",
+            "ADJRequestHandler",
+            "ADJSdkClickResponseData",
+            "ADJUrlStrategy",
+            "ADJSdkClickHandler",
+            "ADJSKAdNetwork",
+            "ADJThirdPartySharing",
+            "ADJSessionSuccess",
+            "ADJSessionResponseData",
+            "ADJEventSuccess",
+            "ADJAttribution",
+            "Adjust",
+            "ADJTimerOnce",
+            "ADJActivityPackage",
+            "ADJPackageParams",
+            "ADJLinkResolution",
+            "ADJResponseData",
+            "ADJActivityKindUtil",
+            "ADJEventResponseData",
+            "ADJTrackingStatusManager",
+            "ADJLogger",
+            "ADJBackoffStrategy",
+            "ADJEventFailure",
+            "ADJInternalState",
+            "ADJAttributionHandler",
+            "ADJTimerCycle",
+            "ADJUserDefaults",
+            "ADJSessionFailure"
+          ],
+          "weak": [
+            "___llvm_profile_raw_version",
+            "___llvm_profile_filename"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/Adjust.framework/Adjust"
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "13",
+        "target": "x86_64-ios-simulator"
+      },
+      {
+        "min_deployment": "14",
+        "target": "arm64-ios-simulator"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

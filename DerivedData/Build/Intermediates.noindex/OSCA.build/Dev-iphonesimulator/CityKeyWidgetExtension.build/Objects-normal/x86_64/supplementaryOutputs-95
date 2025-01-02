@@ -1,0 +1,18 @@
+"/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/Utility/FileLogger.swift":
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/FileLogger.swiftdeps"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/FileLogger.o"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/FileLogger.swiftconstvalues"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/FileLogger.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/FileLogger.dia"
+"/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/WasteCalendar/TimelineProvider/WasteCalendarTimelineProvider.swift":
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WasteCalendarTimelineProvider.d"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WasteCalendarTimelineProvider.o"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WasteCalendarTimelineProvider.dia"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WasteCalendarTimelineProvider.swiftconstvalues"
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WasteCalendarTimelineProvider.swiftdeps"
+"/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/WasteCalendar/Repository/WastCalendarRepository.swift":
+  swift-dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WastCalendarRepository.swiftdeps"
+  const-values: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WastCalendarRepository.swiftconstvalues"
+  object: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WastCalendarRepository.o"
+  dependencies: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WastCalendarRepository.d"
+  diagnostics: "/Users/A200111500/Documents/osca-ios-core/DerivedData/Build/Intermediates.noindex/OSCA.build/Dev-iphonesimulator/CityKeyWidgetExtension.build/Objects-normal/x86_64/WastCalendarRepository.dia"

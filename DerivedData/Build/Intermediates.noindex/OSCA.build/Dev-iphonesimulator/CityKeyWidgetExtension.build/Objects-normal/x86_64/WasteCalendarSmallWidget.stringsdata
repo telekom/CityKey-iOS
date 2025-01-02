@@ -1,0 +1,12 @@
+{
+  "source": "/Users/A200111500/Documents/osca-ios-core/CityKeyWidget/WasteCalendar/WidgetViews/Small/WasteCalendarSmallWidget.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%@, %@."
+      }
+    ]
+  },
+  "version": 1
+}
