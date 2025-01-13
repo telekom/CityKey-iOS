@@ -1,6 +1,6 @@
 ![Citykey App's Overview](./images/cover.png)
 
-[![OpenSSF Scorecard Score](https://api.scorecard.dev/projects/github.com/telekom/citykey-android/badge)](https://scorecard.dev/viewer/?uri=github.com/telekom/citykey-android/badge)
+[![OpenSSF Scorecard Score](https://api.scorecard.dev/projects/github.com/telekom/citykey-ios/badge)](https://scorecard.dev/viewer/?uri=github.com/telekom/citykey-ios/badge)
 
 # Citykey App (iOS Client)
 
