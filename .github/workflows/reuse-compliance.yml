@@ -7,7 +7,7 @@ name: REUSE Compliance Check
 on: [push, pull_request]
 
 jobs:
-  test:
+  test-reuse-compliance:
     runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
