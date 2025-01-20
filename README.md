@@ -2,6 +2,8 @@
 
 # Citykey App (iOS Client)
 
+[![REUSE status](https://api.reuse.software/badge/github.com/telekom/CityKey-iOS)](https://api.reuse.software/info/github.com/telekom/CityKey-iOS)
+
 ## Overview
 
 Citykey is an urban living companion developed by [Deutsche Telekom AG](https://www.telekom.com/de),
