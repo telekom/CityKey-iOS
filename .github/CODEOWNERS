@@ -1,0 +1,8 @@
+# Global code owners for the repository.
+* @telekom/CityKey-iOS
+
+# Code owners for the application code.
+/app/ @BhaskarNS-iOS @ShashilPohankar
+
+# Code owners for the CI, CD, issue tamplates, and more.
+/.github/ @MacOS
