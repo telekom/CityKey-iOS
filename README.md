@@ -2,7 +2,7 @@
 
 [![OpenSSF Scorecard Score](https://api.scorecard.dev/projects/github.com/telekom/citykey-ios/badge)](https://scorecard.dev/viewer/?uri=github.com/telekom/citykey-ios/badge)
 
-# Citykey App (iOS Client)
+# iOS App of Citykey
 
 [![REUSE status](https://api.reuse.software/badge/github.com/telekom/CityKey-iOS)](https://api.reuse.software/info/github.com/telekom/CityKey-iOS)
 
