@@ -1,7 +1,7 @@
 ![Citykey App's Overview](./images/cover.png)
 
 # iOS App of Citykey
-
+[![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue)](https://opensource.org/license/apache-2-0) 
 [![OpenSSF Scorecard Score](https://api.scorecard.dev/projects/github.com/telekom/citykey-ios/badge)](https://scorecard.dev/viewer/?uri=github.com/telekom/citykey-ios/badge)
 [![REUSE status](https://api.reuse.software/badge/github.com/telekom/CityKey-iOS)](https://api.reuse.software/info/github.com/telekom/CityKey-iOS)
 
@@ -13,6 +13,14 @@ access to local services, events, and transportation information, making it a mu
 navigating urban environments. It is the digital way to access the citizen services.
 
 Please [visit the website](https://citykey.app) for more information!
+
+## Want to try out?
+
+Citykey app is free for downloading available on the AppStore
+
+<a href="https://apps.apple.com/ua/app/citykey-citizen-services/id1516529784" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px;">
+<img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1561593600" alt="Download on the App Store" style="border-radius: 13px; width: 250px;">
+</a>
 
 ## Features
 
@@ -57,35 +65,63 @@ Please [visit the website](https://citykey.app) for more information!
     - Report damaged or defective infrastructure to the city
     - Detail your request, simply by sending a photo with a location marker
 
-## Want to try out?
-
-App Store deployed: https://apps.apple.com/ua/app/citykey-citizen-services/id1516529784
-
 ## Building From Source
+
+If you want to start working on Citykey and if you haven't done already, you
+should [familiarize yourself with iOS development](https://developer.apple.com/documentation)
+and [set up a development environment](https://developer.apple.com/xcode/resources).
 
 The first step is to clone the source code repository.
 
-    $ git clone https://gitlab.devops.telekom.de/osca/osca_develop/osca-ios-core
+    $ git clone https://github.com/telekom/CityKey-iOS.git
 
-Then, rename a file `OSCA-Secrets.template.plist` file to `OSCA-Secrets.plist` in the root folder, and then feed the required keys to the above said plist. For more details Please [contact us](https://public.telekom.de/digitalisierungsloesungen/smart-city#Kontaktaufnahme)
+Install the pods using `pod install`.
 
-Use `OSCA Int` scheme variant to run the application for debugging purpose.
+Use `CityKey Release` scheme variant to run the application for debugging purpose.
 
 ## Contribute
 
 Code contributions are welcome!
 
 You should fork the repo as described
-here: https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html
+[here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
 
-See the Issues list for bug
-reports: https://gitlab.devops.telekom.de/osca/osca_develop/osca-ios-core/-/issues
+See the issues list for bug
+reports: [Citykey-iOS issues](https://github.com/telekom/CityKey-iOS/issues).
 
-Before adding new features, please create an issue, or contact
-us: https://public.telekom.de/digitalisierungsloesungen/smart-city#Kontaktaufnahme
+Before adding new features, please create an issue, or [contact
+us](https://public.telekom.de/digitalisierungsloesungen/smart-city#Kontaktaufnahme).
 
-See the [CONTRIBUTING](./CONTRIBUTING.md) file for more details.
+See the [CONTRIBUTING](CONTRIBUTING.md) file for more details.
 
-## License
+## Documentation
 
-See the [LICENSE](./LICENSE) file for more details.
+All the relevant documentation for this project is kept under [documentation](./documentation) directory. Here you will find:
+1. [Guide to add new Services (APIs)](https://github.com/telekom/CityKey-iOS/blob/main/documentation/API_INTEGRATION.md).
+
+## Code of Conduct
+
+This project has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) in version 2.1 as our code of conduct.
+By participating in this project, you agree to abide by its [Code of Conduct](CODE_OF_CONDUCT.md) at all times.
+
+## Licensing
+Copyright (c) 2025 Deutsche Telekom AG
+
+Licensed under the **Apache-2.0 (SPDX short identifier: Apache-2.0)** (the "License"); you may not use this file except in compliance with the License.
+
+You may obtain a copy of the License by reviewing the file [LICENSE](./LICENSES/Apache-2.0.txt) in the repository.
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the [LICENSE](./LICENSES/Apache-2.0.txt) for the specific language governing permissions and limitations under the License.
+
+In accordance with Sections 4 and 6 of the License, the following exclusions apply:
+1. **Trademarks & Logos** – The names, logos, and trademarks of the Licensor are not covered by this License and may not be used without separate permission.
+2. **Design Rights** – Visual identities, UI/UX designs, and other graphical elements remain the property of their respective owners and are not licensed under the Apache License 2.0.
+3. **Non-Coded Copyrights** – Documentation, images, videos, and other non-software materials require separate authorization for use, modification, or distribution.
+
+These elements are not considered part of the licensed Work or Derivative Works unless explicitly agreed otherwise. All elements must be altered, removed, or replaced before use or distribution. All rights to these materials are reserved, and Contributor accepts no liability for any infringing use. By using this repository, you agree to indemnify and hold harmless Contributor against any claims, costs, or damages arising from your use of the excluded elements.
+
+### Source Code
+This project follows the [REUSE standard for software licensing](https://reuse.software). Each file contains copyright and license information, and license texts can be found in the [LICENSES](./LICENSES) folder. For more information visit https://reuse.software.
+
+### Deutsche Telekom Brand
+Although the code for the app is free and available under the Apache 2.0 license, Deutsche Telekom fully reserves all rights to the Telekom brand. To prevent users from getting confused about the source of a digital product or experience, there are strict restrictions on using the Telekom brand and design, even when built into code that we provide. For any customization other than explicitly for the Telekom, you must replace the Deutsche Telekom default theme.
