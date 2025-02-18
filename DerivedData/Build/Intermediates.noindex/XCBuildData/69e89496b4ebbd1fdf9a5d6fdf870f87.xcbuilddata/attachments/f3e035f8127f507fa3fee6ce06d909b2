@@ -1,6 +1,0 @@
-framework module Pods_OSCATests {
-  umbrella header "Pods-OSCATests-umbrella.h"
-
-  export *
-  module * { export * }
-}

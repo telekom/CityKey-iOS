@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
-options: "76fb1ecde8d625f0b804e1914a71d716f7cba8f12c5757658ac64da12f8b9d61"
-build_start_time: [1706101994, 486061000]
-build_end_time: [1706101998, 187192000]
-inputs:
-  "/Users/A200111500/Documents/osca-ios-core/Pods/KeychainSwift/Sources/KeychainSwift.swift": [1706089926, 179749903]
-  "/Users/A200111500/Documents/osca-ios-core/Pods/KeychainSwift/Sources/KeychainSwiftAccessOptions.swift": [1706089926, 193461947]
-  "/Users/A200111500/Documents/osca-ios-core/Pods/KeychainSwift/Sources/TegKeychainConstants.swift": [1706089926, 186804447]

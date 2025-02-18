@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
-options: "95d436aef12263ddf86241b549990b92592d3daf2f4836b674129e48f222072c"
-build_start_time: [1706101994, 485101000]
-build_end_time: [1706102000, 186943000]
-inputs:
-  "/Users/A200111500/Documents/osca-ios-core/Pods/TTGSnackbar/TTGSnackbar/TTGSnackbar.swift": [1704892967, 34833831]

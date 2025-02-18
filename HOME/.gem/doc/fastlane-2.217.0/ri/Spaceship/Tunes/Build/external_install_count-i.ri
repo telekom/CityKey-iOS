@@ -1,2 +1,0 @@
-U:RDoc::Attr[iI"external_install_count:ETI"3Spaceship::Tunes::Build#external_install_count;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"V@return (Integer) Number of installs for this build that come from external users;T:
-@fileI"+spaceship/lib/spaceship/tunes/build.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Spaceship::Tunes::Build;TcRDoc::NormalClass0
