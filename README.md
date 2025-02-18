@@ -94,6 +94,11 @@ us](https://public.telekom.de/digitalisierungsloesungen/smart-city#Kontaktaufnah
 
 See the [CONTRIBUTING](CONTRIBUTING.md) file for more details.
 
+## Documentation
+
+All the relevant documentation for this project is kept under [documentation](./documentation) directory. Here you will find:
+1. [Guide to add new Services (APIs)](https://github.com/telekom/CityKey-iOS/blob/main/documentation/API_INTEGRATION.md).
+
 ## Code of Conduct
 
 This project has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) in version 2.1 as our code of conduct.
