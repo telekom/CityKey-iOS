@@ -1,6 +1,0 @@
-framework module AdjustSigComTelekomCitykeySdk {
-  umbrella header "ADJSigner.h"
-
-  export *
-  module * { export * }
-}

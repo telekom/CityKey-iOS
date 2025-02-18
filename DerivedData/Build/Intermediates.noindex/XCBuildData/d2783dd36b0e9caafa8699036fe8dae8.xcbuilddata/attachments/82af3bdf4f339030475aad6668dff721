@@ -1,4 +1,0 @@
-module MoEngageInAppSPM {
-header "MoEngageInAppSPM-Swift.h"
-export *
-}
