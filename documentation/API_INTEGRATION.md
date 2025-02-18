@@ -1,0 +1,8 @@
+<!--
+SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
+SPDX-License-Identifier: CC-BY-4.0
+License-Filename: LICENSES/CC-BY-4.0.txt
+-->
+
+# Citykey API integration
+TODO
