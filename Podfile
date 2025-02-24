@@ -16,12 +16,9 @@ target 'OSCA' do
 	
   pod 'GoogleMaps' #'4.0.0'
   pod 'Adjust', '~> 5.0.0'
-  pod 'AppCenter','4.0.0', :configurations => ['Dev', 'Dev_Debug', 'Int', 'Stable'] # not for Release or Stakeholder
-  pod 'AppCenter/Crashes','4.0.0', :configurations => ['Dev', 'Dev_Debug', 'Int', 'Stable'] # not for Release or Stakeholder
-  pod 'AppCenter/Distribute','4.0.0', :configurations => ['Dev', 'Dev_Debug', 'Int', 'Stable'] # not for Release or Stakeholder
   pod "TTGSnackbar",'1.11.1'
   pod 'EasyTipView', '~> 2.1.0'
-  pod 'KeychainSwift', '~> 20.0.0'
+  pod 'KeychainSwift', '~> 20.0'
   pod 'lottie-ios', '~>4.4.0' 
   pod 'SwiftLint'
   

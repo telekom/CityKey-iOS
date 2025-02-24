@@ -3,56 +3,6 @@
     {
       "cityServiceCategoryList": [
         {
-          "categoryId": "18",
-          "category": "Helper",
-          "icon": "NA",
-          "image": "NA",
-          "description": "Helper",
-          "cityServiceList": [
-            {
-              "serviceId": 149,
-              "service": "* Information for Helpers/ Інформація для помічників *",
-              "description": "<html><body style=\"margin: 0; padding: 0\"><h3>Information for Helpers </h3><p>Here you will find all important information, contact points and news. You can also find everything at <a href=\"http://www.bonn.de/ukraine\">www.bonn.de/ukraine</a></p><p>For English-speaking users: Please refer to our <a href=\"https://www.bonn.de/?sp:id=1768\">English website.</a></p><p></p><a href = \"https://www.bonn.de/?sp:id=162130\">Information for Helpers</a></p><p></p><h3>Інформація для помічників</h3><p>Тут ви знайдете всю важливу інформацію, контакти та новини. Ви також можете знайти все на <a href=\"http://www.bonn.de/ukraine\">www.bonn.de/ukraine</a></p><p>Для англомовних користувачів: зверніться до нашого <a href = \"https://www.bonn.de/?sp:id=1768\">веб-сайту англійською мовою</a></p><p></p><p><a href = \"https://www.bonn.de/microsite/en/services/refugees/refugees-from-ukraine.php\">Інформація для помічників</a></p></body></html>",
-              "icon": "Help_Icon.png",
-              "image": "bonn_ukraine-tile.jpg",
-              "function": "General",
-              "serviceType": "* Informationen für Helfende *",
-              "isNew": false,
-              "new": false,
-              "residence": false,
-              "restricted": false,
-              "serviceParams": {},
-              "templateId": -1,
-              "serviceAction": []
-            }
-          ]
-        },
-        {
-          "categoryId": "17",
-          "category": "Refugees",
-          "icon": "NA",
-          "image": "NA",
-          "description": "Refugees",
-          "cityServiceList": [
-            {
-              "serviceId": 148,
-              "service": "* Information for Refugees/ Інформація для біженців *",
-              "description": "<html><body style=\"margin: 0; padding: 0\"><h3>Information for Refugees</h3><p>Here you will find all important information, contact points and news. You can also find everything at  <a href=\"http://www.bonn.de/ukraine\">www.bonn.de/ukraine</a></p><p>For English-speaking users: Please refer to our <a href=\"https://www.bonn.de/?sp:id=162130\">English website.</a></p><p></p><p><a href=\"https://www.bonn.de/?sp:id=160928\">Information for Refugees</p><p><a href=\"https://www.bonn.de/?sp:id=161875\">Benefits under the Asylum Seekers' Benefits Act</p><p><a href=\"https://www.bonn.de/?sp:id=4366\">News from Bonn</a></p><p></p><h3>Інформація для біженців</h3><p>Тут ви знайдете всю важливу інформацію, контакти та новини. Ви також можете знайти все на <a href=\"http://www.bonn.de/ukraine\">www.bonn.de/ukraine</a></p><p>Для англомовних користувачів: зверніться до нашого <a href = \"https://www.bonn.de/?sp:id=162130\">веб-сайту англійською мовою</a></p><p></p><p><a href=\"https://www.bonn.de/?sp:id=160928\">Інформація для біженців</p><p><a href=\"https://www.bonn.de/?sp:id=161875\">Пільги відповідно до Закону про пільги для шукачів притулку</p><p><a href=\"https://www.bonn.de/?sp:id=4366\">Новини з Бонна</p></body></html>",
-              "icon": "Help_Icon.png",
-              "image": "bonn_ukraine-tile.jpg",
-              "function": "General",
-              "serviceType": "* Informationen für Geflüchtete *",
-              "isNew": false,
-              "new": false,
-              "residence": false,
-              "restricted": false,
-              "serviceParams": {},
-              "templateId": -1,
-              "serviceAction": []
-            }
-          ]
-        },
-        {
           "categoryId": "16",
           "category": "Tourism",
           "icon": "poi-tile-icon.png",
