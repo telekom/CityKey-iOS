@@ -41,6 +41,15 @@ Temporary Items
 
 ## User settings
 xcuserdata/
+*.DS_Store
+*.xcuserdata
+Generated_Version.xcconfig
+*.xcbkptlist
+UserInterfaceState.xcuserstate
+OSCA.xcodeproj/xcuserdata
+report.xml
+README.md
+build/
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
