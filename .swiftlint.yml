@@ -1,0 +1,36 @@
+# SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
+#
+# SPDX-License-Identifier: CC0-1.0
+
+excluded:
+  - Carthage
+  - Pods
+
+opt_in_rules:
+  - empty_count
+  - empty_string
+  - file_name_no_space
+  - unused_declaration
+  - explicit_init
+  - redundant_nil_coalescing
+  - syntactic_sugar
+  - anyobject_protocol
+  - closure_body_length
+  - contains_over_first_not_nil
+  - convenience_type
+  - discouraged_object_literal
+  - discouraged_optional_boolean
+  - empty_xctest_method
+  - explicit_self
+  - file_types_order
+  - force_unwrapping
+  - fatal_error_message
+  - first_where
+  - last_where
+  - literal_expression_end_indentation
+  - lower_acl_than_parent
+  - private_action
+  - static_operator
+  - unused_import
+
+reporter: "xcode" 
