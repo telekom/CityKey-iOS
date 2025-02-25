@@ -75,6 +75,12 @@ jobs:
                 platform-version: ${{ matrix.platform-version }}
                 action: none
 
+            - name: "Set up Ruby"
+              uses: ruby/setup-ruby@32110d4e311bd8996b2a82bf2a43b714ccc91777 # v1.221.0
+              with:
+                ruby-version: '3.0'
+                bundler-cache: true
+
             - name: "Run fastlane unit tests with coverage"
               uses: maierj/fastlane-action@5a3b971aaa26776459bb26894d6c1a1a84a311a7 # v3.1.0
               with:
