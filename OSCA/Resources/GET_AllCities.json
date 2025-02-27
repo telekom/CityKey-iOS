@@ -4,10 +4,10 @@
       "cityColor": "#1E88E5",
       "cityId": 3,
       "cityName": "Bonn",
-      "cityPicture": "bonn_ukraine.png",
-      "cityPreviewPicture": "Stadteauswahl_Bonn.jpg",
+      "cityPicture": "CitykeyDefaultPicture.jpg",
+      "cityPreviewPicture": "Preview_picture.jpg",
       "country": "Germany",
-      "municipalCoat": "Stadtlogo-Bonn.jpg",
+      "municipalCoat": "CoatOfArms.png",
       "postalCode": [
         "53111",
         "53113",
