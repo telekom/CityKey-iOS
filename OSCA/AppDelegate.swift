@@ -8,15 +8,6 @@
 
 import UIKit
 
-#if DEBUG || RELEASE
-    // no app center in DEBUG or in the RELEASE version
-#else
-import AppCenter
-import AppCenterAnalytics
-import AppCenterCrashes
-import AppCenterDistribute
-#endif
-
 import GoogleMaps
 import KeychainSwift
 import AdjustSdk
