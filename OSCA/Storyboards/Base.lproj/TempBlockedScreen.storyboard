@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JrX-2C-aBL">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -34,99 +34,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--<Headline>-->
-        <scene sceneID="iaG-iH-flF">
-            <objects>
-                <viewController storyboardIdentifier="SCTempBlockedVC" id="4iB-sG-nMa" customClass="SCTempBlockedVC" customModule="SmartCity" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BqX-pQ-0ed">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="registration_main" translatesAutoresizingMaskIntoConstraints="NO" id="8ij-zN-1CQ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="96" id="KpV-E6-TRT"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_reset_password" translatesAutoresizingMaskIntoConstraints="NO" id="ebP-NS-yn8" userLabel="Top Symbol ImageView">
-                                <rect key="frame" x="172" y="13" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="g1S-9u-Anj"/>
-                                    <constraint firstAttribute="width" constant="70" id="ruQ-MG-Ihn"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="SCPWDRecoveryFinishedVC" text="You are blocked for some minutes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBV-Pd-NRW">
-                                <rect key="frame" x="63" y="136" width="288" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="288" id="CvI-jS-cgn"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="IJF-xQ-BHC"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" name="CLR_LABEL_TEXT_BLACK"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't wait" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GY7-n3-L7T">
-                                <rect key="frame" x="63" y="246" width="288" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="9UD-pg-TeV"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="Z2k-6i-VVv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" name="CLR_LABEL_TEXT_GRAY_DARKGRAY"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iad-8J-irf">
-                                <rect key="frame" x="63" y="272" width="288" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="5il-uT-u96"/>
-                                    <constraint firstAttribute="height" constant="24" id="DFk-mW-CLC"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="reset password">
-                                    <color key="titleColor" name="CLR_LABEL_TEXT_OSCA_BLUE"/>
-                                </state>
-                                <connections>
-                                    <action selector="resetBtnWasPressed:" destination="4iB-sG-nMa" eventType="touchUpInside" id="w6L-Oa-Lht"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" name="CLR_BCKGRND"/>
-                        <constraints>
-                            <constraint firstItem="ifh-WG-ihz" firstAttribute="trailing" secondItem="8ij-zN-1CQ" secondAttribute="trailing" id="7cH-dN-gE4"/>
-                            <constraint firstItem="8ij-zN-1CQ" firstAttribute="leading" secondItem="ifh-WG-ihz" secondAttribute="leading" id="HEi-LC-mBV"/>
-                            <constraint firstItem="iad-8J-irf" firstAttribute="top" secondItem="GY7-n3-L7T" secondAttribute="bottom" constant="5" id="Msi-Q8-W7q"/>
-                            <constraint firstItem="mBV-Pd-NRW" firstAttribute="centerX" secondItem="BqX-pQ-0ed" secondAttribute="centerX" id="Rgo-yk-xCB"/>
-                            <constraint firstItem="GY7-n3-L7T" firstAttribute="centerX" secondItem="BqX-pQ-0ed" secondAttribute="centerX" id="Uge-zj-PvU"/>
-                            <constraint firstItem="iad-8J-irf" firstAttribute="centerX" secondItem="BqX-pQ-0ed" secondAttribute="centerX" id="biI-bu-aCY"/>
-                            <constraint firstItem="GY7-n3-L7T" firstAttribute="top" secondItem="mBV-Pd-NRW" secondAttribute="bottom" constant="60" id="fmo-b0-Jm2"/>
-                            <constraint firstItem="ebP-NS-yn8" firstAttribute="centerX" secondItem="BqX-pQ-0ed" secondAttribute="centerX" id="oqJ-Tf-h0p"/>
-                            <constraint firstItem="mBV-Pd-NRW" firstAttribute="top" secondItem="8ij-zN-1CQ" secondAttribute="bottom" constant="40" id="qKX-PG-yiD"/>
-                            <constraint firstItem="ebP-NS-yn8" firstAttribute="top" secondItem="ifh-WG-ihz" secondAttribute="top" constant="13" id="rYg-al-eTl"/>
-                            <constraint firstItem="8ij-zN-1CQ" firstAttribute="top" secondItem="ifh-WG-ihz" secondAttribute="top" id="tKn-kk-vq8"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="ifh-WG-ihz"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="&lt;Headline&gt;" id="DDz-XJ-afJ">
-                        <barButtonItem key="rightBarButtonItem" image="icon_close" id="H9s-4F-idc">
-                            <color key="tintColor" name="CLR_NAVBAR_SOLID_ITEMS"/>
-                            <connections>
-                                <action selector="closeButtonWasPressed:" destination="4iB-sG-nMa" id="v3e-ZW-euz"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="resetBtn" destination="iad-8J-irf" id="wMV-dw-V3U"/>
-                        <outlet property="resetLabel" destination="GY7-n3-L7T" id="NxH-Sm-COv"/>
-                        <outlet property="titleLabel" destination="mBV-Pd-NRW" id="pWl-UU-IMk"/>
-                        <outlet property="topImageView" destination="8ij-zN-1CQ" id="UcQ-mD-wp4"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kN4-RN-Eqi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3888.4057971014495" y="1189.9553571428571"/>
-        </scene>
-        <!--Navigation Controller-->
         <scene sceneID="qgx-dj-Up0">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JrX-2C-aBL" sceneMemberID="viewController">

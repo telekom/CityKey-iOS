@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TgU-fQ-nlR">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -34,29 +34,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="KmO-jV-6yx">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TgU-fQ-nlR" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dq2-af-NFG">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" name="CLR_NAVBAR_SOLID_TITLE"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="2QK-Q9-tqC" kind="relationship" relationship="rootViewController" id="k1s-OO-HAP"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QWY-fi-cV3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="86.956521739130437" y="22.767857142857142"/>
-        </scene>
-        <!--Info Notice View Controller-->
         <scene sceneID="95x-oC-xac">
             <objects>
                 <viewController id="2QK-Q9-tqC" customClass="SCInfoNoticeViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -35,154 +35,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Fahrrahdparken Reported LocationVC-->
-        <scene sceneID="8LX-Yf-41D">
-            <objects>
-                <viewController storyboardIdentifier="FahrrahdparkenReportedLocationVC" id="o97-eo-BwU" customClass="FahrrahdparkenReportedLocationVC" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ElY-wf-eOg">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="36x-Ui-OZA">
-                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8g3-o6-MGq">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="77.333333333333329"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cR5-LY-3y0">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="1"/>
-                                                <color key="backgroundColor" name="CLR_BORDER_SILVERGRAY"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="1" id="F0t-kW-whU"/>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="aY4-WY-6ZE"/>
-                                                </constraints>
-                                            </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move the Map to the location of the defect. The defect is marked by the pin." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIn-Hs-1i2">
-                                                <rect key="frame" x="20" y="20.000000000000004" width="354" height="49.333333333333343"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="c5y-i1-HlO"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <color key="textColor" name="CLR_LABEL_TEXT_BLACK"/>
-                                                <nil key="highlightedColor"/>
-                                                <variation key="default">
-                                                    <mask key="constraints">
-                                                        <exclude reference="c5y-i1-HlO"/>
-                                                    </mask>
-                                                </variation>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="uIn-Hs-1i2" secondAttribute="trailing" constant="19" id="8HH-qQ-FSz"/>
-                                            <constraint firstItem="uIn-Hs-1i2" firstAttribute="top" secondItem="8g3-o6-MGq" secondAttribute="top" constant="20" symbolic="YES" id="G2O-Tc-Sik"/>
-                                            <constraint firstAttribute="trailing" secondItem="cR5-LY-3y0" secondAttribute="trailing" id="NDl-B9-360"/>
-                                            <constraint firstItem="cR5-LY-3y0" firstAttribute="top" secondItem="8g3-o6-MGq" secondAttribute="top" id="NHd-dB-x9G"/>
-                                            <constraint firstItem="uIn-Hs-1i2" firstAttribute="leading" secondItem="8g3-o6-MGq" secondAttribute="leading" constant="20" symbolic="YES" id="P2v-ck-g8X"/>
-                                            <constraint firstItem="cR5-LY-3y0" firstAttribute="leading" secondItem="8g3-o6-MGq" secondAttribute="leading" id="PKV-O6-OKA"/>
-                                            <constraint firstAttribute="bottom" secondItem="uIn-Hs-1i2" secondAttribute="bottom" constant="8" id="oO3-qc-AEv"/>
-                                        </constraints>
-                                    </view>
-                                    <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vQI-Ep-G3g" userLabel="MapViewContainer">
-                                        <rect key="frame" x="0.0" y="77.333333333333314" width="393" height="571.66666666666674"/>
-                                        <color key="backgroundColor" name="CLR_BCKGRND"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bo8-Cg-QOV" userLabel="ButtonContainer">
-                                        <rect key="frame" x="0.0" y="649" width="393" height="100"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTt-mb-FEm">
-                                                <rect key="frame" x="0.0" y="0.0" width="393" height="1"/>
-                                                <color key="backgroundColor" name="CLR_BORDER_SILVERGRAY"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="1" id="L0Z-QL-6uM"/>
-                                                </constraints>
-                                            </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fy-So-egg" customClass="SCCustomButton" customModule="OSCA" customModuleProvider="target">
-                                                <rect key="frame" x="68.666666666666686" y="23" width="256" height="54"/>
-                                                <color key="backgroundColor" name="CLR_BUTTON_BLUE_BCKGRND"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="256" id="XXb-Yf-wVF"/>
-                                                    <constraint firstAttribute="height" constant="54" id="hrV-za-r4T"/>
-                                                </constraints>
-                                                <state key="normal" title="Save Position">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="savePositionTapped:" destination="o97-eo-BwU" eventType="touchUpInside" id="yVf-O0-5dm"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" name="CLR_BCKGRND"/>
-                                        <constraints>
-                                            <constraint firstItem="1fy-So-egg" firstAttribute="centerY" secondItem="bo8-Cg-QOV" secondAttribute="centerY" id="406-ar-gs6"/>
-                                            <constraint firstItem="NTt-mb-FEm" firstAttribute="leading" secondItem="bo8-Cg-QOV" secondAttribute="leading" id="VGh-ZK-Dny"/>
-                                            <constraint firstItem="NTt-mb-FEm" firstAttribute="width" secondItem="bo8-Cg-QOV" secondAttribute="width" id="Y3W-D6-ZBd"/>
-                                            <constraint firstItem="1fy-So-egg" firstAttribute="centerX" secondItem="bo8-Cg-QOV" secondAttribute="centerX" id="ch6-pr-ToI"/>
-                                            <constraint firstItem="NTt-mb-FEm" firstAttribute="top" secondItem="bo8-Cg-QOV" secondAttribute="top" id="nvs-G6-jBR"/>
-                                            <constraint firstAttribute="height" constant="100" id="yry-9L-JQp"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                            </stackView>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Flh-ph-BlR">
-                                <rect key="frame" x="171.66666666666666" y="421.33333333333331" width="50" height="50"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <bool key="isElement" value="NO"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="J9e-eK-dGo"/>
-                                    <constraint firstAttribute="height" constant="50" id="hbN-k6-Uor"/>
-                                </constraints>
-                                <state key="normal" image="icon_default_pin"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXX-WA-6BQ">
-                                <rect key="frame" x="328" y="694" width="55" height="55"/>
-                                <state key="normal" image="Locate me"/>
-                                <connections>
-                                    <action selector="locateMeBtnWasPressed:" destination="o97-eo-BwU" eventType="touchUpInside" id="L8l-9A-hqH"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Ya0-9O-2e9"/>
-                        <color key="backgroundColor" name="CLR_BCKGRND"/>
-                        <constraints>
-                            <constraint firstItem="36x-Ui-OZA" firstAttribute="trailing" secondItem="Ya0-9O-2e9" secondAttribute="trailing" id="2qf-cb-TvU"/>
-                            <constraint firstAttribute="bottom" secondItem="36x-Ui-OZA" secondAttribute="bottom" id="5Rb-gI-pff"/>
-                            <constraint firstItem="Ya0-9O-2e9" firstAttribute="trailing" secondItem="NXX-WA-6BQ" secondAttribute="trailing" constant="10" id="809-j5-JSi"/>
-                            <constraint firstItem="Flh-ph-BlR" firstAttribute="centerX" secondItem="vQI-Ep-G3g" secondAttribute="centerX" id="HBG-Qe-r3W"/>
-                            <constraint firstItem="36x-Ui-OZA" firstAttribute="leading" secondItem="Ya0-9O-2e9" secondAttribute="leading" id="I6N-CW-iES"/>
-                            <constraint firstItem="36x-Ui-OZA" firstAttribute="top" secondItem="Ya0-9O-2e9" secondAttribute="top" id="Kbc-Vz-fRs"/>
-                            <constraint firstItem="Ya0-9O-2e9" firstAttribute="bottom" secondItem="NXX-WA-6BQ" secondAttribute="bottom" constant="20" id="VQY-YJ-ZmV"/>
-                            <constraint firstItem="Flh-ph-BlR" firstAttribute="centerY" secondItem="vQI-Ep-G3g" secondAttribute="centerY" constant="-20" id="mpW-Ho-Idz"/>
-                        </constraints>
-                    </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="Ssg-hu-ONN">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="icon_close" id="vsM-4L-9Zn">
-                            <color key="tintColor" name="CLR_NAVBAR_SOLID_ITEMS"/>
-                            <connections>
-                                <action selector="closeBtnWasPressed:" destination="o97-eo-BwU" id="OuL-Nk-1rB"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="buttonContainer" destination="bo8-Cg-QOV" id="iJd-4u-wDl"/>
-                        <outlet property="closeBtn" destination="vsM-4L-9Zn" id="QbW-fZ-0KA"/>
-                        <outlet property="locateMeBottomConstraint" destination="VQY-YJ-ZmV" id="Xlm-Ky-Hpo"/>
-                        <outlet property="locateMeBtn" destination="NXX-WA-6BQ" id="Syg-dN-4bu"/>
-                        <outlet property="locationInfoLabel" destination="uIn-Hs-1i2" id="4ae-bf-97C"/>
-                        <outlet property="mapViewContainer" destination="vQI-Ep-G3g" id="iFz-XN-veR"/>
-                        <outlet property="markerPinBtn" destination="Flh-ph-BlR" id="RMf-80-OaP"/>
-                        <outlet property="savePositionBtn" destination="1fy-So-egg" id="Gtm-zH-UZN"/>
-                        <outlet property="topContainer" destination="8g3-o6-MGq" id="XaD-4R-WDn"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aP3-oc-H31" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="695.41984732824426" y="853.52112676056345"/>
-        </scene>
-        <!--Fahrradparken Reported Location DetailVC-->
         <scene sceneID="OxI-O8-YHB">
             <objects>
                 <viewController storyboardIdentifier="FahrradparkenReportedLocationDetailVC" id="1MV-X4-GSC" customClass="FahrradparkenReportedLocationDetailVC" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -347,47 +199,3 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="1591.6030534351144" y="853.52112676056345"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="5KH-GT-Ut0">
-            <objects>
-                <navigationController storyboardIdentifier="FahrrahdparkenReportedLocationNavVC" automaticallyAdjustsScrollViewInsets="NO" id="PaK-zZ-KHH" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DP9-9x-CwN">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="o97-eo-BwU" kind="relationship" relationship="rootViewController" id="06o-T3-Tcs"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0jM-fa-8pg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-271" y="854"/>
-        </scene>
-    </scenes>
-    <resources>
-        <image name="Information" width="21" height="21"/>
-        <image name="Locate me" width="55" height="55"/>
-        <image name="icon_close" width="31" height="31"/>
-        <image name="icon_default_pin" width="32" height="47"/>
-        <namedColor name="CLR_BCKGRND">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_BORDER_SILVERGRAY">
-            <color red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_BUTTON_BLUE_BCKGRND">
-            <color red="0.11764705882352941" green="0.45098039215686275" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_BLACK">
-            <color red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_NAVBAR_SOLID_ITEMS">
-            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
-</document>

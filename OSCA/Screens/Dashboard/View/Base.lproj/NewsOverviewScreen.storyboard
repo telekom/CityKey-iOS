@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cad-xd-YKg">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -34,110 +34,3 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--News Overview-->
-        <scene sceneID="F3h-bi-ayO">
-            <objects>
-                <tableViewController title="Aktual" id="cad-xd-YKg" userLabel="News Overview" customClass="SCNewsOverviewTableViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="hcm-IR-oMj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" name="CLR_BCKGRND"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NewsOverviewMessageCell" rowHeight="130" id="ope-g1-SxY" userLabel="NewsOverviewMessageCell" customClass="SCNewsOverviewTableViewCell" customModule="OSCA" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44.5" width="375" height="130"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ope-g1-SxY" id="o2s-cM-6E3">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YFi-pF-CKv">
-                                            <rect key="frame" x="22" y="22" width="86" height="85"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" secondItem="YFi-pF-CKv" secondAttribute="height" multiplier="86:85" id="Kcr-lc-q5d"/>
-                                                <constraint firstAttribute="width" constant="86" id="yfC-yB-wNU"/>
-                                            </constraints>
-                                        </imageView>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mH0-0O-4qW" userLabel="SeperatorView">
-                                            <rect key="frame" x="22" y="129" width="331" height="1"/>
-                                            <color key="backgroundColor" name="CLR_BORDER_SILVERGRAY"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="1" id="e9u-Ga-0Vg"/>
-                                            </constraints>
-                                        </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelcdc cch iw cwe ciewhcuehw dchiwu euwihfuewfuhu fewf" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBb-4P-8yI" customClass="SCTopAlignLabel" customModule="OSCA" customModuleProvider="target">
-                                            <rect key="frame" x="130" y="22" width="223" height="69"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="69" id="MaQ-in-bwb"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                            <color key="textColor" name="CLR_LABEL_TEXT_BLACK"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chc-d2-SGb" userLabel="Title Label">
-                                            <rect key="frame" x="130" y="91" width="223" height="28"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="k1d-Om-wdd"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
-                                            <color key="textColor" name="CLR_LABEL_TEXT_GRAY_DARKGRAY"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <viewLayoutGuide key="safeArea" id="iqP-dr-6eo"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstItem="iqP-dr-6eo" firstAttribute="bottom" secondItem="mH0-0O-4qW" secondAttribute="bottom" id="3OV-dd-ENj"/>
-                                        <constraint firstItem="mH0-0O-4qW" firstAttribute="leading" secondItem="iqP-dr-6eo" secondAttribute="leading" constant="22" id="7IV-Ja-CnX"/>
-                                        <constraint firstItem="mH0-0O-4qW" firstAttribute="top" secondItem="YFi-pF-CKv" secondAttribute="bottom" constant="22" id="8hk-AT-8Zj"/>
-                                        <constraint firstItem="iqP-dr-6eo" firstAttribute="trailing" secondItem="rBb-4P-8yI" secondAttribute="trailing" constant="22" id="8oD-J8-luC"/>
-                                        <constraint firstItem="chc-d2-SGb" firstAttribute="leading" secondItem="YFi-pF-CKv" secondAttribute="trailing" constant="22" id="AU7-xw-pIb"/>
-                                        <constraint firstItem="iqP-dr-6eo" firstAttribute="trailing" secondItem="mH0-0O-4qW" secondAttribute="trailing" constant="22" id="JuA-bH-R6N"/>
-                                        <constraint firstItem="chc-d2-SGb" firstAttribute="top" secondItem="rBb-4P-8yI" secondAttribute="bottom" id="V2y-pt-lU6"/>
-                                        <constraint firstItem="rBb-4P-8yI" firstAttribute="top" secondItem="iqP-dr-6eo" secondAttribute="top" constant="22" id="YwO-78-V2X"/>
-                                        <constraint firstItem="YFi-pF-CKv" firstAttribute="leading" secondItem="iqP-dr-6eo" secondAttribute="leading" constant="22" id="cwn-BR-p54"/>
-                                        <constraint firstItem="mH0-0O-4qW" firstAttribute="top" secondItem="chc-d2-SGb" secondAttribute="bottom" constant="10" id="gs8-jI-3yz"/>
-                                        <constraint firstItem="iqP-dr-6eo" firstAttribute="trailing" secondItem="chc-d2-SGb" secondAttribute="trailing" constant="22" id="rGQ-nh-9My"/>
-                                        <constraint firstItem="YFi-pF-CKv" firstAttribute="top" secondItem="iqP-dr-6eo" secondAttribute="top" constant="22" id="spW-98-VlW"/>
-                                        <constraint firstItem="rBb-4P-8yI" firstAttribute="leading" secondItem="YFi-pF-CKv" secondAttribute="trailing" constant="22" id="v8W-gB-9zQ"/>
-                                    </constraints>
-                                    <variation key="default">
-                                        <mask key="constraints">
-                                            <exclude reference="8hk-AT-8Zj"/>
-                                        </mask>
-                                    </variation>
-                                </tableViewCellContentView>
-                                <color key="backgroundColor" name="CLR_BCKGRND"/>
-                                <connections>
-                                    <outlet property="newsCellImageView" destination="YFi-pF-CKv" id="Q5p-eO-f33"/>
-                                    <outlet property="newsCellLabel" destination="rBb-4P-8yI" id="6YU-wZ-g28"/>
-                                    <outlet property="newsCellTitleLabel" destination="chc-d2-SGb" id="bje-Hh-51D"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="cad-xd-YKg" id="kYR-Ap-Ku1"/>
-                            <outlet property="delegate" destination="cad-xd-YKg" id="Xk2-2P-8hJ"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="dashboard_section_header_news" id="9vK-n6-xW0" userLabel="&lt;News&gt;"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tYi-6o-moB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1520.8" y="197.45127436281859"/>
-        </scene>
-    </scenes>
-    <resources>
-        <namedColor name="CLR_BCKGRND">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_BORDER_SILVERGRAY">
-            <color red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_BLACK">
-            <color red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_GRAY_DARKGRAY">
-            <color red="0.39215686274509803" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-    </resources>
-</document>

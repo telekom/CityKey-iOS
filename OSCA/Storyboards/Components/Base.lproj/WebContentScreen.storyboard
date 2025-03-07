@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Yt-IQ-2LL">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -34,50 +34,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Aktuelle Nachrichten-->
-        <scene sceneID="nCR-MS-fke">
-            <objects>
-                <viewController storyboardIdentifier="webviewContentViewController" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="USt-qA-jl6" customClass="SCWebContentViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ghC-pb-PTY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3P8-TK-0v6">
-                                <rect key="frame" x="0.0" y="10" width="375" height="613"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="sqg-Us-JZ0"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="3P8-TK-0v6" firstAttribute="top" secondItem="sqg-Us-JZ0" secondAttribute="top" constant="10" id="H4T-MU-trW"/>
-                            <constraint firstItem="3P8-TK-0v6" firstAttribute="trailing" secondItem="sqg-Us-JZ0" secondAttribute="trailing" id="Hse-iW-fbC"/>
-                            <constraint firstItem="3P8-TK-0v6" firstAttribute="leading" secondItem="sqg-Us-JZ0" secondAttribute="leading" id="LuV-2w-ZPC"/>
-                            <constraint firstItem="3P8-TK-0v6" firstAttribute="bottom" secondItem="sqg-Us-JZ0" secondAttribute="bottom" id="Xnd-V4-CWz"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Aktuelle Nachrichten" id="1m3-GG-gLK">
-                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="bwB-Vc-Mk4">
-                            <color key="tintColor" name="CLR_NAVBAR_SOLID_ITEMS"/>
-                            <connections>
-                                <action selector="didPressCloseBtn:" destination="USt-qA-jl6" id="hQO-vO-YDB"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="closeBtn" destination="bwB-Vc-Mk4" id="AsQ-cz-C5K"/>
-                        <outlet property="webView" destination="3P8-TK-0v6" id="Teg-mo-sio"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQg-f8-4Vn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1104.8" y="153.37331334332833"/>
-        </scene>
-        <!--Navigation Controller-->
         <scene sceneID="eod-nB-BS6">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Yt-IQ-2LL" sceneMemberID="viewController">

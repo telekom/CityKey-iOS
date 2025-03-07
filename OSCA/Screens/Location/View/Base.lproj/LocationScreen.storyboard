@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ltD-mK-jgb">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -35,74 +35,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--<Stadt wählen>-->
-        <scene sceneID="peN-mc-VAO">
-            <objects>
-                <viewController id="KmW-jk-US1" customClass="SCLocationViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="edT-z7-LUm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="718"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tn-0K-gpS">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="598"/>
-                                <color key="backgroundColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                                <connections>
-                                    <segue destination="uo3-Bp-50O" kind="embed" id="g3f-td-3Fq"/>
-                                </connections>
-                            </containerView>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ip-se-OE5">
-                                <rect key="frame" x="40" y="598" width="295" height="100"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New cities are added all the time. If your city is not yet included, just check back later." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUy-Eb-Q4F">
-                                        <rect key="frame" x="0.0" y="0.0" width="295" height="100"/>
-                                        <color key="backgroundColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" name="CLR_LABEL_TEXT_GRAY_DARKGRAY"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="XUy-Eb-Q4F" secondAttribute="trailing" id="24V-2J-DzM"/>
-                                    <constraint firstAttribute="bottom" secondItem="XUy-Eb-Q4F" secondAttribute="bottom" id="CZh-y1-1A9"/>
-                                    <constraint firstAttribute="height" constant="100" id="HBv-yv-34Y"/>
-                                    <constraint firstItem="XUy-Eb-Q4F" firstAttribute="top" secondItem="2Ip-se-OE5" secondAttribute="top" id="XGB-GX-5gg"/>
-                                    <constraint firstItem="XUy-Eb-Q4F" firstAttribute="leading" secondItem="2Ip-se-OE5" secondAttribute="leading" id="ayC-TE-c8u"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="v7o-0z-et6"/>
-                        <color key="backgroundColor" name="CLR_BCKGRND"/>
-                        <constraints>
-                            <constraint firstItem="2tn-0K-gpS" firstAttribute="leading" secondItem="v7o-0z-et6" secondAttribute="leading" id="DFe-fQ-I94"/>
-                            <constraint firstItem="2Ip-se-OE5" firstAttribute="top" secondItem="2tn-0K-gpS" secondAttribute="bottom" id="Dv2-aQ-1Mk"/>
-                            <constraint firstItem="2Ip-se-OE5" firstAttribute="leading" secondItem="v7o-0z-et6" secondAttribute="leading" constant="40" id="F8w-lH-cPy"/>
-                            <constraint firstItem="v7o-0z-et6" firstAttribute="trailing" secondItem="2Ip-se-OE5" secondAttribute="trailing" constant="40" id="Xnd-lP-uuM"/>
-                            <constraint firstItem="2tn-0K-gpS" firstAttribute="trailing" secondItem="v7o-0z-et6" secondAttribute="trailing" id="giO-ss-0LL"/>
-                            <constraint firstItem="2tn-0K-gpS" firstAttribute="top" secondItem="v7o-0z-et6" secondAttribute="top" id="lOw-a8-lNa"/>
-                            <constraint firstAttribute="bottom" secondItem="2Ip-se-OE5" secondAttribute="bottom" constant="20" id="xTq-wj-dm0"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="&lt;Stadt wählen&gt;" id="3y3-eV-bfN">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="icon_close" id="Lyc-K4-ZH2">
-                            <color key="tintColor" name="CLR_NAVBAR_SOLID_ITEMS"/>
-                            <connections>
-                                <action selector="closeBtnWasPressed:" destination="KmW-jk-US1" id="so1-F8-Etb"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="cityInfoLabel" destination="XUy-Eb-Q4F" id="Iby-3W-irP"/>
-                        <outlet property="closeBtn" destination="Lyc-K4-ZH2" id="jpI-aC-h32"/>
-                        <outlet property="footerInfoView" destination="2Ip-se-OE5" id="DP6-ur-ZkT"/>
-                        <outlet property="footerInfoViewHeightConstraint" destination="HBv-yv-34Y" id="j2E-Qw-r4Q"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SuC-uL-7By" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1949.5999999999999" y="173.64532019704436"/>
-        </scene>
-        <!--Location Sub TableVC-->
         <scene sceneID="6FS-Xa-fiO">
             <objects>
                 <tableViewController id="uo3-Bp-50O" customClass="SCLocationSubTableVC" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -443,70 +375,3 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="3034.4000000000001" y="247.16748768472908"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="saM-8s-HVh">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ltD-mK-jgb" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="H7x-lR-bGd">
-                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" name="CLR_NAVBAR_SOLID_ITEMS"/>
-                        <color key="barTintColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" name="CLR_NAVBAR_SOLID_TITLE"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="KmW-jk-US1" kind="relationship" relationship="rootViewController" id="uxo-QP-lku"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lQB-zU-Gz0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1007.2" y="173.64532019704436"/>
-        </scene>
-    </scenes>
-    <resources>
-        <image name="action_resend_email" width="24" height="24"/>
-        <image name="copyLinkImage" width="46" height="46"/>
-        <image name="icon_close" width="31" height="31"/>
-        <image name="icon_compass" width="48" height="48"/>
-        <namedColor name="CLR_BCKGRND">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_BORDER_SILVERGRAY">
-            <color red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_CELL_BACKGRND">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_ICON_TINT_BLACK">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_BLACK">
-            <color red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_GRAY_DARKGRAY">
-            <color red="0.39215686274509803" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_NAVBAR_SOLID_BCKGRND">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_NAVBAR_SOLID_ITEMS">
-            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_NAVBAR_SOLID_TITLE">
-            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_SEPARATOR">
-            <color red="0.92900002002716064" green="0.92900002002716064" blue="0.92900002002716064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_TABLE_SEPARATOR">
-            <color red="0.92900002002716064" green="0.92900002002716064" blue="0.92900002002716064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
-</document>

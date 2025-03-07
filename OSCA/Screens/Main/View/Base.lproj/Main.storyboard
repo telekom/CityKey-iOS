@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -34,29 +34,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Tab Bar Controller-->
-        <scene sceneID="yl2-sM-qoP">
-            <objects>
-                <tabBarController storyboardIdentifier="SCMainTabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="49e-Tb-3d3" customClass="SCMainTabBarController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="W28-zg-YXA">
-                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="1in-Qa-df8" kind="relationship" relationship="viewControllers" id="BNe-EX-G3N"/>
-                        <segue destination="T3A-wg-VpW" kind="relationship" relationship="viewControllers" id="Q3T-fd-PUD"/>
-                        <segue destination="WdA-1x-exS" kind="relationship" relationship="viewControllers" id="inM-ol-cPg"/>
-                        <segue destination="nTT-44-o8t" kind="relationship" relationship="viewControllers" id="KX6-e4-kxv"/>
-                        <segue destination="DQl-4S-X5Z" kind="relationship" relationship="viewControllers" id="rDE-RI-z1w"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="412" y="-312.59370314842579"/>
-        </scene>
-        <!--ServicesScreen-->
         <scene sceneID="klX-qp-X9M">
             <objects>
                 <viewControllerPlaceholder storyboardName="ServicesScreen" id="WfT-Av-PIP" sceneMemberID="viewController">
@@ -66,29 +43,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="-780" y="510"/>
         </scene>
-        <!--Services-->
-        <scene sceneID="6Kl-yo-XSd">
-            <objects>
-                <navigationController id="WdA-1x-exS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Services" image="service_outline" selectedImage="service_solid" id="efx-B1-bDm" userLabel="Services"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="Xhk-4F-NzZ">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" name="CLR_NAVBAR_SOLID_TITLE"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="WfT-Av-PIP" kind="relationship" relationship="rootViewController" id="hdr-uY-2Ac"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zI4-iG-FAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1318" y="510"/>
-        </scene>
-        <!--Box-->
         <scene sceneID="qxD-MT-OSi">
             <objects>
                 <navigationController id="nTT-44-o8t" sceneMemberID="viewController">
@@ -112,18 +66,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="1890" y="484"/>
         </scene>
-        <!--UserInfoBoxScreen-->
-        <scene sceneID="vJ0-Fx-xR6">
-            <objects>
-                <viewControllerPlaceholder storyboardName="UserInfoBoxScreen" id="088-DD-q1d" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="1EM-Gh-Ie4"/>
-                    <navigationItem key="navigationItem" id="G6Q-aZ-35v"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KGb-z0-ywI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2586" y="490"/>
-        </scene>
-        <!--Marketplace-->
         <scene sceneID="grH-td-3hP">
             <objects>
                 <navigationController id="T3A-wg-VpW" sceneMemberID="viewController">
@@ -145,17 +87,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="1393" y="-313"/>
         </scene>
-        <!--MarketplaceScreen-->
-        <scene sceneID="Qgo-RP-ue1">
-            <objects>
-                <viewControllerPlaceholder storyboardName="MarketplaceScreen" id="9JR-hS-HAW" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="gDS-Lk-969"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Iva-1l-6oo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2011" y="-313"/>
-        </scene>
-        <!--Dashboard-->
         <scene sceneID="4XD-T4-mg2">
             <objects>
                 <viewControllerPlaceholder storyboardName="Dashboard" id="H8g-rU-FY9" sceneMemberID="viewController">
@@ -165,29 +96,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="1264" y="545"/>
         </scene>
-        <!--Home-->
-        <scene sceneID="EtZ-8t-Ml7">
-            <objects>
-                <navigationController storyboardIdentifier="Home" id="1in-Qa-df8" userLabel="Home" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="home_outline" selectedImage="home_solid" id="OFG-QI-iQQ"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="JHD-V8-TSr">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" name="CLR_NAVBAR_SOLID_TITLE"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="H8g-rU-FY9" kind="relationship" relationship="rootViewController" id="0aS-GM-ETx"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Rz-fC-vzc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="396" y="546"/>
-        </scene>
-        <!--Flow Navigation Controller-->
         <scene sceneID="SMI-dg-Xtp">
             <objects>
                 <navigationController storyboardIdentifier="SCFTUFlowNav" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="md3-3z-8WC" customClass="SCFTUFlowNavigationController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -206,222 +114,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="-1729" y="-313"/>
         </scene>
-        <!--First Time UsageVC-->
-        <scene sceneID="DGM-Xm-J86">
-            <objects>
-                <viewController storyboardIdentifier="SCFirstTimeUsageVC" id="6Hu-fR-lxQ" customClass="SCFirstTimeUsageVC" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="2Cn-lH-Jyz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uBn-2l-tZg" userLabel="BackviewView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="94T-DH-hXv" userLabel="Layer View">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                                <subviews>
-                                    <pageControl opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="bDd-0v-hPT" customClass="SCPageControl" customModule="OSCA" customModuleProvider="target">
-                                        <rect key="frame" x="15" y="508" width="116.5" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="xP0-rY-MUi"/>
-                                            <constraint firstAttribute="height" constant="30" id="ycj-IX-c8c"/>
-                                        </constraints>
-                                        <color key="pageIndicatorTintColor" name="CLR_PAGE_CONTROL_UNSELECTED"/>
-                                        <color key="currentPageIndicatorTintColor" name="CLR_PAGE_CONTROL_SELECTED"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="currentPageImage" value="icon-page-control-dot-current"/>
-                                            <userDefinedRuntimeAttribute type="image" keyPath="otherPagesImage" value="icon-page-control-dot"/>
-                                        </userDefinedRuntimeAttributes>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="xP0-rY-MUi"/>
-                                            </mask>
-                                        </variation>
-                                    </pageControl>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mVb-y1-6w0">
-                                        <rect key="frame" x="0.0" y="48" width="375" height="331.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="464" id="dcK-8H-j0F"/>
-                                            <constraint firstAttribute="width" secondItem="mVb-y1-6w0" secondAttribute="height" multiplier="375:464" id="vZp-Xc-Uqf"/>
-                                        </constraints>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="vZp-Xc-Uqf"/>
-                                                <exclude reference="dcK-8H-j0F"/>
-                                            </mask>
-                                        </variation>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Header&gt;" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LB4-5W-09x" userLabel="Header Label" customClass="SCTopAlignLabel" customModule="OSCA" customModuleProvider="target">
-                                        <rect key="frame" x="30" y="379.5" width="315" height="41"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="y4r-LB-yC5"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
-                                        <color key="textColor" name="CLR_FTU_LABEL_TEXT_BLACK"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="y4r-LB-yC5"/>
-                                            </mask>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Description&gt;" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGy-K6-KIN" userLabel="Description Label" customClass="SCTopAlignLabel" customModule="OSCA" customModuleProvider="target">
-                                        <rect key="frame" x="30" y="430.5" width="315" height="19.5"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="sQg-SE-ZUM"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <color key="textColor" name="CLR_FTU_LABEL_TEXT_BLACK"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="sQg-SE-ZUM"/>
-                                            </mask>
-                                        </variation>
-                                    </label>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Eu-bk-Szz" customClass="SCCustomButton" customModule="OSCA" customModuleProvider="target">
-                                        <rect key="frame" x="57.5" y="489" width="260" height="50"/>
-                                        <color key="backgroundColor" red="0.3985098561" green="0.64731012509999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <accessibility key="accessibilityConfiguration" identifier="button_login" label="Login"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="cfS-jq-ea2"/>
-                                            <constraint firstAttribute="width" constant="260" id="xzM-Ol-Mac"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="&lt;Button&gt;">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="registerBtnWasPressed:" destination="6Hu-fR-lxQ" eventType="touchUpInside" id="9PZ-QQ-5Yo"/>
-                                        </connections>
-                                    </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSk-dM-wRT" customClass="SCCustomButton" customModule="OSCA" customModuleProvider="target">
-                                        <rect key="frame" x="87.5" y="442" width="200" height="32"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <accessibility key="accessibilityConfiguration" identifier="button_register" label="Register"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="ZbM-wf-dIW"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                        <state key="normal" title="&lt;Button&gt;">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="loginBtnWasPressed:" destination="6Hu-fR-lxQ" eventType="touchUpInside" id="yho-cE-jg5"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ams-Tx-pQN" customClass="SCCustomButton" customModule="OSCA" customModuleProvider="target">
-                                        <rect key="frame" x="263" y="508" width="82" height="30"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <accessibility key="accessibilityConfiguration" identifier="button_register" label="Register"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="WmC-QW-rTh"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <state key="normal" title="&lt;Button&gt;">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kz6-Ks-6tB">
-                                        <rect key="frame" x="299" y="8" width="55" height="30"/>
-                                        <accessibility key="accessibilityConfiguration" identifier="button_skip" label="Skip"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="8ki-TK-cdp"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="&lt;skip&gt;">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="skipBtnWasPressed:" destination="6Hu-fR-lxQ" eventType="touchUpInside" id="KCo-4O-VZx"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <viewLayoutGuide key="safeArea" id="Dmy-mg-Tc7"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="0Eu-bk-Szz" firstAttribute="centerX" secondItem="94T-DH-hXv" secondAttribute="centerX" id="0dx-SP-VC3">
-                                        <variation key="heightClass=compact-widthClass=compact" constant="40"/>
-                                    </constraint>
-                                    <constraint firstItem="0Eu-bk-Szz" firstAttribute="top" secondItem="xSk-dM-wRT" secondAttribute="bottom" constant="15" id="3sz-Iw-KzD"/>
-                                    <constraint firstItem="Dmy-mg-Tc7" firstAttribute="trailing" secondItem="Ams-Tx-pQN" secondAttribute="trailing" constant="30" id="7jP-fh-1cV"/>
-                                    <constraint firstItem="Dmy-mg-Tc7" firstAttribute="trailing" secondItem="kz6-Ks-6tB" secondAttribute="trailing" constant="21" id="8cD-PA-lhb"/>
-                                    <constraint firstItem="Dmy-mg-Tc7" firstAttribute="bottom" secondItem="Ams-Tx-pQN" secondAttribute="bottom" constant="16" id="JgA-8j-7lU"/>
-                                    <constraint firstItem="Dmy-mg-Tc7" firstAttribute="bottom" secondItem="bDd-0v-hPT" secondAttribute="bottom" constant="16" id="PaQ-Yo-gC2"/>
-                                    <constraint firstItem="CGy-K6-KIN" firstAttribute="top" secondItem="LB4-5W-09x" secondAttribute="bottom" constant="10" id="PtL-7n-X8v"/>
-                                    <constraint firstItem="mVb-y1-6w0" firstAttribute="top" secondItem="kz6-Ks-6tB" secondAttribute="bottom" constant="10" id="RJH-uy-jab"/>
-                                    <constraint firstItem="CGy-K6-KIN" firstAttribute="bottom" secondItem="Ams-Tx-pQN" secondAttribute="top" constant="10" id="Rfy-3S-PIG"/>
-                                    <constraint firstItem="mVb-y1-6w0" firstAttribute="height" secondItem="94T-DH-hXv" secondAttribute="height" multiplier="0.55" id="YUL-HB-C1N"/>
-                                    <constraint firstItem="LB4-5W-09x" firstAttribute="leading" secondItem="Dmy-mg-Tc7" secondAttribute="leading" constant="30" id="Zdr-nt-tzp"/>
-                                    <constraint firstItem="Dmy-mg-Tc7" firstAttribute="bottom" secondItem="0Eu-bk-Szz" secondAttribute="bottom" constant="15" id="cah-hz-SrN"/>
-                                    <constraint firstItem="LB4-5W-09x" firstAttribute="top" secondItem="mVb-y1-6w0" secondAttribute="bottom" id="d45-gv-Emg"/>
-                                    <constraint firstItem="kz6-Ks-6tB" firstAttribute="top" secondItem="Dmy-mg-Tc7" secondAttribute="top" constant="8" id="eaO-VM-spg"/>
-                                    <constraint firstItem="Dmy-mg-Tc7" firstAttribute="trailing" secondItem="LB4-5W-09x" secondAttribute="trailing" constant="30" id="fuD-LW-mUN"/>
-                                    <constraint firstItem="Dmy-mg-Tc7" firstAttribute="trailing" secondItem="mVb-y1-6w0" secondAttribute="trailing" id="t1M-eK-q8k"/>
-                                    <constraint firstItem="bDd-0v-hPT" firstAttribute="centerX" secondItem="94T-DH-hXv" secondAttribute="centerX" id="tjw-Cm-6AA"/>
-                                    <constraint firstItem="mVb-y1-6w0" firstAttribute="leading" secondItem="Dmy-mg-Tc7" secondAttribute="leading" id="vhu-oi-PKn"/>
-                                    <constraint firstItem="CGy-K6-KIN" firstAttribute="leading" secondItem="Dmy-mg-Tc7" secondAttribute="leading" constant="30" id="vtr-WI-qQ8"/>
-                                    <constraint firstItem="xSk-dM-wRT" firstAttribute="centerX" secondItem="94T-DH-hXv" secondAttribute="centerX" id="wj5-yN-biC">
-                                        <variation key="heightClass=compact-widthClass=compact" constant="40"/>
-                                    </constraint>
-                                    <constraint firstItem="bDd-0v-hPT" firstAttribute="leading" secondItem="Dmy-mg-Tc7" secondAttribute="leading" constant="15" id="xNv-DF-XTy"/>
-                                    <constraint firstItem="Dmy-mg-Tc7" firstAttribute="trailing" secondItem="CGy-K6-KIN" secondAttribute="trailing" constant="30" id="zTG-Jp-o2d"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="Rfy-3S-PIG"/>
-                                        <exclude reference="tjw-Cm-6AA"/>
-                                    </mask>
-                                </variation>
-                            </view>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mfi-BH-VgB">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="vIN-Po-U5e"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="94T-DH-hXv" firstAttribute="top" secondItem="2Cn-lH-Jyz" secondAttribute="top" id="5bv-mI-FWo"/>
-                            <constraint firstItem="uBn-2l-tZg" firstAttribute="trailing" secondItem="vIN-Po-U5e" secondAttribute="trailing" id="6aP-tL-nK0"/>
-                            <constraint firstItem="Mfi-BH-VgB" firstAttribute="top" secondItem="uBn-2l-tZg" secondAttribute="top" id="7mC-Yx-Qe9"/>
-                            <constraint firstItem="94T-DH-hXv" firstAttribute="trailing" secondItem="vIN-Po-U5e" secondAttribute="trailing" id="HUk-iW-syE"/>
-                            <constraint firstItem="Mfi-BH-VgB" firstAttribute="leading" secondItem="uBn-2l-tZg" secondAttribute="leading" id="Pmx-mO-MRX"/>
-                            <constraint firstItem="Mfi-BH-VgB" firstAttribute="bottom" secondItem="uBn-2l-tZg" secondAttribute="bottom" id="SUS-Bb-O6W"/>
-                            <constraint firstItem="uBn-2l-tZg" firstAttribute="top" secondItem="2Cn-lH-Jyz" secondAttribute="top" id="cnx-mi-aaF"/>
-                            <constraint firstAttribute="bottom" secondItem="uBn-2l-tZg" secondAttribute="bottom" id="dVi-Om-w6a"/>
-                            <constraint firstItem="uBn-2l-tZg" firstAttribute="leading" secondItem="vIN-Po-U5e" secondAttribute="leading" id="deV-Lb-usE"/>
-                            <constraint firstItem="94T-DH-hXv" firstAttribute="leading" secondItem="vIN-Po-U5e" secondAttribute="leading" id="fam-as-ztQ"/>
-                            <constraint firstAttribute="bottom" secondItem="94T-DH-hXv" secondAttribute="bottom" id="frD-8T-Ti7"/>
-                            <constraint firstItem="Mfi-BH-VgB" firstAttribute="trailing" secondItem="uBn-2l-tZg" secondAttribute="trailing" id="t3F-on-z3d"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="meG-Ff-TEK"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="animateView" destination="Mfi-BH-VgB" id="r6l-8c-ele"/>
-                        <outlet property="backView" destination="uBn-2l-tZg" id="5Wt-FZ-KIE"/>
-                        <outlet property="descriptionLabel" destination="CGy-K6-KIN" id="DuQ-NA-CLl"/>
-                        <outlet property="headerLabel" destination="LB4-5W-09x" id="swK-Iq-quc"/>
-                        <outlet property="imageView" destination="mVb-y1-6w0" id="f5m-F1-AGp"/>
-                        <outlet property="layerView" destination="94T-DH-hXv" id="xi5-ol-HYe"/>
-                        <outlet property="letsGoBtn" destination="Ams-Tx-pQN" id="sDS-st-6O4"/>
-                        <outlet property="loginBtn" destination="xSk-dM-wRT" id="aQl-MO-7Oj"/>
-                        <outlet property="loginCenterXConstraint" destination="wj5-yN-biC" id="RYx-s9-A9a"/>
-                        <outlet property="pageControl" destination="bDd-0v-hPT" id="sQ5-yo-gkR"/>
-                        <outlet property="registerBtn" destination="0Eu-bk-Szz" id="9Cd-aw-tv6"/>
-                        <outlet property="registerCenterXConstraint" destination="0dx-SP-VC3" id="7hi-Lk-B5e"/>
-                        <outlet property="skipBtn" destination="kz6-Ks-6tB" id="33t-ee-tVl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkU-6d-9I4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-978.39999999999998" y="-313.49325337331339"/>
-        </scene>
-        <!--SmallLegalInfoLinkScreen-->
         <scene sceneID="GOU-Up-SUv">
             <objects>
                 <viewControllerPlaceholder storyboardName="SmallLegalInfoLinkScreen" id="cLc-ls-HkZ" sceneMemberID="viewController"/>
@@ -429,31 +121,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="-367" y="-313"/>
         </scene>
-        <!--City Imprint-->
-        <scene sceneID="46K-z8-fOe">
-            <objects>
-                <navigationController id="DQl-4S-X5Z" userLabel="City Imprint" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Imprint" image="imprint_outline" selectedImage="imprint_solid" id="5Cl-mz-WvD"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="9Wg-J3-w9c">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" name="CLR_NAVBAR_SOLID_TITLE"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ge5-d5-R2R">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
-                    <connections>
-                        <segue destination="tWZ-lh-EKv" kind="relationship" relationship="rootViewController" id="V8h-8U-Wnk"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jKz-aI-1yp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="812" y="-1128"/>
-        </scene>
-        <!--CityImprintScreen-->
         <scene sceneID="L9x-Il-Ld1">
             <objects>
                 <viewControllerPlaceholder storyboardName="CityImprintScreen" id="tWZ-lh-EKv" sceneMemberID="viewController">

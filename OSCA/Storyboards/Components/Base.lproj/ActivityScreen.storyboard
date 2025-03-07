@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4M2-LW-GYk">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -33,44 +33,3 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Activity View Controller-->
-        <scene sceneID="x7c-pO-1hc">
-            <objects>
-                <viewController storyboardIdentifier="activityViewController" modalPresentationStyle="overFullScreen" id="4M2-LW-GYk" customClass="SCActivityViewController" customModule="SmartCity" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JOH-O3-9D7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="xJO-QY-gyN">
-                                <rect key="frame" x="177.5" y="323.5" width="20" height="20"/>
-                            </activityIndicatorView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Wait..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiG-4x-BDu">
-                                <rect key="frame" x="40" y="360" width="295" height="17"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="17" id="H7G-53-nRu"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="0.79417913732394363" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="xJO-QY-gyN" firstAttribute="centerY" secondItem="JOH-O3-9D7" secondAttribute="centerY" id="09A-AR-Sa5"/>
-                            <constraint firstItem="nRo-qr-zQ7" firstAttribute="trailing" secondItem="KiG-4x-BDu" secondAttribute="trailing" constant="40" id="8ym-Bl-iHu"/>
-                            <constraint firstItem="KiG-4x-BDu" firstAttribute="leading" secondItem="nRo-qr-zQ7" secondAttribute="leading" constant="40" id="Jaq-Me-deb"/>
-                            <constraint firstItem="xJO-QY-gyN" firstAttribute="centerX" secondItem="JOH-O3-9D7" secondAttribute="centerX" id="dGp-28-0Pl"/>
-                            <constraint firstItem="KiG-4x-BDu" firstAttribute="top" secondItem="xJO-QY-gyN" secondAttribute="bottom" constant="16.5" id="vnI-A3-2FP"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="nRo-qr-zQ7"/>
-                    </view>
-                    <connections>
-                        <outlet property="infoLabel" destination="KiG-4x-BDu" id="VAh-bH-Bs8"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5HD-tA-8RL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="158" y="161"/>
-        </scene>
-    </scenes>
-</document>

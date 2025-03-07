@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TgU-fQ-nlR">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -34,25 +34,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="KmO-jV-6yx">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TgU-fQ-nlR" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dq2-af-NFG">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="2QK-Q9-tqC" kind="relationship" relationship="rootViewController" id="k1s-OO-HAP"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QWY-fi-cV3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="86.956521739130437" y="22.767857142857142"/>
-        </scene>
-        <!--Data Privacy View Controller-->
         <scene sceneID="95x-oC-xac">
             <objects>
                 <viewController storyboardIdentifier="SCDataPrivacyViewController" id="2QK-Q9-tqC" customClass="SCDataPrivacyViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -191,79 +172,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="1066.6666666666667" y="28.794642857142854"/>
         </scene>
-        <!--Data Privacy Notice View Controller-->
-        <scene sceneID="cWn-hi-61e">
-            <objects>
-                <viewController storyboardIdentifier="SCDataPrivacyNoticeViewController" id="bGj-XG-eOm" customClass="SCDataPrivacyNoticeViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="XD4-r4-iDp"/>
-                        <viewControllerLayoutGuide type="bottom" id="8Aj-Kt-Yk3"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fbV-hq-sbO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dpn_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WMe-dq-H7e">
-                                <rect key="frame" x="171" y="83" width="72" height="85"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oF-qt-ZPy" customClass="SCCustomButton" customModule="OSCA" customModuleProvider="target">
-                                <rect key="frame" x="79" y="788" width="256" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="1Hq-r3-xgM"/>
-                                    <constraint firstAttribute="width" constant="256" id="RoI-At-XJz"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                <state key="normal" title="Ok"/>
-                                <connections>
-                                    <action selector="onAcceptClicked:" destination="bGj-XG-eOm" eventType="touchUpInside" id="a0l-YL-jUd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFQ-Eu-JmT" customClass="SCCustomButton" customModule="OSCA" customModuleProvider="target">
-                                <rect key="frame" x="79" y="709" width="256" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="256" id="1Gv-w6-u8q"/>
-                                    <constraint firstAttribute="height" constant="54" id="7Im-tR-4av"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                <state key="normal" title="Datenschutzhinweise"/>
-                                <connections>
-                                    <action selector="onShowDPNClicked:" destination="bGj-XG-eOm" eventType="touchUpInside" id="gLT-8d-ajJ"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMm-Xa-Qej">
-                                <rect key="frame" x="20" y="203" width="374" height="481"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="WMe-dq-H7e" firstAttribute="top" secondItem="XD4-r4-iDp" secondAttribute="bottom" constant="35" id="7lU-dC-R81"/>
-                            <constraint firstItem="WMe-dq-H7e" firstAttribute="centerX" secondItem="fbV-hq-sbO" secondAttribute="centerX" id="ADp-LX-vk0"/>
-                            <constraint firstItem="QMm-Xa-Qej" firstAttribute="bottom" secondItem="wFQ-Eu-JmT" secondAttribute="top" constant="-25" id="Bu4-rR-rSZ"/>
-                            <constraint firstItem="0oF-qt-ZPy" firstAttribute="centerX" secondItem="fbV-hq-sbO" secondAttribute="centerX" id="EST-v5-fqI"/>
-                            <constraint firstItem="QMm-Xa-Qej" firstAttribute="leading" secondItem="fbV-hq-sbO" secondAttribute="leading" constant="20" id="NOt-VH-BSS"/>
-                            <constraint firstItem="0oF-qt-ZPy" firstAttribute="top" secondItem="wFQ-Eu-JmT" secondAttribute="bottom" constant="25" id="P7w-Wf-rgr"/>
-                            <constraint firstAttribute="trailing" secondItem="QMm-Xa-Qej" secondAttribute="trailing" constant="20" id="TGC-qF-SDj"/>
-                            <constraint firstItem="wFQ-Eu-JmT" firstAttribute="centerX" secondItem="fbV-hq-sbO" secondAttribute="centerX" id="mVk-qx-ihS"/>
-                            <constraint firstItem="QMm-Xa-Qej" firstAttribute="top" secondItem="WMe-dq-H7e" secondAttribute="bottom" constant="35" id="rvh-lM-qK9"/>
-                            <constraint firstItem="0oF-qt-ZPy" firstAttribute="bottom" secondItem="8Aj-Kt-Yk3" secondAttribute="top" constant="-20" id="zGn-v3-pgb"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="okButton" destination="0oF-qt-ZPy" id="3Z9-Vz-1of"/>
-                        <outlet property="showDPNButton" destination="wFQ-Eu-JmT" id="gGt-AX-5kT"/>
-                        <outlet property="textView" destination="QMm-Xa-Qej" id="YgK-HE-V8x"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BVy-LA-dSR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1808.6956521739132" y="28.794642857142854"/>
-        </scene>
-        <!--Data Privacy Settings View Controller-->
         <scene sceneID="gD2-qh-0FQ">
             <objects>
                 <viewController storyboardIdentifier="SCDataPrivacySettingsViewController" id="VDR-mk-4Oh" customClass="SCDataPrivacySettingsViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -407,124 +315,3 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="2654" y="40"/>
         </scene>
-        <!--Data Privacy First Run View Controller-->
-        <scene sceneID="suE-4E-8fK">
-            <objects>
-                <viewController storyboardIdentifier="SCDataPrivacyFirstRunViewController" id="ibY-xS-QqS" customClass="SCDataPrivacyFirstRunViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Oy7-Ch-Gsd"/>
-                        <viewControllerLayoutGuide type="bottom" id="P8R-XA-Nj1"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="1dg-1c-Nh2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="du1-lO-kgI">
-                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RFZ-sA-dv1" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="587"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="727-rh-WzJ">
-                                                <rect key="frame" x="15" y="15" width="384" height="382"/>
-                                                <string key="text">Diese App verwendet Tools, z. B. in Form von SDKs (Software Developer Kit). Diese können Informationen auf Ihrem Endgerät speichern und lesen. Mit einem Klick auf „Alle akzeptieren“ akzeptieren Sie die Verarbeitung, die Webseiten- und partnerübergreifende Erstellung von individuellen Nutzungsprofilen sowie die Weitergabe Ihrer Daten an Drittanbieter, die zum Teil Ihre Daten in Ländern außerhalb der europäischen Union verarbeiten (DSGVO Art. 49). Details finden Sie im Abschnitt 5 des Datenschutzhinweises.  Die Daten werden für Analysen, Retargeting und zur Ausspielung von personalisierten Inhalten und Werbung auf Seiten der Telekom, sowie auf Drittanbieterseiten genutzt. Weitere Informationen, auch zur Datenverarbeitung durch Drittanbieter und der Möglichkeit des Widerrufs, finden Sie in den Einstellungen sowie in unseren Datenschutzhinweisen. Hier geht es weiter nur mit den notwendigen Tools.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iR1-O0-npU" customClass="SCCustomButton" customModule="OSCA" customModuleProvider="target">
-                                                <rect key="frame" x="55" y="417" width="304" height="50"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="6d1-fm-zU1"/>
-                                                </constraints>
-                                                <state key="normal" title="Einstellungen ändern"/>
-                                                <connections>
-                                                    <action selector="changeSettingsClicked:" destination="ibY-xS-QqS" eventType="touchUpInside" id="fjH-7m-Avj"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRj-rO-MRp" customClass="SCCustomButton" customModule="OSCA" customModuleProvider="target">
-                                                <rect key="frame" x="55" y="487" width="304" height="50"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="Yd4-av-6u0"/>
-                                                </constraints>
-                                                <state key="normal" title="Alle akzeptieren"/>
-                                                <connections>
-                                                    <action selector="acceptAllClicked:" destination="ibY-xS-QqS" eventType="touchUpInside" id="gnz-fH-eq1"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="727-rh-WzJ" firstAttribute="leading" secondItem="RFZ-sA-dv1" secondAttribute="leading" constant="15" id="0mX-MY-pkK"/>
-                                            <constraint firstAttribute="trailing" secondItem="iR1-O0-npU" secondAttribute="trailing" constant="55" id="Jvp-n2-n0V"/>
-                                            <constraint firstAttribute="trailing" secondItem="SRj-rO-MRp" secondAttribute="trailing" constant="55" id="NSy-q8-afI"/>
-                                            <constraint firstAttribute="trailing" secondItem="727-rh-WzJ" secondAttribute="trailing" constant="15" id="OeN-Tm-845"/>
-                                            <constraint firstItem="SRj-rO-MRp" firstAttribute="top" secondItem="iR1-O0-npU" secondAttribute="bottom" constant="20" id="d30-SO-7pT"/>
-                                            <constraint firstItem="iR1-O0-npU" firstAttribute="leading" secondItem="RFZ-sA-dv1" secondAttribute="leading" constant="55" id="dtc-ef-Dul"/>
-                                            <constraint firstItem="iR1-O0-npU" firstAttribute="top" secondItem="727-rh-WzJ" secondAttribute="bottom" constant="20" id="mri-Nm-mWR"/>
-                                            <constraint firstItem="727-rh-WzJ" firstAttribute="top" secondItem="RFZ-sA-dv1" secondAttribute="top" constant="15" id="rga-cI-kKx"/>
-                                            <constraint firstItem="SRj-rO-MRp" firstAttribute="leading" secondItem="RFZ-sA-dv1" secondAttribute="leading" constant="55" id="tK7-D8-TpJ"/>
-                                            <constraint firstAttribute="bottom" secondItem="SRj-rO-MRp" secondAttribute="bottom" constant="50" id="uFr-ko-gEJ"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="RFZ-sA-dv1" firstAttribute="trailing" secondItem="du1-lO-kgI" secondAttribute="trailing" id="AwC-42-X6G"/>
-                                    <constraint firstItem="RFZ-sA-dv1" firstAttribute="leading" secondItem="du1-lO-kgI" secondAttribute="leading" id="ULp-LK-IdA"/>
-                                    <constraint firstAttribute="bottom" secondItem="RFZ-sA-dv1" secondAttribute="bottom" id="jGh-ug-j0X"/>
-                                    <constraint firstItem="RFZ-sA-dv1" firstAttribute="top" secondItem="du1-lO-kgI" secondAttribute="top" id="o2i-uN-u4B"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="dQ0-N9-zYm"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="jHY-RE-khU"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" name="CLR_BCKGRND"/>
-                        <constraints>
-                            <constraint firstItem="P8R-XA-Nj1" firstAttribute="top" secondItem="du1-lO-kgI" secondAttribute="bottom" id="2U2-KS-Cj5"/>
-                            <constraint firstItem="RFZ-sA-dv1" firstAttribute="width" secondItem="1dg-1c-Nh2" secondAttribute="width" id="O73-8p-4cO"/>
-                            <constraint firstItem="du1-lO-kgI" firstAttribute="leading" secondItem="1dg-1c-Nh2" secondAttribute="leading" id="Pwb-TZ-Csl"/>
-                            <constraint firstItem="du1-lO-kgI" firstAttribute="top" secondItem="Oy7-Ch-Gsd" secondAttribute="bottom" id="cKT-ML-1M9"/>
-                            <constraint firstAttribute="trailing" secondItem="du1-lO-kgI" secondAttribute="trailing" id="sO7-ai-qLk"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="acceptAllButton" destination="SRj-rO-MRp" id="vPq-Sg-jaz"/>
-                        <outlet property="changeSettingsButton" destination="iR1-O0-npU" id="3Sd-70-xgu"/>
-                        <outlet property="descriptionLabel" destination="727-rh-WzJ" id="Ah3-zC-aRe"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yJc-pi-cV2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3457.971014492754" y="52.901785714285715"/>
-        </scene>
-    </scenes>
-    <resources>
-        <image name="dpn_icon" width="72" height="85"/>
-        <image name="icon_close" width="31" height="31"/>
-        <namedColor name="CLR_BCKGRND">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_BORDER_COOLGRAY">
-            <color red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_GRAY_DARKGRAY">
-            <color red="0.39215686274509803" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_NAVBAR_SOLID_ITEMS">
-            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_SEPARATOR">
-            <color red="0.92900002002716064" green="0.92900002002716064" blue="0.92900002002716064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="SkyBlue">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
-</document>

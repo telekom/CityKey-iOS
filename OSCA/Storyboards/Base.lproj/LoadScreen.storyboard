@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -33,61 +33,3 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Load View Controller-->
-        <scene sceneID="EHf-IW-A2E">
-            <objects>
-                <viewController storyboardIdentifier="SCLoadViewController" id="01J-lp-oVM" customClass="SCLoadViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch-screen" translatesAutoresizingMaskIntoConstraints="NO" id="HyM-Sb-rpO">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </imageView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Jf8-eY-TmI">
-                                <rect key="frame" x="187" y="722" width="40" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="Uz9-Z5-Loz"/>
-                                    <constraint firstAttribute="width" constant="40" id="tZ3-pF-Wk7"/>
-                                </constraints>
-                            </activityIndicatorView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jRB-Mu-TB8" customClass="LottieAnimationView" customModule="Lottie">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" name="CLR_LAUNCH_SCREEN_COLOR"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Jf8-eY-TmI" secondAttribute="bottom" constant="100" id="0ND-Qc-Uwg"/>
-                            <constraint firstAttribute="bottom" secondItem="HyM-Sb-rpO" secondAttribute="bottom" id="Dgt-rV-wci"/>
-                            <constraint firstAttribute="bottom" secondItem="jRB-Mu-TB8" secondAttribute="bottom" id="Eza-nx-BuF"/>
-                            <constraint firstItem="jRB-Mu-TB8" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="GLY-JV-ebU"/>
-                            <constraint firstAttribute="trailing" secondItem="jRB-Mu-TB8" secondAttribute="trailing" id="MwY-rD-lou"/>
-                            <constraint firstItem="Jf8-eY-TmI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="NH7-Kn-2MA"/>
-                            <constraint firstItem="jRB-Mu-TB8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="PCs-hk-TLI"/>
-                            <constraint firstItem="HyM-Sb-rpO" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="PUH-4K-Xm4"/>
-                            <constraint firstItem="HyM-Sb-rpO" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="Ubg-2g-AuZ"/>
-                            <constraint firstItem="HyM-Sb-rpO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="WBX-et-qac"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="launchImage" destination="HyM-Sb-rpO" id="byV-Jh-oYH"/>
-                        <outlet property="loadingView" destination="jRB-Mu-TB8" id="Qni-7Q-dEO"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-446.37681159420293" y="353.57142857142856"/>
-        </scene>
-    </scenes>
-    <designables>
-        <designable name="jRB-Mu-TB8"/>
-    </designables>
-    <resources>
-        <image name="launch-screen" width="375" height="812"/>
-        <namedColor name="CLR_LAUNCH_SCREEN_COLOR">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-    </resources>
-</document>

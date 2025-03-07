@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -35,23 +35,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="3Tf-cM-cg6">
-            <objects>
-                <navigationController id="Lwg-yg-u5H" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pq0-nh-NXF">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="HXc-og-7am" kind="relationship" relationship="rootViewController" id="jE2-EH-MyU"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PfO-fc-pgu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-270" y="72"/>
-        </scene>
-        <!--Defect Reporter More Info View Controller-->
         <scene sceneID="9cW-Od-DVK">
             <objects>
                 <viewController storyboardIdentifier="SCDefectReporterMoreInfoViewController" id="Zny-qe-Ds2" customClass="SCDefectReporterMoreInfoViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -89,90 +72,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="1605.7971014492755" y="-709.15178571428567"/>
         </scene>
-        <!--Defect Reporter Category Selection View Controller-->
-        <scene sceneID="i9X-wC-ksG">
-            <objects>
-                <viewController storyboardIdentifier="SCDefectReporterCategorySelectionViewController" id="HXc-og-7am" customClass="SCDefectReporterCategorySelectionViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="CVq-J4-jiK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eQj-ZS-3ev">
-                                <rect key="frame" x="0.0" y="92" width="414" height="770"/>
-                                <color key="backgroundColor" name="CLR_BCKGRND"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SCDefectReporterCategoryCell" rowHeight="50" id="eYU-QT-Zhb" customClass="SCDefectReporterCategoryCell" customModule="OSCA" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="414" height="50"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eYU-QT-Zhb" id="4sd-fC-lsg">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7aL-jo-LdD" userLabel="Bottom Border">
-                                                    <rect key="frame" x="0.0" y="49" width="414" height="1"/>
-                                                    <color key="backgroundColor" name="CLR_BORDER_SILVERGRAY"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="1" id="8I7-ks-Zip"/>
-                                                    </constraints>
-                                                </view>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUY-2G-rxb">
-                                                    <rect key="frame" x="21" y="10" width="343" height="29"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" name="CLR_LABEL_TEXT_BLACK"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-disclosure-indicator" translatesAutoresizingMaskIntoConstraints="NO" id="l4n-1E-xpd" userLabel="accessory view">
-                                                    <rect key="frame" x="385" y="18" width="8" height="13"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="8" id="Ogi-DF-GBe"/>
-                                                        <constraint firstAttribute="height" constant="13" id="wBm-6x-dxl"/>
-                                                    </constraints>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="7aL-jo-LdD" secondAttribute="trailing" id="1gz-7x-9xv"/>
-                                                <constraint firstItem="tUY-2G-rxb" firstAttribute="top" secondItem="4sd-fC-lsg" secondAttribute="top" constant="10" id="20O-7h-P5Z"/>
-                                                <constraint firstItem="tUY-2G-rxb" firstAttribute="leading" secondItem="4sd-fC-lsg" secondAttribute="leading" constant="21" id="2M0-Rg-uth"/>
-                                                <constraint firstItem="7aL-jo-LdD" firstAttribute="top" secondItem="tUY-2G-rxb" secondAttribute="bottom" constant="10" id="2Ny-gX-9eD"/>
-                                                <constraint firstItem="7aL-jo-LdD" firstAttribute="leading" secondItem="4sd-fC-lsg" secondAttribute="leading" id="5pc-lU-ZVl"/>
-                                                <constraint firstAttribute="trailing" secondItem="l4n-1E-xpd" secondAttribute="trailing" constant="21" id="IpM-j2-0Qh"/>
-                                                <constraint firstItem="7aL-jo-LdD" firstAttribute="bottom" secondItem="4sd-fC-lsg" secondAttribute="bottom" id="JvO-08-pCV"/>
-                                                <constraint firstItem="l4n-1E-xpd" firstAttribute="leading" secondItem="tUY-2G-rxb" secondAttribute="trailing" constant="21" id="R8E-3e-Ge2"/>
-                                                <constraint firstItem="l4n-1E-xpd" firstAttribute="centerY" secondItem="tUY-2G-rxb" secondAttribute="centerY" id="kLW-2o-rJn"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" name="CLR_BCKGRND"/>
-                                        <connections>
-                                            <outlet property="titleLabel" destination="tUY-2G-rxb" id="nzk-rq-Cee"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="HXc-og-7am" id="O6U-Aa-jCc"/>
-                                    <outlet property="delegate" destination="HXc-og-7am" id="N5h-1W-eFV"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="ez6-bV-6Bb"/>
-                        <color key="backgroundColor" name="CLR_BCKGRND"/>
-                        <constraints>
-                            <constraint firstItem="ez6-bV-6Bb" firstAttribute="bottom" secondItem="eQj-ZS-3ev" secondAttribute="bottom" id="AwT-Kr-G7r"/>
-                            <constraint firstItem="eQj-ZS-3ev" firstAttribute="top" secondItem="ez6-bV-6Bb" secondAttribute="top" id="CkG-y8-7BZ"/>
-                            <constraint firstItem="eQj-ZS-3ev" firstAttribute="leading" secondItem="ez6-bV-6Bb" secondAttribute="leading" id="WZh-8g-vvm"/>
-                            <constraint firstItem="ez6-bV-6Bb" firstAttribute="trailing" secondItem="eQj-ZS-3ev" secondAttribute="trailing" id="drR-Bq-eiV"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="yQ8-wO-nza"/>
-                    <connections>
-                        <outlet property="tableView" destination="eQj-ZS-3ev" id="7qG-Zk-X2E"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dr8-2V-b9h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="696" y="72"/>
-        </scene>
-        <!--Defect Reporter Subcategory View Controller-->
         <scene sceneID="A8N-N4-BTT">
             <objects>
                 <viewController storyboardIdentifier="SCDefectReporterSubcategoryViewController" id="gxr-sx-4Km" customClass="SCDefectReporterSubcategoryViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -255,143 +154,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="1659" y="72"/>
         </scene>
-        <!--Defect Reporter Location View Controller-->
-        <scene sceneID="CAX-8k-Jln">
-            <objects>
-                <viewController storyboardIdentifier="SCDefectReporterLocationViewController" id="ous-X3-X4T" customClass="SCDefectReporterLocationViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DVi-Yf-svZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move the Map to the location of the defect. The defect is marked by the pin." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6E-7C-TtE">
-                                <rect key="frame" x="16" y="107" width="382" height="38.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="vnG-is-TFM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <color key="textColor" name="CLR_LABEL_TEXT_BLACK"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="vnG-is-TFM"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                            <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vM-sO-haC" userLabel="MapViewContainer">
-                                <rect key="frame" x="0.0" y="160.5" width="414" height="552.5"/>
-                                <color key="backgroundColor" name="CLR_BCKGRND"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ALb-lk-yrC" userLabel="Bottom Border">
-                                <rect key="frame" x="0.0" y="160.5" width="414" height="1"/>
-                                <color key="backgroundColor" name="CLR_BORDER_SILVERGRAY"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1" id="1ok-J9-2ie"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXO-rA-nqC" userLabel="ButtonContainer">
-                                <rect key="frame" x="0.0" y="713" width="414" height="100"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LEs-7q-sne">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
-                                        <color key="backgroundColor" name="CLR_BORDER_SILVERGRAY"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1" id="iPj-XG-SMw"/>
-                                        </constraints>
-                                    </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1I-D5-mJq" customClass="SCCustomButton" customModule="OSCA" customModuleProvider="target">
-                                        <rect key="frame" x="79" y="23" width="256" height="54"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="54" id="fYQ-Ss-rwl"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="256" id="ow1-O7-dF4"/>
-                                        </constraints>
-                                        <state key="normal" title="Save Position">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="savePositionBtnWasPressed:" destination="ous-X3-X4T" eventType="touchUpInside" id="lF7-ZK-Tts"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" name="CLR_BCKGRND"/>
-                                <constraints>
-                                    <constraint firstItem="LEs-7q-sne" firstAttribute="width" secondItem="cXO-rA-nqC" secondAttribute="width" id="5iq-Bz-3Hf"/>
-                                    <constraint firstAttribute="height" constant="100" id="GAY-QL-Oda"/>
-                                    <constraint firstItem="h1I-D5-mJq" firstAttribute="centerY" secondItem="cXO-rA-nqC" secondAttribute="centerY" id="gLW-OR-GLX"/>
-                                    <constraint firstItem="LEs-7q-sne" firstAttribute="leading" secondItem="cXO-rA-nqC" secondAttribute="leading" id="hB5-Ds-DA4"/>
-                                    <constraint firstItem="h1I-D5-mJq" firstAttribute="centerX" secondItem="cXO-rA-nqC" secondAttribute="centerX" id="ndE-Kn-qnl"/>
-                                    <constraint firstItem="LEs-7q-sne" firstAttribute="top" secondItem="cXO-rA-nqC" secondAttribute="top" id="ygA-9d-gen"/>
-                                </constraints>
-                            </view>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPO-91-cEb">
-                                <rect key="frame" x="182" y="392" width="50" height="50"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <bool key="isElement" value="NO"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="lXa-Sl-sgI"/>
-                                    <constraint firstAttribute="width" constant="50" id="qOR-Qp-1K2"/>
-                                </constraints>
-                                <state key="normal" image="icon_default_pin"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Hb-0o-vU3">
-                                <rect key="frame" x="349" y="638" width="55" height="55"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="IRg-hk-x23"/>
-                                    <constraint firstAttribute="width" constant="55" id="NG7-Ra-8Ub"/>
-                                </constraints>
-                                <state key="normal" image="Locate me"/>
-                                <connections>
-                                    <action selector="locateMeBtnWasPressed:" destination="ous-X3-X4T" eventType="touchUpInside" id="EbW-Hh-dnV"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="lNg-MP-oaF"/>
-                        <color key="backgroundColor" name="CLR_BCKGRND"/>
-                        <constraints>
-                            <constraint firstItem="cXO-rA-nqC" firstAttribute="top" secondItem="5vM-sO-haC" secondAttribute="bottom" id="0RD-nx-T70"/>
-                            <constraint firstItem="5vM-sO-haC" firstAttribute="leading" secondItem="lNg-MP-oaF" secondAttribute="leading" id="3o0-jY-hSB"/>
-                            <constraint firstItem="lNg-MP-oaF" firstAttribute="trailing" secondItem="8Hb-0o-vU3" secondAttribute="trailing" constant="10" id="54T-Lm-zWa"/>
-                            <constraint firstItem="k6E-7C-TtE" firstAttribute="leading" secondItem="lNg-MP-oaF" secondAttribute="leading" constant="16" id="AtB-6c-yOL"/>
-                            <constraint firstItem="5vM-sO-haC" firstAttribute="top" secondItem="k6E-7C-TtE" secondAttribute="bottom" constant="15" id="Ls9-FO-7BM"/>
-                            <constraint firstItem="ALb-lk-yrC" firstAttribute="leading" secondItem="DVi-Yf-svZ" secondAttribute="leading" id="NFf-HS-Bsx"/>
-                            <constraint firstItem="lNg-MP-oaF" firstAttribute="trailing" secondItem="k6E-7C-TtE" secondAttribute="trailing" constant="16" id="Sev-Cf-S6K"/>
-                            <constraint firstItem="lNg-MP-oaF" firstAttribute="trailing" secondItem="5vM-sO-haC" secondAttribute="trailing" id="YBS-HK-sMV"/>
-                            <constraint firstItem="lNg-MP-oaF" firstAttribute="bottom" secondItem="cXO-rA-nqC" secondAttribute="bottom" id="YXH-Gy-dOZ"/>
-                            <constraint firstItem="YPO-91-cEb" firstAttribute="centerX" secondItem="5vM-sO-haC" secondAttribute="centerX" id="bhl-N1-rfh"/>
-                            <constraint firstItem="cXO-rA-nqC" firstAttribute="trailing" secondItem="lNg-MP-oaF" secondAttribute="trailing" id="ce2-jt-ovU"/>
-                            <constraint firstItem="k6E-7C-TtE" firstAttribute="top" secondItem="lNg-MP-oaF" secondAttribute="top" constant="15" id="mas-zx-H5Q"/>
-                            <constraint firstAttribute="trailing" secondItem="ALb-lk-yrC" secondAttribute="trailing" id="svm-dI-PTb"/>
-                            <constraint firstItem="YPO-91-cEb" firstAttribute="centerY" secondItem="5vM-sO-haC" secondAttribute="centerY" constant="-20" id="xUK-PC-LEL"/>
-                            <constraint firstItem="cXO-rA-nqC" firstAttribute="leading" secondItem="lNg-MP-oaF" secondAttribute="leading" id="xXT-Tl-Bfk"/>
-                            <constraint firstItem="cXO-rA-nqC" firstAttribute="top" secondItem="8Hb-0o-vU3" secondAttribute="bottom" constant="20" id="ycr-xf-m9d"/>
-                            <constraint firstItem="ALb-lk-yrC" firstAttribute="top" secondItem="k6E-7C-TtE" secondAttribute="bottom" constant="15" id="zZK-vO-Fcn"/>
-                        </constraints>
-                    </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="XMI-3l-SV1">
-                        <barButtonItem key="rightBarButtonItem" image="icon_close" id="HQn-o4-AHx">
-                            <color key="tintColor" name="CLR_NAVBAR_SOLID_ITEMS"/>
-                            <connections>
-                                <action selector="closeBtnWasPressed:" destination="ous-X3-X4T" id="3KB-cP-x0T"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="closeBtn" destination="HQn-o4-AHx" id="e6H-AI-r5F"/>
-                        <outlet property="locateMeBtn" destination="8Hb-0o-vU3" id="t5b-Tl-kj7"/>
-                        <outlet property="locationInfoLabel" destination="k6E-7C-TtE" id="oD4-Qx-wm1"/>
-                        <outlet property="locationInfoLabelViewHeight" destination="vnG-is-TFM" id="EJY-aS-i7z"/>
-                        <outlet property="mapViewContainer" destination="5vM-sO-haC" id="V5r-zH-sHV"/>
-                        <outlet property="markerPinBtn" destination="YPO-91-cEb" id="fUs-zp-QAg"/>
-                        <outlet property="savePositionBtn" destination="h1I-D5-mJq" id="GYO-bS-lXY"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mMI-B5-GoS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="696" y="854"/>
-        </scene>
-        <!--Navigation Controller-->
         <scene sceneID="CK5-zd-GWn">
             <objects>
                 <navigationController storyboardIdentifier="SCDefectReporterLocationNavVC" automaticallyAdjustsScrollViewInsets="NO" id="hB6-PU-lnB" sceneMemberID="viewController">
@@ -409,15 +171,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="-271" y="854"/>
         </scene>
-        <!--TextfieldComponent-->
-        <scene sceneID="ogx-Q7-b7W">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TextfieldComponent" id="bWw-Zw-RYJ" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LId-BT-GjT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2779" y="944"/>
-        </scene>
-        <!--Defect Reporter Form View Controller-->
         <scene sceneID="bzA-2V-Rul">
             <objects>
                 <viewController storyboardIdentifier="SCDefectReporterFormViewController" id="tOr-Nk-ABE" customClass="SCDefectReporterFormViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -1011,25 +764,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="1658" y="955"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="rmL-UW-EPS">
-            <objects>
-                <navigationController storyboardIdentifier="SCDefectReporterMoreNavVC" automaticallyAdjustsScrollViewInsets="NO" id="pxj-Az-8RW" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EMc-an-APt">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Zny-qe-Ds2" kind="relationship" relationship="rootViewController" id="IpQ-nL-exg"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4cu-e6-EXj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="695.6521739130435" y="-709.15178571428567"/>
-        </scene>
-        <!--Defect Report Terms View Controller-->
         <scene sceneID="UNP-ck-Sit">
             <objects>
                 <viewController storyboardIdentifier="SCDefectReportTermsViewController" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="Bgo-a9-PV8" customClass="SCDefectReportTermsViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -1064,29 +798,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="5441" y="1712"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="ufv-dG-G7T">
-            <objects>
-                <navigationController storyboardIdentifier="SCDefectReporterTermsNavVC" automaticallyAdjustsScrollViewInsets="NO" id="S9C-Xw-zIT" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="rR3-65-XJ9">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" name="CLR_NAVBAR_SOLID_TITLE"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Bgo-a9-PV8" kind="relationship" relationship="rootViewController" id="74a-GY-6eR"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0wL-Ku-aOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4196" y="1712"/>
-        </scene>
-        <!--Defect Reporter Form Submission View Controller-->
         <scene sceneID="ftT-iP-Tsf">
             <objects>
                 <viewController storyboardIdentifier="SCDefectReporterFormSubmissionViewController" id="771-cT-SND" customClass="SCDefectReporterFormSubmissionViewController" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -1306,62 +1017,3 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="3603" y="810"/>
         </scene>
-        <!--TextViewComponent-->
-        <scene sceneID="l8P-2H-bjm">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TextViewComponent" id="YjD-PS-HEU" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Byt-bc-wyJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2453" y="828"/>
-        </scene>
-    </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="l44-YC-XKs"/>
-    </inferredMetricsTieBreakers>
-    <resources>
-        <image name="Locate me" width="55" height="55"/>
-        <image name="add_photo" width="20" height="20"/>
-        <image name="checkbox_unselected" width="18" height="18"/>
-        <image name="delete_photo" width="30" height="30"/>
-        <image name="icon-disclosure-indicator" width="12" height="15"/>
-        <image name="icon_close" width="31" height="31"/>
-        <image name="icon_default_pin" width="32" height="47"/>
-        <image name="icon_val_ok" width="31" height="31"/>
-        <namedColor name="CLR_BCKGRND">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_BORDER_COOLGRAY">
-            <color red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_BORDER_SILVERGRAY">
-            <color red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_BLACK">
-            <color red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_FULL_BLACK">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_GRAY_COOLGRAY">
-            <color red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_GRAY_DARKGRAY">
-            <color red="0.39215686274509803" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_GRAY_GRAY">
-            <color red="0.63137254901960782" green="0.63137254901960782" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_NAVBAR_SOLID_BCKGRND">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_NAVBAR_SOLID_ITEMS">
-            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_NAVBAR_SOLID_TITLE">
-            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
-</document>

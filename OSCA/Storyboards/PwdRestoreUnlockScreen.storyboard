@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -23,7 +24,6 @@ SPDX-FileCopyrightText: 2025 Deutsche Telekom AG
 SPDX-License-Identifier: Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand
 License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-Brand.txt
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Rg-ZJ-PeC">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
@@ -34,15 +34,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--TextfieldComponent-->
-        <scene sceneID="ePm-mv-Jfc">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TextfieldComponent" id="7fT-uH-tsJ" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kl4-Za-5zd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2328" y="1201"/>
-        </scene>
-        <!--Restore Unlock FinishedVC-->
         <scene sceneID="Bbc-LK-SdX">
             <objects>
                 <viewController storyboardIdentifier="RestoreUnlockFinishedVC" id="P7K-PN-PXc" customClass="SCPWDRestoreUnlockFinishedVC" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -197,29 +188,6 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="2979.375" y="1190.4929577464789"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="2ig-Tc-lnr">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Rg-ZJ-PeC" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="pLq-Cj-zGG">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" name="CLR_NAVBAR_SOLID_BCKGRND"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" name="CLR_NAVBAR_SOLID_TITLE"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="82e-BE-zjL" kind="relationship" relationship="rootViewController" id="zYk-PX-l0g"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vwe-5q-D8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="735" y="1190.4929577464789"/>
-        </scene>
-        <!--<Headline>-->
         <scene sceneID="rDg-j4-lbX">
             <objects>
                 <viewController storyboardIdentifier="RestoreUnlockVC" id="82e-BE-zjL" customClass="SCPWDRestoreUnlockVC" customModule="OSCA" customModuleProvider="target" sceneMemberID="viewController">
@@ -367,49 +335,3 @@ License-Filename: LICENSES/Apache-2.0.txt LICENSES/LicenseRef-Deutsche-Telekom-B
             </objects>
             <point key="canvasLocation" x="1627" y="1267"/>
         </scene>
-        <!--PWDCheck-->
-        <scene sceneID="pOB-yk-huD">
-            <objects>
-                <viewControllerPlaceholder storyboardName="RegistrationScreen" referencedIdentifier="PWDCheck" id="B8N-B1-lBv" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CqE-Ne-YkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2161" y="1394"/>
-        </scene>
-    </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="S5Y-Yu-2D0"/>
-    </inferredMetricsTieBreakers>
-    <resources>
-        <image name="action_resend_email" width="24" height="24"/>
-        <image name="icon_close" width="31" height="31"/>
-        <image name="icon_reset_password" width="70" height="70"/>
-        <image name="registration_main" width="960" height="640"/>
-        <namedColor name="CLR_BCKGRND">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_BORDER_SILVERGRAY">
-            <color red="0.7839999794960022" green="0.7839999794960022" blue="0.7839999794960022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_INFOVIEW_BCKGRND">
-            <color red="0.97600001096725464" green="0.97600001096725464" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_BLACK">
-            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_GRAY_DARKGRAY">
-            <color red="0.3919999897480011" green="0.3919999897480011" blue="0.3919999897480011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_GREEN">
-            <color red="0.13699999451637268" green="0.61599999666213989" blue="0.11400000005960464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_LABEL_TEXT_OSCA_BLUE">
-            <color red="0.21176470588235294" green="0.52549019607843139" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_NAVBAR_SOLID_BCKGRND">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CLR_NAVBAR_SOLID_TITLE">
-            <color red="0.14900000393390656" green="0.14900000393390656" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-    </resources>
-</document>
