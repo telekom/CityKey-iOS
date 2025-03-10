@@ -32,7 +32,6 @@
 		024BB1C522BCDDC000FA83F4 /* SCLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024BB1BC22BCDDC000FA83F4 /* SCLocationCell.swift */; };
 		024BB1C622BCDDC000FA83F4 /* SCLocationSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024BB1BD22BCDDC000FA83F4 /* SCLocationSegue.swift */; };
 		024BB1C722BCDDC000FA83F4 /* SCLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024BB1BE22BCDDC000FA83F4 /* SCLocationViewController.swift */; };
-		024BB1C822BCDDC000FA83F4 /* LocationScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024BB1BF22BCDDC000FA83F4 /* LocationScreen.storyboard */; };
 		024BB1C922BCDDC000FA83F4 /* SCLocationSubTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024BB1C122BCDDC000FA83F4 /* SCLocationSubTableVC.swift */; };
 		024BB1CA22BCDDC000FA83F4 /* SCLocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024BB1C222BCDDC000FA83F4 /* SCLocationPresenter.swift */; };
 		0276C08222563B7400183B5E /* SCModelCityWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276C08122563B7400183B5E /* SCModelCityWeather.swift */; };
@@ -61,7 +60,6 @@
 		1126AA7B26EA0BBC004A7ECA /* SCFeedbackConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126AA7A26EA0BBC004A7ECA /* SCFeedbackConfirmationViewController.swift */; };
 		1126AA7D26EA1BE5004A7ECA /* SCFeedbackPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126AA7C26EA1BE5004A7ECA /* SCFeedbackPresenter.swift */; };
 		113604AB27AD2D43008CD7E0 /* SCForceUpdateVersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113604AA27AD2D43008CD7E0 /* SCForceUpdateVersionViewController.swift */; };
-		1159E1A5276A059400C65A81 /* SCToggelLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1159E1A4276A059400C65A81 /* SCToggelLabelView.xib */; };
 		1159E1A7276A0AD700C65A81 /* SCToggelLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159E1A6276A0AD700C65A81 /* SCToggelLabelView.swift */; };
 		1159E1A9276B29E300C65A81 /* SCServicesMoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159E1A8276B29E300C65A81 /* SCServicesMoreInfoViewController.swift */; };
 		1159E1AB276B2DDC00C65A81 /* SCServicesMoreInfoViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159E1AA276B2DDC00C65A81 /* SCServicesMoreInfoViewPresenter.swift */; };
@@ -274,6 +272,55 @@
 		2E93D6142BC52F7D0076BCBB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2E202AE82B306B05006EDB7E /* PrivacyInfo.xcprivacy */; };
 		2E93D6152BC52F7E0076BCBB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2E202AE82B306B05006EDB7E /* PrivacyInfo.xcprivacy */; };
 		2E93D6162BC531330076BCBB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2E202AE82B306B05006EDB7E /* PrivacyInfo.xcprivacy */; };
+		2E9D7EAF2D7EA66F0008CCEE /* Fahrradparken.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EAE2D7EA66F0008CCEE /* Fahrradparken.storyboard */; };
+		2E9D7EB12D7EA69F0008CCEE /* DefectReporter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EB02D7EA69F0008CCEE /* DefectReporter.storyboard */; };
+		2E9D7EB42D7EA6D10008CCEE /* BasicPOIGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EB22D7EA6D10008CCEE /* BasicPOIGuide.storyboard */; };
+		2E9D7EB52D7EA6D10008CCEE /* BasicPOIGuideDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EB32D7EA6D10008CCEE /* BasicPOIGuideDetail.storyboard */; };
+		2E9D7EB92D7EA6F70008CCEE /* AusweisAuth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EB62D7EA6F70008CCEE /* AusweisAuth.storyboard */; };
+		2E9D7EBA2D7EA6F70008CCEE /* AusweisAuthWorkflow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EB72D7EA6F70008CCEE /* AusweisAuthWorkflow.storyboard */; };
+		2E9D7EBB2D7EA6F70008CCEE /* EgovServiceDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EB82D7EA6F70008CCEE /* EgovServiceDetails.storyboard */; };
+		2E9D7EBD2D7EA7340008CCEE /* SCCitizenSurveyOverviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EBC2D7EA7340008CCEE /* SCCitizenSurveyOverviewTableViewCell.xib */; };
+		2E9D7EBF2D7EA74A0008CCEE /* SCOptionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EBE2D7EA74A0008CCEE /* SCOptionView.xib */; };
+		2E9D7EC32D7EA8550008CCEE /* SCListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EC22D7EA8550008CCEE /* SCListTableViewCell.xib */; };
+		2E9D7EC52D7EAA6E0008CCEE /* SCWasteCalendarTableViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EC42D7EAA6E0008CCEE /* SCWasteCalendarTableViewHeaderCell.xib */; };
+		2E9D7EC72D7EAA770008CCEE /* WasteCalendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EC62D7EAA770008CCEE /* WasteCalendar.storyboard */; };
+		2E9D7EC92D7EAA940008CCEE /* CityImprintScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EC82D7EAA940008CCEE /* CityImprintScreen.storyboard */; };
+		2E9D7ECB2D7EAAA60008CCEE /* InfoNoticeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7ECA2D7EAAA60008CCEE /* InfoNoticeScreen.storyboard */; };
+		2E9D7ECD2D7EAAB50008CCEE /* SCStatusOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7ECC2D7EAAB50008CCEE /* SCStatusOverlayView.xib */; };
+		2E9D7ECF2D7EAAE80008CCEE /* SCAppointmentOverviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7ECE2D7EAAE80008CCEE /* SCAppointmentOverviewTableViewCell.xib */; };
+		2E9D7ED12D7EAB010008CCEE /* TEVIS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7ED02D7EAB010008CCEE /* TEVIS.storyboard */; };
+		2E9D7ED32D7EAB210008CCEE /* DataPrivacyScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7ED22D7EAB210008CCEE /* DataPrivacyScreen.storyboard */; };
+		2E9D7ED52D7EAB380008CCEE /* DeleteAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7ED42D7EAB380008CCEE /* DeleteAccount.storyboard */; };
+		2E9D7ED82D7EAB490008CCEE /* LocationScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7ED62D7EAB490008CCEE /* LocationScreen.storyboard */; };
+		2E9D7EDB2D7EAB690008CCEE /* UserInfoBoxScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7ED92D7EAB690008CCEE /* UserInfoBoxScreen.storyboard */; };
+		2E9D7EDD2D7EAB780008CCEE /* UserInfoBoxDetailScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EDC2D7EAB780008CCEE /* UserInfoBoxDetailScreen.storyboard */; };
+		2E9D7EE02D7EAB890008CCEE /* RegistrationScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EDE2D7EAB890008CCEE /* RegistrationScreen.storyboard */; };
+		2E9D7EE32D7EAB9C0008CCEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EE12D7EAB9C0008CCEE /* Main.storyboard */; };
+		2E9D7EE62D7EABB50008CCEE /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EE42D7EABB50008CCEE /* LoginScreen.storyboard */; };
+		2E9D7EEB2D7EABDC0008CCEE /* EditProfileScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EE72D7EABDC0008CCEE /* EditProfileScreen.storyboard */; };
+		2E9D7EEC2D7EABDC0008CCEE /* ProfileScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EE82D7EABDC0008CCEE /* ProfileScreen.storyboard */; };
+		2E9D7EF12D7EABF90008CCEE /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EED2D7EABF90008CCEE /* Dashboard.storyboard */; };
+		2E9D7EF22D7EABF90008CCEE /* NewsOverviewScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EEE2D7EABF90008CCEE /* NewsOverviewScreen.storyboard */; };
+		2E9D7EF92D7EAC160008CCEE /* ServicesOverviewScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EF42D7EAC160008CCEE /* ServicesOverviewScreen.storyboard */; };
+		2E9D7EFA2D7EAC160008CCEE /* ServicesInfoDetailScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EF32D7EAC160008CCEE /* ServicesInfoDetailScreen.storyboard */; };
+		2E9D7EFB2D7EAC160008CCEE /* ServicesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EF52D7EAC160008CCEE /* ServicesScreen.storyboard */; };
+		2E9D7F002D7EAC2B0008CCEE /* MarketplaceOverviewScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EFC2D7EAC2B0008CCEE /* MarketplaceOverviewScreen.storyboard */; };
+		2E9D7F012D7EAC2B0008CCEE /* MarketplaceScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7EFD2D7EAC2B0008CCEE /* MarketplaceScreen.storyboard */; };
+		2E9D7F032D7EAC4F0008CCEE /* EventsOverviewScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F022D7EAC4F0008CCEE /* EventsOverviewScreen.storyboard */; };
+		2E9D7F052D7EAC590008CCEE /* EventDetailScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F042D7EAC590008CCEE /* EventDetailScreen.storyboard */; };
+		2E9D7F072D7EAD460008CCEE /* SCRadioToggleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F062D7EAD460008CCEE /* SCRadioToggleView.xib */; };
+		2E9D7F092D7EAD5A0008CCEE /* WasteCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F082D7EAD5A0008CCEE /* WasteCategoryCell.xib */; };
+		2E9D7F0B2D7EAD720008CCEE /* SCFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F0A2D7EAD720008CCEE /* SCFilterView.xib */; };
+		2E9D7F0D2D7EAD8E0008CCEE /* CalendarInnerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F0C2D7EAD8E0008CCEE /* CalendarInnerCollectionViewCell.xib */; };
+		2E9D7F0F2D7EADAC0008CCEE /* CalendarCollectionViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F0E2D7EADAC0008CCEE /* CalendarCollectionViewHeaderView.xib */; };
+		2E9D7F122D7EAE000008CCEE /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F102D7EAE000008CCEE /* CalendarView.xib */; };
+		2E9D7F132D7EAE000008CCEE /* SCToggelLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F112D7EAE000008CCEE /* SCToggelLabelView.xib */; };
+		2E9D7F152D7EAE310008CCEE /* RetryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F142D7EAE310008CCEE /* RetryView.xib */; };
+		2E9D7F172D7EAE710008CCEE /* DatePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F162D7EAE710008CCEE /* DatePicker.storyboard */; };
+		2E9D7F192D7EAE8F0008CCEE /* SCDateBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F182D7EAE8F0008CCEE /* SCDateBox.xib */; };
+		2E9D7F1E2D7EAF310008CCEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F1A2D7EAF310008CCEE /* LaunchScreen.storyboard */; };
+		2E9D7F1F2D7EAF310008CCEE /* LoadScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F1B2D7EAF310008CCEE /* LoadScreen.storyboard */; };
+		2E9D7F232D7EB09A0008CCEE /* CitizenSurvey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D7F222D7EB09A0008CCEE /* CitizenSurvey.storyboard */; };
 		2EA091832A3893E000072A9F /* FahrrahdparkenReportedLocationVC+GMSDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA091822A3893E000072A9F /* FahrrahdparkenReportedLocationVC+GMSDelegate.swift */; };
 		2EA091852A38942B00072A9F /* FahrrahdparkenReportedLocationVC+CLLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA091842A38942B00072A9F /* FahrrahdparkenReportedLocationVC+CLLocationDelegate.swift */; };
 		2EA2EF5A281EDAC4003E86AF /* AppSharedDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2EF59281EDAC4003E86AF /* AppSharedDefaults.swift */; };
@@ -290,7 +337,6 @@
 		2EBC2F372A164DD400F5931E /* SCFahrradparkenReporterWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC2F362A164DD400F5931E /* SCFahrradparkenReporterWorker.swift */; };
 		2EBC2F3A2A17503900F5931E /* FahrradParkenCategories.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EBC2F392A17503900F5931E /* FahrradParkenCategories.json */; };
 		2EBC2F3C2A17668E00F5931E /* SCFahrradparkenServiceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC2F3B2A17668E00F5931E /* SCFahrradparkenServiceDetail.swift */; };
-		2EBC2F412A179AF100F5931E /* Fahrradparken.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBC2F402A179AF100F5931E /* Fahrradparken.storyboard */; };
 		2EBC2F442A179C3C00F5931E /* FahrrahdparkenReportedLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC2F432A179C3C00F5931E /* FahrrahdparkenReportedLocationVC.swift */; };
 		2EBC2F482A179D9500F5931E /* FahrradparkenReportedLocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC2F472A179D9500F5931E /* FahrradparkenReportedLocationPresenter.swift */; };
 		2EBC2F4A2A17A2BD00F5931E /* FahrrahdparkenReportedLocationVC+Displaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC2F492A17A2BD00F5931E /* FahrrahdparkenReportedLocationVC+Displaying.swift */; };
@@ -342,7 +388,6 @@
 		2ED9DA8D2A0393B0009CB053 /* CitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9DA8C2A0393B0009CB053 /* CitiesModel.swift */; };
 		2ED9DA8E2A0393B0009CB053 /* CitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9DA8C2A0393B0009CB053 /* CitiesModel.swift */; };
 		2ED9DA922A0A102B009CB053 /* WasteCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9DA902A0A102B009CB053 /* WasteCategoryCell.swift */; };
-		2ED9DA932A0A102B009CB053 /* WasteCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ED9DA912A0A102B009CB053 /* WasteCategoryCell.xib */; };
 		2EDD361E2C08841A006908C5 /* CityPOICategories.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EDD361D2C08841A006908C5 /* CityPOICategories.json */; };
 		2EDD36202C088E57006908C5 /* CityPOI.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EDD361F2C088E57006908C5 /* CityPOI.json */; };
 		2EF003A72C35760600197A6A /* SCRegistrationVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF003A62C35760600197A6A /* SCRegistrationVCTests.swift */; };
@@ -391,16 +436,12 @@
 		2EFBA174286860D100458C6E /* SCDeleteAccountConfirmationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBA173286860D100458C6E /* SCDeleteAccountConfirmationProtocol.swift */; };
 		2EFD850329ADE9B5008488D5 /* CityKey_Splashlogo_lightmode.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD850129ADE9B5008488D5 /* CityKey_Splashlogo_lightmode.json */; };
 		2EFD850429ADE9B5008488D5 /* CityKey_Splashlogo_darkmode.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EFD850229ADE9B5008488D5 /* CityKey_Splashlogo_darkmode.json */; };
-		4C01F9B8224D5D0300E6DF01 /* EditProfileScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C01F9B6224D5D0300E6DF01 /* EditProfileScreen.storyboard */; };
 		4C03933B21905F1E00ACCBD6 /* UIViewController+StatusBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03933A21905F1E00ACCBD6 /* UIViewController+StatusBarStyle.swift */; };
 		4C0393442191A04F00ACCBD6 /* SCDashboardViewController+HeaderTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0393432191A04E00ACCBD6 /* SCDashboardViewController+HeaderTransition.swift */; };
-		4C0393582191DD2E00ACCBD6 /* NewsOverviewScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0393562191DD2E00ACCBD6 /* NewsOverviewScreen.storyboard */; };
 		4C03935A2191DDE700ACCBD6 /* SCNewsOverviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0393592191DDE700ACCBD6 /* SCNewsOverviewTableViewController.swift */; };
 		4C03935C2191DFC000ACCBD6 /* SCNewsOverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03935B2191DFC000ACCBD6 /* SCNewsOverviewTableViewCell.swift */; };
 		4C07B52E2398060A00626B9F /* SCModelInfoBoxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07B52D2398060A00626B9F /* SCModelInfoBoxItem.swift */; };
 		4C07C7852166240B00A1F6A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07C7842166240B00A1F6A8 /* AppDelegate.swift */; };
-		4C07C78C2166240B00A1F6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C07C78A2166240B00A1F6A8 /* Main.storyboard */; };
-		4C07C7912166240D00A1F6A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C07C78F2166240D00A1F6A8 /* LaunchScreen.storyboard */; };
 		4C07C7B721662F0E00A1F6A8 /* SCServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07C7B621662F0E00A1F6A8 /* SCServicesViewController.swift */; };
 		4C07C7B921662F2200A1F6A8 /* SCMarketplaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07C7B821662F2200A1F6A8 /* SCMarketplaceViewController.swift */; };
 		4C07C7BB2166303200A1F6A8 /* SCProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07C7BA2166303200A1F6A8 /* SCProfileViewController.swift */; };
@@ -408,7 +449,6 @@
 		4C0955902296E5EB00802A65 /* SCVersionCheckWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C09558F2296E5EB00802A65 /* SCVersionCheckWorker.swift */; };
 		4C09827621A473240060FE50 /* SCTopAlignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C09827521A473240060FE50 /* SCTopAlignLabel.swift */; };
 		4C0AB4D023E3524000EA6AB2 /* SCModelTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0AB4CF23E3524000EA6AB2 /* SCModelTerms.swift */; };
-		4C0AB4D723E61EC200EA6AB2 /* DataPrivacyScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0AB4D623E61EC200EA6AB2 /* DataPrivacyScreen.storyboard */; };
 		4C0AB4D923E61EE800EA6AB2 /* SCDataPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0AB4D823E61EE800EA6AB2 /* SCDataPrivacyViewController.swift */; };
 		4C0AB4DB23E61F1100EA6AB2 /* SCDataPrivacyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0AB4DA23E61F1100EA6AB2 /* SCDataPrivacyPresenter.swift */; };
 		4C0BCE3F22C359EF006E7C91 /* SCServicesOverviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BCE3E22C359EF006E7C91 /* SCServicesOverviewPresenter.swift */; };
@@ -423,7 +463,6 @@
 		4C11C25D223B1BAB00C3B7C3 /* SCUserInfoBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C11C25C223B1BAB00C3B7C3 /* SCUserInfoBoxViewController.swift */; };
 		4C11C261223C015C00C3B7C3 /* SCModelCityConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C11C260223C015C00C3B7C3 /* SCModelCityConfig.swift */; };
 		4C171B0721A1C1520063EB3D /* UIImage+MaskColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C171B0621A1C1520063EB3D /* UIImage+MaskColor.swift */; };
-		4C171B0A21A20AE60063EB3D /* ServicesOverviewScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C171B0821A20AE60063EB3D /* ServicesOverviewScreen.storyboard */; };
 		4C171B0E21A20B7D0063EB3D /* SCServicesOverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C171B0B21A20B7D0063EB3D /* SCServicesOverviewTableViewCell.swift */; };
 		4C171B0F21A20B7D0063EB3D /* SCServicesOverviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C171B0C21A20B7D0063EB3D /* SCServicesOverviewTableViewController.swift */; };
 		4C1878A823F08A82000C0D21 /* UIButton+TargetClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1878A723F08A82000C0D21 /* UIButton+TargetClosure.swift */; };
@@ -432,9 +471,7 @@
 		4C2362BB22E6076300B5C8EA /* SCModelCreditAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2362BA22E6076300B5C8EA /* SCModelCreditAmount.swift */; };
 		4C23D24521A315E8000201AE /* SCMarketplaceOverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C23D24221A315E8000201AE /* SCMarketplaceOverviewTableViewCell.swift */; };
 		4C23D24621A315E8000201AE /* SCMarketplaceOverviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C23D24321A315E8000201AE /* SCMarketplaceOverviewTableViewController.swift */; };
-		4C23D24A21A3160D000201AE /* MarketplaceOverviewScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C23D24821A3160D000201AE /* MarketplaceOverviewScreen.storyboard */; };
 		4C26BA782582A57200E0413B /* SCCitizenSingleSurveyWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C26BA772582A57200E0413B /* SCCitizenSingleSurveyWorker.swift */; };
-		4C26BADF2583971800E0413B /* SCCitizenSurveyOverviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C26BADB2583971800E0413B /* SCCitizenSurveyOverviewTableViewCell.xib */; };
 		4C26BAE02583971800E0413B /* SCCitizenSurveyOverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C26BADC2583971800E0413B /* SCCitizenSurveyOverviewTableViewCell.swift */; };
 		4C26BAE12583971800E0413B /* SCFavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C26BADD2583971800E0413B /* SCFavouriteView.swift */; };
 		4C26BAE22583971800E0413B /* SCCitizenSurveyOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C26BADE2583971800E0413B /* SCCitizenSurveyOverviewController.swift */; };
@@ -445,24 +482,19 @@
 		4C26BAFF2583982000E0413B /* SCModelCitizenSurveyOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C26BAFE2583982000E0413B /* SCModelCitizenSurveyOverview.swift */; };
 		4C26BB202584251500E0413B /* SCCitizenServeyDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C26BB1F2584251500E0413B /* SCCitizenServeyDefinitions.swift */; };
 		4C26DB6C24562BFD00233F99 /* SCTevisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C26DB6B24562BFD00233F99 /* SCTevisViewController.swift */; };
-		4C26DB6E24562C5900233F99 /* TEVIS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C26DB6D24562C5900233F99 /* TEVIS.storyboard */; };
-		4C29DD0C2361903B002A351C /* EventDetailScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29DD0B2361903B002A351C /* EventDetailScreen.storyboard */; };
 		4C2AEB7022BCF598007B6312 /* SCEditProfileOverviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEB6F22BCF598007B6312 /* SCEditProfileOverviewPresenter.swift */; };
 		4C2AEB7222BCF5A6007B6312 /* SCEditProfileOverviewWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEB7122BCF5A6007B6312 /* SCEditProfileOverviewWorker.swift */; };
 		4C2AEB7422BCF5D7007B6312 /* SCEditPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEB7322BCF5D7007B6312 /* SCEditPasswordPresenter.swift */; };
 		4C2AEB7622BCF5E7007B6312 /* SCEditPasswordWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEB7522BCF5E7007B6312 /* SCEditPasswordWorker.swift */; };
 		4C2AEB7822BCF5FA007B6312 /* SCEditEMailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEB7722BCF5FA007B6312 /* SCEditEMailPresenter.swift */; };
 		4C2AEB7A22BCF615007B6312 /* SCEditEMailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AEB7922BCF615007B6312 /* SCEditEMailWorker.swift */; };
-		4C2B418321A89E48000A6275 /* LoadScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B418121A89E48000A6275 /* LoadScreen.storyboard */; };
 		4C2C2621234D13010017B514 /* SCEventsOverviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C2620234D13010017B514 /* SCEventsOverviewPresenter.swift */; };
-		4C2C2623234D13920017B514 /* EventsOverviewScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2C2622234D13920017B514 /* EventsOverviewScreen.storyboard */; };
 		4C2CE013225761EB00508A69 /* SCPWDRestoreUnlockVC+ComponentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CE012225761EB00508A69 /* SCPWDRestoreUnlockVC+ComponentDelegate.swift */; };
 		4C2DE9EE21A1B976002820E2 /* SCTilesListIconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2DE9ED21A1B976002820E2 /* SCTilesListIconCollectionViewCell.swift */; };
 		4C319F5021C482ED00A8BFBE /* String+URLEncode +URLDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C319F4F21C482ED00A8BFBE /* String+URLEncode +URLDecode.swift */; };
 		4C337C9D239C4F64003D7BFF /* TTGSnackbar+CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C337C9C239C4F64003D7BFF /* TTGSnackbar+CustomLayout.swift */; };
 		4C337C9F239D957A003D7BFF /* SCUserInfoBoxDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C337C9E239D957A003D7BFF /* SCUserInfoBoxDetailPresenter.swift */; };
 		4C337CA1239D95AA003D7BFF /* SCUserInfoBoxDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C337CA0239D95AA003D7BFF /* SCUserInfoBoxDetailViewController.swift */; };
-		4C337CA3239D960A003D7BFF /* UserInfoBoxDetailScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C337CA2239D960A003D7BFF /* UserInfoBoxDetailScreen.storyboard */; };
 		4C39824A236A25D5004AD1F7 /* SCCalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C398249236A25D5004AD1F7 /* SCCalendarHelper.swift */; };
 		4C404718217E50A800886F30 /* SHListMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C404717217E50A800886F30 /* SHListMessageCell.swift */; };
 		4C4201A325803FC500EB3592 /* SCSurveyDaysLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4201A225803FC500EB3592 /* SCSurveyDaysLeftView.swift */; };
@@ -476,8 +508,6 @@
 		4C5937A12366FBF300B4F2F1 /* SCLabelWithFixedBackgroundColot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5937A02366FBF300B4F2F1 /* SCLabelWithFixedBackgroundColot.swift */; };
 		4C617F7421BB1BE8008E1743 /* MessageDetailScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C617F7221BB1BE8008E1743 /* MessageDetailScreen.storyboard */; };
 		4C617F7621BB2EA7008E1743 /* SCMessageDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C617F7521BB2EA7008E1743 /* SCMessageDetailVC.swift */; };
-		4C63C1B721774E9000EEF669 /* ServicesScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C63C1B521774E9000EEF669 /* ServicesScreen.storyboard */; };
-		4C63C1CB21774F4400EEF669 /* ProfileScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C63C1C921774F4400EEF669 /* ProfileScreen.storyboard */; };
 		4C67469A23A27EBC00ECC08C /* SCUserInfoBoxAttachmentTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67469923A27EBC00ECC08C /* SCUserInfoBoxAttachmentTVC.swift */; };
 		4C67469C23A28E0E00ECC08C /* SCUserInfoBoxAttachmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67469B23A28E0E00ECC08C /* SCUserInfoBoxAttachmentCell.swift */; };
 		4C68E4D4246974A300A6FCA8 /* SCInputValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68E4D3246974A300A6FCA8 /* SCInputValidation.swift */; };
@@ -485,7 +515,6 @@
 		4C6DB6EF2169484E00A78EA5 /* SCListComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6DB6EE2169484E00A78EA5 /* SCListComponentViewController.swift */; };
 		4C6EDBD024F7E92400DF5EFB /* SCWasteCalendarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EDBCF24F7E92400DF5EFB /* SCWasteCalendarPresenter.swift */; };
 		4C6EDBD324F7E95300DF5EFB /* SCWasteCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EDBD224F7E95300DF5EFB /* SCWasteCalendarViewController.swift */; };
-		4C6EDBD524F7E99900DF5EFB /* WasteCalendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6EDBD424F7E99900DF5EFB /* WasteCalendar.storyboard */; };
 		4C6EDBD824F7EE7200DF5EFB /* SCWasteCalendarWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EDBD724F7EE7200DF5EFB /* SCWasteCalendarWorker.swift */; };
 		4C6EDBDA24F7F10800DF5EFB /* SCModelWasteCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EDBD924F7F10800DF5EFB /* SCModelWasteCalendar.swift */; };
 		4C6EDBDD24F830D000DF5EFB /* SCWasteCalendarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6EDBDC24F830D000DF5EFB /* SCWasteCalendarDataSource.swift */; };
@@ -494,7 +523,6 @@
 		4C7317012172A73800353541 /* CarouselComponent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7316FF2172A73800353541 /* CarouselComponent.storyboard */; };
 		4C7317062172A83600353541 /* SCCarouselComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7317052172A83600353541 /* SCCarouselComponentViewController.swift */; };
 		4C7335A2225E3A6C005B901D /* SCModelUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7335A1225E3A6C005B901D /* SCModelUserData.swift */; };
-		4C761B07218B155D007F3F54 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C761B05218B155D007F3F54 /* Dashboard.storyboard */; };
 		4C761B0D218B15CF007F3F54 /* SCDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C761B0C218B15CF007F3F54 /* SCDashboardViewController.swift */; };
 		4C770E7C21B5A78C00B1E650 /* NSMutableAttributedString+Link+Underscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C770E7B21B5A78C00B1E650 /* NSMutableAttributedString+Link+Underscore.swift */; };
 		4C7AFBA0219C1B150030D613 /* SCDataUIEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7AFB9F219C1B150030D613 /* SCDataUIEvents.swift */; };
@@ -505,7 +533,6 @@
 		4C7AFBAC219DCC9D0030D613 /* SCModelServiceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7AFBAB219DCC9D0030D613 /* SCModelServiceCategory.swift */; };
 		4C7C384021A5FE8100886101 /* UICollectionView+Wiggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7C383F21A5FE8100886101 /* UICollectionView+Wiggle.swift */; };
 		4C7C384221A757E700886101 /* SCBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7C384121A757E700886101 /* SCBaseCollectionViewCell.swift */; };
-		4C7E01C923128F6800620D4A /* DatePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7E01C823128F6800620D4A /* DatePicker.storyboard */; };
 		4C7E01CC2312907F00620D4A /* SCDatePickerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E01CB2312907F00620D4A /* SCDatePickerPresenter.swift */; };
 		4C7E01CE231290A000620D4A /* SCDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E01CD231290A000620D4A /* SCDatePickerViewController.swift */; };
 		4C7E01D023129B1B00620D4A /* SCDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E01CF23129B1B00620D4A /* SCDatePickerCell.swift */; };
@@ -547,7 +574,6 @@
 		4C987CF6234D277C0008E54C /* SCEventsOverviewTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C987CF5234D277C0008E54C /* SCEventsOverviewTVC.swift */; };
 		4C987CF8234D279B0008E54C /* SCEventsOverviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C987CF7234D279B0008E54C /* SCEventsOverviewCell.swift */; };
 		4C9889572473F5F400EEC9EC /* UIViewController+OverlayDisplaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9889562473F5F400EEC9EC /* UIViewController+OverlayDisplaying.swift */; };
-		4C98895A247409E000EEC9EC /* SCStatusOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C988959247409E000EEC9EC /* SCStatusOverlayView.xib */; };
 		4C98895C24740A5F00EEC9EC /* SCStatusOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98895B24740A5F00EEC9EC /* SCStatusOverlayView.swift */; };
 		4C9D980A21942BC300328F6E /* NSPointerArray+WeakObjRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D980921942BC300328F6E /* NSPointerArray+WeakObjRef.swift */; };
 		4CA228AA2256436500952B2E /* PwdRestoreUnlockScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA228A92256436500952B2E /* PwdRestoreUnlockScreen.storyboard */; };
@@ -580,9 +606,7 @@
 		4CB3236E21BA726C00934226 /* SCProfileImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3236D21BA726C00934226 /* SCProfileImageStore.swift */; };
 		4CB3238D21BA9F7000934226 /* SCUserInfoBoxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3238A21BA9F7000934226 /* SCUserInfoBoxTableViewController.swift */; };
 		4CB3238E21BA9F7000934226 /* SCUserInfoBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3238B21BA9F7000934226 /* SCUserInfoBoxTableViewCell.swift */; };
-		4CB3239121BA9FC300934226 /* UserInfoBoxScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3238F21BA9FC300934226 /* UserInfoBoxScreen.storyboard */; };
 		4CBAFACC24368A2B00F96BD6 /* SCLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAFACB24368A2B00F96BD6 /* SCLoginViewController.swift */; };
-		4CC0B71F222FC76000CEC333 /* RegistrationScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC0B71D222FC76000CEC333 /* RegistrationScreen.storyboard */; };
 		4CC0B722222FC7DA00CEC333 /* SCRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0B721222FC7DA00CEC333 /* SCRegistrationVC.swift */; };
 		4CC0B724222FCCE300CEC333 /* SCRegistrationPWDCheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0B723222FCCE300CEC333 /* SCRegistrationPWDCheckVC.swift */; };
 		4CC0B7282237B45C00CEC333 /* String+isNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0B7272237B45C00CEC333 /* String+isNumber.swift */; };
@@ -596,12 +620,10 @@
 		4CC9634D22E089F4007A6DA9 /* SCTextfieldWithoutCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9634C22E089F4007A6DA9 /* SCTextfieldWithoutCopy.swift */; };
 		4CC9BEBD246C336E00556351 /* SCRegistrationConfirmEMailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9BEBC246C336E00556351 /* SCRegistrationConfirmEMailPresenter.swift */; };
 		4CC9BEBF246C338900556351 /* SCRegistrationConfirmEMailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC9BEBE246C338900556351 /* SCRegistrationConfirmEMailWorker.swift */; };
-		4CD0C59321A2A68E008D2A9E /* MarketplaceScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0C59121A2A68E008D2A9E /* MarketplaceScreen.storyboard */; };
 		4CD10B852166620E00468CB4 /* UIColor+InitHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD10B842166620E00468CB4 /* UIColor+InitHex.swift */; };
 		4CD9078421C055E10048814D /* SCPushNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9078321C055E10048814D /* SCPushNotificationHandler.swift */; };
 		4CDAF26D246C1DB90081CA3E /* SCRegistrationConfirmEMailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDAF26C246C1DB90081CA3E /* SCRegistrationConfirmEMailVC.swift */; };
 		4CDDDE5A21B1E5F6006AA382 /* SCModelRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDDE5921B1E5F6006AA382 /* SCModelRegistration.swift */; };
-		4CDDDE6921B45CC7006AA382 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDDDE6721B45CC7006AA382 /* LoginScreen.storyboard */; };
 		4CDDF3C921824367008209AE /* SCActivityViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDF3C821824367008209AE /* SCActivityViewHandler.swift */; };
 		4CDF84F7236060CB00DDAA46 /* SCEventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF84F6236060CB00DDAA46 /* SCEventDetailViewController.swift */; };
 		4CDF84F9236060E700DDAA46 /* SCMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF84F8236060E700DDAA46 /* SCMapViewController.swift */; };
@@ -627,7 +649,6 @@
 		4CF4F97D22BD364600E6D3B8 /* SCEditEMailFinishedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4F97C22BD364600E6D3B8 /* SCEditEMailFinishedPresenter.swift */; };
 		4CF4F98122BD368D00E6D3B8 /* SCEditPasswordFinishedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4F98022BD368D00E6D3B8 /* SCEditPasswordFinishedPresenter.swift */; };
 		4CF4F98322BD36A100E6D3B8 /* SCEditPasswordFinishedWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4F98222BD36A100E6D3B8 /* SCEditPasswordFinishedWorker.swift */; };
-		4CF572C024FC544000DC84A1 /* SCWasteCalendarTableViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF572BF24FC544000DC84A1 /* SCWasteCalendarTableViewHeaderCell.xib */; };
 		4CF572C224FC546300DC84A1 /* SCWasteCalendarTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF572C124FC546300DC84A1 /* SCWasteCalendarTableViewHeaderCell.swift */; };
 		4CF572C524FD2DDB00DC84A1 /* Date+Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF572C424FD2DDB00DC84A1 /* Date+Hash.swift */; };
 		4CF8BB0D22EB524A00792D9C /* SCPasswordCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF8BB0C22EB524A00792D9C /* SCPasswordCheck.swift */; };
@@ -635,10 +656,8 @@
 		4CF938222263C0BE0064906A /* SCSmallLegalInfoLinkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF938212263C0BE0064906A /* SCSmallLegalInfoLinkVC.swift */; };
 		4CF9BEB421CA890400942FD3 /* SCBaseComponentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9BEB321CA890400942FD3 /* SCBaseComponentItem.swift */; };
 		4CFB417E249014F800C484A2 /* SCInfoNoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFB417C249014F800C484A2 /* SCInfoNoticeViewController.swift */; };
-		4CFB417F249014F800C484A2 /* InfoNoticeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB417D249014F800C484A2 /* InfoNoticeScreen.storyboard */; };
 		4CFB41812490150200C484A2 /* SCInfoNoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFB41802490150100C484A2 /* SCInfoNoticePresenter.swift */; };
 		4CFEFF92246594B70062AA24 /* SCToolTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFEFF91246594B70062AA24 /* SCToolTip.swift */; };
-		4CFFB482249E9E320098B636 /* CityImprintScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CFFB481249E9E320098B636 /* CityImprintScreen.storyboard */; };
 		4CFFB484249E9F040098B636 /* SCCityImprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFFB483249E9F040098B636 /* SCCityImprintViewController.swift */; };
 		4CFFB486249E9F1F0098B636 /* SCCityImprintPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFFB485249E9F1F0098B636 /* SCCityImprintPresenter.swift */; };
 		4CFFB48824A017110098B636 /* SCCityImprintViewController+HeaderTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFFB48724A017110098B636 /* SCCityImprintViewController+HeaderTransition.swift */; };
@@ -693,14 +712,11 @@
 		A40C6ECC23059A400099A861 /* SCDeleteAccountErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C6ECB23059A400099A861 /* SCDeleteAccountErrorPresenter.swift */; };
 		A4136B18235F2D8C00A01A4C /* SCSelectionDisplayingProtocolDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4136B17235F2D8C00A01A4C /* SCSelectionDisplayingProtocolDefinitions.swift */; };
 		A41C32FB22FC356A00B171C4 /* SCDeleteAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C32FA22FC356A00B171C4 /* SCDeleteAccountViewController.swift */; };
-		A41C32FE22FC35CC00B171C4 /* DeleteAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C32FD22FC35CC00B171C4 /* DeleteAccount.storyboard */; };
-		A41C32FF22FC35CC00B171C4 /* DeleteAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C32FD22FC35CC00B171C4 /* DeleteAccount.storyboard */; };
 		A41C330222FC52AB00B171C4 /* SCDeleteAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C330122FC52AB00B171C4 /* SCDeleteAccountPresenter.swift */; };
 		A41C330522FC52BD00B171C4 /* SCDeleteAccountWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C330422FC52BD00B171C4 /* SCDeleteAccountWorker.swift */; };
 		A41C330822FDADF000B171C4 /* SCDeleteAccountConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C330722FDADF000B171C4 /* SCDeleteAccountConfirmationViewController.swift */; };
 		A41C330B22FDAEED00B171C4 /* SCDeleteAccountConfirmationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C330A22FDAEED00B171C4 /* SCDeleteAccountConfirmationWorker.swift */; };
 		A41C330E22FDB03B00B171C4 /* SCDeleteAccountConfirmationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C330D22FDB03B00B171C4 /* SCDeleteAccountConfirmationPresenter.swift */; };
-		A4292E35234131E000EB9DAB /* SCDateBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45F85B82339106800BA372A /* SCDateBox.xib */; };
 		A430F5342318012900605B8A /* TextfieldComponent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C95394D21AED448006D11C5 /* TextfieldComponent.storyboard */; };
 		A430F53B231810D800605B8A /* SmallLegalInfoLinkScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF9381E2263C0500064906A /* SmallLegalInfoLinkScreen.storyboard */; };
 		A43B0CB72342036F00D8C104 /* ListComponent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43B0CB62342036F00D8C104 /* ListComponent.storyboard */; };
@@ -711,7 +727,6 @@
 		A455624F248E6442009F2B0B /* SCTevisViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455624E248E6442009F2B0B /* SCTevisViewPresenter.swift */; };
 		A45F85B52333C5D000BA372A /* SCModelEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45F85B42333C5D000BA372A /* SCModelEvent.swift */; };
 		A45F85B72339062600BA372A /* SCListEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45F85B62339062600BA372A /* SCListEventTableViewCell.swift */; };
-		A45F85B92339106800BA372A /* SCDateBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45F85B82339106800BA372A /* SCDateBox.xib */; };
 		A45F85BB233A0A2700BA372A /* SCDateBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45F85BA233A0A2700BA372A /* SCDateBox.swift */; };
 		A45F8C5823E869D400463270 /* SCDeeplinkingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45F8C5723E869D400463270 /* SCDeeplinkingHandler.swift */; };
 		A45F8C6023EB076F00463270 /* adjust-token-int.plist in Resources */ = {isa = PBXBuildFile; fileRef = A45F8C5F23EB076F00463270 /* adjust-token-int.plist */; };
@@ -732,8 +747,6 @@
 		A4F54CA523991ED300F84D30 /* SCEventLightBoxPesenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F54CA423991ED300F84D30 /* SCEventLightBoxPesenter.swift */; };
 		A4F54CA723991EEB00F84D30 /* SCEventLightBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F54CA623991EEB00F84D30 /* SCEventLightBoxViewController.swift */; };
 		B51E3DBA28FEB4FF00EAE200 /* SCMoEngageAnalyticsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E3DB928FEB4FF00EAE200 /* SCMoEngageAnalyticsHandler.swift */; };
-		B53A908328523B73005C7A54 /* SCRadioToggleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53A908128523B73005C7A54 /* SCRadioToggleView.xib */; };
-		B53A908428523B73005C7A54 /* SCRadioToggleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53A908128523B73005C7A54 /* SCRadioToggleView.xib */; };
 		B53A908528523B73005C7A54 /* SCRadioToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53A908228523B73005C7A54 /* SCRadioToggleView.swift */; };
 		B55CDCDA2940F1BE00559186 /* SCGeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8EE1472177F30D0099D26C /* SCGeoLocation.swift */; };
 		B5B4635129644F4A007BAC61 /* MoEngageInApps in Frameworks */ = {isa = PBXBuildFile; productRef = B5B4635029644F4A007BAC61 /* MoEngageInApps */; };
@@ -747,8 +760,6 @@
 		B5E2F1A62876D02C0087D57F /* SCBasicPOIGuideCategorySelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2F1A32876D02C0087D57F /* SCBasicPOIGuideCategorySelectionPresenter.swift */; };
 		B5E2F1A72876D02C0087D57F /* SCBasicPOIGuideDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2F1A42876D02C0087D57F /* SCBasicPOIGuideDetailPresenter.swift */; };
 		B5E2F1A82876D02D0087D57F /* SCBasicPOIGuideListMapFilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2F1A52876D02C0087D57F /* SCBasicPOIGuideListMapFilterPresenter.swift */; };
-		B5E2F1B22876D18A0087D57F /* BasicPOIGuideDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E2F1B02876D18A0087D57F /* BasicPOIGuideDetail.storyboard */; };
-		B5E2F1B32876D18A0087D57F /* BasicPOIGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E2F1B12876D18A0087D57F /* BasicPOIGuide.storyboard */; };
 		B5E2F1B72876D1960087D57F /* SCBasicPOIGuideCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2F1B42876D1950087D57F /* SCBasicPOIGuideCategoryTableViewCell.swift */; };
 		B5E2F1B82876D1960087D57F /* SCBasicPOIGuideListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2F1B52876D1960087D57F /* SCBasicPOIGuideListTableViewCell.swift */; };
 		B5E2F1B92876D1960087D57F /* SCBasicPOIGuideCategoryTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2F1B62876D1960087D57F /* SCBasicPOIGuideCategoryTableViewHeaderCell.swift */; };
@@ -761,18 +772,15 @@
 		B5E2F1C72876D2880087D57F /* SCBasicPOIGuideListMapFilterViewController+Displaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2F1C62876D2880087D57F /* SCBasicPOIGuideListMapFilterViewController+Displaying.swift */; };
 		B5E2F1C92876D2BD0087D57F /* SCBasicPOIGuideListMapFilterViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2F1C82876D2BD0087D57F /* SCBasicPOIGuideListMapFilterViewController+Delegate.swift */; };
 		B5E2F1CB2876D4350087D57F /* SCBasicPOIGuideListMapFilterViewController+CLLocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2F1CA2876D4350087D57F /* SCBasicPOIGuideListMapFilterViewController+CLLocationManagerDelegate.swift */; };
-		C10291D6256BBAF50002F672 /* SCOptionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C10291D5256BBAF50002F672 /* SCOptionView.xib */; };
 		C10291DC256BC3E30002F672 /* SCOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10291DB256BC3E30002F672 /* SCOptionView.swift */; };
 		C10665A624C01F93005D6E36 /* SCAppointmentWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665A524C01F93005D6E36 /* SCAppointmentWorker.swift */; };
 		C10665AB24C02C5D005D6E36 /* SCAppointmentOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665AA24C02C5D005D6E36 /* SCAppointmentOverviewController.swift */; };
 		C10665AD24C02CCE005D6E36 /* SCAppointmentOverviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665AC24C02CCE005D6E36 /* SCAppointmentOverviewPresenter.swift */; };
-		C10665AF24C04183005D6E36 /* SCAppointmentOverviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C10665AE24C04183005D6E36 /* SCAppointmentOverviewTableViewCell.xib */; };
 		C10665B324C07C65005D6E36 /* SCAppointmentOverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665B224C07C65005D6E36 /* SCAppointmentOverviewTableViewCell.swift */; };
 		C10665B424C17A7B005D6E36 /* SCHttpModelAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665A724C01FF8005D6E36 /* SCHttpModelAppointment.swift */; };
 		C10665B724C1C680005D6E36 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665B524C1C247005D6E36 /* UIView+Extension.swift */; };
 		C10665C024C5A01E005D6E36 /* SCAppointmentOverviewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665BF24C5A01E005D6E36 /* SCAppointmentOverviewDataSource.swift */; };
 		C10665C224C5AD44005D6E36 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665C124C5AD44005D6E36 /* UIColor + Extension.swift */; };
-		C10665C524C6E88B005D6E36 /* RetryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C10665C424C6E88B005D6E36 /* RetryView.xib */; };
 		C10665C724C6E8E3005D6E36 /* RetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665C624C6E8E3005D6E36 /* RetryView.swift */; };
 		C10665D024C94E35005D6E36 /* SCServiceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665CB24C8201A005D6E36 /* SCServiceDetailViewController.swift */; };
 		C12C186E257F31EA00424CE9 /* SCCitizenSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C186D257F31EA00424CE9 /* SCCitizenSurveyDetailViewController.swift */; };
@@ -785,7 +793,6 @@
 		C14B3A0225AD822A004AA5C3 /* SCCitizenSurveyDataPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B3A0125AD822A004AA5C3 /* SCCitizenSurveyDataPrivacyViewController.swift */; };
 		C14FC23D256CD726005D9D49 /* SCCitizenSurveyQuestionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FC23C256CD726005D9D49 /* SCCitizenSurveyQuestionPresenter.swift */; };
 		C14FC243256CE81D005D9D49 /* SCCitizenSurveyQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FC242256CE81D005D9D49 /* SCCitizenSurveyQuestionViewController.swift */; };
-		C14FC249256CE84B005D9D49 /* CitizenSurvey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14FC248256CE84B005D9D49 /* CitizenSurvey.storyboard */; };
 		C153E2782534386B00ECFE4E /* SCWasteReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C153E2772534386B00ECFE4E /* SCWasteReminderViewController.swift */; };
 		C15F09DA2576134100E4E48D /* SCModelCitizenSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F09D92576134100E4E48D /* SCModelCitizenSurvey.swift */; };
 		C15F09E42576140900E4E48D /* SCFramedQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F09E32576140900E4E48D /* SCFramedQuestionView.swift */; };
@@ -801,25 +808,19 @@
 		C1A583F724F91A0200407C24 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B42D1024F8D71100E00272 /* CalendarView.swift */; };
 		C1A583F824F91BE100407C24 /* CalendarInnerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B42D0E24F8D71100E00272 /* CalendarInnerCollectionViewCell.swift */; };
 		C1A583FB24FE4CD500407C24 /* (null) in Resources */ = {isa = PBXBuildFile; };
-		C1B42D1124F8D71100E00272 /* CalendarCollectionViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1B42D0824F8D71000E00272 /* CalendarCollectionViewHeaderView.xib */; };
 		C1B42D1224F8D71100E00272 /* CalendarCollectionViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B42D0924F8D71000E00272 /* CalendarCollectionViewHeaderView.swift */; };
 		C1B42D1324F8D71100E00272 /* CalendarOuterCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B42D0B24F8D71000E00272 /* CalendarOuterCollectionViewDataSource.swift */; };
-		C1B42D1424F8D71100E00272 /* CalendarInnerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1B42D0D24F8D71100E00272 /* CalendarInnerCollectionViewCell.xib */; };
 		C1B42D1624F8D71100E00272 /* CalendarOuterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B42D0F24F8D71100E00272 /* CalendarOuterCollectionViewCell.swift */; };
-		C1B42D1B24F8DD2B00E00272 /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1B42D1A24F8DD2B00E00272 /* CalendarView.xib */; };
 		C1B42D1F24F8E57600E00272 /* CalendarOuterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1B42D1E24F8E57600E00272 /* CalendarOuterCollectionViewCell.xib */; };
-		C1BD3A7D24FFCFE500992D9C /* SCFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1BD3A7B24FFCFE500992D9C /* SCFilterView.xib */; };
 		C1BD3A7E24FFCFE500992D9C /* SCFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD3A7C24FFCFE500992D9C /* SCFilterView.swift */; };
 		C1C0D3E22570BA210053C372 /* SCCitizenSurveyPageViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C0D3E12570BA210053C372 /* SCCitizenSurveyPageViewPresenter.swift */; };
 		C1DCDE9F25357EF7002C1409 /* SCWasteReminderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCDE9E25357EF7002C1409 /* SCWasteReminderPresenter.swift */; };
 		C1EA96EB250B815B00A81308 /* SCListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA96E9250B815B00A81308 /* SCListTableViewCell.swift */; };
-		C1EA96EC250B815B00A81308 /* SCListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1EA96EA250B815B00A81308 /* SCListTableViewCell.xib */; };
 		C1EA96ED250B827200A81308 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA96E6250B72B000A81308 /* ListView.swift */; };
 		C1ED373E250A038E002D5224 /* SCServiceDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10665CD24C82171005D6E36 /* SCServiceDetailPresenter.swift */; };
 		C1ED3748250A28BB002D5224 /* SCWasteCalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED3746250A28BB002D5224 /* SCWasteCalendarService.swift */; };
 		C1ED3749250A28BB002D5224 /* SCAppointmentServiceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED3747250A28BB002D5224 /* SCAppointmentServiceDetail.swift */; };
 		C1FAC4EF259CA65200A863CB /* SCModelSurveyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FAC4EE259CA65200A863CB /* SCModelSurveyResult.swift */; };
-		EE67EBD3262EED50003E8E32 /* EgovServiceDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE67EBD2262EED50003E8E32 /* EgovServiceDetails.storyboard */; };
 		EE67EBD8262F14B1003E8E32 /* SCEgovServiceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE67EBD7262F14B1003E8E32 /* SCEgovServiceDetailsViewController.swift */; };
 		EE67EBDE262F15D9003E8E32 /* SCEgovCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE67EBDD262F15D9003E8E32 /* SCEgovCategoryCell.swift */; };
 		EE67EBF0263022B3003E8E32 /* SCEgovServiceDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE67EBEF263022B3003E8E32 /* SCEgovServiceDetailsPresenter.swift */; };
@@ -861,11 +862,9 @@
 		EE909B7525FB7D0E009B9278 /* SCModelAusweisAccessRights.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE909B7425FB7D0E009B9278 /* SCModelAusweisAccessRights.swift */; };
 		EEF87412265431960090DE0D /* SCFileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF87411265431960090DE0D /* SCFileLogger.swift */; };
 		EEFF245925E41D3300E84629 /* SCAusweisAuthServiceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF245825E41D3300E84629 /* SCAusweisAuthServiceDetail.swift */; };
-		EEFF245F25E425C200E84629 /* AusweisAuth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFF245E25E425C200E84629 /* AusweisAuth.storyboard */; };
 		EEFF246425E4263800E84629 /* SCAusweisAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF246325E4263800E84629 /* SCAusweisAuthWebViewController.swift */; };
 		EEFF247A25E4D9B600E84629 /* SCAusweisAuthWebPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF247925E4D9B600E84629 /* SCAusweisAuthWebPresenter.swift */; };
 		EEFF248225E4E01100E84629 /* SCAusweisAuthWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF248125E4E01100E84629 /* SCAusweisAuthWorker.swift */; };
-		EEFF248A25E6296B00E84629 /* AusweisAuthWorkflow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFF248925E6296B00E84629 /* AusweisAuthWorkflow.storyboard */; };
 		EEFF248F25E629A100E84629 /* SCAusweisAuthWorkFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF248E25E629A100E84629 /* SCAusweisAuthWorkFlowViewController.swift */; };
 		EEFF249425E62C2900E84629 /* SCAusweisAuthWorkflowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF249325E62C2900E84629 /* SCAusweisAuthWorkflowPresenter.swift */; };
 		EEFF249F25E641B500E84629 /* SCAusweisAuthServiceOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFF249E25E641B500E84629 /* SCAusweisAuthServiceOverviewController.swift */; };
@@ -912,7 +911,6 @@
 		FA18263D26415ECC009E4FE2 /* SCDefectReporterServiceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18263C26415ECC009E4FE2 /* SCDefectReporterServiceDetail.swift */; };
 		FA18264426416C1B009E4FE2 /* SCModelDefectCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18264326416C1B009E4FE2 /* SCModelDefectCategory.swift */; };
 		FA18264C26416CA1009E4FE2 /* SCModelDefectSubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA18264B26416CA1009E4FE2 /* SCModelDefectSubCategory.swift */; };
-		FA182674264182A0009E4FE2 /* DefectReporter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA182673264182A0009E4FE2 /* DefectReporter.storyboard */; };
 		FA1A7E1D275E20DA00B6A066 /* SCTextViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1A7E1C275E20DA00B6A066 /* SCTextViewComponent.swift */; };
 		FA1A7E1F275E342700B6A066 /* TextViewComponent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1A7E1E275E342700B6A066 /* TextViewComponent.storyboard */; };
 		FA5CBACF2647FEA6008B5E00 /* SCDefectReporterLocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBACE2647FEA6008B5E00 /* SCDefectReporterLocationPresenter.swift */; };
@@ -932,7 +930,6 @@
 		FAA039F228366D7F00F094C6 /* LocalizationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA039F128366D7F00F094C6 /* LocalizationKeys.swift */; };
 		FAA7DAA9267B7B0500ABFC09 /* SCPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7DAA8267B7B0500ABFC09 /* SCPageControl.swift */; };
 		FAA9DB0825DD077F00A21204 /* SCUserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9DB0725DD077F00A21204 /* SCUserDefaultsHelper.swift */; };
-		FAAB94DE26492A8500962A3F /* DefectReporter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA182673264182A0009E4FE2 /* DefectReporter.storyboard */; };
 		FAABFBC725DA3ACB00AE6916 /* SCEditPersonalDataOverviewTVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABFBC625DA3ACB00AE6916 /* SCEditPersonalDataOverviewTVCTableViewController.swift */; };
 		FAABFBCD25DA3EF300AE6916 /* SCEditPersonalDataOverviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABFBCC25DA3EF300AE6916 /* SCEditPersonalDataOverviewPresenter.swift */; };
 		FAABFBE225DA443100AE6916 /* SCEditDateOfBirthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABFBE125DA443100AE6916 /* SCEditDateOfBirthVC.swift */; };
@@ -942,7 +939,6 @@
 		FAABFC1C25DA5A6000AE6916 /* SCEditPersonalDataOverviewWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABFC1B25DA5A6000AE6916 /* SCEditPersonalDataOverviewWorker.swift */; };
 		FAAFC1FA26537C4A00AF4A4A /* UITapGestureRecognizer+AttributedTextInLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFC1F926537C4A00AF4A4A /* UITapGestureRecognizer+AttributedTextInLabel.swift */; };
 		FAAFC1FF2653874D00AF4A4A /* SCDefectReportTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFC1FE2653874D00AF4A4A /* SCDefectReportTermsViewController.swift */; };
-		FAB7B968277C618B000424F8 /* ServicesInfoDetailScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB7B966277C618B000424F8 /* ServicesInfoDetailScreen.storyboard */; };
 		FAB7B96A277C61A2000424F8 /* SCServicesInfoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB7B969277C61A2000424F8 /* SCServicesInfoDetailVC.swift */; };
 		FAB8C94625ECC26800D35634 /* SCModelPOICategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8C94525ECC26800D35634 /* SCModelPOICategory.swift */; };
 		FAB8C94C25ECC3E400D35634 /* SCModelPOICategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8C94B25ECC3E400D35634 /* SCModelPOICategoryList.swift */; };
@@ -1056,7 +1052,6 @@
 		024BB1BC22BCDDC000FA83F4 /* SCLocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLocationCell.swift; sourceTree = "<group>"; };
 		024BB1BD22BCDDC000FA83F4 /* SCLocationSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLocationSegue.swift; sourceTree = "<group>"; };
 		024BB1BE22BCDDC000FA83F4 /* SCLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLocationViewController.swift; sourceTree = "<group>"; };
-		024BB1C022BCDDC000FA83F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LocationScreen.storyboard; sourceTree = "<group>"; };
 		024BB1C122BCDDC000FA83F4 /* SCLocationSubTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLocationSubTableVC.swift; sourceTree = "<group>"; };
 		024BB1C222BCDDC000FA83F4 /* SCLocationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLocationPresenter.swift; sourceTree = "<group>"; };
 		0270CA2F22C624FF0043FBB0 /* SCProfilePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCProfilePresenterTests.swift; sourceTree = "<group>"; };
@@ -1092,7 +1087,6 @@
 		1126AA7A26EA0BBC004A7ECA /* SCFeedbackConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCFeedbackConfirmationViewController.swift; sourceTree = "<group>"; };
 		1126AA7C26EA1BE5004A7ECA /* SCFeedbackPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCFeedbackPresenter.swift; sourceTree = "<group>"; };
 		113604AA27AD2D43008CD7E0 /* SCForceUpdateVersionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCForceUpdateVersionViewController.swift; sourceTree = "<group>"; };
-		1159E1A4276A059400C65A81 /* SCToggelLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCToggelLabelView.xib; sourceTree = "<group>"; };
 		1159E1A6276A0AD700C65A81 /* SCToggelLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCToggelLabelView.swift; sourceTree = "<group>"; };
 		1159E1A8276B29E300C65A81 /* SCServicesMoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCServicesMoreInfoViewController.swift; sourceTree = "<group>"; };
 		1159E1AA276B2DDC00C65A81 /* SCServicesMoreInfoViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCServicesMoreInfoViewPresenter.swift; sourceTree = "<group>"; };
@@ -1296,6 +1290,55 @@
 		2E91971A29F22F7B00DC873C /* WasteCalendarTimelineProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WasteCalendarTimelineProvider.swift; sourceTree = "<group>"; };
 		2E91971D29F22F7B00DC873C /* WasteCalendarDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WasteCalendarDay.swift; sourceTree = "<group>"; };
 		2E91971F29F22F7B00DC873C /* WasteCalendarDayWiseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WasteCalendarDayWiseModel.swift; sourceTree = "<group>"; };
+		2E9D7EAE2D7EA66F0008CCEE /* Fahrradparken.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fahrradparken.storyboard; sourceTree = "<group>"; };
+		2E9D7EB02D7EA69F0008CCEE /* DefectReporter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DefectReporter.storyboard; sourceTree = "<group>"; };
+		2E9D7EB22D7EA6D10008CCEE /* BasicPOIGuide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BasicPOIGuide.storyboard; sourceTree = "<group>"; };
+		2E9D7EB32D7EA6D10008CCEE /* BasicPOIGuideDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BasicPOIGuideDetail.storyboard; sourceTree = "<group>"; };
+		2E9D7EB62D7EA6F70008CCEE /* AusweisAuth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AusweisAuth.storyboard; sourceTree = "<group>"; };
+		2E9D7EB72D7EA6F70008CCEE /* AusweisAuthWorkflow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AusweisAuthWorkflow.storyboard; sourceTree = "<group>"; };
+		2E9D7EB82D7EA6F70008CCEE /* EgovServiceDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EgovServiceDetails.storyboard; sourceTree = "<group>"; };
+		2E9D7EBC2D7EA7340008CCEE /* SCCitizenSurveyOverviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCCitizenSurveyOverviewTableViewCell.xib; sourceTree = "<group>"; };
+		2E9D7EBE2D7EA74A0008CCEE /* SCOptionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCOptionView.xib; sourceTree = "<group>"; };
+		2E9D7EC22D7EA8550008CCEE /* SCListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCListTableViewCell.xib; sourceTree = "<group>"; };
+		2E9D7EC42D7EAA6E0008CCEE /* SCWasteCalendarTableViewHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCWasteCalendarTableViewHeaderCell.xib; sourceTree = "<group>"; };
+		2E9D7EC62D7EAA770008CCEE /* WasteCalendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WasteCalendar.storyboard; sourceTree = "<group>"; };
+		2E9D7EC82D7EAA940008CCEE /* CityImprintScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CityImprintScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7ECA2D7EAAA60008CCEE /* InfoNoticeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoNoticeScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7ECC2D7EAAB50008CCEE /* SCStatusOverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCStatusOverlayView.xib; sourceTree = "<group>"; };
+		2E9D7ECE2D7EAAE80008CCEE /* SCAppointmentOverviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCAppointmentOverviewTableViewCell.xib; sourceTree = "<group>"; };
+		2E9D7ED02D7EAB010008CCEE /* TEVIS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TEVIS.storyboard; sourceTree = "<group>"; };
+		2E9D7ED22D7EAB210008CCEE /* DataPrivacyScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DataPrivacyScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7ED42D7EAB380008CCEE /* DeleteAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeleteAccount.storyboard; sourceTree = "<group>"; };
+		2E9D7ED72D7EAB490008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LocationScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EDA2D7EAB690008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserInfoBoxScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EDC2D7EAB780008CCEE /* UserInfoBoxDetailScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserInfoBoxDetailScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EDF2D7EAB890008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RegistrationScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EE22D7EAB9C0008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E9D7EE52D7EABB50008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EE92D7EABDC0008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProfileScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EEA2D7EABDC0008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EditProfileScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EEF2D7EABF90008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NewsOverviewScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EF02D7EABF90008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Dashboard.storyboard; sourceTree = "<group>"; };
+		2E9D7EF62D7EAC160008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ServicesInfoDetailScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EF72D7EAC160008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ServicesOverviewScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EF82D7EAC160008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ServicesScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EFE2D7EAC2B0008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MarketplaceScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7EFF2D7EAC2B0008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MarketplaceOverviewScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7F022D7EAC4F0008CCEE /* EventsOverviewScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EventsOverviewScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7F042D7EAC590008CCEE /* EventDetailScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EventDetailScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7F062D7EAD460008CCEE /* SCRadioToggleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCRadioToggleView.xib; sourceTree = "<group>"; };
+		2E9D7F082D7EAD5A0008CCEE /* WasteCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WasteCategoryCell.xib; sourceTree = "<group>"; };
+		2E9D7F0A2D7EAD720008CCEE /* SCFilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCFilterView.xib; sourceTree = "<group>"; };
+		2E9D7F0C2D7EAD8E0008CCEE /* CalendarInnerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarInnerCollectionViewCell.xib; sourceTree = "<group>"; };
+		2E9D7F0E2D7EADAC0008CCEE /* CalendarCollectionViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarCollectionViewHeaderView.xib; sourceTree = "<group>"; };
+		2E9D7F102D7EAE000008CCEE /* CalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
+		2E9D7F112D7EAE000008CCEE /* SCToggelLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCToggelLabelView.xib; sourceTree = "<group>"; };
+		2E9D7F142D7EAE310008CCEE /* RetryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RetryView.xib; sourceTree = "<group>"; };
+		2E9D7F162D7EAE710008CCEE /* DatePicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DatePicker.storyboard; sourceTree = "<group>"; };
+		2E9D7F182D7EAE8F0008CCEE /* SCDateBox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCDateBox.xib; sourceTree = "<group>"; };
+		2E9D7F1C2D7EAF310008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7F1D2D7EAF310008CCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoadScreen.storyboard; sourceTree = "<group>"; };
+		2E9D7F222D7EB09A0008CCEE /* CitizenSurvey.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CitizenSurvey.storyboard; sourceTree = "<group>"; };
 		2EA091822A3893E000072A9F /* FahrrahdparkenReportedLocationVC+GMSDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FahrrahdparkenReportedLocationVC+GMSDelegate.swift"; sourceTree = "<group>"; };
 		2EA091842A38942B00072A9F /* FahrrahdparkenReportedLocationVC+CLLocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FahrrahdparkenReportedLocationVC+CLLocationDelegate.swift"; sourceTree = "<group>"; };
 		2EA2EF59281EDAC4003E86AF /* AppSharedDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSharedDefaults.swift; sourceTree = "<group>"; };
@@ -1313,7 +1356,6 @@
 		2EBC2F362A164DD400F5931E /* SCFahrradparkenReporterWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCFahrradparkenReporterWorker.swift; sourceTree = "<group>"; };
 		2EBC2F392A17503900F5931E /* FahrradParkenCategories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FahrradParkenCategories.json; sourceTree = "<group>"; };
 		2EBC2F3B2A17668E00F5931E /* SCFahrradparkenServiceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCFahrradparkenServiceDetail.swift; sourceTree = "<group>"; };
-		2EBC2F402A179AF100F5931E /* Fahrradparken.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fahrradparken.storyboard; sourceTree = "<group>"; };
 		2EBC2F432A179C3C00F5931E /* FahrrahdparkenReportedLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FahrrahdparkenReportedLocationVC.swift; sourceTree = "<group>"; };
 		2EBC2F472A179D9500F5931E /* FahrradparkenReportedLocationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FahrradparkenReportedLocationPresenter.swift; sourceTree = "<group>"; };
 		2EBC2F492A17A2BD00F5931E /* FahrrahdparkenReportedLocationVC+Displaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FahrrahdparkenReportedLocationVC+Displaying.swift"; sourceTree = "<group>"; };
@@ -1339,7 +1381,6 @@
 		2ED9DA892A03936F009CB053 /* CityContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityContentRepository.swift; sourceTree = "<group>"; };
 		2ED9DA8C2A0393B0009CB053 /* CitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesModel.swift; sourceTree = "<group>"; };
 		2ED9DA902A0A102B009CB053 /* WasteCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteCategoryCell.swift; sourceTree = "<group>"; };
-		2ED9DA912A0A102B009CB053 /* WasteCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WasteCategoryCell.xib; sourceTree = "<group>"; };
 		2EDD361D2C08841A006908C5 /* CityPOICategories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CityPOICategories.json; sourceTree = "<group>"; };
 		2EDD361F2C088E57006908C5 /* CityPOI.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CityPOI.json; sourceTree = "<group>"; };
 		2EF003A62C35760600197A6A /* SCRegistrationVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRegistrationVCTests.swift; sourceTree = "<group>"; };
@@ -1378,10 +1419,8 @@
 		3D68F9BEB44A5560AFFDB020 /* Pods_CitiesIntentHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitiesIntentHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F08126F2DE739E1194B9516 /* Pods-CityKeyWidgetExtension.dev_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityKeyWidgetExtension.dev_debug.xcconfig"; path = "Target Support Files/Pods-CityKeyWidgetExtension/Pods-CityKeyWidgetExtension.dev_debug.xcconfig"; sourceTree = "<group>"; };
 		4ABF02F90E29E07B17392FE9 /* Pods-CitiesIntentHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiesIntentHandler.release.xcconfig"; path = "Target Support Files/Pods-CitiesIntentHandler/Pods-CitiesIntentHandler.release.xcconfig"; sourceTree = "<group>"; };
-		4C01F9B7224D5D0300E6DF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EditProfileScreen.storyboard; sourceTree = "<group>"; };
 		4C03933A21905F1E00ACCBD6 /* UIViewController+StatusBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+StatusBarStyle.swift"; sourceTree = "<group>"; };
 		4C0393432191A04E00ACCBD6 /* SCDashboardViewController+HeaderTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCDashboardViewController+HeaderTransition.swift"; sourceTree = "<group>"; };
-		4C0393572191DD2E00ACCBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NewsOverviewScreen.storyboard; sourceTree = "<group>"; };
 		4C0393592191DDE700ACCBD6 /* SCNewsOverviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNewsOverviewTableViewController.swift; sourceTree = "<group>"; };
 		4C03935B2191DFC000ACCBD6 /* SCNewsOverviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNewsOverviewTableViewCell.swift; sourceTree = "<group>"; };
 		4C07B52D2398060A00626B9F /* SCModelInfoBoxItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelInfoBoxItem.swift; sourceTree = "<group>"; };
@@ -1401,7 +1440,6 @@
 		4C09827521A473240060FE50 /* SCTopAlignLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCTopAlignLabel.swift; sourceTree = "<group>"; };
 		4C0AB4CF23E3524000EA6AB2 /* SCModelTerms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelTerms.swift; sourceTree = "<group>"; };
 		4C0AB4D123E37B2400EA6AB2 /* SCAppContentSharedWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAppContentSharedWorkerTests.swift; sourceTree = "<group>"; };
-		4C0AB4D623E61EC200EA6AB2 /* DataPrivacyScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DataPrivacyScreen.storyboard; sourceTree = "<group>"; };
 		4C0AB4D823E61EE800EA6AB2 /* SCDataPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDataPrivacyViewController.swift; sourceTree = "<group>"; };
 		4C0AB4DA23E61F1100EA6AB2 /* SCDataPrivacyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDataPrivacyPresenter.swift; sourceTree = "<group>"; };
 		4C0BCE3E22C359EF006E7C91 /* SCServicesOverviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCServicesOverviewPresenter.swift; sourceTree = "<group>"; };
@@ -1418,7 +1456,6 @@
 		4C11C25C223B1BAB00C3B7C3 /* SCUserInfoBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCUserInfoBoxViewController.swift; sourceTree = "<group>"; };
 		4C11C260223C015C00C3B7C3 /* SCModelCityConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelCityConfig.swift; sourceTree = "<group>"; };
 		4C171B0621A1C1520063EB3D /* UIImage+MaskColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+MaskColor.swift"; sourceTree = "<group>"; };
-		4C171B0921A20AE60063EB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ServicesOverviewScreen.storyboard; sourceTree = "<group>"; };
 		4C171B0B21A20B7D0063EB3D /* SCServicesOverviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCServicesOverviewTableViewCell.swift; sourceTree = "<group>"; };
 		4C171B0C21A20B7D0063EB3D /* SCServicesOverviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCServicesOverviewTableViewController.swift; sourceTree = "<group>"; };
 		4C1878A723F08A82000C0D21 /* UIButton+TargetClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TargetClosure.swift"; sourceTree = "<group>"; };
@@ -1427,9 +1464,7 @@
 		4C2362BA22E6076300B5C8EA /* SCModelCreditAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelCreditAmount.swift; sourceTree = "<group>"; };
 		4C23D24221A315E8000201AE /* SCMarketplaceOverviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCMarketplaceOverviewTableViewCell.swift; sourceTree = "<group>"; };
 		4C23D24321A315E8000201AE /* SCMarketplaceOverviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCMarketplaceOverviewTableViewController.swift; sourceTree = "<group>"; };
-		4C23D24921A3160D000201AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MarketplaceOverviewScreen.storyboard; sourceTree = "<group>"; };
 		4C26BA772582A57200E0413B /* SCCitizenSingleSurveyWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCitizenSingleSurveyWorker.swift; sourceTree = "<group>"; };
-		4C26BADB2583971800E0413B /* SCCitizenSurveyOverviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCCitizenSurveyOverviewTableViewCell.xib; sourceTree = "<group>"; };
 		4C26BADC2583971800E0413B /* SCCitizenSurveyOverviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCCitizenSurveyOverviewTableViewCell.swift; sourceTree = "<group>"; };
 		4C26BADD2583971800E0413B /* SCFavouriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCFavouriteView.swift; sourceTree = "<group>"; };
 		4C26BADE2583971800E0413B /* SCCitizenSurveyOverviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCCitizenSurveyOverviewController.swift; sourceTree = "<group>"; };
@@ -1440,24 +1475,19 @@
 		4C26BAFE2583982000E0413B /* SCModelCitizenSurveyOverview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCModelCitizenSurveyOverview.swift; sourceTree = "<group>"; };
 		4C26BB1F2584251500E0413B /* SCCitizenServeyDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCitizenServeyDefinitions.swift; sourceTree = "<group>"; };
 		4C26DB6B24562BFD00233F99 /* SCTevisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCTevisViewController.swift; sourceTree = "<group>"; };
-		4C26DB6D24562C5900233F99 /* TEVIS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TEVIS.storyboard; sourceTree = "<group>"; };
-		4C29DD0B2361903B002A351C /* EventDetailScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EventDetailScreen.storyboard; sourceTree = "<group>"; };
 		4C2AEB6F22BCF598007B6312 /* SCEditProfileOverviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEditProfileOverviewPresenter.swift; sourceTree = "<group>"; };
 		4C2AEB7122BCF5A6007B6312 /* SCEditProfileOverviewWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEditProfileOverviewWorker.swift; sourceTree = "<group>"; };
 		4C2AEB7322BCF5D7007B6312 /* SCEditPasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEditPasswordPresenter.swift; sourceTree = "<group>"; };
 		4C2AEB7522BCF5E7007B6312 /* SCEditPasswordWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEditPasswordWorker.swift; sourceTree = "<group>"; };
 		4C2AEB7722BCF5FA007B6312 /* SCEditEMailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEditEMailPresenter.swift; sourceTree = "<group>"; };
 		4C2AEB7922BCF615007B6312 /* SCEditEMailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEditEMailWorker.swift; sourceTree = "<group>"; };
-		4C2B418221A89E48000A6275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoadScreen.storyboard; sourceTree = "<group>"; };
 		4C2C2620234D13010017B514 /* SCEventsOverviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEventsOverviewPresenter.swift; sourceTree = "<group>"; };
-		4C2C2622234D13920017B514 /* EventsOverviewScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EventsOverviewScreen.storyboard; sourceTree = "<group>"; };
 		4C2CE012225761EB00508A69 /* SCPWDRestoreUnlockVC+ComponentDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCPWDRestoreUnlockVC+ComponentDelegate.swift"; sourceTree = "<group>"; };
 		4C2DE9ED21A1B976002820E2 /* SCTilesListIconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCTilesListIconCollectionViewCell.swift; sourceTree = "<group>"; };
 		4C319F4F21C482ED00A8BFBE /* String+URLEncode +URLDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+URLEncode +URLDecode.swift"; sourceTree = "<group>"; };
 		4C337C9C239C4F64003D7BFF /* TTGSnackbar+CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TTGSnackbar+CustomLayout.swift"; sourceTree = "<group>"; };
 		4C337C9E239D957A003D7BFF /* SCUserInfoBoxDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCUserInfoBoxDetailPresenter.swift; sourceTree = "<group>"; };
 		4C337CA0239D95AA003D7BFF /* SCUserInfoBoxDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCUserInfoBoxDetailViewController.swift; sourceTree = "<group>"; };
-		4C337CA2239D960A003D7BFF /* UserInfoBoxDetailScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserInfoBoxDetailScreen.storyboard; sourceTree = "<group>"; };
 		4C398249236A25D5004AD1F7 /* SCCalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCalendarHelper.swift; sourceTree = "<group>"; };
 		4C404717217E50A800886F30 /* SHListMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHListMessageCell.swift; sourceTree = "<group>"; };
 		4C4201A225803FC500EB3592 /* SCSurveyDaysLeftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSurveyDaysLeftView.swift; sourceTree = "<group>"; };
@@ -1471,8 +1501,6 @@
 		4C5937A02366FBF300B4F2F1 /* SCLabelWithFixedBackgroundColot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCLabelWithFixedBackgroundColot.swift; sourceTree = "<group>"; };
 		4C617F7321BB1BE8008E1743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MessageDetailScreen.storyboard; sourceTree = "<group>"; };
 		4C617F7521BB2EA7008E1743 /* SCMessageDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCMessageDetailVC.swift; sourceTree = "<group>"; };
-		4C63C1B621774E9000EEF669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ServicesScreen.storyboard; sourceTree = "<group>"; };
-		4C63C1CA21774F4400EEF669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProfileScreen.storyboard; sourceTree = "<group>"; };
 		4C67469923A27EBC00ECC08C /* SCUserInfoBoxAttachmentTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCUserInfoBoxAttachmentTVC.swift; sourceTree = "<group>"; };
 		4C67469B23A28E0E00ECC08C /* SCUserInfoBoxAttachmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCUserInfoBoxAttachmentCell.swift; sourceTree = "<group>"; };
 		4C68E4D3246974A300A6FCA8 /* SCInputValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCInputValidation.swift; sourceTree = "<group>"; };
@@ -1480,7 +1508,6 @@
 		4C6DB6EE2169484E00A78EA5 /* SCListComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCListComponentViewController.swift; sourceTree = "<group>"; };
 		4C6EDBCF24F7E92400DF5EFB /* SCWasteCalendarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWasteCalendarPresenter.swift; sourceTree = "<group>"; };
 		4C6EDBD224F7E95300DF5EFB /* SCWasteCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWasteCalendarViewController.swift; sourceTree = "<group>"; };
-		4C6EDBD424F7E99900DF5EFB /* WasteCalendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WasteCalendar.storyboard; sourceTree = "<group>"; };
 		4C6EDBD724F7EE7200DF5EFB /* SCWasteCalendarWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWasteCalendarWorker.swift; sourceTree = "<group>"; };
 		4C6EDBD924F7F10800DF5EFB /* SCModelWasteCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelWasteCalendar.swift; sourceTree = "<group>"; };
 		4C6EDBDC24F830D000DF5EFB /* SCWasteCalendarDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWasteCalendarDataSource.swift; sourceTree = "<group>"; };
@@ -1490,7 +1517,6 @@
 		4C7317002172A73800353541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CarouselComponent.storyboard; sourceTree = "<group>"; };
 		4C7317052172A83600353541 /* SCCarouselComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCarouselComponentViewController.swift; sourceTree = "<group>"; };
 		4C7335A1225E3A6C005B901D /* SCModelUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelUserData.swift; sourceTree = "<group>"; };
-		4C761B06218B155D007F3F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Dashboard.storyboard; sourceTree = "<group>"; };
 		4C761B0C218B15CF007F3F54 /* SCDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDashboardViewController.swift; sourceTree = "<group>"; };
 		4C770E7B21B5A78C00B1E650 /* NSMutableAttributedString+Link+Underscore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Link+Underscore.swift"; sourceTree = "<group>"; };
 		4C78D398235F9D040089D813 /* SCDatePickerPreseenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDatePickerPreseenterTests.swift; sourceTree = "<group>"; };
@@ -1502,7 +1528,6 @@
 		4C7AFBAB219DCC9D0030D613 /* SCModelServiceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelServiceCategory.swift; sourceTree = "<group>"; };
 		4C7C383F21A5FE8100886101 /* UICollectionView+Wiggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Wiggle.swift"; sourceTree = "<group>"; };
 		4C7C384121A757E700886101 /* SCBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCBaseCollectionViewCell.swift; sourceTree = "<group>"; };
-		4C7E01C823128F6800620D4A /* DatePicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DatePicker.storyboard; sourceTree = "<group>"; };
 		4C7E01CB2312907F00620D4A /* SCDatePickerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDatePickerPresenter.swift; sourceTree = "<group>"; };
 		4C7E01CD231290A000620D4A /* SCDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDatePickerViewController.swift; sourceTree = "<group>"; };
 		4C7E01CF23129B1B00620D4A /* SCDatePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDatePickerCell.swift; sourceTree = "<group>"; };
@@ -1522,8 +1547,6 @@
 		4C87AAD821B6CFCF005988B3 /* UIImage+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Base64.swift"; sourceTree = "<group>"; };
 		4C87AADA21B6D09F005988B3 /* NSString+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Base64.swift"; sourceTree = "<group>"; };
 		4C8ED3A921694D9700EC9182 /* SCListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCListTableViewController.swift; sourceTree = "<group>"; };
-		4C8ED3B4216BF36100EC9182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4C8ED3B5216BF36100EC9182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8EE1372177B6530099D26C /* SCUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCUtilities.swift; sourceTree = "<group>"; };
 		4C8EE13B2177C41F0099D26C /* SCModelMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelMessage.swift; sourceTree = "<group>"; };
 		4C8EE13F2177CB080099D26C /* SCModelCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelCity.swift; sourceTree = "<group>"; };
@@ -1550,7 +1573,6 @@
 		4C987CF5234D277C0008E54C /* SCEventsOverviewTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEventsOverviewTVC.swift; sourceTree = "<group>"; };
 		4C987CF7234D279B0008E54C /* SCEventsOverviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEventsOverviewCell.swift; sourceTree = "<group>"; };
 		4C9889562473F5F400EEC9EC /* UIViewController+OverlayDisplaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+OverlayDisplaying.swift"; sourceTree = "<group>"; };
-		4C988959247409E000EEC9EC /* SCStatusOverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCStatusOverlayView.xib; sourceTree = "<group>"; };
 		4C98895B24740A5F00EEC9EC /* SCStatusOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCStatusOverlayView.swift; sourceTree = "<group>"; };
 		4C9D980921942BC300328F6E /* NSPointerArray+WeakObjRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPointerArray+WeakObjRef.swift"; sourceTree = "<group>"; };
 		4CA228A92256436500952B2E /* PwdRestoreUnlockScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PwdRestoreUnlockScreen.storyboard; sourceTree = "<group>"; };
@@ -1586,9 +1608,7 @@
 		4CB3236D21BA726C00934226 /* SCProfileImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCProfileImageStore.swift; sourceTree = "<group>"; };
 		4CB3238A21BA9F7000934226 /* SCUserInfoBoxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCUserInfoBoxTableViewController.swift; sourceTree = "<group>"; };
 		4CB3238B21BA9F7000934226 /* SCUserInfoBoxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCUserInfoBoxTableViewCell.swift; sourceTree = "<group>"; };
-		4CB3239021BA9FC300934226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserInfoBoxScreen.storyboard; sourceTree = "<group>"; };
 		4CBAFACB24368A2B00F96BD6 /* SCLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLoginViewController.swift; sourceTree = "<group>"; };
-		4CC0B71E222FC76000CEC333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RegistrationScreen.storyboard; sourceTree = "<group>"; };
 		4CC0B721222FC7DA00CEC333 /* SCRegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRegistrationVC.swift; sourceTree = "<group>"; };
 		4CC0B723222FCCE300CEC333 /* SCRegistrationPWDCheckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRegistrationPWDCheckVC.swift; sourceTree = "<group>"; };
 		4CC0B7272237B45C00CEC333 /* String+isNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+isNumber.swift"; sourceTree = "<group>"; };
@@ -1604,13 +1624,11 @@
 		4CC9634C22E089F4007A6DA9 /* SCTextfieldWithoutCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCTextfieldWithoutCopy.swift; sourceTree = "<group>"; };
 		4CC9BEBC246C336E00556351 /* SCRegistrationConfirmEMailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SCRegistrationConfirmEMailPresenter.swift; path = OSCA/Screens/Registration/SCRegistrationConfirmEMailPresenter.swift; sourceTree = SOURCE_ROOT; };
 		4CC9BEBE246C338900556351 /* SCRegistrationConfirmEMailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRegistrationConfirmEMailWorker.swift; sourceTree = "<group>"; };
-		4CD0C59221A2A68E008D2A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MarketplaceScreen.storyboard; sourceTree = "<group>"; };
 		4CD10B6F21665FF200468CB4 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		4CD10B842166620E00468CB4 /* UIColor+InitHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+InitHex.swift"; sourceTree = "<group>"; };
 		4CD9078321C055E10048814D /* SCPushNotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCPushNotificationHandler.swift; sourceTree = "<group>"; };
 		4CDAF26C246C1DB90081CA3E /* SCRegistrationConfirmEMailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRegistrationConfirmEMailVC.swift; sourceTree = "<group>"; };
 		4CDDDE5921B1E5F6006AA382 /* SCModelRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelRegistration.swift; sourceTree = "<group>"; };
-		4CDDDE6821B45CC7006AA382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginScreen.storyboard; sourceTree = "<group>"; };
 		4CDDF3C821824367008209AE /* SCActivityViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCActivityViewHandler.swift; sourceTree = "<group>"; };
 		4CDF84F6236060CB00DDAA46 /* SCEventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEventDetailViewController.swift; sourceTree = "<group>"; };
 		4CDF84F8236060E700DDAA46 /* SCMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCMapViewController.swift; sourceTree = "<group>"; };
@@ -1636,7 +1654,6 @@
 		4CF4F97C22BD364600E6D3B8 /* SCEditEMailFinishedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEditEMailFinishedPresenter.swift; sourceTree = "<group>"; };
 		4CF4F98022BD368D00E6D3B8 /* SCEditPasswordFinishedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEditPasswordFinishedPresenter.swift; sourceTree = "<group>"; };
 		4CF4F98222BD36A100E6D3B8 /* SCEditPasswordFinishedWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEditPasswordFinishedWorker.swift; sourceTree = "<group>"; };
-		4CF572BF24FC544000DC84A1 /* SCWasteCalendarTableViewHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCWasteCalendarTableViewHeaderCell.xib; sourceTree = "<group>"; };
 		4CF572C124FC546300DC84A1 /* SCWasteCalendarTableViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWasteCalendarTableViewHeaderCell.swift; sourceTree = "<group>"; };
 		4CF572C424FD2DDB00DC84A1 /* Date+Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Hash.swift"; sourceTree = "<group>"; };
 		4CF6513E234CD3B9005E98D8 /* SCEventsOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEventsOverviewViewController.swift; sourceTree = "<group>"; };
@@ -1645,10 +1662,8 @@
 		4CF938212263C0BE0064906A /* SCSmallLegalInfoLinkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSmallLegalInfoLinkVC.swift; sourceTree = "<group>"; };
 		4CF9BEB321CA890400942FD3 /* SCBaseComponentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCBaseComponentItem.swift; sourceTree = "<group>"; };
 		4CFB417C249014F800C484A2 /* SCInfoNoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCInfoNoticeViewController.swift; sourceTree = "<group>"; };
-		4CFB417D249014F800C484A2 /* InfoNoticeScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InfoNoticeScreen.storyboard; sourceTree = "<group>"; };
 		4CFB41802490150100C484A2 /* SCInfoNoticePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCInfoNoticePresenter.swift; sourceTree = "<group>"; };
 		4CFEFF91246594B70062AA24 /* SCToolTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCToolTip.swift; sourceTree = "<group>"; };
-		4CFFB481249E9E320098B636 /* CityImprintScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CityImprintScreen.storyboard; sourceTree = "<group>"; };
 		4CFFB483249E9F040098B636 /* SCCityImprintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCityImprintViewController.swift; sourceTree = "<group>"; };
 		4CFFB485249E9F1F0098B636 /* SCCityImprintPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCityImprintPresenter.swift; sourceTree = "<group>"; };
 		4CFFB48724A017110098B636 /* SCCityImprintViewController+HeaderTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCCityImprintViewController+HeaderTransition.swift"; sourceTree = "<group>"; };
@@ -1719,7 +1734,6 @@
 		A40C6ECB23059A400099A861 /* SCDeleteAccountErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDeleteAccountErrorPresenter.swift; sourceTree = "<group>"; };
 		A4136B17235F2D8C00A01A4C /* SCSelectionDisplayingProtocolDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSelectionDisplayingProtocolDefinitions.swift; sourceTree = "<group>"; };
 		A41C32FA22FC356A00B171C4 /* SCDeleteAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDeleteAccountViewController.swift; sourceTree = "<group>"; };
-		A41C32FD22FC35CC00B171C4 /* DeleteAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeleteAccount.storyboard; sourceTree = "<group>"; };
 		A41C330122FC52AB00B171C4 /* SCDeleteAccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDeleteAccountPresenter.swift; sourceTree = "<group>"; };
 		A41C330422FC52BD00B171C4 /* SCDeleteAccountWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDeleteAccountWorker.swift; sourceTree = "<group>"; };
 		A41C330722FDADF000B171C4 /* SCDeleteAccountConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDeleteAccountConfirmationViewController.swift; sourceTree = "<group>"; };
@@ -1737,7 +1751,6 @@
 		A455624E248E6442009F2B0B /* SCTevisViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCTevisViewPresenter.swift; sourceTree = "<group>"; };
 		A45F85B42333C5D000BA372A /* SCModelEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelEvent.swift; sourceTree = "<group>"; };
 		A45F85B62339062600BA372A /* SCListEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCListEventTableViewCell.swift; sourceTree = "<group>"; };
-		A45F85B82339106800BA372A /* SCDateBox.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCDateBox.xib; sourceTree = "<group>"; };
 		A45F85BA233A0A2700BA372A /* SCDateBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDateBox.swift; sourceTree = "<group>"; };
 		A45F8C5723E869D400463270 /* SCDeeplinkingHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDeeplinkingHandler.swift; sourceTree = "<group>"; };
 		A45F8C5F23EB076F00463270 /* adjust-token-int.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "adjust-token-int.plist"; sourceTree = "<group>"; };
@@ -1763,7 +1776,6 @@
 		B5072491292B5576003387E1 /* AdjustSigComTelekomCitykeySdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AdjustSigComTelekomCitykeySdk.xcframework; sourceTree = "<group>"; };
 		B51E3DB928FEB4FF00EAE200 /* SCMoEngageAnalyticsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCMoEngageAnalyticsHandler.swift; sourceTree = "<group>"; };
 		B52D9D9D292E639700D9B3CE /* AdjustSigComTelekomCitykeySdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdjustSigComTelekomCitykeySdk.framework; path = "AdjustSigComTelekomCitykeySdk.xcframework/ios-armv7_arm64/AdjustSigComTelekomCitykeySdk.framework"; sourceTree = "<group>"; };
-		B53A908128523B73005C7A54 /* SCRadioToggleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCRadioToggleView.xib; sourceTree = "<group>"; };
 		B53A908228523B73005C7A54 /* SCRadioToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRadioToggleView.swift; sourceTree = "<group>"; };
 		B5E2F1922876CD7A0087D57F /* SCBasicPOIGuideDetailViewController+UITextViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCBasicPOIGuideDetailViewController+UITextViewDelegate.swift"; sourceTree = "<group>"; };
 		B5E2F1942876CD8A0087D57F /* SCBasicPOIGuideListMapFilterViewController+UITextViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCBasicPOIGuideListMapFilterViewController+UITextViewDelegate.swift"; sourceTree = "<group>"; };
@@ -1775,8 +1787,6 @@
 		B5E2F1A32876D02C0087D57F /* SCBasicPOIGuideCategorySelectionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBasicPOIGuideCategorySelectionPresenter.swift; sourceTree = "<group>"; };
 		B5E2F1A42876D02C0087D57F /* SCBasicPOIGuideDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBasicPOIGuideDetailPresenter.swift; sourceTree = "<group>"; };
 		B5E2F1A52876D02C0087D57F /* SCBasicPOIGuideListMapFilterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBasicPOIGuideListMapFilterPresenter.swift; sourceTree = "<group>"; };
-		B5E2F1B02876D18A0087D57F /* BasicPOIGuideDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BasicPOIGuideDetail.storyboard; sourceTree = "<group>"; };
-		B5E2F1B12876D18A0087D57F /* BasicPOIGuide.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BasicPOIGuide.storyboard; sourceTree = "<group>"; };
 		B5E2F1B42876D1950087D57F /* SCBasicPOIGuideCategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBasicPOIGuideCategoryTableViewCell.swift; sourceTree = "<group>"; };
 		B5E2F1B52876D1960087D57F /* SCBasicPOIGuideListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBasicPOIGuideListTableViewCell.swift; sourceTree = "<group>"; };
 		B5E2F1B62876D1960087D57F /* SCBasicPOIGuideCategoryTableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBasicPOIGuideCategoryTableViewHeaderCell.swift; sourceTree = "<group>"; };
@@ -1790,19 +1800,16 @@
 		B5E2F1C82876D2BD0087D57F /* SCBasicPOIGuideListMapFilterViewController+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCBasicPOIGuideListMapFilterViewController+Delegate.swift"; sourceTree = "<group>"; };
 		B5E2F1CA2876D4350087D57F /* SCBasicPOIGuideListMapFilterViewController+CLLocationManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCBasicPOIGuideListMapFilterViewController+CLLocationManagerDelegate.swift"; sourceTree = "<group>"; };
 		BB64AB2164842AE8D7B359A8 /* Pods-OSCA.dev_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCA.dev_debug.xcconfig"; path = "Target Support Files/Pods-OSCA/Pods-OSCA.dev_debug.xcconfig"; sourceTree = "<group>"; };
-		C10291D5256BBAF50002F672 /* SCOptionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCOptionView.xib; sourceTree = "<group>"; };
 		C10291DB256BC3E30002F672 /* SCOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCOptionView.swift; sourceTree = "<group>"; };
 		C10291E1256BC65A0002F672 /* SCUnFramedQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCUnFramedQuestionView.swift; sourceTree = "<group>"; };
 		C10665A524C01F93005D6E36 /* SCAppointmentWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAppointmentWorker.swift; sourceTree = "<group>"; };
 		C10665A724C01FF8005D6E36 /* SCHttpModelAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHttpModelAppointment.swift; sourceTree = "<group>"; };
 		C10665AA24C02C5D005D6E36 /* SCAppointmentOverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAppointmentOverviewController.swift; sourceTree = "<group>"; };
 		C10665AC24C02CCE005D6E36 /* SCAppointmentOverviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAppointmentOverviewPresenter.swift; sourceTree = "<group>"; };
-		C10665AE24C04183005D6E36 /* SCAppointmentOverviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCAppointmentOverviewTableViewCell.xib; sourceTree = "<group>"; };
 		C10665B224C07C65005D6E36 /* SCAppointmentOverviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAppointmentOverviewTableViewCell.swift; sourceTree = "<group>"; };
 		C10665B524C1C247005D6E36 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		C10665BF24C5A01E005D6E36 /* SCAppointmentOverviewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAppointmentOverviewDataSource.swift; sourceTree = "<group>"; };
 		C10665C124C5AD44005D6E36 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
-		C10665C424C6E88B005D6E36 /* RetryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RetryView.xib; sourceTree = "<group>"; };
 		C10665C624C6E8E3005D6E36 /* RetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryView.swift; sourceTree = "<group>"; };
 		C10665CB24C8201A005D6E36 /* SCServiceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCServiceDetailViewController.swift; sourceTree = "<group>"; };
 		C10665CD24C82171005D6E36 /* SCServiceDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCServiceDetailPresenter.swift; sourceTree = "<group>"; };
@@ -1817,7 +1824,6 @@
 		C14B3A0125AD822A004AA5C3 /* SCCitizenSurveyDataPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCitizenSurveyDataPrivacyViewController.swift; sourceTree = "<group>"; };
 		C14FC23C256CD726005D9D49 /* SCCitizenSurveyQuestionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCitizenSurveyQuestionPresenter.swift; sourceTree = "<group>"; };
 		C14FC242256CE81D005D9D49 /* SCCitizenSurveyQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCitizenSurveyQuestionViewController.swift; sourceTree = "<group>"; };
-		C14FC248256CE84B005D9D49 /* CitizenSurvey.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CitizenSurvey.storyboard; sourceTree = "<group>"; };
 		C153E2772534386B00ECFE4E /* SCWasteReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWasteReminderViewController.swift; sourceTree = "<group>"; };
 		C1570D7D1DA4C5BFE68E9290 /* Pods-OSCA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCA.release.xcconfig"; path = "Target Support Files/Pods-OSCA/Pods-OSCA.release.xcconfig"; sourceTree = "<group>"; };
 		C15F09D92576134100E4E48D /* SCModelCitizenSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelCitizenSurvey.swift; sourceTree = "<group>"; };
@@ -1830,22 +1836,17 @@
 		C190908A24CFF80900A582A2 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
 		C190908C24CFFC7D00A582A2 /* SCQRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCQRCodeViewController.swift; sourceTree = "<group>"; };
 		C190908F24D13BC700A582A2 /* SCQRCodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCQRCodePresenter.swift; sourceTree = "<group>"; };
-		C1B42D0824F8D71000E00272 /* CalendarCollectionViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCollectionViewHeaderView.xib; sourceTree = "<group>"; };
 		C1B42D0924F8D71000E00272 /* CalendarCollectionViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewHeaderView.swift; sourceTree = "<group>"; };
 		C1B42D0B24F8D71000E00272 /* CalendarOuterCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarOuterCollectionViewDataSource.swift; sourceTree = "<group>"; };
-		C1B42D0D24F8D71100E00272 /* CalendarInnerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarInnerCollectionViewCell.xib; sourceTree = "<group>"; };
 		C1B42D0E24F8D71100E00272 /* CalendarInnerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarInnerCollectionViewCell.swift; sourceTree = "<group>"; };
 		C1B42D0F24F8D71100E00272 /* CalendarOuterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarOuterCollectionViewCell.swift; sourceTree = "<group>"; };
 		C1B42D1024F8D71100E00272 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		C1B42D1A24F8DD2B00E00272 /* CalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
 		C1B42D1E24F8E57600E00272 /* CalendarOuterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarOuterCollectionViewCell.xib; sourceTree = "<group>"; };
-		C1BD3A7B24FFCFE500992D9C /* SCFilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCFilterView.xib; sourceTree = "<group>"; };
 		C1BD3A7C24FFCFE500992D9C /* SCFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCFilterView.swift; sourceTree = "<group>"; };
 		C1C0D3E12570BA210053C372 /* SCCitizenSurveyPageViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCitizenSurveyPageViewPresenter.swift; sourceTree = "<group>"; };
 		C1DCDE9E25357EF7002C1409 /* SCWasteReminderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWasteReminderPresenter.swift; sourceTree = "<group>"; };
 		C1EA96E6250B72B000A81308 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		C1EA96E9250B815B00A81308 /* SCListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCListTableViewCell.swift; sourceTree = "<group>"; };
-		C1EA96EA250B815B00A81308 /* SCListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCListTableViewCell.xib; sourceTree = "<group>"; };
 		C1ED3746250A28BB002D5224 /* SCWasteCalendarService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCWasteCalendarService.swift; sourceTree = "<group>"; };
 		C1ED3747250A28BB002D5224 /* SCAppointmentServiceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCAppointmentServiceDetail.swift; sourceTree = "<group>"; };
 		C1FAC4EE259CA65200A863CB /* SCModelSurveyResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelSurveyResult.swift; sourceTree = "<group>"; };
@@ -1860,7 +1861,6 @@
 		EBC613942182F05CC372106E /* Pods-CityKeyWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityKeyWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-CityKeyWidgetExtension/Pods-CityKeyWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
 		EC1DCCA3BA1AD2AF82728F24 /* Pods-OSCATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCATests.release.xcconfig"; path = "Target Support Files/Pods-OSCATests/Pods-OSCATests.release.xcconfig"; sourceTree = "<group>"; };
 		ED3317B8AB60051A5A889688 /* Pods-CitiesIntentHandler.stakeholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiesIntentHandler.stakeholder.xcconfig"; path = "Target Support Files/Pods-CitiesIntentHandler/Pods-CitiesIntentHandler.stakeholder.xcconfig"; sourceTree = "<group>"; };
-		EE67EBD2262EED50003E8E32 /* EgovServiceDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EgovServiceDetails.storyboard; sourceTree = "<group>"; };
 		EE67EBD7262F14B1003E8E32 /* SCEgovServiceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEgovServiceDetailsViewController.swift; sourceTree = "<group>"; };
 		EE67EBDD262F15D9003E8E32 /* SCEgovCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEgovCategoryCell.swift; sourceTree = "<group>"; };
 		EE67EBEF263022B3003E8E32 /* SCEgovServiceDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEgovServiceDetailsPresenter.swift; sourceTree = "<group>"; };
@@ -1903,11 +1903,9 @@
 		EE909B7425FB7D0E009B9278 /* SCModelAusweisAccessRights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelAusweisAccessRights.swift; sourceTree = "<group>"; };
 		EEF87411265431960090DE0D /* SCFileLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCFileLogger.swift; sourceTree = "<group>"; };
 		EEFF245825E41D3300E84629 /* SCAusweisAuthServiceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAusweisAuthServiceDetail.swift; sourceTree = "<group>"; };
-		EEFF245E25E425C200E84629 /* AusweisAuth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AusweisAuth.storyboard; sourceTree = "<group>"; };
 		EEFF246325E4263800E84629 /* SCAusweisAuthWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAusweisAuthWebViewController.swift; sourceTree = "<group>"; };
 		EEFF247925E4D9B600E84629 /* SCAusweisAuthWebPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAusweisAuthWebPresenter.swift; sourceTree = "<group>"; };
 		EEFF248125E4E01100E84629 /* SCAusweisAuthWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAusweisAuthWorker.swift; sourceTree = "<group>"; };
-		EEFF248925E6296B00E84629 /* AusweisAuthWorkflow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AusweisAuthWorkflow.storyboard; sourceTree = "<group>"; };
 		EEFF248E25E629A100E84629 /* SCAusweisAuthWorkFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAusweisAuthWorkFlowViewController.swift; sourceTree = "<group>"; };
 		EEFF249325E62C2900E84629 /* SCAusweisAuthWorkflowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAusweisAuthWorkflowPresenter.swift; sourceTree = "<group>"; };
 		EEFF249E25E641B500E84629 /* SCAusweisAuthServiceOverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAusweisAuthServiceOverviewController.swift; sourceTree = "<group>"; };
@@ -1953,7 +1951,6 @@
 		FA18263C26415ECC009E4FE2 /* SCDefectReporterServiceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDefectReporterServiceDetail.swift; sourceTree = "<group>"; };
 		FA18264326416C1B009E4FE2 /* SCModelDefectCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelDefectCategory.swift; sourceTree = "<group>"; };
 		FA18264B26416CA1009E4FE2 /* SCModelDefectSubCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelDefectSubCategory.swift; sourceTree = "<group>"; };
-		FA182673264182A0009E4FE2 /* DefectReporter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DefectReporter.storyboard; sourceTree = "<group>"; };
 		FA1A7E1C275E20DA00B6A066 /* SCTextViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCTextViewComponent.swift; sourceTree = "<group>"; };
 		FA1A7E1E275E342700B6A066 /* TextViewComponent.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextViewComponent.storyboard; sourceTree = "<group>"; };
 		FA5CBACE2647FEA6008B5E00 /* SCDefectReporterLocationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDefectReporterLocationPresenter.swift; sourceTree = "<group>"; };
@@ -1982,7 +1979,6 @@
 		FAABFC1B25DA5A6000AE6916 /* SCEditPersonalDataOverviewWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCEditPersonalDataOverviewWorker.swift; sourceTree = "<group>"; };
 		FAAFC1F926537C4A00AF4A4A /* UITapGestureRecognizer+AttributedTextInLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+AttributedTextInLabel.swift"; sourceTree = "<group>"; };
 		FAAFC1FE2653874D00AF4A4A /* SCDefectReportTermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCDefectReportTermsViewController.swift; sourceTree = "<group>"; };
-		FAB7B967277C618B000424F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ServicesInfoDetailScreen.storyboard; sourceTree = "<group>"; };
 		FAB7B969277C61A2000424F8 /* SCServicesInfoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCServicesInfoDetailVC.swift; sourceTree = "<group>"; };
 		FAB8C94525ECC26800D35634 /* SCModelPOICategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelPOICategory.swift; sourceTree = "<group>"; };
 		FAB8C94B25ECC3E400D35634 /* SCModelPOICategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCModelPOICategoryList.swift; sourceTree = "<group>"; };
@@ -2092,7 +2088,7 @@
 		024BB1BB22BCDDC000FA83F4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				024BB1BF22BCDDC000FA83F4 /* LocationScreen.storyboard */,
+				2E9D7ED62D7EAB490008CCEE /* LocationScreen.storyboard */,
 				024BB1BE22BCDDC000FA83F4 /* SCLocationViewController.swift */,
 				024BB1C122BCDDC000FA83F4 /* SCLocationSubTableVC.swift */,
 				024BB1BC22BCDDC000FA83F4 /* SCLocationCell.swift */,
@@ -2219,7 +2215,7 @@
 		2E1856532876AF3E00B47DD9 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				4C0AB4D623E61EC200EA6AB2 /* DataPrivacyScreen.storyboard */,
+				2E9D7ED22D7EAB210008CCEE /* DataPrivacyScreen.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -2763,7 +2759,7 @@
 		2E642A7A2889245B000237C4 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				FA182673264182A0009E4FE2 /* DefectReporter.storyboard */,
+				2E9D7EB02D7EA69F0008CCEE /* DefectReporter.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -2852,7 +2848,7 @@
 		2E642AA32889479E000237C4 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				4CFFB481249E9E320098B636 /* CityImprintScreen.storyboard */,
+				2E9D7EC82D7EAA940008CCEE /* CityImprintScreen.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -3805,7 +3801,7 @@
 		2EBC2F3F2A179ACE00F5931E /* storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				2EBC2F402A179AF100F5931E /* Fahrradparken.storyboard */,
+				2E9D7EAE2D7EA66F0008CCEE /* Fahrradparken.storyboard */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -4258,7 +4254,7 @@
 			isa = PBXGroup;
 			children = (
 				2ED9DA902A0A102B009CB053 /* WasteCategoryCell.swift */,
-				2ED9DA912A0A102B009CB053 /* WasteCategoryCell.xib */,
+				2E9D7F082D7EAD5A0008CCEE /* WasteCategoryCell.xib */,
 			);
 			path = customView;
 			sourceTree = "<group>";
@@ -4369,7 +4365,7 @@
 		2EFBA14E2868398700458C6E /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				A41C32FD22FC35CC00B171C4 /* DeleteAccount.storyboard */,
+				2E9D7ED42D7EAB380008CCEE /* DeleteAccount.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -4786,7 +4782,7 @@
 		4C26BADA2583971800E0413B /* CitizenSurveyOverviewCell */ = {
 			isa = PBXGroup;
 			children = (
-				4C26BADB2583971800E0413B /* SCCitizenSurveyOverviewTableViewCell.xib */,
+				2E9D7EBC2D7EA7340008CCEE /* SCCitizenSurveyOverviewTableViewCell.xib */,
 				4C26BADC2583971800E0413B /* SCCitizenSurveyOverviewTableViewCell.swift */,
 			);
 			path = CitizenSurveyOverviewCell;
@@ -4806,7 +4802,7 @@
 				C10665BE24C5A00C005D6E36 /* DataSource */,
 				C10665A924C02C4E005D6E36 /* View */,
 				4C26DB6B24562BFD00233F99 /* SCTevisViewController.swift */,
-				4C26DB6D24562C5900233F99 /* TEVIS.storyboard */,
+				2E9D7ED02D7EAB010008CCEE /* TEVIS.storyboard */,
 				A455624E248E6442009F2B0B /* SCTevisViewPresenter.swift */,
 				C10665A524C01F93005D6E36 /* SCAppointmentWorker.swift */,
 				C10665AC24C02CCE005D6E36 /* SCAppointmentOverviewPresenter.swift */,
@@ -4855,7 +4851,7 @@
 				4CF9BEB321CA890400942FD3 /* SCBaseComponentItem.swift */,
 				4CF938212263C0BE0064906A /* SCSmallLegalInfoLinkVC.swift */,
 				4CC9634C22E089F4007A6DA9 /* SCTextfieldWithoutCopy.swift */,
-				A45F85B82339106800BA372A /* SCDateBox.xib */,
+				2E9D7F182D7EAE8F0008CCEE /* SCDateBox.xib */,
 				A45F85BA233A0A2700BA372A /* SCDateBox.swift */,
 				FAA7DAA8267B7B0500ABFC09 /* SCPageControl.swift */,
 				FA1A7E1C275E20DA00B6A066 /* SCTextViewComponent.swift */,
@@ -4882,8 +4878,8 @@
 			children = (
 				C153E2772534386B00ECFE4E /* SCWasteReminderViewController.swift */,
 				C1EA96E8250B812C00A81308 /* ListView */,
-				4CF572BF24FC544000DC84A1 /* SCWasteCalendarTableViewHeaderCell.xib */,
-				4C6EDBD424F7E99900DF5EFB /* WasteCalendar.storyboard */,
+				2E9D7EC42D7EAA6E0008CCEE /* SCWasteCalendarTableViewHeaderCell.xib */,
+				2E9D7EC62D7EAA770008CCEE /* WasteCalendar.storyboard */,
 				4C6EDBD224F7E95300DF5EFB /* SCWasteCalendarViewController.swift */,
 				4C6EDBE024F8381000DF5EFB /* SCWasteCalendarTableViewCell.xib */,
 				4C6EDBDE24F832D500DF5EFB /* SCWasteCalendarTableViewCell.swift */,
@@ -4928,7 +4924,7 @@
 		4C7E01CA23128FF700620D4A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4C7E01C823128F6800620D4A /* DatePicker.storyboard */,
+				2E9D7F162D7EAE710008CCEE /* DatePicker.storyboard */,
 				4C7E01CD231290A000620D4A /* SCDatePickerViewController.swift */,
 				4C7E01CF23129B1B00620D4A /* SCDatePickerCell.swift */,
 				4C47416923172F9600DC624C /* SCDatePickerSectionHeaderViewCollectionReusableView.swift */,
@@ -4963,7 +4959,7 @@
 		4C86C20622A6BEB1009DDF44 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4CC0B71D222FC76000CEC333 /* RegistrationScreen.storyboard */,
+				2E9D7EDE2D7EAB890008CCEE /* RegistrationScreen.storyboard */,
 				4CC0B723222FCCE300CEC333 /* SCRegistrationPWDCheckVC.swift */,
 				4CC0B7292238713500CEC333 /* SCRegistrationConfirmEMailFinishedVC.swift */,
 				4CC0B721222FC7DA00CEC333 /* SCRegistrationVC.swift */,
@@ -5027,11 +5023,11 @@
 		4C96E91122B3C21100318595 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4CB3238F21BA9FC300934226 /* UserInfoBoxScreen.storyboard */,
+				2E9D7ED92D7EAB690008CCEE /* UserInfoBoxScreen.storyboard */,
 				4C11C25C223B1BAB00C3B7C3 /* SCUserInfoBoxViewController.swift */,
 				4CB3238A21BA9F7000934226 /* SCUserInfoBoxTableViewController.swift */,
 				4CB3238B21BA9F7000934226 /* SCUserInfoBoxTableViewCell.swift */,
-				4C337CA2239D960A003D7BFF /* UserInfoBoxDetailScreen.storyboard */,
+				2E9D7EDC2D7EAB780008CCEE /* UserInfoBoxDetailScreen.storyboard */,
 				4C337CA0239D95AA003D7BFF /* SCUserInfoBoxDetailViewController.swift */,
 				4C67469923A27EBC00ECC08C /* SCUserInfoBoxAttachmentTVC.swift */,
 				4C67469B23A28E0E00ECC08C /* SCUserInfoBoxAttachmentCell.swift */,
@@ -5043,7 +5039,7 @@
 		4C9889582474090300EEC9EC /* Overlay */ = {
 			isa = PBXGroup;
 			children = (
-				4C988959247409E000EEC9EC /* SCStatusOverlayView.xib */,
+				2E9D7ECC2D7EAAB50008CCEE /* SCStatusOverlayView.xib */,
 				4C98895B24740A5F00EEC9EC /* SCStatusOverlayView.swift */,
 			);
 			path = Overlay;
@@ -5177,8 +5173,8 @@
 			isa = PBXGroup;
 			children = (
 				4CFE997C217675DE008A04AF /* Components */,
-				4C07C78F2166240D00A1F6A8 /* LaunchScreen.storyboard */,
-				4C2B418121A89E48000A6275 /* LoadScreen.storyboard */,
+				2E9D7F1A2D7EAF310008CCEE /* LaunchScreen.storyboard */,
+				2E9D7F1B2D7EAF310008CCEE /* LoadScreen.storyboard */,
 				4CA228A92256436500952B2E /* PwdRestoreUnlockScreen.storyboard */,
 				4C97136223FD3C87009A2DBA /* TempBlockedScreen.storyboard */,
 			);
@@ -5268,7 +5264,7 @@
 			isa = PBXGroup;
 			children = (
 				4CBAFACB24368A2B00F96BD6 /* SCLoginViewController.swift */,
-				4CDDDE6721B45CC7006AA382 /* LoginScreen.storyboard */,
+				2E9D7EE42D7EABB50008CCEE /* LoginScreen.storyboard */,
 				4CA228AC2256977500952B2E /* SCPWDRestoreUnlockVC.swift */,
 				4C2CE012225761EB00508A69 /* SCPWDRestoreUnlockVC+ComponentDelegate.swift */,
 				4CA228AE2256978A00952B2E /* SCPWDRestoreUnlockFinishedVC.swift */,
@@ -5291,8 +5287,8 @@
 		4CF65141234CD5C5005E98D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4C2C2622234D13920017B514 /* EventsOverviewScreen.storyboard */,
-				4C29DD0B2361903B002A351C /* EventDetailScreen.storyboard */,
+				2E9D7F022D7EAC4F0008CCEE /* EventsOverviewScreen.storyboard */,
+				2E9D7F042D7EAC590008CCEE /* EventDetailScreen.storyboard */,
 				4CF6513E234CD3B9005E98D8 /* SCEventsOverviewViewController.swift */,
 				4C987CF5234D277C0008E54C /* SCEventsOverviewTVC.swift */,
 				4C987CF7234D279B0008E54C /* SCEventsOverviewCell.swift */,
@@ -5317,7 +5313,7 @@
 		4CFB4175249013D000C484A2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4CFB417D249014F800C484A2 /* InfoNoticeScreen.storyboard */,
+				2E9D7ECA2D7EAAA60008CCEE /* InfoNoticeScreen.storyboard */,
 				4CFB417C249014F800C484A2 /* SCInfoNoticeViewController.swift */,
 			);
 			path = View;
@@ -5387,9 +5383,9 @@
 		749BDD6222B2454F0050367E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FAB7B966277C618B000424F8 /* ServicesInfoDetailScreen.storyboard */,
-				4C63C1B521774E9000EEF669 /* ServicesScreen.storyboard */,
-				4C171B0821A20AE60063EB3D /* ServicesOverviewScreen.storyboard */,
+				2E9D7EF32D7EAC160008CCEE /* ServicesInfoDetailScreen.storyboard */,
+				2E9D7EF42D7EAC160008CCEE /* ServicesOverviewScreen.storyboard */,
+				2E9D7EF52D7EAC160008CCEE /* ServicesScreen.storyboard */,
 				4C07C7B621662F0E00A1F6A8 /* SCServicesViewController.swift */,
 				4C0D598E21A00333000C3B22 /* SCServicesViewController+HeaderTransition.swift */,
 				4C171B0C21A20B7D0063EB3D /* SCServicesOverviewTableViewController.swift */,
@@ -5448,7 +5444,7 @@
 		74A8D99D2295A4CE0008C76D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4C07C78A2166240B00A1F6A8 /* Main.storyboard */,
+				2E9D7EE12D7EAB9C0008CCEE /* Main.storyboard */,
 				74A8D999229584960008C76D /* SCMainTabBarController.swift */,
 				74A8D997229584960008C76D /* SCLoadViewController.swift */,
 			);
@@ -5470,8 +5466,8 @@
 		74AE248922B920FE00244B15 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4CD0C59121A2A68E008D2A9E /* MarketplaceScreen.storyboard */,
-				4C23D24821A3160D000201AE /* MarketplaceOverviewScreen.storyboard */,
+				2E9D7EFC2D7EAC2B0008CCEE /* MarketplaceOverviewScreen.storyboard */,
+				2E9D7EFD2D7EAC2B0008CCEE /* MarketplaceScreen.storyboard */,
 				4C07C7B821662F2200A1F6A8 /* SCMarketplaceViewController.swift */,
 				4C0D599621A00517000C3B22 /* SCMarketplaceViewController+HeaderTransition.swift */,
 				4C23D24321A315E8000201AE /* SCMarketplaceOverviewTableViewController.swift */,
@@ -5494,8 +5490,8 @@
 		74AFCB1922A82A5900C7A9A3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4C761B05218B155D007F3F54 /* Dashboard.storyboard */,
-				4C0393562191DD2E00ACCBD6 /* NewsOverviewScreen.storyboard */,
+				2E9D7EED2D7EABF90008CCEE /* Dashboard.storyboard */,
+				2E9D7EEE2D7EABF90008CCEE /* NewsOverviewScreen.storyboard */,
 				4C761B0C218B15CF007F3F54 /* SCDashboardViewController.swift */,
 				4C0393432191A04E00ACCBD6 /* SCDashboardViewController+HeaderTransition.swift */,
 				4C0393592191DDE700ACCBD6 /* SCNewsOverviewTableViewController.swift */,
@@ -5536,8 +5532,8 @@
 		74FF73A222A6BE53009CA24A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4C63C1C921774F4400EEF669 /* ProfileScreen.storyboard */,
-				4C01F9B6224D5D0300E6DF01 /* EditProfileScreen.storyboard */,
+				2E9D7EE82D7EABDC0008CCEE /* ProfileScreen.storyboard */,
+				2E9D7EE72D7EABDC0008CCEE /* EditProfileScreen.storyboard */,
 				4C07C7BA2166303200A1F6A8 /* SCProfileViewController.swift */,
 				4CF31235224E1246005D58ED /* SCEditProfileOverviewTVCTableViewController.swift */,
 				4CF31237224E5F22005D58ED /* SCEditPasswordVC.swift */,
@@ -5632,8 +5628,8 @@
 		B53A908028523B31005C7A54 /* RadioToggleView */ = {
 			isa = PBXGroup;
 			children = (
+				2E9D7F062D7EAD460008CCEE /* SCRadioToggleView.xib */,
 				B53A908228523B73005C7A54 /* SCRadioToggleView.swift */,
-				B53A908128523B73005C7A54 /* SCRadioToggleView.xib */,
 			);
 			path = RadioToggleView;
 			sourceTree = "<group>";
@@ -5698,8 +5694,8 @@
 		B5E2F1AF2876D18A0087D57F /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				B5E2F1B02876D18A0087D57F /* BasicPOIGuideDetail.storyboard */,
-				B5E2F1B12876D18A0087D57F /* BasicPOIGuide.storyboard */,
+				2E9D7EB22D7EA6D10008CCEE /* BasicPOIGuide.storyboard */,
+				2E9D7EB32D7EA6D10008CCEE /* BasicPOIGuideDetail.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -5727,7 +5723,7 @@
 				C15F09F32576188900E4E48D /* OptionView */,
 				C15F09D7257612C600E4E48D /* QuestionView */,
 				C1C0D3E02570B9BB0053C372 /* PageView */,
-				C14FC248256CE84B005D9D49 /* CitizenSurvey.storyboard */,
+				2E9D7F222D7EB09A0008CCEE /* CitizenSurvey.storyboard */,
 				4C26BADD2583971800E0413B /* SCFavouriteView.swift */,
 				4C4201A225803FC500EB3592 /* SCSurveyDaysLeftView.swift */,
 			);
@@ -5738,7 +5734,7 @@
 			isa = PBXGroup;
 			children = (
 				C10665AA24C02C5D005D6E36 /* SCAppointmentOverviewController.swift */,
-				C10665AE24C04183005D6E36 /* SCAppointmentOverviewTableViewCell.xib */,
+				2E9D7ECE2D7EAAE80008CCEE /* SCAppointmentOverviewTableViewCell.xib */,
 				C10665B224C07C65005D6E36 /* SCAppointmentOverviewTableViewCell.swift */,
 				C190908524CB095300A582A2 /* SCAppointmentDetailViewController.swift */,
 				C190908C24CFFC7D00A582A2 /* SCQRCodeViewController.swift */,
@@ -5759,7 +5755,7 @@
 		C10665C324C6E86E005D6E36 /* RetryView */ = {
 			isa = PBXGroup;
 			children = (
-				C10665C424C6E88B005D6E36 /* RetryView.xib */,
+				2E9D7F142D7EAE310008CCEE /* RetryView.xib */,
 				C10665C624C6E8E3005D6E36 /* RetryView.swift */,
 			);
 			path = RetryView;
@@ -5816,7 +5812,7 @@
 		C15F09F32576188900E4E48D /* OptionView */ = {
 			isa = PBXGroup;
 			children = (
-				C10291D5256BBAF50002F672 /* SCOptionView.xib */,
+				2E9D7EBE2D7EA74A0008CCEE /* SCOptionView.xib */,
 				C10291DB256BC3E30002F672 /* SCOptionView.swift */,
 			);
 			path = OptionView;
@@ -5838,8 +5834,8 @@
 				C1B42D0A24F8D71000E00272 /* DataSource */,
 				C1B42D0724F8D71000E00272 /* HeaderView */,
 				C1B42D1024F8D71100E00272 /* CalendarView.swift */,
-				C1B42D1A24F8DD2B00E00272 /* CalendarView.xib */,
-				1159E1A4276A059400C65A81 /* SCToggelLabelView.xib */,
+				2E9D7F102D7EAE000008CCEE /* CalendarView.xib */,
+				2E9D7F112D7EAE000008CCEE /* SCToggelLabelView.xib */,
 				1159E1A6276A0AD700C65A81 /* SCToggelLabelView.swift */,
 				1112252E27707BBD00C89D61 /* SCRadioLabelArrowView.xib */,
 				1112253027707D0400C89D61 /* SCRadioLabelArrowView.swift */,
@@ -5852,7 +5848,7 @@
 		C1B42D0724F8D71000E00272 /* HeaderView */ = {
 			isa = PBXGroup;
 			children = (
-				C1B42D0824F8D71000E00272 /* CalendarCollectionViewHeaderView.xib */,
+				2E9D7F0E2D7EADAC0008CCEE /* CalendarCollectionViewHeaderView.xib */,
 				C1B42D0924F8D71000E00272 /* CalendarCollectionViewHeaderView.swift */,
 			);
 			path = HeaderView;
@@ -5869,7 +5865,7 @@
 		C1B42D0C24F8D71100E00272 /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				C1B42D0D24F8D71100E00272 /* CalendarInnerCollectionViewCell.xib */,
+				2E9D7F0C2D7EAD8E0008CCEE /* CalendarInnerCollectionViewCell.xib */,
 				C1B42D0E24F8D71100E00272 /* CalendarInnerCollectionViewCell.swift */,
 				C1B42D0F24F8D71100E00272 /* CalendarOuterCollectionViewCell.swift */,
 				C1B42D1E24F8E57600E00272 /* CalendarOuterCollectionViewCell.xib */,
@@ -5880,7 +5876,7 @@
 		C1BD3A7A24FFCFE500992D9C /* FilterView */ = {
 			isa = PBXGroup;
 			children = (
-				C1BD3A7B24FFCFE500992D9C /* SCFilterView.xib */,
+				2E9D7F0A2D7EAD720008CCEE /* SCFilterView.xib */,
 				C1BD3A7C24FFCFE500992D9C /* SCFilterView.swift */,
 			);
 			path = FilterView;
@@ -5900,7 +5896,7 @@
 			children = (
 				C1EA96E6250B72B000A81308 /* ListView.swift */,
 				C1EA96E9250B815B00A81308 /* SCListTableViewCell.swift */,
-				C1EA96EA250B815B00A81308 /* SCListTableViewCell.xib */,
+				2E9D7EC22D7EA8550008CCEE /* SCListTableViewCell.xib */,
 			);
 			path = ListView;
 			sourceTree = "<group>";
@@ -5940,10 +5936,10 @@
 		EEFF245D25E4255D00E84629 /* AusweisAuthServices */ = {
 			isa = PBXGroup;
 			children = (
+				2E9D7EB62D7EA6F70008CCEE /* AusweisAuth.storyboard */,
+				2E9D7EB72D7EA6F70008CCEE /* AusweisAuthWorkflow.storyboard */,
+				2E9D7EB82D7EA6F70008CCEE /* EgovServiceDetails.storyboard */,
 				EE88BA722603E13F00F14DA3 /* Ausweis-ReadMe.md */,
-				EE67EBD2262EED50003E8E32 /* EgovServiceDetails.storyboard */,
-				EEFF245E25E425C200E84629 /* AusweisAuth.storyboard */,
-				EEFF248925E6296B00E84629 /* AusweisAuthWorkflow.storyboard */,
 				EEFF252625EE81D400E84629 /* SCPinView.swift */,
 				EEFF247525E4D8FC00E84629 /* View */,
 				EEFF24ED25ECDD0900E84629 /* Presenter */,
@@ -6337,104 +6333,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E9D7EB12D7EA69F0008CCEE /* DefectReporter.storyboard in Resources */,
 				A45F8C6223EB13F200463270 /* adjust-token-release.plist in Resources */,
 				C184863624E266F200435B05 /* SCNoAppointmentMessageView.xib in Resources */,
-				C10291D6256BBAF50002F672 /* SCOptionView.xib in Resources */,
+				2E9D7F192D7EAE8F0008CCEE /* SCDateBox.xib in Resources */,
 				2EFD850329ADE9B5008488D5 /* CityKey_Splashlogo_lightmode.json in Resources */,
-				4C337CA3239D960A003D7BFF /* UserInfoBoxDetailScreen.storyboard in Resources */,
-				B5E2F1B22876D18A0087D57F /* BasicPOIGuideDetail.storyboard in Resources */,
 				2EFD850429ADE9B5008488D5 /* CityKey_Splashlogo_darkmode.json in Resources */,
 				A4E8FD2F2379B131004D365A /* (null) in Resources */,
+				2E9D7ED52D7EAB380008CCEE /* DeleteAccount.storyboard in Resources */,
 				2E202AE92B306B05006EDB7E /* PrivacyInfo.xcprivacy in Resources */,
-				FAB7B968277C618B000424F8 /* ServicesInfoDetailScreen.storyboard in Resources */,
-				B5E2F1B32876D18A0087D57F /* BasicPOIGuide.storyboard in Resources */,
 				EE88BAD02609E2C900F14DA3 /* accessibility_stmt_en.html in Resources */,
-				4C23D24A21A3160D000201AE /* MarketplaceOverviewScreen.storyboard in Resources */,
-				B53A908328523B73005C7A54 /* SCRadioToggleView.xib in Resources */,
-				4C63C1CB21774F4400EEF669 /* ProfileScreen.storyboard in Resources */,
 				A43B0CB72342036F00D8C104 /* ListComponent.storyboard in Resources */,
-				4C7E01C923128F6800620D4A /* DatePicker.storyboard in Resources */,
-				4C171B0A21A20AE60063EB3D /* ServicesOverviewScreen.storyboard in Resources */,
-				C1EA96EC250B815B00A81308 /* SCListTableViewCell.xib in Resources */,
-				C10665AF24C04183005D6E36 /* SCAppointmentOverviewTableViewCell.xib in Resources */,
-				EEFF245F25E425C200E84629 /* AusweisAuth.storyboard in Resources */,
-				4C761B07218B155D007F3F54 /* Dashboard.storyboard in Resources */,
-				4C0AB4D723E61EC200EA6AB2 /* DataPrivacyScreen.storyboard in Resources */,
-				4C6EDBD524F7E99900DF5EFB /* WasteCalendar.storyboard in Resources */,
 				2EF1DE092CCFC51D0024F704 /* LICENSE in Resources */,
 				4CF938202263C0500064906A /* SmallLegalInfoLinkScreen.storyboard in Resources */,
-				C1B42D1B24F8DD2B00E00272 /* CalendarView.xib in Resources */,
 				FA1A7E1F275E342700B6A066 /* TextViewComponent.storyboard in Resources */,
+				2E9D7F052D7EAC590008CCEE /* EventDetailScreen.storyboard in Resources */,
+				2E9D7EE02D7EAB890008CCEE /* RegistrationScreen.storyboard in Resources */,
+				2E9D7EE62D7EABB50008CCEE /* LoginScreen.storyboard in Resources */,
 				C1376085250A3E5C00718A36 /* FTUWasteCalendar.storyboard in Resources */,
 				4CA228AA2256436500952B2E /* PwdRestoreUnlockScreen.storyboard in Resources */,
-				4C26DB6E24562C5900233F99 /* TEVIS.storyboard in Resources */,
 				4C617F7421BB1BE8008E1743 /* MessageDetailScreen.storyboard in Resources */,
 				A4F54CA323991E8F00F84D30 /* SCEventLightBox.storyboard in Resources */,
-				EEFF248A25E6296B00E84629 /* AusweisAuthWorkflow.storyboard in Resources */,
-				024BB1C822BCDDC000FA83F4 /* LocationScreen.storyboard in Resources */,
+				2E9D7ED12D7EAB010008CCEE /* TEVIS.storyboard in Resources */,
 				F4D7F96B279557C600A02071 /* SCTextViewController.storyboard in Resources */,
 				4C83C678216BFAAA0026B8E1 /* Localization.strings in Resources */,
 				4C97136423FD3C87009A2DBA /* TempBlockedScreen.storyboard in Resources */,
+				2E9D7F072D7EAD460008CCEE /* SCRadioToggleView.xib in Resources */,
 				4C8EE155217A6EE00099D26C /* ActivityScreen.storyboard in Resources */,
-				4CFB417F249014F800C484A2 /* InfoNoticeScreen.storyboard in Resources */,
-				2ED9DA932A0A102B009CB053 /* WasteCategoryCell.xib in Resources */,
 				FACC8B0127E47E8500687816 /* style.json in Resources */,
-				C14FC249256CE84B005D9D49 /* CitizenSurvey.storyboard in Resources */,
-				2EBC2F412A179AF100F5931E /* Fahrradparken.storyboard in Resources */,
-				4C01F9B8224D5D0300E6DF01 /* EditProfileScreen.storyboard in Resources */,
-				4CDDDE6921B45CC7006AA382 /* LoginScreen.storyboard in Resources */,
 				4C6EDBE124F8381000DF5EFB /* SCWasteCalendarTableViewCell.xib in Resources */,
 				2EBC02BA2BE3AA460082806B /* EgovServiceLinkCell.xib in Resources */,
 				F4D013A1279056E40068E59C /* software_license_en.html in Resources */,
 				2EBC2F3A2A17503900F5931E /* FahrradParkenCategories.json in Resources */,
-				FA182674264182A0009E4FE2 /* DefectReporter.storyboard in Resources */,
-				4C07C7912166240D00A1F6A8 /* LaunchScreen.storyboard in Resources */,
-				4C63C1B721774E9000EEF669 /* ServicesScreen.storyboard in Resources */,
-				4C98895A247409E000EEC9EC /* SCStatusOverlayView.xib in Resources */,
-				4CC0B71F222FC76000CEC333 /* RegistrationScreen.storyboard in Resources */,
-				4C26BADF2583971800E0413B /* SCCitizenSurveyOverviewTableViewCell.xib in Resources */,
+				2E9D7EAF2D7EA66F0008CCEE /* Fahrradparken.storyboard in Resources */,
+				2E9D7EEB2D7EABDC0008CCEE /* EditProfileScreen.storyboard in Resources */,
+				2E9D7EEC2D7EABDC0008CCEE /* ProfileScreen.storyboard in Resources */,
 				F483AC892721B151006AC972 /* SCEgovServiceCell.xib in Resources */,
 				2EBC2F512A1B5F6800F5931E /* FahrradparkenLocations.json in Resources */,
 				A45F8C6023EB076F00463270 /* adjust-token-int.plist in Resources */,
 				4CEBDF6123623B9C007B17C5 /* MapViewScreen.storyboard in Resources */,
-				4C07C78C2166240B00A1F6A8 /* Main.storyboard in Resources */,
-				4CD0C59321A2A68E008D2A9E /* MarketplaceScreen.storyboard in Resources */,
-				EE67EBD3262EED50003E8E32 /* EgovServiceDetails.storyboard in Resources */,
-				4C29DD0C2361903B002A351C /* EventDetailScreen.storyboard in Resources */,
-				C10665C524C6E88B005D6E36 /* RetryView.xib in Resources */,
+				2E9D7EF92D7EAC160008CCEE /* ServicesOverviewScreen.storyboard in Resources */,
+				2E9D7EFA2D7EAC160008CCEE /* ServicesInfoDetailScreen.storyboard in Resources */,
+				2E9D7EFB2D7EAC160008CCEE /* ServicesScreen.storyboard in Resources */,
+				2E9D7EDD2D7EAB780008CCEE /* UserInfoBoxDetailScreen.storyboard in Resources */,
 				C1B42D1F24F8E57600E00272 /* CalendarOuterCollectionViewCell.xib in Resources */,
-				A41C32FE22FC35CC00B171C4 /* DeleteAccount.storyboard in Resources */,
-				4C2C2623234D13920017B514 /* EventsOverviewScreen.storyboard in Resources */,
 				4CFFB48A24A0BAB40098B636 /* Assets.xcassets in Resources */,
-				C1B42D1124F8D71100E00272 /* CalendarCollectionViewHeaderView.xib in Resources */,
 				2E03D4F42C590523003F8CC7 /* software_license_de.html in Resources */,
 				4C0D598A219EFF3C000C3B22 /* TilesListComponent.storyboard in Resources */,
-				4C2B418321A89E48000A6275 /* LoadScreen.storyboard in Resources */,
-				C1B42D1424F8D71100E00272 /* CalendarInnerCollectionViewCell.xib in Resources */,
+				2E9D7EB42D7EA6D10008CCEE /* BasicPOIGuide.storyboard in Resources */,
+				2E9D7EB52D7EA6D10008CCEE /* BasicPOIGuideDetail.storyboard in Resources */,
 				4C95394F21AED448006D11C5 /* TextfieldComponent.storyboard in Resources */,
-				4CB3239121BA9FC300934226 /* UserInfoBoxScreen.storyboard in Resources */,
-				4C0393582191DD2E00ACCBD6 /* NewsOverviewScreen.storyboard in Resources */,
+				2E9D7F1E2D7EAF310008CCEE /* LaunchScreen.storyboard in Resources */,
+				2E9D7F1F2D7EAF310008CCEE /* LoadScreen.storyboard in Resources */,
+				2E9D7F092D7EAD5A0008CCEE /* WasteCategoryCell.xib in Resources */,
 				C1A583FB24FE4CD500407C24 /* (null) in Resources */,
+				2E9D7ED82D7EAB490008CCEE /* LocationScreen.storyboard in Resources */,
 				EE88BAD12609E2C900F14DA3 /* accessibility_stmt_de.html in Resources */,
+				2E9D7F0D2D7EAD8E0008CCEE /* CalendarInnerCollectionViewCell.xib in Resources */,
 				4C8EE15C217A6EFB0099D26C /* WebContentScreen.storyboard in Resources */,
-				C1BD3A7D24FFCFE500992D9C /* SCFilterView.xib in Resources */,
 				2E2F47C92CF9A7D00004A583 /* GET_AllCities.json in Resources */,
+				2E9D7EDB2D7EAB690008CCEE /* UserInfoBoxScreen.storyboard in Resources */,
 				2E2F47CA2CF9A7D00004A583 /* GET_PostalCodeValidation.json in Resources */,
 				2E2F47CB2CF9A7D00004A583 /* GET_ServiceHelpContent.json in Resources */,
 				2E2F47CC2CF9A7D00004A583 /* POST_Login.json in Resources */,
 				2E2F47CD2CF9A7D00004A583 /* GET_UserAppt.json in Resources */,
+				2E9D7EC52D7EAA6E0008CCEE /* SCWasteCalendarTableViewHeaderCell.xib in Resources */,
+				2E9D7EC92D7EAA940008CCEE /* CityImprintScreen.storyboard in Resources */,
 				2E2F47CE2CF9A7D00004A583 /* GET_FahrradparkenExistingDefects.json in Resources */,
+				2E9D7F172D7EAE710008CCEE /* DatePicker.storyboard in Resources */,
 				2E2F47CF2CF9A7D00004A583 /* GET_StreetNameAndHouseNumber.json in Resources */,
+				2E9D7ECB2D7EAAA60008CCEE /* InfoNoticeScreen.storyboard in Resources */,
 				2E2F47D02CF9A7D00004A583 /* POST_CityDefect.json in Resources */,
+				2E9D7ECD2D7EAAB50008CCEE /* SCStatusOverlayView.xib in Resources */,
 				2E2F47D12CF9A7D00004A583 /* GET_CitySurvey.json in Resources */,
 				2E2F47D22CF9A7D00004A583 /* GET_CityServiceData.json in Resources */,
 				2E2F47D32CF9A7D00004A583 /* GET_CityFahrradparkenCategories.json in Resources */,
 				2E2F47D42CF9A7D00004A583 /* GET_CityPOI.json in Resources */,
 				2E2F47D52CF9A7D00004A583 /* PUT_WasteTypeForUser.json in Resources */,
 				2E2F47D62CF9A7D00004A583 /* GET_NearestCityId.json in Resources */,
+				2E9D7F0F2D7EADAC0008CCEE /* CalendarCollectionViewHeaderView.xib in Resources */,
 				2E2F47D72CF9A7D00004A583 /* GET_WasteTypeObj.json in Resources */,
+				2E9D7EF12D7EABF90008CCEE /* Dashboard.storyboard in Resources */,
+				2E9D7F232D7EB09A0008CCEE /* CitizenSurvey.storyboard in Resources */,
+				2E9D7EF22D7EABF90008CCEE /* NewsOverviewScreen.storyboard in Resources */,
+				2E9D7F0B2D7EAD720008CCEE /* SCFilterView.xib in Resources */,
 				2E2F47D82CF9A7D00004A583 /* GET_Event.json in Resources */,
 				2E2F47D92CF9A7D00004A583 /* GET_InfoBox.json in Resources */,
+				2E9D7EBF2D7EA74A0008CCEE /* SCOptionView.xib in Resources */,
 				2E2F47DA2CF9A7D00004A583 /* GET_AppVersion.json in Resources */,
 				2E2F47DB2CF9A7D00004A583 /* GET_EventFavorite.json in Resources */,
 				2E2F47DC2CF9A7D00004A583 /* GET_News.json in Resources */,
@@ -6442,25 +6427,36 @@
 				2E2F47DE2CF9A7D00004A583 /* POST_Image.json in Resources */,
 				2E2F47DF2CF9A7D00004A583 /* GET_Weather.json in Resources */,
 				2E2F47E02CF9A7D00004A583 /* POST_RegisterNewUser.json in Resources */,
+				2E9D7F032D7EAC4F0008CCEE /* EventsOverviewScreen.storyboard in Resources */,
+				2E9D7ECF2D7EAAE80008CCEE /* SCAppointmentOverviewTableViewCell.xib in Resources */,
 				2E2F47E12CF9A7D00004A583 /* POST_CityFahrradparkenDefect.json in Resources */,
 				2E2F47E22CF9A7D00004A583 /* POST_UserSurvey.json in Resources */,
+				2E9D7F152D7EAE310008CCEE /* RetryView.xib in Resources */,
+				2E9D7F122D7EAE000008CCEE /* CalendarView.xib in Resources */,
+				2E9D7F132D7EAE000008CCEE /* SCToggelLabelView.xib in Resources */,
 				2E2F47E32CF9A7D00004A583 /* GET_UserProfile.json in Resources */,
 				2E2F47E42CF9A7D00004A583 /* GET_CityServices.json in Resources */,
 				2E2F47E52CF9A7D00004A583 /* GET_CityData.json in Resources */,
 				2E2F47E62CF9A7D00004A583 /* POST_WasteCalendarData.json in Resources */,
+				2E9D7EE32D7EAB9C0008CCEE /* Main.storyboard in Resources */,
 				2E2F47E72CF9A7D00004A583 /* GET_SurveyDetails.json in Resources */,
+				2E9D7ED32D7EAB210008CCEE /* DataPrivacyScreen.storyboard in Resources */,
 				2E2F47E82CF9A7D00004A583 /* GET_UserWasteType.json in Resources */,
 				2E2F47E92CF9A7D00004A583 /* GET_DpnText.json in Resources */,
 				2E2F47EA2CF9A7D00004A583 /* GET_EventCategory.json in Resources */,
+				2E9D7EBD2D7EA7340008CCEE /* SCCitizenSurveyOverviewTableViewCell.xib in Resources */,
+				2E9D7EC32D7EA8550008CCEE /* SCListTableViewCell.xib in Resources */,
 				2E2F47EB2CF9A7D00004A583 /* GET_CityPOICategories.json in Resources */,
+				2E9D7F002D7EAC2B0008CCEE /* MarketplaceOverviewScreen.storyboard in Resources */,
+				2E9D7F012D7EAC2B0008CCEE /* MarketplaceScreen.storyboard in Resources */,
 				2E2F47EC2CF9A7D00004A583 /* GET_CityDefectCategories.json in Resources */,
-				1159E1A5276A059400C65A81 /* SCToggelLabelView.xib in Resources */,
 				02D9968F2275664B00ED323F /* InfoPlist.strings in Resources */,
-				A45F85B92339106800BA372A /* SCDateBox.xib in Resources */,
-				4CFFB482249E9E320098B636 /* CityImprintScreen.storyboard in Resources */,
+				2E9D7EC72D7EAA770008CCEE /* WasteCalendar.storyboard in Resources */,
 				2EF1DDFD2CCFC0400024F704 /* CONTRIBUTING.md in Resources */,
+				2E9D7EB92D7EA6F70008CCEE /* AusweisAuth.storyboard in Resources */,
+				2E9D7EBA2D7EA6F70008CCEE /* AusweisAuthWorkflow.storyboard in Resources */,
+				2E9D7EBB2D7EA6F70008CCEE /* EgovServiceDetails.storyboard in Resources */,
 				4C7317012172A73800353541 /* CarouselComponent.storyboard in Resources */,
-				4CF572C024FC544000DC84A1 /* SCWasteCalendarTableViewHeaderCell.xib in Resources */,
 				1112252F27707BBD00C89D61 /* SCRadioLabelArrowView.xib in Resources */,
 				2EF1DE072CCFC2910024F704 /* Readme.md in Resources */,
 			);
@@ -6470,10 +6466,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAB94DE26492A8500962A3F /* DefectReporter.storyboard in Resources */,
 				A430F5342318012900605B8A /* TextfieldComponent.storyboard in Resources */,
 				2EFBA1412865A4AA00458C6E /* EventCategoryList.json in Resources */,
-				A41C32FF22FC35CC00B171C4 /* DeleteAccount.storyboard in Resources */,
 				2EDD361E2C08841A006908C5 /* CityPOICategories.json in Resources */,
 				2EDD36202C088E57006908C5 /* CityPOI.json in Resources */,
 				2EC4C62D28D467D8004DB24B /* CitySurvey.json in Resources */,
@@ -6481,9 +6475,7 @@
 				F483AC8A2721B151006AC972 /* SCEgovServiceCell.xib in Resources */,
 				A430F53B231810D800605B8A /* SmallLegalInfoLinkScreen.storyboard in Resources */,
 				FAC0EF8C275F42AF006678FA /* TextViewComponent.storyboard in Resources */,
-				A4292E35234131E000EB9DAB /* SCDateBox.xib in Resources */,
 				2EFBA1422865A4AA00458C6E /* EventsFilteredList.json in Resources */,
-				B53A908428523B73005C7A54 /* SCRadioToggleView.xib in Resources */,
 				2E211F0E28D4A98F00F899E0 /* SurveyDetails.json in Resources */,
 				2E642AB7288A9EDB000237C4 /* CityDefectCategories.json in Resources */,
 			);
@@ -7546,14 +7538,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		024BB1BF22BCDDC000FA83F4 /* LocationScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				024BB1C022BCDDC000FA83F4 /* Base */,
-			);
-			name = LocationScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		02D9968D2275664B00ED323F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -7572,36 +7556,132 @@
 			name = CityKeyWidget.intentdefinition;
 			sourceTree = "<group>";
 		};
-		4C01F9B6224D5D0300E6DF01 /* EditProfileScreen.storyboard */ = {
+		2E9D7ED62D7EAB490008CCEE /* LocationScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C01F9B7224D5D0300E6DF01 /* Base */,
+				2E9D7ED72D7EAB490008CCEE /* Base */,
 			);
-			name = EditProfileScreen.storyboard;
+			name = LocationScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		4C0393562191DD2E00ACCBD6 /* NewsOverviewScreen.storyboard */ = {
+		2E9D7ED92D7EAB690008CCEE /* UserInfoBoxScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C0393572191DD2E00ACCBD6 /* Base */,
+				2E9D7EDA2D7EAB690008CCEE /* Base */,
 			);
-			name = NewsOverviewScreen.storyboard;
+			name = UserInfoBoxScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		4C07C78A2166240B00A1F6A8 /* Main.storyboard */ = {
+		2E9D7EDE2D7EAB890008CCEE /* RegistrationScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C8ED3B4216BF36100EC9182 /* Base */,
+				2E9D7EDF2D7EAB890008CCEE /* Base */,
+			);
+			name = RegistrationScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7EE12D7EAB9C0008CCEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7EE22D7EAB9C0008CCEE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4C07C78F2166240D00A1F6A8 /* LaunchScreen.storyboard */ = {
+		2E9D7EE42D7EABB50008CCEE /* LoginScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C8ED3B5216BF36100EC9182 /* Base */,
+				2E9D7EE52D7EABB50008CCEE /* Base */,
+			);
+			name = LoginScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7EE72D7EABDC0008CCEE /* EditProfileScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7EEA2D7EABDC0008CCEE /* Base */,
+			);
+			name = EditProfileScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7EE82D7EABDC0008CCEE /* ProfileScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7EE92D7EABDC0008CCEE /* Base */,
+			);
+			name = ProfileScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7EED2D7EABF90008CCEE /* Dashboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7EF02D7EABF90008CCEE /* Base */,
+			);
+			name = Dashboard.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7EEE2D7EABF90008CCEE /* NewsOverviewScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7EEF2D7EABF90008CCEE /* Base */,
+			);
+			name = NewsOverviewScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7EF32D7EAC160008CCEE /* ServicesInfoDetailScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7EF62D7EAC160008CCEE /* Base */,
+			);
+			name = ServicesInfoDetailScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7EF42D7EAC160008CCEE /* ServicesOverviewScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7EF72D7EAC160008CCEE /* Base */,
+			);
+			name = ServicesOverviewScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7EF52D7EAC160008CCEE /* ServicesScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7EF82D7EAC160008CCEE /* Base */,
+			);
+			name = ServicesScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7EFC2D7EAC2B0008CCEE /* MarketplaceOverviewScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7EFF2D7EAC2B0008CCEE /* Base */,
+			);
+			name = MarketplaceOverviewScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7EFD2D7EAC2B0008CCEE /* MarketplaceScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7EFE2D7EAC2B0008CCEE /* Base */,
+			);
+			name = MarketplaceScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7F1A2D7EAF310008CCEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7F1C2D7EAF310008CCEE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E9D7F1B2D7EAF310008CCEE /* LoadScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E9D7F1D2D7EAF310008CCEE /* Base */,
+			);
+			name = LoadScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		4C0D5988219EFF3B000C3B22 /* TilesListComponent.storyboard */ = {
@@ -7612,30 +7692,6 @@
 			name = TilesListComponent.storyboard;
 			sourceTree = "<group>";
 		};
-		4C171B0821A20AE60063EB3D /* ServicesOverviewScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C171B0921A20AE60063EB3D /* Base */,
-			);
-			name = ServicesOverviewScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4C23D24821A3160D000201AE /* MarketplaceOverviewScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C23D24921A3160D000201AE /* Base */,
-			);
-			name = MarketplaceOverviewScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4C2B418121A89E48000A6275 /* LoadScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C2B418221A89E48000A6275 /* Base */,
-			);
-			name = LoadScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		4C617F7221BB1BE8008E1743 /* MessageDetailScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -7644,36 +7700,12 @@
 			name = MessageDetailScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		4C63C1B521774E9000EEF669 /* ServicesScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C63C1B621774E9000EEF669 /* Base */,
-			);
-			name = ServicesScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4C63C1C921774F4400EEF669 /* ProfileScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C63C1CA21774F4400EEF669 /* Base */,
-			);
-			name = ProfileScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		4C7316FF2172A73800353541 /* CarouselComponent.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4C7317002172A73800353541 /* Base */,
 			);
 			name = CarouselComponent.storyboard;
-			sourceTree = "<group>";
-		};
-		4C761B05218B155D007F3F54 /* Dashboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C761B06218B155D007F3F54 /* Base */,
-			);
-			name = Dashboard.storyboard;
 			sourceTree = "<group>";
 		};
 		4C83C676216BFAAA0026B8E1 /* Localization.strings */ = {
@@ -7717,52 +7749,12 @@
 			name = TempBlockedScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		4CB3238F21BA9FC300934226 /* UserInfoBoxScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CB3239021BA9FC300934226 /* Base */,
-			);
-			name = UserInfoBoxScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4CC0B71D222FC76000CEC333 /* RegistrationScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CC0B71E222FC76000CEC333 /* Base */,
-			);
-			name = RegistrationScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4CD0C59121A2A68E008D2A9E /* MarketplaceScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CD0C59221A2A68E008D2A9E /* Base */,
-			);
-			name = MarketplaceScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4CDDDE6721B45CC7006AA382 /* LoginScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CDDDE6821B45CC7006AA382 /* Base */,
-			);
-			name = LoginScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		4CF9381E2263C0500064906A /* SmallLegalInfoLinkScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4CF9381F2263C0500064906A /* Base */,
 			);
 			name = SmallLegalInfoLinkScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		FAB7B966277C618B000424F8 /* ServicesInfoDetailScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAB7B967277C618B000424F8 /* Base */,
-			);
-			name = ServicesInfoDetailScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
