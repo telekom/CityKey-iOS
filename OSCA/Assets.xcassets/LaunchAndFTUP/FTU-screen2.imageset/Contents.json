@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "02-copyright.png",
+      "filename" : "FTU-screen2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "02-copyright 1.png",
+      "filename" : "FTU-screen2@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "02-copyright 2.png",
+      "filename" : "FTU-screen2@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

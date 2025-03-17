@@ -6,12 +6,12 @@
       "scale" : "1x"
     },
     {
-      "filename" : "CitykeyDefaultPicture 1.jpg",
+      "filename" : "CitykeyDefaultPicture@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "CitykeyDefaultPicture 2.jpg",
+      "filename" : "CitykeyDefaultPicture@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

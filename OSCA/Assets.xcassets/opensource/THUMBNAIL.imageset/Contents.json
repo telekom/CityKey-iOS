@@ -6,12 +6,12 @@
       "scale" : "1x"
     },
     {
-      "filename" : "THUMBNAIL 1.jpg",
+      "filename" : "THUMBNAIL@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "THUMBNAIL 2.jpg",
+      "filename" : "THUMBNAIL@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

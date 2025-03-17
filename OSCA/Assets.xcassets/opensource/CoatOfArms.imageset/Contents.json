@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "CoatOfArms 2.jpg",
+      "filename" : "CoatOfArms.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "CoatOfArms.jpg",
+      "filename" : "CoatOfArms@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "CoatOfArms 1.jpg",
+      "filename" : "CoatOfArms@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
