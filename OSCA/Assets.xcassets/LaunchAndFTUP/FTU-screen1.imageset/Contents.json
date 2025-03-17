@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "210421-citykey-layout-city-key-36.png",
+      "filename" : "01-copyright.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "210421-citykey-layout-city-key-36@2x.png",
+      "filename" : "01-copyright 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "210421-citykey-layout-city-key-36@3x.png",
+      "filename" : "01-copyright 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Citykey Default Picture.jpg",
+      "filename" : "CitykeyDefaultPicture.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Citykey Default Picture 2.jpg",
+      "filename" : "CitykeyDefaultPicture 1.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Citykey Default Picture 1.jpg",
+      "filename" : "CitykeyDefaultPicture 2.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
