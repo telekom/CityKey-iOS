@@ -37,6 +37,12 @@ jobs:
           with:
             action: none
 
+        - name: "Set up Ruby"
+          uses: ruby/setup-ruby@32110d4e311bd8996b2a82bf2a43b714ccc91777 # v1.221.0
+          with:
+            ruby-version: '3.0'
+            bundler-cache: true
+
         - name: "Fastline SwiftLint"
           uses: maierj/fastlane-action@5a3b971aaa26776459bb26894d6c1a1a84a311a7 # v3.1.0
           with:
@@ -68,6 +74,12 @@ jobs:
                 platform: ${{ matrix.platform }}
                 platform-version: ${{ matrix.platform-version }}
                 action: none
+
+            - name: "Set up Ruby"
+              uses: ruby/setup-ruby@32110d4e311bd8996b2a82bf2a43b714ccc91777 # v1.221.0
+              with:
+                ruby-version: '3.0'
+                bundler-cache: true
 
             - name: "Run fastlane unit tests with coverage"
               uses: maierj/fastlane-action@5a3b971aaa26776459bb26894d6c1a1a84a311a7 # v3.1.0
@@ -108,6 +120,12 @@ jobs:
         steps:
             - name: "Checkout repository"
               uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+            - name: "Set up Ruby"
+              uses: ruby/setup-ruby@32110d4e311bd8996b2a82bf2a43b714ccc91777 # v1.221.0
+              with:
+                ruby-version: '3.0'
+                bundler-cache: true
 
             - name: "Build App in Debug Mode"
               uses: mxcl/xcodebuild@2cf0ec52b855fa777531c5c89b714caa7a3abd5e # v3.4.0
