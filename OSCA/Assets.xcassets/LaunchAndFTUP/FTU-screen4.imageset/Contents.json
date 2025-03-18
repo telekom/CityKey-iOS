@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "210421-citykey-layout-city-key-55.png",
+      "filename" : "FTU-screen4.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "210421-citykey-layout-city-key-55@2x.png",
+      "filename" : "FTU-screen4@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "210421-citykey-layout-city-key-55@3x.png",
+      "filename" : "FTU-screen4@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
