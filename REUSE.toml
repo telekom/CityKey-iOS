@@ -11,3 +11,500 @@ version = 1
 # precedence = "aggregate"
 # SPDX-FileCopyrightText = "2022 Free Software Foundation Europe e.V. <https://fsfe.org>"
 # SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = [
+    "CityKeyWidget/Assets.xcassets/person.imageset/person.png",
+    "CityKeyWidget/Assets.xcassets/person.imageset/person@2x.png",
+    "CityKeyWidget/Assets.xcassets/person.imageset/person@3x.png"
+]
+SPDX-FileCopyrightText = "2025 Deutsche Telekom AG"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = [
+    "CityKeyWidget/Assets.xcassets/trash.imageset/wastecalendar-location-icon-yellow-trash.png",
+    "CityKeyWidget/Assets.xcassets/trash.imageset/wastecalendar-location-icon-yellow-trash@2x.png",
+    "CityKeyWidget/Assets.xcassets/trash.imageset/wastecalendar-location-icon-yellow-trash@3x.png"
+]
+SPDX-FileCopyrightText = "2025 Deutsche Telekom AG"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = [
+    "OSCA/Assets.xcassets/Ausweis Flow/Contents.json",
+    "OSCA/Assets.xcassets/Ausweis Flow/bg_top_bar_ausweis.imageset/Contents.json",
+    "OSCA/Assets.xcassets/Ausweis Flow/bg_top_bar_ausweis.imageset/group-5-copy-2.png",
+    "OSCA/Assets.xcassets/Ausweis Flow/bg_top_bar_ausweis.imageset/group-5-copy-2@2x.png",
+    "OSCA/Assets.xcassets/Ausweis Flow/bg_top_bar_ausweis.imageset/group-5-copy-2@3x.png",
+    "OSCA/Assets.xcassets/Ausweis Flow/eGov_Service_Eid_Icon.imageset/Contents.json",
+    "OSCA/Assets.xcassets/Ausweis Flow/eGov_Service_Eid_Icon.imageset/e-gov-icon-content-e-id.png",
+    "OSCA/Assets.xcassets/Ausweis Flow/eGov_Service_Eid_Icon.imageset/e-gov-icon-content-e-id@2x.png",
+    "OSCA/Assets.xcassets/Ausweis Flow/eGov_Service_Eid_Icon.imageset/e-gov-icon-content-e-id@3x.png",
+    "OSCA/Assets.xcassets/Ausweis Flow/eGov_Service_Form_Icon.imageset/Contents.json",
+    "OSCA/Assets.xcassets/Ausweis Flow/eGov_Service_Form_Icon.imageset/e-gov-icon-content-form.png",
+    "OSCA/Assets.xcassets/Ausweis Flow/eGov_Service_Form_Icon.imageset/e-gov-icon-content-form@2x.png",
+    "OSCA/Assets.xcassets/Ausweis Flow/eGov_Service_Form_Icon.imageset/e-gov-icon-content-form@3x.png",
+    "OSCA/Assets.xcassets/Ausweis Flow/eGov_Service_MoreInfo_Icon.imageset/Contents.json",
+    "OSCA/Assets.xcassets/Ausweis Flow/eGov_Service_MoreInfo_Icon.imageset/e-gov-icon-content-info.png",
+    "OSCA/Assets.xcassets/Locate me OFF.imageset/Contents.json",
+    "OSCA/Assets.xcassets/Locate me OFF.imageset/Locate me OFF Copy@2x.png",
+    "OSCA/Assets.xcassets/Locate me OFF.imageset/Locate me OFF Copy@3x.png",
+    "OSCA/Assets.xcassets/Locate me.imageset/Contents.json",
+    "OSCA/Assets.xcassets/Locate me.imageset/Locate me@2x.png",
+    "OSCA/Assets.xcassets/Locate me.imageset/Locate me@3x.png",
+    "OSCA/Assets.xcassets/NewRegistration/action_resend_email.imageset/action_resend_email@2x.png",
+    "OSCA/Assets.xcassets/NewRegistration/action_resend_email.imageset/action_resend_email@3x.png",
+    "OSCA/Assets.xcassets/NewRegistration/icon_confirm_email.imageset/icon_confirm_email@2x.png",
+    "OSCA/Assets.xcassets/NewRegistration/icon_confirm_email.imageset/icon_confirm_email@3x.png",
+    "OSCA/Assets.xcassets/NewRegistration/icon_register.imageset/icon_register@2x.png",
+    "OSCA/Assets.xcassets/NewRegistration/icon_register.imageset/icon_register@3x.png",
+    "OSCA/Assets.xcassets/NewRegistration/icon_val_error.imageset/icon_val_error@2x.png",
+    "OSCA/Assets.xcassets/NewRegistration/icon_val_error.imageset/icon_val_error@3x.png",
+    "OSCA/Assets.xcassets/NewRegistration/icon_val_ok.imageset/icon_val_ok@2x.png",
+    "OSCA/Assets.xcassets/NewRegistration/icon_val_ok.imageset/icon_val_ok@3x.png",
+    "OSCA/Assets.xcassets/NewRegistration/icon_val_warning.imageset/icon_val_warning@2x.png",
+    "OSCA/Assets.xcassets/NewRegistration/icon_val_warning.imageset/icon_val_warning@3x.png",
+    "OSCA/Assets.xcassets/NewRegistration/registration_main.imageset/images-header-registration-main.png",
+    "OSCA/Assets.xcassets/NewRegistration/registration_main.imageset/images-header-registration-main@2x.png",
+    "OSCA/Assets.xcassets/NewRegistration/registration_main.imageset/images-header-registration-main@3x.png"
+]
+SPDX-FileCopyrightText = "2025 Deutsche Telekom AG"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = [
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_APPBAR_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_AUSWEIS_BLUE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BORDER_COOLGRAY.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BORDER_DARKGRAY.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BORDER_SILVERGRAY.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BTM_MENU_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BTM_MENU_ITEM.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BUTTON_BLUE_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BUTTON_BORDER_BLACK.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BUTTON_BORDER_WHITE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BUTTON_GREY_DISABLED.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_BUTTON_WHITE_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_CARD_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_CARD_SEP_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_CELL_BACKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_CITY_KEY_BLUE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_CONTROL_BACKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_DARK_LAYER.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_DOB_FONT.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_FTU_LABEL_TEXT_BLACK.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_ICON_SCND_ACTION.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_ICON_TINT_BLACK.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_ICON_TINT_GRAY.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_ICON_TINT_WHITE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_INFOVIEW_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_INPUT.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_INPUT_FOCUS.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_BLACK.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_CANCELLED.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_FULL_BLACK.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_GRAY_COOLGRAY.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_GRAY_DARKGRAY.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_GRAY_GRAY.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_GRAY_SILVERGRAY.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_GREEN.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_ORANGE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_RED.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LABEL_TEXT_WHITE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LAUNCH_SCREEN_COLOR.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LIGHT_LAYER.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LISTITEM_ACTIVE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_LISTITEM_TAKINGINPUT.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_NAVBAR_EXPORT.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_NAVBAR_SOLID_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_NAVBAR_SOLID_ITEMS.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_NAVBAR_SOLID_TITLE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_NAVBAR_TOOLBAR_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_NAVBAR_TRANSPARENT_ITEMS.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_NOTE_LABEL_TEXT_GREY.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_OSCA_BLUE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_OSCA_LEGIBLE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_PAGE_CONTROL_SELECTED.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_PAGE_CONTROL_UNSELECTED.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_PULL_TO_REFRESH.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_SEPARATOR.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_SNACKBAR_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_SPLASH_BACKGROUND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_SWITCH_DISABLED.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_SWITCH_SELECTED_FALSE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_SWITCH_SELECTED_TRUE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_TABLE_SEPARATOR.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_TOOLTIP_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/CLR_WEB_VIEW_BCKGRND.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/Monheim/CLR_MONHEIM_DONUT_CURRENT.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/Monheim/CLR_MONHEIM_DONUT_MAX.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/Monheim/CLR_MONHEIM_LEGIBLE.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/Monheim/CLR_MONHEIM_PRIMARY.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/Monheim/CLR_MONHEIM_TH_PAYOUT.colorset/Contents.json",
+    "OSCA/Assets.xcassets/Semantic Colors/Monheim/Contents.json"
+]
+SPDX-FileCopyrightText = "2025 Deutsche Telekom AG"
+SPDX-License-Identifier = "Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand"
+
+
+[[annotations]]
+    path = [
+    "OSCA/Assets.xcassets/Tabbar/Infobox_outline.imageset/Infobox-icon_outline@2x.png",
+    "OSCA/Assets.xcassets/Tabbar/Infobox_outline.imageset/Infobox-icon_outline@3x.png",
+    "OSCA/Assets.xcassets/Tabbar/Infobox_solid.imageset/Infobox-icon_solid@2x.png",
+    "OSCA/Assets.xcassets/Tabbar/Infobox_solid.imageset/Infobox-icon_solid@3x.png",
+
+    "OSCA/Assets.xcassets/Tabbar/Marktplatz_outline.imageset/Marktplatz_outline@2x.png",
+    "OSCA/Assets.xcassets/Tabbar/Marktplatz_solid.imageset/Marktplatz_solid@2x.png",
+    "OSCA/Assets.xcassets/Tabbar/home_outline.imageset/home-icon_outline@2x.png",
+    "OSCA/Assets.xcassets/Tabbar/home_outline.imageset/home-icon_outline@3x.png",
+    "OSCA/Assets.xcassets/Tabbar/home_solid.imageset/home-icon_solid@2x.png",
+    "OSCA/Assets.xcassets/Tabbar/home_solid.imageset/home-icon_solid@3x.png",
+
+    "OSCA/Assets.xcassets/Tabbar/imprint_outline.imageset/imprint_outline@2x.png",
+    "OSCA/Assets.xcassets/Tabbar/imprint_outline.imageset/imprint_outline@3x.png",
+    "OSCA/Assets.xcassets/Tabbar/imprint_solid.imageset/imprint_solid@2x.png",
+    "OSCA/Assets.xcassets/Tabbar/imprint_solid.imageset/imprint_solid@3x.png",
+
+    "OSCA/Assets.xcassets/Tabbar/profil_outline.imageset/Profil_outline@2x.png",
+    "OSCA/Assets.xcassets/Tabbar/profil_solid.imageset/profil_solid@2x.png",
+
+    "OSCA/Assets.xcassets/Tabbar/service_outline.imageset/service_outline@2x.png",
+    "OSCA/Assets.xcassets/Tabbar/service_solid.imageset/service_solid@2x.png",
+    "OSCA/Assets.xcassets/accessibility-solid-copy.imageset/accessibility-solid-copy@2x.png",
+    "OSCA/Assets.xcassets/accessibility-solid-copy.imageset/accessibility-solid-copy@3x.png",
+
+    "OSCA/Assets.xcassets/action_edit.imageset/action_edit@2x.png",
+    "OSCA/Assets.xcassets/action_edit.imageset/action_edit@3x.png",
+
+    "OSCA/Assets.xcassets/activated.imageset/activated@2x.png",
+    "OSCA/Assets.xcassets/activated.imageset/activated@3x.png",
+
+    "OSCA/Assets.xcassets/add_photo.imageset/add_photo@2x.png",
+    "OSCA/Assets.xcassets/add_photo.imageset/add_photo@3x.png",
+
+    "OSCA/Assets.xcassets/bars-search-bars-x-clear-glyph-light_2022-01-31/bars-search-bars-x-clear-glyph-light.imageset/bars-search-bars-x-clear-glyph-light@2x.png",
+    "OSCA/Assets.xcassets/bars-search-bars-x-clear-glyph-light_2022-01-31/bars-search-bars-x-clear-glyph-light.imageset/bars-search-bars-x-clear-glyph-light@3x.png",
+
+    "OSCA/Assets.xcassets/calendar-arrow-left.imageset/calendar-arrow-left@2x.png",
+    "OSCA/Assets.xcassets/calendar-arrow-left.imageset/calendar-arrow-left@3x.png",
+
+    "OSCA/Assets.xcassets/calendar-arrow-right.imageset/calendar-arrow-right@2x.png",
+    "OSCA/Assets.xcassets/calendar-arrow-right.imageset/calendar-arrow-right@3x.png",
+
+    "OSCA/Assets.xcassets/checkbox_selected.imageset/Shape.png",
+    "OSCA/Assets.xcassets/checkbox_selected.imageset/Shape@2x.png",
+    "OSCA/Assets.xcassets/checkbox_selected.imageset/Shape@3x.png",
+    "OSCA/Assets.xcassets/checkbox_unselected.imageset/Shape.png",
+    "OSCA/Assets.xcassets/checkbox_unselected.imageset/Shape@2x.png",
+    "OSCA/Assets.xcassets/checkbox_unselected.imageset/Shape@3x.png",
+
+    "OSCA/Assets.xcassets/checkmark.imageset/checkmark@2x.png",
+    "OSCA/Assets.xcassets/checkmark.imageset/checkmark@3x.png",
+
+    "OSCA/Assets.xcassets/copyLinkImage.imageset/copyLinkImage@2x.png",
+    "OSCA/Assets.xcassets/copyLinkImage.imageset/copyLinkImage@3x.png",
+
+    "OSCA/Assets.xcassets/darken_btm_large.imageset/darken_btm_large@2x.png",
+    "OSCA/Assets.xcassets/darken_btm_large.imageset/darken_btm_large@3x.png",
+
+    "OSCA/Assets.xcassets/delete_photo.imageset/group-5.png",
+    "OSCA/Assets.xcassets/delete_photo.imageset/group-5@2x.png",
+    "OSCA/Assets.xcassets/delete_photo.imageset/group-5@3x.png",
+    "OSCA/Assets.xcassets/deletion_effects.imageset/deletion_effects@2x.png",
+    "OSCA/Assets.xcassets/deletion_effects.imageset/deletion_effects@3x.png",
+
+    "OSCA/Assets.xcassets/dpn_icon.imageset/dpn_icon@2x.png",
+    "OSCA/Assets.xcassets/dpn_icon.imageset/dpn_icon@3x.png",
+
+    "OSCA/Assets.xcassets/file_download_small.imageset/file_download_small@2x.png",
+    "OSCA/Assets.xcassets/file_download_small.imageset/file_download_small@3x.png",
+
+    "OSCA/Assets.xcassets/group-2.imageset/group-2.png",
+    "OSCA/Assets.xcassets/group-2.imageset/group-2@2x.png",
+    "OSCA/Assets.xcassets/group-2.imageset/group-2@3x.png",
+    "OSCA/Assets.xcassets/group-5.imageset/group-5.png",
+    "OSCA/Assets.xcassets/group-5.imageset/group-5@2x.png",
+    "OSCA/Assets.xcassets/group-5.imageset/group-5@3x.png",
+
+    "OSCA/Assets.xcassets/icon-action-filter-default.imageset/icon-action-filter-default@2x.png",
+    "OSCA/Assets.xcassets/icon-action-filter-default.imageset/icon-action-filter-default@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-activities.imageset/icon-category-activities@2x.png",
+    "OSCA/Assets.xcassets/icon-category-activities.imageset/icon-category-activities@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-children.imageset/icon-category-children@2x.png",
+    "OSCA/Assets.xcassets/icon-category-children.imageset/icon-category-children@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-culture.imageset/icon-category-culture@2x.png",
+    "OSCA/Assets.xcassets/icon-category-culture.imageset/icon-category-culture@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-family.imageset/icon-category-family@2x.png",
+    "OSCA/Assets.xcassets/icon-category-family.imageset/icon-category-family@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-filter.imageset/icon-category-filter@2x.png",
+    "OSCA/Assets.xcassets/icon-category-filter.imageset/icon-category-filter@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-insiders.imageset/icon-category-insiders@2x.png",
+    "OSCA/Assets.xcassets/icon-category-insiders.imageset/icon-category-insiders@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-life.imageset/icon-category-life@2x.png",
+    "OSCA/Assets.xcassets/icon-category-life.imageset/icon-category-life@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-mobility-2.imageset/icon-category-mobility@2x.png",
+    "OSCA/Assets.xcassets/icon-category-mobility-2.imageset/icon-category-mobility@3x.png",
+    "OSCA/Assets.xcassets/icon-category-mobility.imageset/icon-category-mobility-2@2x.png",
+    "OSCA/Assets.xcassets/icon-category-mobility.imageset/icon-category-mobility-2@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-nature.imageset/icon-category-nature@2x.png",
+    "OSCA/Assets.xcassets/icon-category-nature.imageset/icon-category-nature@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-other.imageset/other.png",
+    "OSCA/Assets.xcassets/icon-category-other.imageset/other@2x.png",
+    "OSCA/Assets.xcassets/icon-category-other.imageset/other@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-recycling.imageset/icon-category-recycling@2x.png",
+    "OSCA/Assets.xcassets/icon-category-recycling.imageset/icon-category-recycling@3x.png",
+
+    "OSCA/Assets.xcassets/icon-category-sights.imageset/icon-category-sights@2x.png",
+    "OSCA/Assets.xcassets/icon-category-sights.imageset/icon-category-sights@3x.png",
+
+    "OSCA/Assets.xcassets/icon-disclosure-indicator.imageset/icon-disclosure-indicator@2x.png",
+    "OSCA/Assets.xcassets/icon-disclosure-indicator.imageset/icon-disclosure-indicator@3x.png",
+
+    "OSCA/Assets.xcassets/icon-more-arrow-light.imageset/icon-more-arrow-light.png",
+    "OSCA/Assets.xcassets/icon-more-arrow-light.imageset/icon-more-arrow-light@2x.png",
+    "OSCA/Assets.xcassets/icon-more-arrow-light.imageset/icon-more-arrow-light@3x.png",
+    "OSCA/Assets.xcassets/icon-more-arrow.imageset/icon-more-arrow-dark@2x.png",
+    "OSCA/Assets.xcassets/icon-more-arrow.imageset/icon-more-arrow-dark@3x.png",
+
+    "OSCA/Assets.xcassets/icon-more-arrow.imageset/icon-more-arrow-light.png",
+    "OSCA/Assets.xcassets/icon-more-arrow.imageset/icon-more-arrow-light@2x.png",
+    "OSCA/Assets.xcassets/icon-more-arrow.imageset/icon-more-arrow-light@3x.png",
+
+    "OSCA/Assets.xcassets/icon-page-control-dot-current.imageset/rectangle.png",
+    "OSCA/Assets.xcassets/icon-page-control-dot-current.imageset/rectangle@2x.png",
+    "OSCA/Assets.xcassets/icon-page-control-dot-current.imageset/rectangle@3x.png",
+
+    "OSCA/Assets.xcassets/icon-page-control-dot.imageset/dot.png",
+    "OSCA/Assets.xcassets/icon-page-control-dot.imageset/dot@2x.png",
+    "OSCA/Assets.xcassets/icon-page-control-dot.imageset/dot@3x.png",
+
+    "OSCA/Assets.xcassets/icon-search.imageset/icon-action-filter-search@2x.png",
+    "OSCA/Assets.xcassets/icon-search.imageset/icon-action-filter-search@3x.png",
+
+    "OSCA/Assets.xcassets/icon-whatsnew-ios-widgets.imageset/icon-whatsnew-ios-widgets@2x.png",
+    "OSCA/Assets.xcassets/icon-whatsnew-ios-widgets.imageset/icon-whatsnew-ios-widgets@3x.png",
+
+    "OSCA/Assets.xcassets/icon-yellow-trash.imageset/location-icon-blue-trash.png",
+    "OSCA/Assets.xcassets/icon-yellow-trash.imageset/location-icon-blue-trash@2x.png",
+    "OSCA/Assets.xcassets/icon-yellow-trash.imageset/location-icon-blue-trash@3x.png",
+
+    "OSCA/Assets.xcassets/icon_accessibility_statement.imageset/contract-outline-copy.png",
+    "OSCA/Assets.xcassets/icon_accessibility_statement.imageset/contract-outline-copy@2x.png",
+    "OSCA/Assets.xcassets/icon_accessibility_statement.imageset/contract-outline-copy@3x.png",
+
+    "OSCA/Assets.xcassets/icon_account_deleted.imageset/icon_account_deleted@2x.png",
+    "OSCA/Assets.xcassets/icon_account_deleted.imageset/icon_account_deleted@3x.png",
+    "OSCA/Assets.xcassets/icon_account_locked.imageset/icon_account_locked@2x.png",
+    "OSCA/Assets.xcassets/icon_account_locked.imageset/icon_account_locked@3x.png",
+
+    "OSCA/Assets.xcassets/icon_add_to_calendar.imageset/icon_add_to_calendar@2x.png",
+    "OSCA/Assets.xcassets/icon_add_to_calendar.imageset/icon_add_to_calendar@3x.png",
+
+    "OSCA/Assets.xcassets/icon_analytics_tool_data_privacy.imageset/icon-user-file-analytics-default.png",
+    "OSCA/Assets.xcassets/icon_analytics_tool_data_privacy.imageset/icon-user-file-analytics-default@2x.png",
+    "OSCA/Assets.xcassets/icon_analytics_tool_data_privacy.imageset/icon-user-file-analytics-default@3x.png",
+
+    "OSCA/Assets.xcassets/icon_back.imageset/icon_back@2x.png",
+    "OSCA/Assets.xcassets/icon_back.imageset/icon_back@3x.png",
+
+    "OSCA/Assets.xcassets/icon_calendar_small.imageset/icon_calendar_small@2x.png",
+    "OSCA/Assets.xcassets/icon_calendar_small.imageset/icon_calendar_small@3x.png",
+
+    "OSCA/Assets.xcassets/icon_categories_small.imageset/icon_categories_small@2x.png",
+    "OSCA/Assets.xcassets/icon_categories_small.imageset/icon_categories_small@3x.png",
+
+    "OSCA/Assets.xcassets/icon_close.imageset/icon_close@2x.png",
+    "OSCA/Assets.xcassets/icon_close.imageset/icon_close@3x.png",
+
+    "OSCA/Assets.xcassets/icon_compass.imageset/icon_compass@2x.png",
+    "OSCA/Assets.xcassets/icon_compass.imageset/icon_compass@3x.png",
+    "OSCA/Assets.xcassets/icon_compass.imageset/icon_compass_dm@2x.png",
+    "OSCA/Assets.xcassets/icon_compass.imageset/icon_compass_dm@3x.png",
+
+    "OSCA/Assets.xcassets/icon_compass_fail_dark.imageset/icon_compass_fail_dark@2x.png",
+    "OSCA/Assets.xcassets/icon_compass_fail_dark.imageset/icon_compass_fail_dark@3x.png",
+    "OSCA/Assets.xcassets/icon_compass_fail_dark.imageset/icon_compass_fail_light@2x.png",
+    "OSCA/Assets.xcassets/icon_compass_fail_dark.imageset/icon_compass_fail_light@3x.png",
+
+    "OSCA/Assets.xcassets/icon_data_privacy.imageset/data-privacy-outline.png",
+    "OSCA/Assets.xcassets/icon_reminder_small.imageset/icon_reminder_small@3x.png",
+    "OSCA/Assets.xcassets/icon_reset_password.imageset/icon_reset_password@2x.png",
+    "OSCA/Assets.xcassets/icon_reset_password.imageset/icon_reset_password@3x.png",
+
+    "OSCA/Assets.xcassets/icon_share.imageset/icon-ios-share@2x.png",
+    "OSCA/Assets.xcassets/icon_share.imageset/icon-ios-share@3x.png",
+
+    "OSCA/Assets.xcassets/icon_showpass_selected.imageset/icon_showpass_selected@2x.png",
+    "OSCA/Assets.xcassets/icon_showpass_selected.imageset/icon_showpass_selected@3x.png",
+
+    "OSCA/Assets.xcassets/icon_showpass_unselected.imageset/icon_showpass_unselected@2x.png",
+    "OSCA/Assets.xcassets/icon_showpass_unselected.imageset/icon_showpass_unselected@3x.png",
+
+    "OSCA/Assets.xcassets/icon_success.imageset/icon_success@2x.png",
+    "OSCA/Assets.xcassets/icon_success.imageset/icon_success@3x.png",
+
+    "OSCA/Assets.xcassets/icon_terms_and_condition.imageset/contract-outline.png",
+    "OSCA/Assets.xcassets/icon_terms_and_condition.imageset/contract-outline@2x.png",
+    "OSCA/Assets.xcassets/icon_terms_and_condition.imageset/contract-outline@3x.png",
+
+    "OSCA/Assets.xcassets/icon_tools_required_data_privacy.imageset/00-fundamentals-2-icons-brand-design-icons-alert-compliance-default.png",
+    "OSCA/Assets.xcassets/icon_tools_required_data_privacy.imageset/00-fundamentals-2-icons-brand-design-icons-alert-compliance-default@2x.png",
+    "OSCA/Assets.xcassets/icon_tools_required_data_privacy.imageset/00-fundamentals-2-icons-brand-design-icons-alert-compliance-default@3x.png",
+
+    "OSCA/Assets.xcassets/icon_up.imageset/icon_selected.jpg",
+    "OSCA/Assets.xcassets/lightbox_close.imageset/lightbox_close@2x.png",
+    "OSCA/Assets.xcassets/lightbox_close.imageset/lightbox_close@3x.png",
+
+    "OSCA/Assets.xcassets/location-icon-outline-white-thick.imageset/location-icon-outline-white-thick@2x.png",
+    "OSCA/Assets.xcassets/location-icon-outline-white-thick.imageset/location-icon-outline-white-thick@3x.png",
+
+    "OSCA/Assets.xcassets/location-icon-outline.imageset/location-icon-outline@2x.png",
+    "OSCA/Assets.xcassets/location-icon-outline.imageset/location-icon-outline@3x.png",
+
+    "OSCA/Assets.xcassets/share_white.imageset/icon-ios-share-dm@2x.png",
+    "OSCA/Assets.xcassets/share_white.imageset/icon-ios-share-dm@3x.png",
+
+    "OSCA/Assets.xcassets/slash_separator.imageset/slash_separator@2x.png",
+    "OSCA/Assets.xcassets/slash_separator.imageset/slash_separator@3x.png",
+
+    "OSCA/Assets.xcassets/survey-icon-finished.imageset/survey-icon-finished-tode.png",
+    "OSCA/Assets.xcassets/survey-icon-finished.imageset/survey-icon-finished-tode@2x.png",
+    "OSCA/Assets.xcassets/survey-icon-finished.imageset/survey-icon-finished-tode@3x.png",
+
+    "OSCA/Assets.xcassets/survey-icon-idle.imageset/survey-icon-idle@2x.png",
+    "OSCA/Assets.xcassets/survey-icon-idle.imageset/survey-icon-idle@3x.png",
+
+    "OSCA/Assets.xcassets/wl_cancel.imageset/cancel.png",
+    "OSCA/Assets.xcassets/wl_cancel.imageset/cancel@2x.png",
+    
+    "OSCA/Assets.xcassets/opensource/icon-category-insiders.imageset/icon-category-insiders@3x.png",
+    ]
+SPDX-FileCopyrightText = "2025 Deutsche Telekom AG"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+
+[[annotations]]
+path = [
+    "OSCA/Assets.xcassets/opensource/CitykeyDefaultPicture.imageset/Contents.json",
+    "OSCA/Assets.xcassets/opensource/THUMBNAIL.imageset/Contents.json",
+    "OSCA/Assets.xcassets/opensource/CoatOfArms.imageset/CoatOfArms.jpg",
+    "OSCA/Assets.xcassets/opensource/CoatOfArms.imageset/CoatOfArms@2x.jpg",
+    "OSCA/Assets.xcassets/opensource/CoatOfArms.imageset/CoatOfArms@3x.jpg",
+    "OSCA/Assets.xcassets/opensource/CoatOfArms.imageset/Contents.json",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Citykey Icon 1024@1x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Icon-108@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Icon-24@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Icon-27.5@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Icon-29@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Icon-29@3x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Icon-40@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Icon-44@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Icon-50@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Icon-86@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/Icon-98@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/citykey_app_icon@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/citykey_app_icon@3x-1.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/citykey_notification_icon@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/citykey_notification_icon@3x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/citykey_settings_icon@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/citykey_settings_icon@3x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/citykey_spotlight_icon@2x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/citykey_spotlight_icon@3x.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/102.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/152.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/167.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/20.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/234.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/29.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/40-1".png,
+    "OSCA/Assets.xcassets/AppIcon.appiconset/40.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/58.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/66.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/76.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/80.png",
+    "OSCA/Assets.xcassets/AppIcon.appiconset/92.png"
+    "OSCA/Assets.xcassets/opensource/THUMBNAIL.imageset/THUMBNAIL.jpg",
+    "OSCA/Assets.xcassets/opensource/THUMBNAIL.imageset/THUMBNAIL@2x.jpg",
+    "OSCA/Assets.xcassets/opensource/THUMBNAIL.imageset/THUMBNAIL@3x.jpg",
+    "OSCA/Assets.xcassets/opensource/CitykeyDefaultPicture.imageset/CitykeyDefaultPicture.jpg",
+    "OSCA/Assets.xcassets/opensource/CitykeyDefaultPicture.imageset/CitykeyDefaultPicture@2x.jpg",
+    "OSCA/Assets.xcassets/opensource/CitykeyDefaultPicture.imageset/CitykeyDefaultPicture@3x.jpg",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen1.imageset/FTU-screen1.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen1.imageset/FTU-screen1@2x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen1.imageset/FTU-screen1@3x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen2.imageset/FTU-screen2.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen2.imageset/FTU-screen2@2x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen2.imageset/FTU-screen2@3x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen3.imageset/FTU-screen3.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen3.imageset/FTU-screen3@2x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen3.imageset/FTU-screen3@3x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen4.imageset/FTU-screen4.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen4.imageset/FTU-screen4@2x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/FTU-screen4.imageset/FTU-screen4@3x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/citykey_splash_logo.imageset/citykey_splash_logo@2x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/citykey_splash_logo.imageset/citykey_splash_logo@3x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/launch-screen.imageset/citykey-splash-screen-darkmode@2x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/launch-screen.imageset/citykey-splash-screen-darkmode@3x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/launch-screen.imageset/citykey_splash-screen@2x.png",
+    "OSCA/Assets.xcassets/LaunchAndFTUP/launch-screen.imageset/citykey_splash-screen@3x.png",
+]
+SPDX-FileCopyrightText = "2025 Deutsche Telekom AG"
+SPDX-License-Identifier = "LicenseRef-all-rights-reserved"
+
+[[annotations]]
+path = [
+    "OSCA/software_license_de.html",
+    "OSCA/software_license_en.html",
+    "OSCA/accessibility_stmt_de.html",
+    "OSCA/accessibility_stmt_en.html"
+]
+SPDX-FileCopyrightText = "2025 Deutsche Telekom AG"
+SPDX-License-Identifier = "Apache-2.0 AND LicenseRef-Deutsche-Telekom-Brand"
+
+[[annotations]]
+path = [
+    "OSCA/Assets.xcassets/opensource/WasteCalendar.imageset/WasteCalendar 1.jpg",
+    "OSCA/Assets.xcassets/opensource/WasteCalendar.imageset/WasteCalendar 2.jpg",
+    "OSCA/Assets.xcassets/opensource/WasteCalendar.imageset/WasteCalendar.jpg"
+    
+]
+SPDX-FileCopyrightText = "2018 Photo by Pawel Czerwinski on Unsplash"
+SPDX-License-Identifier = "LicenseRef-unsplash"
+
+[[annotations]]
+path = [
+    "OSCA/Assets.xcassets/opensource/POI_Bonn.imageset/POI_Bonn 1.png",
+    "OSCA/Assets.xcassets/opensource/POI_Bonn.imageset/POI_Bonn 2.png",
+    "OSCA/Assets.xcassets/opensource/POI_Bonn.imageset/POI_Bonn.png"
+]
+SPDX-FileCopyrightText = ""
+SPDX-License-Identifier = "LicenseRef-unsplash"
+
+[[annotations]]
+path = [
+    "OSCA/Assets.xcassets/opensource/Destinations.imageset/Destinations.jpg",
+    "OSCA/Assets.xcassets/opensource/Profilbild_Paderborn.imageset/Profilbild_Paderborn.jpg",
+    "OSCA/Assets.xcassets/opensource/cityselection_musterstadt.imageset/cityselection_musterstadt.jpg",
+    "OSCA/Assets.xcassets/opensource/poi-tile-image.imageset/poi-tile-image.jpg",
+]
+SPDX-FileCopyrightText = ""
+SPDX-License-Identifier = "LicenseRef-unsplash"
+
+
+    
