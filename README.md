@@ -4,6 +4,7 @@
 [![Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue)](https://opensource.org/license/apache-2-0) 
 [![OpenSSF Scorecard Score](https://api.scorecard.dev/projects/github.com/telekom/CityKey-iOS/badge)](https://scorecard.dev/viewer/?uri=github.com/telekom/CityKey-iOS/badge)
 [![REUSE status](https://api.reuse.software/badge/github.com/telekom/CityKey-iOS)](https://api.reuse.software/info/github.com/telekom/CityKey-iOS)
+[![Continuous Integration](https://github.com/telekom/CityKey-iOS/blob/main/.github/workflows/continuous-integration.yml/badge.svg)](https://github.com/telekom/CityKey-iOS/blob/main/.github/workflows/continuous-integration.yml)
 
 ## Overview
 
