@@ -225,7 +225,7 @@ puts ENV["SLACK_URL"]
     # Send a slack notification on success
     unless (ENV["SLACK_ONLY_ON_FAILURE"] == "true") then
     
-    ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
+    ENV["SLACK_URL"] = "https://hooks.slack.com/services/SLACK_CHANNEL_TOKEN"
 
       app_version = git_tag_prefix + "/" + new_build_number.to_s
       slack_payload = [:last_git_commit, :last_git_commit_hash, :git_author]
