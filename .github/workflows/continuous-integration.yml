@@ -23,6 +23,10 @@ on:
             - '**/*.swift'
 
 
+permissions:
+  contents: read
+
+
 jobs:
 
     swift-lint:
